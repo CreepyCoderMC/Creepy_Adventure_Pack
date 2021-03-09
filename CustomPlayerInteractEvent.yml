@@ -258,6 +258,7 @@ CustomPlayerInteractEvent:
       - particle, effect
       - drop, boolean
       - replace, boolean
+      - break, boolean
       - group, string
       - permission, boolean
       - added, contributor
