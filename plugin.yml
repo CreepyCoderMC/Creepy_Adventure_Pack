@@ -1,0 +1,8 @@
+name: CreepyCoder.AdventurePack
+author: Billy Van Rensburg (aka. CreepyCoderMC)
+description: This adventure pack is still in development and will add lots of features that will make your game play just a bit more fun.
+version: 0.3.0
+website: www.spigotmc.org
+api-version: 1.16
+main: CreepyCoder.AdventurePack.Main.Plugin
+load: POSTWORLD
