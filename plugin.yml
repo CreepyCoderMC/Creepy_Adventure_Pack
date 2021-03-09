@@ -1,0 +1,5 @@
+name: CreepyCoder.AdventurePack
+version: 0.2.0
+main: CreepyCoder.AdventurePack.Main.Plugin
+api-version: 1.16
+author: CreepyCoderMC

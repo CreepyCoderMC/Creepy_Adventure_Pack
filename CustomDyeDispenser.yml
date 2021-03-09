@@ -1,0 +1,1868 @@
+CustomDyeItemByDispenser:
+   key:
+      # Version 0.1.0
+      - oxeye_daisy_fertilizer
+      - dandelion_fertilizer
+      - poppy_fertilizer
+      - blue_orchid_fertilizer
+      - allium_fertilizer
+      - azure_bluet_fertilizer
+      - red_tulip_fertilizer
+      - orange_tulip_fertilizer
+      - white_tulip_fertilizer
+      - pink_tulip_fertilizer
+      - cornflower_fertilizer
+      - lily_of_the_valley_fertilizer
+      - wither_rose_fertilizer
+      # Version 0.2.0
+      - brain_coral_fan_dye_magenta
+      - brain_coral_fan_dye_red
+      - brain_coral_fan_dye_yellow
+      - brain_coral_fan_dye_blue
+      - bubble_coral_fan_dye_pink
+      - bubble_coral_fan_dye_red
+      - bubble_coral_fan_dye_yellow
+      - bubble_coral_fan_dye_blue
+      - fire_coral_fan_dye_magenta
+      - fire_coral_fan_dye_pink
+      - fire_coral_fan_dye_yellow
+      - fire_coral_fan_dye_blue    
+      - horn_coral_fan_dye_magenta
+      - horn_coral_fan_dye_pink
+      - horn_coral_fan_dye_red
+      - horn_coral_fan_dye_blue 
+      - tube_coral_fan_dye_magenta
+      - tube_coral_fan_dye_pink
+      - tube_coral_fan_dye_red
+      - tube_coral_fan_dye_yellow 
+      - brain_coral_dye_magenta
+      - brain_coral_dye_red
+      - brain_coral_dye_yellow
+      - brain_coral_dye_blue
+      - bubble_coral_dye_pink
+      - bubble_coral_dye_red
+      - bubble_coral_dye_yellow
+      - bubble_coral_dye_blue
+      - fire_coral_dye_magenta
+      - fire_coral_dye_pink
+      - fire_coral_dye_yellow
+      - fire_coral_dye_blue  
+      - horn_coral_dye_magenta
+      - horn_coral_dye_pink
+      - horn_coral_dye_red
+      - horn_coral_dye_blue
+      - tube_coral_dye_magenta
+      - tube_coral_dye_pink
+      - tube_coral_dye_red
+      - tube_coral_dye_yellow
+      - brain_coral_block_dye_magenta
+      - brain_coral_block_dye_red
+      - brain_coral_block_dye_yellow
+      - brain_coral_block_dye_blue
+      - bubble_coral_block_dye_pink
+      - bubble_coral_block_dye_red
+      - bubble_coral_block_dye_yellow
+      - bubble_coral_block_dye_blue
+      - fire_coral_block_dye_magenta
+      - fire_coral_block_dye_pink
+      - fire_coral_block_dye_yellow
+      - fire_coral_block_dye_blue  
+      - horn_coral_block_dye_magenta
+      - horn_coral_block_dye_pink
+      - horn_coral_block_dye_red
+      - horn_coral_block_dye_blue
+      - tube_coral_block_dye_magenta
+      - tube_coral_block_dye_pink
+      - tube_coral_block_dye_red
+      - tube_coral_block_dye_yellow
+      - brain_coral_wall_fan_dye_magenta
+      - brain_coral_wall_fan_dye_red
+      - brain_coral_wall_fan_dye_yellow
+      - brain_coral_wall_fan_dye_blue
+      - bubble_coral_wall_fan_dye_pink
+      - bubble_coral_wall_fan_dye_red
+      - bubble_coral_wall_fan_dye_yellow
+      - bubble_coral_wall_fan_dye_blue
+      - fire_coral_wall_fan_dye_magenta
+      - fire_coral_wall_fan_dye_pink
+      - fire_coral_wall_fan_dye_yellow
+      - fire_coral_wall_fan_dye_blue    
+      - horn_coral_wall_fan_dye_magenta
+      - horn_coral_wall_fan_dye_pink
+      - horn_coral_wall_fan_dye_red
+      - horn_coral_wall_fan_dye_blue 
+      - tube_coral_wall_fan_dye_magenta
+      - tube_coral_wall_fan_dye_pink
+      - tube_coral_wall_fan_dye_red
+      - tube_coral_wall_fan_dye_yellow 
+      - dead_brain_coral_to_live
+      - dead_bubble_coral_to_live
+      - dead_fire_coral_to_live
+      - dead_horn_coral_to_live
+      - dead_tube_coral_to_live
+      - dead_brain_coral_block_to_live
+      - dead_bubble_coral_block_to_live
+      - dead_fire_coral_block_to_live
+      - dead_horn_coral_block_to_live
+      - dead_tube_coral_block_to_live
+      - dead_brain_coral_fan_to_live
+      - dead_bubble_coral_fan_to_live
+      - dead_fire_coral_fan_to_live
+      - dead_horn_coral_fan_to_live
+      - dead_tube_coral_fan_to_live
+      - dead_brain_coral_wall_fan_to_live
+      - dead_bubble_coral_wall_fan_to_live
+      - dead_fire_coral_wall_fan_to_live
+      - dead_horn_coral_wall_fan_to_live
+      - dead_tube_coral_wall_fan_to_live
+      - brain_coral_bonemeal
+      - bubble_coral_bonemeal
+      - fire_coral_bonemeal
+      - horn_coral_bonemeal
+      - tube_coral_bonemeal
+      - brain_coral_block_bonemeal
+      - bubble_coral_block_bonemeal
+      - fire_coral_block_bonemeal
+      - horn_coral_block_bonemeal
+      - tube_coral_block_bonemeal
+      - brain_coral_fan_bonemeal
+      - bubble_coral_fan_bonemeal
+      - fire_coral_fan_bonemeal
+      - horn_coral_fan_bonemeal
+      - tube_coral_fan_bonemeal
+      - brain_coral_wall_fan_bonemeal
+      - bubble_coral_wall_fan_bonemeal
+      - fire_coral_wall_fan_bonemeal
+      - horn_coral_wall_fan_bonemeal
+      - tube_coral_wall_fan_bonemeal 
+      - dead_brain_coral_bonemeal
+      - dead_bubble_coral_bonemeal
+      - dead_fire_coral_bonemeal
+      - dead_horn_coral_bonemeal
+      - dead_tube_coral_bonemeal
+      - dead_brain_coral_block_bonemeal
+      - dead_bubble_coral_block_bonemeal
+      - dead_fire_coral_block_bonemeal
+      - dead_horn_coral_block_bonemeal
+      - dead_tube_coral_block_bonemeal
+      - dead_brain_coral_fan_bonemeal
+      - dead_bubble_coral_fan_bonemeal
+      - dead_fire_coral_fan_bonemeal
+      - dead_horn_coral_fan_bonemeal
+      - dead_tube_coral_fan_bonemeal
+      - dead_brain_coral_wall_fan_bonemeal
+      - dead_bubble_coral_wall_fan_bonemeal
+      - dead_fire_coral_wall_fan_bonemeal
+      - dead_horn_coral_wall_fan_bonemeal
+      - dead_tube_coral_wall_fan_bonemeal
+      - dead_brain_coral_fan_dye_magenta
+      - dead_brain_coral_fan_dye_red
+      - dead_brain_coral_fan_dye_yellow
+      - dead_brain_coral_fan_dye_blue
+      - dead_bubble_coral_fan_dye_pink
+      - dead_bubble_coral_fan_dye_red
+      - dead_bubble_coral_fan_dye_yellow
+      - dead_bubble_coral_fan_dye_blue
+      - dead_fire_coral_fan_dye_magenta
+      - dead_fire_coral_fan_dye_pink
+      - dead_fire_coral_fan_dye_yellow
+      - dead_fire_coral_fan_dye_blue    
+      - dead_horn_coral_fan_dye_magenta
+      - dead_horn_coral_fan_dye_pink
+      - dead_horn_coral_fan_dye_red
+      - dead_horn_coral_fan_dye_blue 
+      - dead_tube_coral_fan_dye_magenta
+      - dead_tube_coral_fan_dye_pink
+      - dead_tube_coral_fan_dye_red
+      - dead_tube_coral_fan_dye_yellow 
+      - dead_brain_coral_dye_magenta
+      - dead_brain_coral_dye_red
+      - dead_brain_coral_dye_yellow
+      - dead_brain_coral_dye_blue
+      - dead_bubble_coral_dye_pink
+      - dead_bubble_coral_dye_red
+      - dead_bubble_coral_dye_yellow
+      - dead_bubble_coral_dye_blue
+      - dead_fire_coral_dye_magenta
+      - dead_fire_coral_dye_pink
+      - dead_fire_coral_dye_yellow
+      - dead_fire_coral_dye_blue  
+      - dead_horn_coral_dye_magenta
+      - dead_horn_coral_dye_pink
+      - dead_horn_coral_dye_red
+      - dead_horn_coral_dye_blue
+      - dead_tube_coral_dye_magenta
+      - dead_tube_coral_dye_pink
+      - dead_tube_coral_dye_red
+      - dead_tube_coral_dye_yellow
+      - dead_brain_coral_block_dye_magenta
+      - dead_brain_coral_block_dye_red
+      - dead_brain_coral_block_dye_yellow
+      - dead_brain_coral_block_dye_blue
+      - dead_bubble_coral_block_dye_pink
+      - dead_bubble_coral_block_dye_red
+      - dead_bubble_coral_block_dye_yellow
+      - dead_bubble_coral_block_dye_blue
+      - dead_fire_coral_block_dye_magenta
+      - dead_fire_coral_block_dye_pink
+      - dead_fire_coral_block_dye_yellow
+      - dead_fire_coral_block_dye_blue  
+      - dead_horn_coral_block_dye_magenta
+      - dead_horn_coral_block_dye_pink
+      - dead_horn_coral_block_dye_red
+      - dead_horn_coral_block_dye_blue
+      - dead_tube_coral_block_dye_magenta
+      - dead_tube_coral_block_dye_pink
+      - dead_tube_coral_block_dye_red
+      - dead_tube_coral_block_dye_yellow
+      - dead_brain_coral_wall_fan_dye_magenta
+      - dead_brain_coral_wall_fan_dye_red
+      - dead_brain_coral_wall_fan_dye_yellow
+      - dead_brain_coral_wall_fan_dye_blue
+      - dead_bubble_coral_wall_fan_dye_pink
+      - dead_bubble_coral_wall_fan_dye_red
+      - dead_bubble_coral_wall_fan_dye_yellow
+      - dead_bubble_coral_wall_fan_dye_blue
+      - dead_fire_coral_wall_fan_dye_magenta
+      - dead_fire_coral_wall_fan_dye_pink
+      - dead_fire_coral_wall_fan_dye_yellow
+      - dead_fire_coral_wall_fan_dye_blue    
+      - dead_horn_coral_wall_fan_dye_magenta
+      - dead_horn_coral_wall_fan_dye_pink
+      - dead_horn_coral_wall_fan_dye_red
+      - dead_horn_coral_wall_fan_dye_blue 
+      - dead_tube_coral_wall_fan_dye_magenta
+      - dead_tube_coral_wall_fan_dye_pink
+      - dead_tube_coral_wall_fan_dye_red
+      - dead_tube_coral_wall_fan_dye_yellow  
+           
+oxeye_daisy_fertilizer:
+   source: OXEYE_DAISY
+   result: OXEYE_DAISY
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dandelion_fertilizer:
+   source: DANDELION
+   result: DANDELION
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+poppy_fertilizer:
+   source: POPPY
+   result: POPPY
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+blue_orchid_fertilizer:
+   source: BLUE_ORCHID
+   result: BLUE_ORCHID
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+allium_fertilizer:
+   source: ALLIUM
+   result: ALLIUM
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+azure_bluet_fertilizer:
+   source: AZURE_BLUET
+   result: AZURE_BLUET
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+red_tulip_fertilizer:
+   source: RED_TULIP
+   result: RED_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+orange_tulip_fertilizer:
+   source: ORANGE_TULIP
+   result: ORANGE_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+white_tulip_fertilizer:
+   source: WHITE_TULIP
+   result: WHITE_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+pink_tulip_fertilizer:
+   source: PINK_TULIP
+   result: PINK_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+cornflower_fertilizer:
+   source: CORNFLOWER
+   result: CORNFLOWER
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+lily_of_the_valley_fertilizer:
+   source: LILY_OF_THE_VALLEY
+   result: LILY_OF_THE_VALLEY
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+wither_rose_fertilizer:  
+   source: WITHER_ROSE
+   result: WITHER_ROSE
+   itemUsed: POISONOUS_POTATO
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+brain_coral_fan_dye_magenta:
+   source: BRAIN_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+brain_coral_fan_dye_red:
+   source: BRAIN_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_fan_dye_yellow:
+   source: BRAIN_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_fan_dye_blue:
+   source: BRAIN_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_fan_dye_pink:
+   source: BUBBLE_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_fan_dye_red:
+   source: BUBBLE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_fan_dye_yellow:
+   source: BUBBLE_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_fan_dye_blue:
+   source: BUBBLE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_fan_dye_magenta:
+   source: FIRE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_fan_dye_pink:
+   source: FIRE_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_fan_dye_yellow:
+   source: FIRE_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_fan_dye_blue:
+   source: FIRE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+     
+horn_coral_fan_dye_magenta:
+   source: HORN_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_fan_dye_pink:
+   source: HORN_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_fan_dye_red:
+   source: HORN_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_fan_dye_blue:
+   source: HORN_CORAL_FAN 
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_fan_dye_magenta:
+   source: TUBE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_fan_dye_pink:
+   source: TUBE_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_fan_dye_red:
+   source: TUBE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_fan_dye_yellow:
+   source: TUBE_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+    
+brain_coral_dye_magenta:
+   source: BRAIN_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_dye_red:
+   source: BRAIN_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_dye_yellow:
+   source: BRAIN_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_dye_blue:
+   source: BRAIN_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_dye_pink:
+   source: BUBBLE_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_dye_red:
+   source: BUBBLE_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_dye_yellow:
+   source: BUBBLE_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_dye_blue:
+   source: BUBBLE_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_dye_magenta:
+   source: FIRE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_dye_pink:
+   source: FIRE_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_dye_yellow:
+   source: FIRE_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_dye_blue:
+   source: FIRE_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+     
+horn_coral_dye_magenta:
+   source: HORN_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_dye_pink:
+   source: HORN_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_dye_red:
+   source: HORN_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_dye_blue:
+   source: HORN_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_dye_magenta:
+   source: TUBE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_dye_pink:
+   source: TUBE_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_dye_red:
+   source: TUBE_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_dye_yellow:
+   source: TUBE_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_block_dye_magenta:
+   source: BRAIN_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_block_dye_red:
+   source: BRAIN_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_block_dye_yellow:
+   source: BRAIN_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_block_dye_blue:
+   source: BRAIN_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_block_dye_pink:
+   source: BUBBLE_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_block_dye_red:
+   source: BUBBLE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_block_dye_yellow:
+   source: BUBBLE_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_block_dye_blue:
+   source: BUBBLE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+fire_coral_block_dye_magenta:
+   source: FIRE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_block_dye_pink:
+   source: FIRE_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_block_dye_yellow:
+   source: FIRE_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_block_dye_blue:
+   source: FIRE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+     
+horn_coral_block_dye_magenta:
+   source: HORN_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_block_dye_pink:
+   source: HORN_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_block_dye_red:
+   source: HORN_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_block_dye_blue:
+   source: HORN_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_block_dye_magenta:
+   source: TUBE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_block_dye_pink:
+   source: TUBE_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_block_dye_red:
+   source: TUBE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_block_dye_yellow:
+   source: TUBE_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_wall_fan_dye_magenta:
+   source: BRAIN_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+brain_coral_wall_fan_dye_red:
+   source: BRAIN_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_wall_fan_dye_yellow:
+   source: BRAIN_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+brain_coral_wall_fan_dye_blue:
+   source: BRAIN_CORAL_WALL_FAN
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_wall_fan_dye_pink:
+   source: BUBBLE_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_wall_fan_dye_red:
+   source: BUBBLE_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_wall_fan_dye_yellow:
+   source: BUBBLE_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+bubble_coral_wall_fan_dye_blue:
+   source: BUBBLE_CORAL_WALL_FAN
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_wall_fan_dye_magenta:
+   source: FIRE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_wall_fan_dye_pink:
+   source: FIRE_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_wall_fan_dye_yellow:
+   source: FIRE_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+fire_coral_wall_fan_dye_blue:
+   source: FIRE_CORAL_WALL_FAN
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+     
+horn_coral_wall_fan_dye_magenta:
+   source: HORN_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_wall_fan_dye_pink:
+   source: HORN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_wall_fan_dye_red:
+   source: HORN_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+horn_coral_wall_fan_dye_blue:
+   source: HORN_CORAL_WALL_FAN 
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_wall_fan_dye_magenta:
+   source: TUBE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_wall_fan_dye_pink:
+   source: TUBE_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_wall_fan_dye_red:
+   source: TUBE_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+tube_coral_wall_fan_dye_yellow:
+   source: TUBE_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+ 
+dead_brain_coral_to_live:
+   source: DEAD_BRAIN_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+dead_bubble_coral_to_live:
+   source: DEAD_BUBBLE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_to_live:
+   source: DEAD_FIRE_CORAL
+   result: FIRE_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_to_live:
+   source: DEAD_HORN_CORAL
+   result: HORN_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_to_live:
+   source: DEAD_TUBE_CORAL
+   result: TUBE_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+dead_brain_coral_block_to_live:
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_block_to_live:
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_block_to_live:
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_block_to_live:
+   source: DEAD_HORN_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_block_to_live:
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_fan_to_live:
+   source: DEAD_BRAIN_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_fan_to_live:
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_fan_to_live:
+   source: DEAD_FIRE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_fan_to_live:
+   source: DEAD_HORN_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_fan_to_live:
+   source: DEAD_TUBE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_wall_fan_to_live:
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_wall_fan_to_live:
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_wall_fan_to_live:
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_wall_fan_to_live:
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_wall_fan_to_live:
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+  
+brain_coral_bonemeal:
+   source: BRAIN_CORAL
+   result: BRAIN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+bubble_coral_bonemeal:
+   source: BUBBLE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+fire_coral_bonemeal:
+   source: FIRE_CORAL
+   result: FIRE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+horn_coral_bonemeal:
+   source: HORN_CORAL
+   result: HORN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+tube_coral_bonemeal:
+   source: TUBE_CORAL
+   result: TUBE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+brain_coral_block_bonemeal:
+   source: BRAIN_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+bubble_coral_block_bonemeal:
+   source: BUBBLE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+fire_coral_block_bonemeal:
+   source: FIRE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+horn_coral_block_bonemeal:
+   source: HORN_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+tube_coral_block_bonemeal:
+   source: TUBE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+brain_coral_fan_bonemeal:
+   source: BRAIN_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+bubble_coral_fan_bonemeal:
+   source: BUBBLE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+fire_coral_fan_bonemeal:
+   source: FIRE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+horn_coral_fan_bonemeal:
+   source: HORN_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+tube_coral_fan_bonemeal:
+   source: TUBE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+brain_coral_wall_fan_bonemeal:
+   source: BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+bubble_coral_wall_fan_bonemeal:
+   source: BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+fire_coral_wall_fan_bonemeal:
+   source: FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+horn_coral_wall_fan_bonemeal:
+   source: HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+tube_coral_wall_fan_bonemeal:
+   source: TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_brain_coral_bonemeal:
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+dead_bubble_coral_bonemeal:
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+dead_fire_coral_bonemeal:
+   source: DEAD_FIRE_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_horn_coral_bonemeal:
+   source: DEAD_HORN_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_tube_coral_bonemeal:
+   source: DEAD_TUBE_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_brain_coral_block_bonemeal:
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_bubble_coral_block_bonemeal:
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+
+dead_fire_coral_block_bonemeal:
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_horn_coral_block_bonemeal:
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_tube_coral_block_bonemeal:
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_brain_coral_fan_bonemeal:
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_bubble_coral_fan_bonemeal:
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_fire_coral_fan_bonemeal:
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_horn_coral_fan_bonemeal:
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_tube_coral_fan_bonemeal:
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_brain_coral_wall_fan_bonemeal:
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_bubble_coral_wall_fan_bonemeal:
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_fire_coral_wall_fan_bonemeal:
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_horn_coral_wall_fan_bonemeal:
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_tube_coral_wall_fan_bonemeal:
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   
+dead_brain_coral_fan_dye_magenta:
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+dead_brain_coral_fan_dye_red:
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_fan_dye_yellow:
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_fan_dye_blue:
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_fan_dye_pink:
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_fan_dye_red:
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_fan_dye_yellow:
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_fan_dye_blue:
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_fan_dye_magenta:
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_fan_dye_pink:
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_fan_dye_yellow:
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_fan_dye_blue:
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+     
+dead_horn_coral_fan_dye_magenta:
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_fan_dye_pink:
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_fan_dye_red:
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_fan_dye_blue:
+   source: DEAD_HORN_CORAL_FAN 
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_fan_dye_magenta:
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_fan_dye_pink:
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_fan_dye_red:
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_fan_dye_yellow:
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+    
+dead_brain_coral_dye_magenta:
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_dye_red:
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_dye_yellow:
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_dye_blue:
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_dye_pink:
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_dye_red:
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_dye_yellow:
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_dye_blue:
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_dye_magenta:
+   source: DEAD_FIRE_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_dye_pink:
+   source: DEAD_FIRE_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_dye_yellow:
+   source: DEAD_FIRE_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_dye_blue:
+   source: DEAD_FIRE_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+     
+dead_horn_coral_dye_magenta:
+   source: DEAD_HORN_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_dye_pink:
+   source: DEAD_HORN_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_dye_red:
+   source: DEAD_HORN_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_dye_blue:
+   source: DEAD_HORN_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_dye_magenta:
+   source: DEAD_TUBE_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_dye_pink:
+   source: DEAD_TUBE_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_dye_red:
+   source: DEAD_TUBE_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_dye_yellow:
+   source: DEAD_TUBE_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_block_dye_magenta:
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_block_dye_red:
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_block_dye_yellow:
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_block_dye_blue:
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_block_dye_pink:
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_block_dye_red:
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_block_dye_yellow:
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_block_dye_blue:
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+dead_fire_coral_block_dye_magenta:
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_block_dye_pink:
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_block_dye_yellow:
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_block_dye_blue:
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+     
+dead_horn_coral_block_dye_magenta:
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_block_dye_pink:
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_block_dye_red:
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_block_dye_blue:
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_block_dye_magenta:
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_block_dye_pink:
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_block_dye_red:
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_block_dye_yellow:
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_wall_fan_dye_magenta:
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+
+dead_brain_coral_wall_fan_dye_red:
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_wall_fan_dye_yellow:
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_brain_coral_wall_fan_dye_blue:
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_wall_fan_dye_pink:
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_wall_fan_dye_red:
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_wall_fan_dye_yellow:
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_bubble_coral_wall_fan_dye_blue:
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_wall_fan_dye_magenta:
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_wall_fan_dye_pink:
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_wall_fan_dye_yellow:
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_fire_coral_wall_fan_dye_blue:
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+     
+dead_horn_coral_wall_fan_dye_magenta:
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_wall_fan_dye_pink:
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_wall_fan_dye_red:
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_horn_coral_wall_fan_dye_blue:
+   source: DEAD_HORN_CORAL_WALL_FAN 
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_wall_fan_dye_magenta:
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_wall_fan_dye_pink:
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_wall_fan_dye_red:
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   
+dead_tube_coral_wall_fan_dye_yellow:
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
