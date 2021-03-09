@@ -251,6 +251,17 @@ CustomPlayerInteractEvent:
       - dead_tube_coral_wall_fan_dye_red_playerinteract
       - dead_tube_coral_wall_fan_dye_yellow_playerinteract
       # Version 0.3.0
+   structure:
+      - enable, boolean
+      - source, material
+      - result, material
+      - particle, effect
+      - drop, boolean
+      - replace, boolean
+      - group, string
+      - permission, boolean
+      - added, contributor
+      - version, version
  
 oxeye_daisy_fertilize_playerinteract:
    enable: true
