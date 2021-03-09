@@ -1,0 +1,1 @@
+Find out how to cancel build if item is bonemealed and alt hand contains build block animation from not showing
