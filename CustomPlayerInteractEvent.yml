@@ -251,6 +251,7 @@ CustomPlayerInteractEvent:
       - dead_tube_coral_wall_fan_dye_pink_playerinteract
       - dead_tube_coral_wall_fan_dye_red_playerinteract
       - dead_tube_coral_wall_fan_dye_yellow_playerinteract
+      # Version 0.3.0
       - torch_to_soul_torch_playerinteract
       - campfire_to_soul_campfire_playerinteract
       - lantern_to_soul_lantern_playerinteract
@@ -261,7 +262,7 @@ CustomPlayerInteractEvent:
       - soul_torch_to_torch_playerinteract
       - soul_campfire_to_campfire_playerinteract
       - soul_lantern_to_lantern_playerinteract     
-      # Version 0.3.0
+
    structure:
       - enable, boolean
       - source, material
