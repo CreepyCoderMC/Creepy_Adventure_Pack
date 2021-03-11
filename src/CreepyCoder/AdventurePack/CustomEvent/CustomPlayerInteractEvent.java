@@ -60,8 +60,8 @@ public class CustomPlayerInteractEvent implements Listener {
 	
 		for(Iterator<String> i = this.playerInteractKeyList.iterator(); i.hasNext(); ) {
 			this.Key = i.next();
-			try
-			{
+			//try
+			//{
 				this.Source = dataConfig.getString(this.Key+".source");
 				this.ItemUsed = dataConfig.getString(this.Key+".itemUsed");
 			
@@ -75,8 +75,8 @@ public class CustomPlayerInteractEvent implements Listener {
 					
 					return true;
 				}
-			}
-			catch (Exception e) {}
+			//}
+			//catch (Exception e) {}
 		}
 		return false;
 	}
