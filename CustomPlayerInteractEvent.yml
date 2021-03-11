@@ -13,7 +13,7 @@ CustomPlayerInteractEvent:
       - dead_coral_dye_playerinteract
       - flame_type_change_playerinteract
    contributor:
-      - CreepyCoder
+      - CreepyCoderMC
       - Killerblade347
    key:
       # Version 0.1.0
@@ -287,7 +287,7 @@ oxeye_daisy_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
 
 dandelion_fertilize_playerinteract:
@@ -301,7 +301,7 @@ dandelion_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 poppy_fertilize_playerinteract:
@@ -315,7 +315,7 @@ poppy_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
 
 blue_orchid_fertilize_playerinteract:
@@ -329,7 +329,7 @@ blue_orchid_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 allium_fertilize_playerinteract:
@@ -343,7 +343,7 @@ allium_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
 
 azure_bluet_fertilize_playerinteract:
@@ -357,7 +357,7 @@ azure_bluet_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 red_tulip_fertilize_playerinteract:
@@ -371,7 +371,7 @@ red_tulip_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 orange_tulip_fertilize_playerinteract:
@@ -385,7 +385,7 @@ orange_tulip_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 white_tulip_fertilize_playerinteract:
@@ -399,7 +399,7 @@ white_tulip_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 pink_tulip_fertilize_playerinteract:
@@ -413,7 +413,7 @@ pink_tulip_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 cornflower_fertilize_playerinteract:
@@ -427,7 +427,7 @@ cornflower_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 lily_of_the_valley_fertilize_playerinteract:
@@ -441,7 +441,7 @@ lily_of_the_valley_fertilize_playerinteract:
    break: false
    group: flower_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0
    
 wither_rose_fertilize_playerinteract:
@@ -455,7 +455,7 @@ wither_rose_fertilize_playerinteract:
    break: false
    group: whither_rose_fertilize_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.1.0 
       
 brain_coral_fan_dye_magenta_playerinteract:
@@ -469,7 +469,7 @@ brain_coral_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_fan_dye_red_playerinteract:
@@ -483,7 +483,7 @@ brain_coral_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_fan_dye_yellow_playerinteract:
@@ -497,7 +497,7 @@ brain_coral_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_fan_dye_blue_playerinteract:
@@ -511,7 +511,7 @@ brain_coral_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_dye_pink_playerinteract:
@@ -525,7 +525,7 @@ bubble_coral_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_dye_red_playerinteract:
@@ -539,7 +539,7 @@ bubble_coral_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_dye_yellow_playerinteract:
@@ -553,7 +553,7 @@ bubble_coral_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_dye_blue_playerinteract:
@@ -567,7 +567,7 @@ bubble_coral_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_dye_magenta_playerinteract:
@@ -581,7 +581,7 @@ fire_coral_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_dye_pink_playerinteract:
@@ -595,7 +595,7 @@ fire_coral_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_dye_yellow_playerinteract:
@@ -609,7 +609,7 @@ fire_coral_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_dye_blue_playerinteract:
@@ -623,7 +623,7 @@ fire_coral_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
      
 horn_coral_fan_dye_magenta_playerinteract:
@@ -637,7 +637,7 @@ horn_coral_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_pink_playerinteract:
@@ -651,7 +651,7 @@ horn_coral_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_red_playerinteract:
@@ -665,7 +665,7 @@ horn_coral_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_blue_playerinteract:
@@ -679,7 +679,7 @@ horn_coral_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_magenta_playerinteract:
@@ -693,7 +693,7 @@ tube_coral_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_pink_playerinteract:
@@ -707,7 +707,7 @@ tube_coral_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_red_playerinteract:
@@ -721,7 +721,7 @@ tube_coral_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_yellow_playerinteract:
@@ -735,7 +735,7 @@ tube_coral_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
     
 brain_coral_dye_magenta_playerinteract:
@@ -749,7 +749,7 @@ brain_coral_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_dye_red_playerinteract:
@@ -763,7 +763,7 @@ brain_coral_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_dye_yellow_playerinteract:
@@ -777,7 +777,7 @@ brain_coral_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_dye_blue_playerinteract:
@@ -791,7 +791,7 @@ brain_coral_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_dye_pink_playerinteract:
@@ -805,7 +805,7 @@ bubble_coral_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_dye_red_playerinteract:
@@ -819,7 +819,7 @@ bubble_coral_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_dye_yellow_playerinteract:
@@ -833,7 +833,7 @@ bubble_coral_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_dye_blue_playerinteract:
@@ -847,7 +847,7 @@ bubble_coral_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_dye_magenta_playerinteract:
@@ -861,7 +861,7 @@ fire_coral_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_dye_pink_playerinteract:
@@ -875,7 +875,7 @@ fire_coral_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_dye_yellow_playerinteract:
@@ -889,7 +889,7 @@ fire_coral_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_dye_blue_playerinteract:
@@ -903,7 +903,7 @@ fire_coral_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
      
 horn_coral_dye_magenta_playerinteract:
@@ -917,7 +917,7 @@ horn_coral_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_pink_playerinteract:
@@ -931,7 +931,7 @@ horn_coral_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_red_playerinteract:
@@ -945,7 +945,7 @@ horn_coral_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_blue_playerinteract:
@@ -959,7 +959,7 @@ horn_coral_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_magenta_playerinteract:
@@ -973,7 +973,7 @@ tube_coral_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_pink_playerinteract:
@@ -987,7 +987,7 @@ tube_coral_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_red_playerinteract:
@@ -1001,7 +1001,7 @@ tube_coral_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_yellow_playerinteract:
@@ -1015,7 +1015,7 @@ tube_coral_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_magenta_playerinteract:
@@ -1029,7 +1029,7 @@ brain_coral_block_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_red_playerinteract:
@@ -1043,7 +1043,7 @@ brain_coral_block_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_yellow_playerinteract:
@@ -1057,7 +1057,7 @@ brain_coral_block_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_blue_playerinteract:
@@ -1071,7 +1071,7 @@ brain_coral_block_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_dye_pink_playerinteract:
@@ -1085,7 +1085,7 @@ bubble_coral_block_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_dye_red_playerinteract:
@@ -1099,7 +1099,7 @@ bubble_coral_block_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_dye_yellow_playerinteract:
@@ -1113,7 +1113,7 @@ bubble_coral_block_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_dye_blue_playerinteract:
@@ -1127,7 +1127,7 @@ bubble_coral_block_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_block_dye_magenta_playerinteract:
@@ -1141,7 +1141,7 @@ fire_coral_block_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_dye_pink_playerinteract:
@@ -1155,7 +1155,7 @@ fire_coral_block_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_dye_yellow_playerinteract:
@@ -1169,7 +1169,7 @@ fire_coral_block_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_dye_blue_playerinteract:
@@ -1183,7 +1183,7 @@ fire_coral_block_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
      
 horn_coral_block_dye_magenta_playerinteract:
@@ -1197,7 +1197,7 @@ horn_coral_block_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_pink_playerinteract:
@@ -1211,7 +1211,7 @@ horn_coral_block_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_red_playerinteract:
@@ -1225,7 +1225,7 @@ horn_coral_block_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_blue_playerinteract:
@@ -1239,7 +1239,7 @@ horn_coral_block_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_magenta_playerinteract:
@@ -1253,7 +1253,7 @@ tube_coral_block_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_pink_playerinteract:
@@ -1267,7 +1267,7 @@ tube_coral_block_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_red_playerinteract:
@@ -1281,7 +1281,7 @@ tube_coral_block_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_yellow_playerinteract:
@@ -1295,7 +1295,7 @@ tube_coral_block_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_wall_fan_dye_magenta_playerinteract:
@@ -1309,7 +1309,7 @@ brain_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_wall_fan_dye_red_playerinteract:
@@ -1323,7 +1323,7 @@ brain_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_wall_fan_dye_yellow_playerinteract:
@@ -1337,7 +1337,7 @@ brain_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_wall_fan_dye_blue_playerinteract:
@@ -1351,7 +1351,7 @@ brain_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_wall_fan_dye_pink_playerinteract:
@@ -1365,7 +1365,7 @@ bubble_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_wall_fan_dye_red_playerinteract:
@@ -1379,7 +1379,7 @@ bubble_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_wall_fan_dye_yellow_playerinteract:
@@ -1393,7 +1393,7 @@ bubble_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_wall_fan_dye_blue_playerinteract:
@@ -1407,7 +1407,7 @@ bubble_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_wall_fan_dye_magenta_playerinteract:
@@ -1421,7 +1421,7 @@ fire_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_wall_fan_dye_pink_playerinteract:
@@ -1435,7 +1435,7 @@ fire_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_wall_fan_dye_yellow_playerinteract:
@@ -1449,7 +1449,7 @@ fire_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_wall_fan_dye_blue_playerinteract:
@@ -1463,7 +1463,7 @@ fire_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0  
      
 horn_coral_wall_fan_dye_magenta_playerinteract:
@@ -1477,7 +1477,7 @@ horn_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_wall_fan_dye_pink_playerinteract:
@@ -1491,7 +1491,7 @@ horn_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_wall_fan_dye_red_playerinteract:
@@ -1505,7 +1505,7 @@ horn_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_wall_fan_dye_blue_playerinteract:
@@ -1519,7 +1519,7 @@ horn_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_wall_fan_dye_magenta_playerinteract:
@@ -1533,7 +1533,7 @@ tube_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_wall_fan_dye_pink_playerinteract:
@@ -1547,7 +1547,7 @@ tube_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_wall_fan_dye_red_playerinteract:
@@ -1561,7 +1561,7 @@ tube_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_wall_fan_dye_yellow_playerinteract:
@@ -1575,7 +1575,7 @@ tube_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_brain_coral_playerinteract:
@@ -1589,7 +1589,7 @@ revive_dead_brain_coral_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_playerinteract:
@@ -1603,7 +1603,7 @@ revive_dead_bubble_coral_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_fire_coral_playerinteract:
@@ -1617,7 +1617,7 @@ revive_dead_fire_coral_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_horn_coral_playerinteract:
@@ -1631,7 +1631,7 @@ revive_dead_horn_coral_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_tube_coral_playerinteract:
@@ -1645,7 +1645,7 @@ revive_dead_tube_coral_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_brain_coral_block_playerinteract:
@@ -1659,7 +1659,7 @@ revive_dead_brain_coral_block_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_block_playerinteract:
@@ -1673,7 +1673,7 @@ revive_dead_bubble_coral_block_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_fire_coral_block_playerinteract:
@@ -1687,7 +1687,7 @@ revive_dead_fire_coral_block_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_horn_coral_block_playerinteract:
@@ -1701,7 +1701,7 @@ revive_dead_horn_coral_block_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_tube_coral_block_playerinteract:
@@ -1715,7 +1715,7 @@ revive_dead_tube_coral_block_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_brain_coral_fan_playerinteract:
@@ -1729,7 +1729,7 @@ revive_dead_brain_coral_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_fan_playerinteract:
@@ -1743,7 +1743,7 @@ revive_dead_bubble_coral_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_fire_coral_fan_playerinteract:
@@ -1757,7 +1757,7 @@ revive_dead_fire_coral_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_horn_coral_fan_playerinteract:
@@ -1771,7 +1771,7 @@ revive_dead_horn_coral_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_tube_coral_fan_playerinteract:
@@ -1785,7 +1785,7 @@ revive_dead_tube_coral_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_brain_coral_wall_fan_playerinteract:
@@ -1799,7 +1799,7 @@ revive_dead_brain_coral_wall_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_wall_fan_playerinteract:
@@ -1813,7 +1813,7 @@ revive_dead_bubble_coral_wall_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_fire_coral_wall_fan_playerinteract:
@@ -1827,7 +1827,7 @@ revive_dead_fire_coral_wall_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_horn_coral_wall_fan_playerinteract:
@@ -1841,7 +1841,7 @@ revive_dead_horn_coral_wall_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_tube_coral_wall_fan_playerinteract:
@@ -1855,7 +1855,7 @@ revive_dead_tube_coral_wall_fan_playerinteract:
    break: false
    group: revive_dead_coral_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_bonemeal_playerinteract:
@@ -1869,7 +1869,7 @@ brain_coral_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_bonemeal_playerinteract:
@@ -1883,7 +1883,7 @@ bubble_coral_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_bonemeal_playerinteract:
@@ -1897,7 +1897,7 @@ fire_coral_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_bonemeal_playerinteract:
@@ -1911,7 +1911,7 @@ horn_coral_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_bonemeal_playerinteract:
@@ -1925,7 +1925,7 @@ tube_coral_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_bonemeal_playerinteract:
@@ -1939,7 +1939,7 @@ brain_coral_block_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_bonemeal_playerinteract:
@@ -1953,7 +1953,7 @@ bubble_coral_block_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_bonemeal_playerinteract:
@@ -1967,7 +1967,7 @@ fire_coral_block_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_bonemeal_playerinteract:
@@ -1981,7 +1981,7 @@ horn_coral_block_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_bonemeal_playerinteract:
@@ -1995,7 +1995,7 @@ tube_coral_block_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_fan_bonemeal_playerinteract:
@@ -2009,7 +2009,7 @@ brain_coral_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_bonemeal_playerinteract:
@@ -2023,7 +2023,7 @@ bubble_coral_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_bonemeal_playerinteract:
@@ -2037,7 +2037,7 @@ fire_coral_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_bonemeal_playerinteract:
@@ -2051,7 +2051,7 @@ horn_coral_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_bonemeal_playerinteract:
@@ -2065,7 +2065,7 @@ tube_coral_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_wall_fan_bonemeal_playerinteract:
@@ -2079,7 +2079,7 @@ brain_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_wall_fan_bonemeal_playerinteract:
@@ -2093,7 +2093,7 @@ bubble_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_wall_fan_bonemeal_playerinteract:
@@ -2107,7 +2107,7 @@ fire_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_wall_fan_bonemeal_playerinteract:
@@ -2121,7 +2121,7 @@ horn_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_wall_fan_bonemeal_playerinteract:
@@ -2135,7 +2135,7 @@ tube_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_bonemeal_playerinteract:
@@ -2149,7 +2149,7 @@ dead_brain_coral_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_bonemeal_playerinteract:
@@ -2163,7 +2163,7 @@ dead_bubble_coral_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_bonemeal_playerinteract:
@@ -2177,7 +2177,7 @@ dead_fire_coral_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_bonemeal_playerinteract:
@@ -2191,7 +2191,7 @@ dead_horn_coral_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_bonemeal_playerinteract:
@@ -2205,7 +2205,7 @@ dead_tube_coral_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_bonemeal_playerinteract:
@@ -2219,7 +2219,7 @@ dead_brain_coral_block_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_bonemeal_playerinteract:
@@ -2233,7 +2233,7 @@ dead_bubble_coral_block_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_bonemeal_playerinteract:
@@ -2247,7 +2247,7 @@ dead_fire_coral_block_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_bonemeal_playerinteract:
@@ -2261,7 +2261,7 @@ dead_horn_coral_block_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_bonemeal_playerinteract:
@@ -2275,7 +2275,7 @@ dead_tube_coral_block_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_fan_bonemeal_playerinteract:
@@ -2289,7 +2289,7 @@ dead_brain_coral_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_bonemeal_playerinteract:
@@ -2303,7 +2303,7 @@ dead_bubble_coral_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_bonemeal_playerinteract:
@@ -2317,7 +2317,7 @@ dead_fire_coral_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_bonemeal_playerinteract:
@@ -2331,7 +2331,7 @@ dead_horn_coral_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_bonemeal_playerinteract:
@@ -2345,7 +2345,7 @@ dead_tube_coral_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_wall_fan_bonemeal_playerinteract:
@@ -2359,7 +2359,7 @@ dead_brain_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_wall_fan_bonemeal_playerinteract:
@@ -2373,7 +2373,7 @@ dead_bubble_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_wall_fan_bonemeal_playerinteract:
@@ -2387,7 +2387,7 @@ dead_fire_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_wall_fan_bonemeal_playerinteract:
@@ -2401,7 +2401,7 @@ dead_horn_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_wall_fan_bonemeal_playerinteract:
@@ -2415,7 +2415,7 @@ dead_tube_coral_wall_fan_bonemeal_playerinteract:
    break: false
    group: dead_coral_bonemeal_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_fan_dye_magenta_playerinteract:
@@ -2429,7 +2429,7 @@ dead_brain_coral_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_fan_dye_red_playerinteract:
@@ -2443,7 +2443,7 @@ dead_brain_coral_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_fan_dye_yellow_playerinteract:
@@ -2457,7 +2457,7 @@ dead_brain_coral_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_fan_dye_blue_playerinteract:
@@ -2471,7 +2471,7 @@ dead_brain_coral_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_dye_pink_playerinteract:
@@ -2485,7 +2485,7 @@ dead_bubble_coral_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_dye_red_playerinteract:
@@ -2499,7 +2499,7 @@ dead_bubble_coral_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_dye_yellow_playerinteract:
@@ -2513,7 +2513,7 @@ dead_bubble_coral_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_dye_blue_playerinteract:
@@ -2527,7 +2527,7 @@ dead_bubble_coral_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_dye_magenta_playerinteract:
@@ -2541,7 +2541,7 @@ dead_fire_coral_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_dye_pink_playerinteract:
@@ -2555,7 +2555,7 @@ dead_fire_coral_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_dye_yellow_playerinteract:
@@ -2569,7 +2569,7 @@ dead_fire_coral_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_dye_blue_playerinteract:
@@ -2583,7 +2583,7 @@ dead_fire_coral_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
      
 dead_horn_coral_fan_dye_magenta_playerinteract:
@@ -2597,7 +2597,7 @@ dead_horn_coral_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_pink_playerinteract:
@@ -2611,7 +2611,7 @@ dead_horn_coral_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_red_playerinteract:
@@ -2625,7 +2625,7 @@ dead_horn_coral_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_blue_playerinteract:
@@ -2639,7 +2639,7 @@ dead_horn_coral_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_magenta_playerinteract:
@@ -2653,7 +2653,7 @@ dead_tube_coral_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_pink_playerinteract:
@@ -2667,7 +2667,7 @@ dead_tube_coral_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_red_playerinteract:
@@ -2681,7 +2681,7 @@ dead_tube_coral_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_yellow_playerinteract:
@@ -2695,7 +2695,7 @@ dead_tube_coral_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
     
 dead_brain_coral_dye_magenta_playerinteract:
@@ -2709,7 +2709,7 @@ dead_brain_coral_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_dye_red_playerinteract:
@@ -2723,7 +2723,7 @@ dead_brain_coral_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_dye_yellow_playerinteract:
@@ -2737,7 +2737,7 @@ dead_brain_coral_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_dye_blue_playerinteract:
@@ -2751,7 +2751,7 @@ dead_brain_coral_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_dye_pink_playerinteract:
@@ -2765,7 +2765,7 @@ dead_bubble_coral_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_dye_red_playerinteract:
@@ -2779,7 +2779,7 @@ dead_bubble_coral_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_dye_yellow_playerinteract:
@@ -2793,7 +2793,7 @@ dead_bubble_coral_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_dye_blue_playerinteract:
@@ -2807,7 +2807,7 @@ dead_bubble_coral_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_dye_magenta_playerinteract:
@@ -2821,7 +2821,7 @@ dead_fire_coral_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_dye_pink_playerinteract:
@@ -2835,7 +2835,7 @@ dead_fire_coral_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_dye_yellow_playerinteract:
@@ -2849,7 +2849,7 @@ dead_fire_coral_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_dye_blue_playerinteract:
@@ -2863,7 +2863,7 @@ dead_fire_coral_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
      
 dead_horn_coral_dye_magenta_playerinteract:
@@ -2877,7 +2877,7 @@ dead_horn_coral_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_pink_playerinteract:
@@ -2891,7 +2891,7 @@ dead_horn_coral_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_red_playerinteract:
@@ -2905,7 +2905,7 @@ dead_horn_coral_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_blue_playerinteract:
@@ -2919,7 +2919,7 @@ dead_horn_coral_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_magenta_playerinteract:
@@ -2933,7 +2933,7 @@ dead_tube_coral_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_pink_playerinteract:
@@ -2947,7 +2947,7 @@ dead_tube_coral_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_red_playerinteract:
@@ -2961,7 +2961,7 @@ dead_tube_coral_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_yellow_playerinteract:
@@ -2975,7 +2975,7 @@ dead_tube_coral_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_magenta_playerinteract:
@@ -2989,7 +2989,7 @@ dead_brain_coral_block_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_red_playerinteract:
@@ -3003,7 +3003,7 @@ dead_brain_coral_block_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_yellow_playerinteract:
@@ -3017,7 +3017,7 @@ dead_brain_coral_block_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_blue_playerinteract:
@@ -3031,7 +3031,7 @@ dead_brain_coral_block_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_dye_pink_playerinteract:
@@ -3045,7 +3045,7 @@ dead_bubble_coral_block_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_dye_red_playerinteract:
@@ -3059,7 +3059,7 @@ dead_bubble_coral_block_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_dye_yellow_playerinteract:
@@ -3073,7 +3073,7 @@ dead_bubble_coral_block_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_dye_blue_playerinteract:
@@ -3087,7 +3087,7 @@ dead_bubble_coral_block_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_block_dye_magenta_playerinteract:
@@ -3101,7 +3101,7 @@ dead_fire_coral_block_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_dye_pink_playerinteract:
@@ -3115,7 +3115,7 @@ dead_fire_coral_block_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_dye_yellow_playerinteract:
@@ -3129,7 +3129,7 @@ dead_fire_coral_block_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_dye_blue_playerinteract:
@@ -3143,7 +3143,7 @@ dead_fire_coral_block_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
      
 dead_horn_coral_block_dye_magenta_playerinteract:
@@ -3157,7 +3157,7 @@ dead_horn_coral_block_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_pink_playerinteract:
@@ -3171,7 +3171,7 @@ dead_horn_coral_block_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_red_playerinteract:
@@ -3185,7 +3185,7 @@ dead_horn_coral_block_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_blue_playerinteract:
@@ -3199,7 +3199,7 @@ dead_horn_coral_block_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_magenta_playerinteract:
@@ -3213,7 +3213,7 @@ dead_tube_coral_block_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_pink_playerinteract:
@@ -3227,7 +3227,7 @@ dead_tube_coral_block_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_red_playerinteract:
@@ -3241,7 +3241,7 @@ dead_tube_coral_block_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_yellow_playerinteract:
@@ -3255,7 +3255,7 @@ dead_tube_coral_block_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_wall_fan_dye_magenta_playerinteract:
@@ -3269,7 +3269,7 @@ dead_brain_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_wall_fan_dye_red_playerinteract:
@@ -3283,7 +3283,7 @@ dead_brain_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_wall_fan_dye_yellow_playerinteract:
@@ -3297,7 +3297,7 @@ dead_brain_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_wall_fan_dye_blue_playerinteract:
@@ -3311,7 +3311,7 @@ dead_brain_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_wall_fan_dye_pink_playerinteract:
@@ -3325,7 +3325,7 @@ dead_bubble_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_wall_fan_dye_red_playerinteract:
@@ -3339,7 +3339,7 @@ dead_bubble_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_wall_fan_dye_yellow_playerinteract:
@@ -3353,7 +3353,7 @@ dead_bubble_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_wall_fan_dye_blue_playerinteract:
@@ -3367,7 +3367,7 @@ dead_bubble_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_wall_fan_dye_magenta_playerinteract:
@@ -3381,7 +3381,7 @@ dead_fire_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_wall_fan_dye_pink_playerinteract:
@@ -3395,7 +3395,7 @@ dead_fire_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_wall_fan_dye_yellow_playerinteract:
@@ -3409,7 +3409,7 @@ dead_fire_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_wall_fan_dye_blue_playerinteract:
@@ -3423,7 +3423,7 @@ dead_fire_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0  
      
 dead_horn_coral_wall_fan_dye_magenta_playerinteract:
@@ -3437,7 +3437,7 @@ dead_horn_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_wall_fan_dye_pink_playerinteract:
@@ -3451,7 +3451,7 @@ dead_horn_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_wall_fan_dye_red_playerinteract:
@@ -3465,7 +3465,7 @@ dead_horn_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_wall_fan_dye_blue_playerinteract:
@@ -3479,7 +3479,7 @@ dead_horn_coral_wall_fan_dye_blue_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_wall_fan_dye_magenta_playerinteract:
@@ -3493,7 +3493,7 @@ dead_tube_coral_wall_fan_dye_magenta_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_wall_fan_dye_pink_playerinteract:
@@ -3507,7 +3507,7 @@ dead_tube_coral_wall_fan_dye_pink_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_wall_fan_dye_red_playerinteract:
@@ -3521,7 +3521,7 @@ dead_tube_coral_wall_fan_dye_red_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_wall_fan_dye_yellow_playerinteract:
@@ -3535,7 +3535,7 @@ dead_tube_coral_wall_fan_dye_yellow_playerinteract:
    break: false
    group: dead_coral_dye_playerinteract
    permission: true
-   addedby: CreepyCoder
+   addedby: CreepyCoderMC
    version: 0.2.0
    
 torch_to_soul_torch_playerinteract:
