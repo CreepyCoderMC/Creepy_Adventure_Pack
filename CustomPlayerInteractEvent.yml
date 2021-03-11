@@ -3544,7 +3544,7 @@ torch_to_soul_torch_playerinteract:
    source: TORCH
    result: SOUL_TORCH
    itemused: SOUL_SOIL
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3558,7 +3558,7 @@ campfire_to_soul_campfire_playerinteract:
    source: CAMPFIRE
    result: SOUL_CAMPFIRE
    itemused: SOUL_SOIL
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3572,7 +3572,7 @@ lantern_to_soul_lantern_playerinteract:
    source: LANTERN
    result: SOUL_LANTERN
    itemused: SOUL_SOIL
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3586,7 +3586,7 @@ redstone_torch_to_torch_playerinteract:
    source: REDSTONE_TORCH
    result: TORCH
    itemused: SAND
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3600,7 +3600,7 @@ redstone_torch_to_soul_torch_playerinteract:
    source: REDSTONE_TORCH
    result: SOUL_TORCH
    itemused: SOUL_SOIL
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3614,7 +3614,7 @@ torch_to_redstone_torch_playerinteract:
    source: TORCH
    result: REDSTONE_TORCH
    itemused: REDSTONE
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3628,7 +3628,7 @@ soul_torch_to_redstone_torch_playerinteract:
    source: SOUL_TORCH
    result: REDSTONE_TORCH
    itemused: REDSTONE
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3642,7 +3642,7 @@ soul_torch_to_torch_playerinteract:
    source: SOUL_TORCH
    result: TORCH
    itemused: SAND
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3656,7 +3656,7 @@ soul_campfire_to_campfire_playerinteract:
    source: SOUL_CAMPFIRE
    result: CAMPFIRE
    itemused: SAND
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
@@ -3670,7 +3670,7 @@ soul_lantern_to_lantern_playerinteract:
    source: SOUL_LANTERN
    result: LANTERN
    itemused: SAND
-   partical: LAVA_PARTICLE
+   partical: VILLAGER_PLANT_GROW
    drop: false
    replace: true
    break: false
