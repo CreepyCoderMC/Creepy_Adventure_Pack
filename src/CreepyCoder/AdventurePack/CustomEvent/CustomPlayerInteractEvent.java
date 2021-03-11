@@ -51,13 +51,9 @@ public class CustomPlayerInteractEvent implements Listener {
 	
 	@EventHandler
 	public void onInteract(PlayerInteractEvent event) {
-		try
-		{
-			if(!PlayerFunction.IsCurrentHand(event)) return;
-			if(!PlayerFunction.OffHandEmpty(event)) return;
-			if(IsCustomInteract(event)) DoCustomInteract(event);
-		}
-		catch (Exception e) {}
+		if(!PlayerFunction.IsCurrentHand(event)) return;
+		if(!PlayerFunction.OffHandEmpty(event)) return;
+		if(IsCustomInteract(event)) DoCustomInteract(event);
 	}
 	
 	public boolean IsCustomInteract(PlayerInteractEvent event) {
