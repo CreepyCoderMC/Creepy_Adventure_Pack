@@ -11,6 +11,7 @@ CustomPlayerInteractEvent:
       - coral_bonemeal_playerinteract
       - dead_coral_bonemeal_playerinteract
       - dead_coral_dye_playerinteract
+      - flame_type_change_playerinteract
    contributor:
       - CreepyCoder
       - Killerblade347
@@ -250,11 +251,22 @@ CustomPlayerInteractEvent:
       - dead_tube_coral_wall_fan_dye_pink_playerinteract
       - dead_tube_coral_wall_fan_dye_red_playerinteract
       - dead_tube_coral_wall_fan_dye_yellow_playerinteract
+      - torch_to_soul_torch_playerinteract
+      - campfire_to_soul_campfire_playerinteract
+      - lantern_to_soul_lantern_playerinteract
+      - redstone_torch_to_torch_playerinteract
+      - redstone_torch_to_soul_torch_playerinteract 
+      - torch_to_redstone_torch_playerinteract
+      - soul_torch_to_redstone_torch_playerinteract
+      - soul_torch_to_torch_playerinteract
+      - soul_campfire_to_campfire_playerinteract
+      - soul_lantern_to_lantern_playerinteract     
       # Version 0.3.0
    structure:
       - enable, boolean
       - source, material
       - result, material
+      - itemused, material
       - particle, effect
       - drop, boolean
       - replace, boolean
@@ -3525,3 +3537,143 @@ dead_tube_coral_wall_fan_dye_yellow_playerinteract:
    permission: true
    addedby: CreepyCoder
    version: 0.2.0
+   
+torch_to_soul_torch_playerinteract:
+   enable: true
+   source: TORCH
+   result: SOUL_TORCH
+   itemused: SOUL_SOIL
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+campfire_to_soul_campfire_playerinteract:
+   enable: true
+   source: CAMPFIRE
+   result: SOUL_CAMPFIRE
+   itemused: SOUL_SOIL
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+lantern_to_soul_lantern_playerinteract:
+   enable: true
+   source: LANTERN
+   result: SOUL_LANTERN
+   itemused: SOUL_SOIL
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+redstone_torch_to_torch_playerinteract:
+   enable: true
+   source: REDSTONE_TORCH
+   result: TORCH
+   itemused: SAND
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+redstone_torch_to_soul_torch_playerinteract:
+   enable: true
+   source: REDSTONE_TORCH
+   result: SOUL_TORCH
+   itemused: SOUL_SOIL
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+torch_to_redstone_torch_playerinteract:
+   enable: true
+   source: TORCH
+   result: REDSTONE_TORCH
+   itemused: REDSTONE
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+soul_torch_to_redstone_torch_playerinteract:
+   enable: true
+   source: SOUL_TORCH
+   result: REDSTONE_TORCH
+   itemused: REDSTONE
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+
+soul_torch_to_torch_playerinteract: 
+   enable: true
+   source: SOUL_TORCH
+   result: TORCH
+   itemused: SAND
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+soul_campfire_to_campfire_playerinteract:
+   enable: true
+   source: SOUL_CAMPFIRE
+   result: CAMPFIRE
+   itemused: SAND
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
+   
+soul_lantern_to_lantern_playerinteract:
+   enable: true
+   source: SOUL_LANTERN
+   result: LANTERN
+   itemused: SAND
+   partical: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedby: Killerblade347
+   version: 0.3.0
