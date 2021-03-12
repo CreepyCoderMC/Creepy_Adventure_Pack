@@ -12,6 +12,7 @@ CustomPlayerInteractEvent:
       - dead_coral_bonemeal_playerinteract
       - dead_coral_dye_playerinteract
       - flame_type_change_playerinteract
+      - test_run_playerinteract
    contributor:
       - CreepyCoderMC
       - Killerblade347
@@ -261,7 +262,10 @@ CustomPlayerInteractEvent:
       - soul_torch_to_redstone_torch_playerinteract
       - soul_torch_to_torch_playerinteract
       - soul_campfire_to_campfire_playerinteract
-      - soul_lantern_to_lantern_playerinteract     
+      - soul_lantern_to_lantern_playerinteract
+      - test_run_sand_playerinteract 
+      - test_run_torch_playerinteract  
+      - test_run_torch2_playerinteract 
 
    structure:
       - enable, boolean
@@ -3537,6 +3541,48 @@ dead_tube_coral_wall_fan_dye_yellow_playerinteract:
    group: dead_coral_dye_playerinteract
    permission: true
    addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+test_run_sand_playerinteract:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   result: DIRT
+   itemUsed: SAND
+   particle: VILLAGER_PLANT_GROW
+   drop: true
+   replace: false
+   break: false
+   group: test_run_sand_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+   test_run_torch_playerinteract:
+   enable: true
+   source: TORCH
+   result: SOUL_TORCH
+   itemUsed: SAND
+   particle: VILLAGER_PLANT_GROW
+   drop: true
+   replace: false
+   break: false
+   group: test_run_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+test_run_torch2_playerinteract:
+   enable: true
+   source: TORCH
+   result: SOUL_TORCH
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   drop: true
+   replace: false
+   break: false
+   group: test_run_playerinteract
+   permission: true
+   addedBy: Killerblade347
    version: 0.2.0
    
 torch_to_soul_torch_playerinteract:
