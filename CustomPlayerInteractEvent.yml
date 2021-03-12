@@ -257,15 +257,15 @@ CustomPlayerInteractEvent:
       - campfire_to_soul_campfire_playerinteract
       - lantern_to_soul_lantern_playerinteract
       - redstone_torch_to_torch_playerinteract
-      - redstone_torch_to_soul_torch_playerinteract 
+      - redstone_torch_to_soul_torch_playerinteract
       - torch_to_redstone_torch_playerinteract
       - soul_torch_to_redstone_torch_playerinteract
       - soul_torch_to_torch_playerinteract
       - soul_campfire_to_campfire_playerinteract
       - soul_lantern_to_lantern_playerinteract
-      - test_run_sand_playerinteract 
-      - test_run_torch_playerinteract  
-      - test_run_torch2_playerinteract 
+      - test_run_sand_playerinteract
+      - test_run_torch_playerinteract
+      - test_run_torch2_playerinteract
 
    structure:
       - enable, boolean
@@ -3542,41 +3542,41 @@ dead_tube_coral_wall_fan_dye_yellow_playerinteract:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
-   
+
 test_run_torch_playerinteract:
    enable: true
    source: TORCH
    result: SOUL_TORCH
-   itemUsed: SAND
-   particle: VILLAGER_PLANT_GROW
-   drop: true
-   replace: false
+   itemUsed: SOUL_SOIL
+   particle: LAVA_PARTICLE
+   drop: false
+   replace: true
    break: false
    group: test_run_playerinteract
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 test_run_torch2_playerinteract:
    enable: true
    source: TORCH
    result: SOUL_TORCH
-   itemUsed: YELLOW_DYE
-   particle: VILLAGER_PLANT_GROW
-   drop: true
-   replace: false
+   itemUsed: BONEMEAL
+   particle: LAVA_PARTICLE
+   drop: false
+   replace: true
    break: false
    group: test_run_playerinteract
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 torch_to_soul_torch_playerinteract:
    enable: true
    source: TORCH
    result: SOUL_TORCH
    itemUsed: SOUL_SOIL
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3590,7 +3590,7 @@ campfire_to_soul_campfire_playerinteract:
    source: CAMPFIRE
    result: SOUL_CAMPFIRE
    itemUsed: SOUL_SOIL
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3604,7 +3604,7 @@ lantern_to_soul_lantern_playerinteract:
    source: LANTERN
    result: SOUL_LANTERN
    itemUsed: SOUL_SOIL
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3618,7 +3618,7 @@ redstone_torch_to_torch_playerinteract:
    source: REDSTONE_TORCH
    result: TORCH
    itemUsed: SAND
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3632,7 +3632,7 @@ redstone_torch_to_soul_torch_playerinteract:
    source: REDSTONE_TORCH
    result: SOUL_TORCH
    itemUsed: SOUL_SOIL
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3646,7 +3646,7 @@ torch_to_redstone_torch_playerinteract:
    source: TORCH
    result: REDSTONE_TORCH
    itemUsed: REDSTONE
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3660,7 +3660,7 @@ soul_torch_to_redstone_torch_playerinteract:
    source: SOUL_TORCH
    result: REDSTONE_TORCH
    itemUsed: REDSTONE
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3674,7 +3674,7 @@ soul_torch_to_torch_playerinteract:
    source: SOUL_TORCH
    result: TORCH
    itemUsed: SAND
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3688,7 +3688,7 @@ soul_campfire_to_campfire_playerinteract:
    source: SOUL_CAMPFIRE
    result: CAMPFIRE
    itemUsed: SAND
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
@@ -3702,7 +3702,7 @@ soul_lantern_to_lantern_playerinteract:
    source: SOUL_LANTERN
    result: LANTERN
    itemUsed: SAND
-   partical: VILLAGER_PLANT_GROW
+   partical: LAVA_PARTICLE
    drop: false
    replace: true
    break: false
