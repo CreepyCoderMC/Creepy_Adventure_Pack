@@ -255,6 +255,19 @@ CustomPlayerInteractEvent:
       - torch_to_soul_torch_playerinteract
       - campfire_to_soul_campfire_playerinteract
       - lantern_to_soul_lantern_playerinteract
+      - wall_torch_to_soul_wall_torch_playerinteract
+      - torch_to_redstone_torch_playerinteract
+      - wall_torch_to_redstone_wall_torch_playerinteract
+      - soul_torch_to_torch_playerinteract
+      - soul_lantern_to_lantern_playerinteract
+      - soul_campfire_to_campfire_playerinteract
+      - soul_torch_to_redstone_torch_playerinteract
+      - soul_wall_torch_to_redstone_wall_torch_playerinteract
+      - redstone_torch_to_torch_playerinteract
+      - redstone_wall_torch_to_wall_torch_playerinteract
+      - soul_wall_torch_to_wall_torch_playerinteract
+      - redstone_torch_to_soul_torch_playerinteract
+      - redstone_wall_torch_to_soul_wall_torch_playerinteract
 
    structure:
       - enable, boolean
@@ -3564,6 +3577,188 @@ lantern_to_soul_lantern_playerinteract:
    enable: true
    source: LANTERN
    result: SOUL_LANTERN
+   itemUsed: SOUL_SOIL
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+wall_torch_to_soul_wall_torch_playerinteract:
+   enable: true
+   source: WALL_TORCH
+   result: SOUL_WALL_TORCH
+   itemUsed: SOUL_SOIL
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+torch_to_redstone_torch_playerinteract:
+   enable: true
+   source: TORCH
+   result: REDSTONE_TORCH
+   itemUsed: REDSTONE
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+wall_torch_to_redstone_wall_torch_playerinteract:
+   enable: true
+   source: WALL_TORCH
+   result: REDSTONE_WALL_TORCH
+   itemUsed: REDSTONE
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+soul_torch_to_torch_playerinteract:
+   enable: true
+   source: SOUL_TORCH
+   result: TORCH
+   itemUsed: SAND
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+soul_lantern_to_lantern_playerinteract:
+   enable: true
+   source: SOUL_LANTERN
+   result: LANTERN
+   itemUsed: SAND
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+soul_campfire_to_campfire_playerinteract:
+   enable: true
+   source: SOUL_CAMPFIRE
+   result: CAMPFIRE
+   itemUsed: SAND
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+soul_torch_to_redstone_torch_playerinteract:
+   enable: true
+   source: SOUL_TORCH
+   result: REDSTONE_TORCH
+   itemUsed: REDSTONE
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+soul_wall_torch_to_redstone_wall_torch_playerinteract:
+   enable: true
+   source: SOUL_WALL_TORCH
+   result: REDSTONE_WALL_TORCH
+   itemUsed: REDSTONE
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+redstone_torch_to_torch_playerinteract:
+   enable: true
+   source: REDSTONE_TORCH
+   result: TORCH
+   itemUsed: SAND
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+redstone_wall_torch_to_wall_torch_playerinteract:
+   enable: true
+   source: REDSTONE_WALL_TORCH
+   result: WALL_TORCH
+   itemUsed: SAND
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+soul_wall_torch_to_wall_torch_playerinteract:
+   enable: true
+   source: SOUL_WALL_TORCH
+   result: WALL_TORCH
+   itemUsed: SAND
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+redstone_torch_to_soul_torch_playerinteract:
+   enable: true
+   source: REDSTONE_TORCH
+   result: SOUL_TORCH
+   itemUsed: SOUL_SOIL
+   particle: MOBSPAWNER_FLAMES
+   drop: false
+   replace: true
+   break: false
+   group: flame_type_change_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+redstone_wall_torch_to_soul_wall_torch_playerinteract:
+   enable: true
+   source: REDSTONE_WALL_TORCH
+   result: SOUL_WALL_TORCH
    itemUsed: SOUL_SOIL
    particle: MOBSPAWNER_FLAMES
    drop: false
