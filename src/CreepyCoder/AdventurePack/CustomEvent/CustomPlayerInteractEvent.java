@@ -129,7 +129,5 @@ public class CustomPlayerInteractEvent implements Listener {
 		}
 		
 		if(this.Drop) location.getWorld().dropItemNaturally(location, new ItemStack(Material.getMaterial(this.Result, false)));
-		
-		event.setCancelled(true);
 	}	
 }
