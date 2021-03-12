@@ -52,7 +52,7 @@ public class CustomPlayerInteractEvent implements Listener {
 		this.dataConfig = dataConfig;
 		this.KeyList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.key");
 		
-		YAMLValidator.Validate(plugin, dataConfig);
+		//YAMLValidator.Validate(plugin, dataConfig);
 	}
 	
 	@EventHandler
