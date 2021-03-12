@@ -37,7 +37,7 @@ public class YAMLValidator {
 					break;
 				}
 			}
-			
+			//
 			//if (dataConfig.getString(Key+".source") == null) Bukkit.getLogger().log(Level.SEVERE, "CustomPlayerInteractEvent.key("+ this.Key +") could not be found");
 		}
 	}
