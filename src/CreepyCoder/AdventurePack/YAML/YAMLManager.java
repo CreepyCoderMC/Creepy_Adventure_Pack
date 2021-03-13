@@ -7,6 +7,7 @@ import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.logging.Level;
 
 import org.bukkit.Bukkit;
@@ -28,6 +29,8 @@ public class YAMLManager {
 	public void LoadYAML(String filename)
 	{	
 		String YAMLContextKey = filename.replace(".yml", "");
+		
+		// Create or replace yaml file
 		File configFile = new File(this.plugin.getDataFolder(), filename);
 		this.plugin.saveResource(filename, true);
 		
@@ -44,12 +47,13 @@ public class YAMLManager {
 				break;
 		}
 		
-		List<String> VersionList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.version");
-		List<String> GroupList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.group");
-		List<String> ContributorList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.contributor");
-		List<String> KeyList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.key");
-		List<String> StructureList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.structure");
+		List<String> VersionList = (List<String>) dataConfig.getList(YAMLContextKey+".version");
+		List<String> GroupList = (List<String>) dataConfig.getList(YAMLContextKey+".group");
+		List<String> ContributorList = (List<String>) dataConfig.getList(YAMLContextKey+".contributor");
+		List<String> KeyList = (List<String>) dataConfig.getList(YAMLContextKey+".key");
+		List<String> StructureList = (List<String>) dataConfig.getList(YAMLContextKey+".structure");
 
+		// Check that all structure items is of correct type
 		for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
 			String fullString = iStructure.next();
 			String[] splitString = fullString.split(", ");
@@ -70,7 +74,15 @@ public class YAMLManager {
 
 		for(Iterator<String> iKey = KeyList.iterator(); iKey.hasNext(); ) {
 			String Key = iKey.next();
-
+			
+			// Check that all events contains correct keys
+			Set<String> itemKey = dataConfig.getConfigurationSection(Key).getKeys(false);
+			for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
+				String fullString = iStructure.next();
+				String[] splitString = fullString.split(", ");
+				
+				if(!itemKey.contains(splitString[0])) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Key not found in " + filename);
+			}		
 		}
 	}
 }
