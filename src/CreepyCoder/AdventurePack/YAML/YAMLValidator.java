@@ -11,20 +11,9 @@ import org.bukkit.plugin.Plugin;
 
 public class YAMLValidator {
 	
-	public void Validate(Plugin plugin, FileConfiguration dataConfig) {
-				
-		List<String> VersionList = new ArrayList<String>();
-		List<String> GroupList = new ArrayList<String>();
-		List<String> ContributorList = new ArrayList<String>();
-		List<String> KeyList = new ArrayList<String>();
-		List<String> StructureList = new ArrayList<String>();
-			
-		VersionList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.version");
-		GroupList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.group");
-		ContributorList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.contributor");
-		KeyList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.key");
-		StructureList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.structure");
+	public void Validate(String test) {
 		
+		/*
 		for(Iterator<String> iKey = KeyList.iterator(); iKey.hasNext(); ) {
 			String Key = iKey.next();
 			for(Iterator<String> iStructure = ContributorList.iterator(); iStructure.hasNext();) {
@@ -33,12 +22,21 @@ public class YAMLValidator {
 				switch (splitString[1]) {
 				case "boolean":
 					break;
-				case "":
+				case "material":
 					break;
+				case "effect":
+					break;
+				case "string":
+					break;
+				case "contributor":
+					break;
+				case "version":
+					break;
+				default:
+					Bukkit.getLogger().log(Level.SEVERE, "CustomPlayerInteractEvent.structure("+ fullString +") : Type incorrectly Specified");
 				}
 			}
-			//
-			//if (dataConfig.getString(Key+".source") == null) Bukkit.getLogger().log(Level.SEVERE, "CustomPlayerInteractEvent.key("+ this.Key +") could not be found");
 		}
+		*/
 	}
 }

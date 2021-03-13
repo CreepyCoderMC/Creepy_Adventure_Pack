@@ -1,0 +1,3153 @@
+CustomCraftRecipes:
+   key:
+      - dead_brain_coral_up_crafting
+      - dead_bubble_coral_up_crafting
+      - dead_fire_coral_up_crafting
+      - dead_horn_coral_up_crafting
+      - dead_tube_coral_up_crafting
+      - dead_brain_coral_block_up_crafting
+      - dead_bubble_coral_block_up_crafting
+      - dead_fire_coral_block_up_crafting
+      - dead_horn_coral_block_up_crafting
+      - dead_tube_coral_block_up_crafting
+      - dead_brain_coral_down_crafting
+      - dead_bubble_coral_down_crafting
+      - dead_fire_coral_down_crafting
+      - dead_horn_coral_down_crafting
+      - dead_tube_coral_down_crafting   
+      - dead_brain_coral_fan_down_crafting
+      - dead_bubble_coral_fan_down_crafting
+      - dead_fire_coral_fan_down_crafting
+      - dead_horn_coral_fan_down_crafting
+      - dead_tube_coral_fan_down_crafting
+      - brain_coral_up_crafting
+      - bubble_coral_up_crafting
+      - fire_coral_up_crafting
+      - horn_coral_up_crafting
+      - tube_coral_up_crafting
+      - brain_coral_block_up_crafting
+      - bubble_coral_block_up_crafting
+      - fire_coral_block_up_crafting
+      - horn_coral_block_up_crafting
+      - tube_coral_block_up_crafting
+      - brain_coral_down_crafting
+      - bubble_coral_down_crafting
+      - fire_coral_down_crafting
+      - horn_coral_down_crafting
+      - tube_coral_down_crafting   
+      - brain_coral_fan_down_crafting
+      - bubble_coral_fan_down_crafting
+      - fire_coral_fan_down_crafting
+      - horn_coral_fan_down_crafting
+      - tube_coral_fan_down_crafting
+      - brain_coral_fan_dye_magenta_crafting
+      - fire_coral_fan_dye_magenta_crafting
+      - horn_coral_fan_dye_magenta_crafting
+      - tube_coral_fan_dye_magenta_crafting    
+      - brain_coral_dye_magenta_crafting
+      - fire_coral_dye_magenta_crafting
+      - horn_coral_dye_magenta_crafting
+      - tube_coral_dye_magenta_crafting
+      - brain_coral_block_dye_magenta_crafting
+      - fire_coral_block_dye_magenta_crafting
+      - horn_coral_block_dye_magenta_crafting
+      - tube_coral_block_dye_magenta_crafting
+      - bubble_coral_fan_dye_pink_crafting
+      - fire_coral_fan_dye_pink_crafting
+      - horn_coral_fan_dye_pink_crafting
+      - tube_coral_fan_dye_pink_crafting
+      - bubble_coral_dye_pink_crafting
+      - fire_coral_dye_pink_crafting
+      - horn_coral_dye_pink_crafting
+      - tube_coral_dye_pink_crafting
+      - bubble_coral_block_dye_pink_crafting
+      - fire_coral_block_dye_pink_crafting
+      - horn_coral_block_dye_pink_crafting
+      - tube_coral_block_dye_pink_crafting 
+      - brain_coral_fan_dye_red_crafting
+      - bubble_coral_fan_dye_red_crafting
+      - horn_coral_fan_dye_red_crafting
+      - tube_coral_fan_dye_red_crafting   
+      - brain_coral_dye_red_crafting
+      - bubble_coral_dye_red_crafting
+      - horn_coral_dye_red_crafting
+      - tube_coral_dye_red_crafting
+      - brain_coral_block_dye_red_crafting
+      - bubble_coral_block_dye_red_crafting
+      - horn_coral_block_dye_red_crafting
+      - tube_coral_block_dye_red_crafting 
+      - brain_coral_fan_dye_yellow_crafting
+      - bubble_coral_fan_dye_yellow_crafting
+      - fire_coral_fan_dye_yellow_crafting
+      - tube_coral_fan_dye_yellow_crafting    
+      - brain_coral_dye_yellow_crafting
+      - bubble_coral_dye_yellow_crafting
+      - fire_coral_dye_yellow_crafting
+      - tube_coral_dye_yellow_crafting    
+      - brain_coral_block_dye_yellow_crafting
+      - bubble_coral_block_dye_yellow_crafting
+      - fire_coral_block_dye_yellow_crafting
+      - tube_coral_block_dye_yellow_crafting    
+      - brain_coral_fan_dye_blue_crafting
+      - bubble_coral_fan_dye_blue_crafting
+      - fire_coral_fan_dye_blue_crafting
+      - horn_coral_fan_dye_blue_crafting
+      - brain_coral_dye_blue_crafting
+      - bubble_coral_dye_blue_crafting
+      - fire_coral_dye_blue_crafting
+      - horn_coral_dye_blue_crafting
+      - brain_coral_block_dye_blue_crafting
+      - bubble_coral_block_dye_blue_crafting
+      - fire_coral_block_dye_blue_crafting
+      - horn_coral_block_dye_blue_crafting
+      - dead_brain_coral_to_live_crafting
+      - dead_bubble_coral_to_live_crafting
+      - dead_fire_coral_to_live_crafting
+      - dead_horn_coral_to_live_crafting
+      - dead_tube_coral_to_live_crafting
+      - dead_brain_coral_block_to_live_crafting
+      - dead_bubble_coral_block_to_live_crafting
+      - dead_fire_coral_block_to_live_crafting
+      - dead_horn_coral_block_to_live_crafting
+      - dead_tube_coral_block_to_live_crafting 
+      - dead_brain_coral_fan_to_live_crafting
+      - dead_bubble_coral_fan_to_live_crafting
+      - dead_fire_coral_fan_to_live_crafting
+      - dead_horn_coral_fan_to_live_crafting
+      - dead_tube_coral_fan_to_live_crafting
+      - dead_brain_coral_fan_dye_magenta_crafting
+      - dead_fire_coral_fan_dye_magenta_crafting
+      - dead_horn_coral_fan_dye_magenta_crafting
+      - dead_tube_coral_fan_dye_magenta_crafting    
+      - dead_brain_coral_dye_magenta_crafting
+      - dead_fire_coral_dye_magenta_crafting
+      - dead_horn_coral_dye_magenta_crafting
+      - dead_tube_coral_dye_magenta_crafting
+      - dead_brain_coral_block_dye_magenta_crafting
+      - dead_fire_coral_block_dye_magenta_crafting
+      - dead_horn_coral_block_dye_magenta_crafting
+      - dead_tube_coral_block_dye_magenta_crafting
+      - dead_bubble_coral_fan_dye_pink_crafting
+      - dead_fire_coral_fan_dye_pink_crafting
+      - dead_horn_coral_fan_dye_pink_crafting
+      - dead_tube_coral_fan_dye_pink_crafting
+      - dead_bubble_coral_dye_pink_crafting
+      - dead_fire_coral_dye_pink_crafting
+      - dead_horn_coral_dye_pink_crafting
+      - dead_tube_coral_dye_pink_crafting
+      - dead_bubble_coral_block_dye_pink_crafting
+      - dead_fire_coral_block_dye_pink_crafting
+      - dead_horn_coral_block_dye_pink_crafting
+      - dead_tube_coral_block_dye_pink_crafting 
+      - dead_brain_coral_fan_dye_red_crafting
+      - dead_bubble_coral_fan_dye_red_crafting
+      - dead_horn_coral_fan_dye_red_crafting
+      - dead_tube_coral_fan_dye_red_crafting   
+      - dead_brain_coral_dye_red_crafting
+      - dead_bubble_coral_dye_red_crafting
+      - dead_horn_coral_dye_red_crafting
+      - dead_tube_coral_dye_red_crafting
+      - dead_brain_coral_block_dye_red_crafting
+      - dead_bubble_coral_block_dye_red_crafting
+      - dead_horn_coral_block_dye_red_crafting
+      - dead_tube_coral_block_dye_red_crafting 
+      - dead_brain_coral_fan_dye_yellow_crafting
+      - dead_bubble_coral_fan_dye_yellow_crafting
+      - dead_fire_coral_fan_dye_yellow_crafting
+      - dead_tube_coral_fan_dye_yellow_crafting    
+      - dead_brain_coral_dye_yellow_crafting
+      - dead_bubble_coral_dye_yellow_crafting
+      - dead_fire_coral_dye_yellow_crafting
+      - dead_tube_coral_dye_yellow_crafting    
+      - dead_brain_coral_block_dye_yellow_crafting
+      - dead_bubble_coral_block_dye_yellow_crafting
+      - dead_fire_coral_block_dye_yellow_crafting
+      - dead_tube_coral_block_dye_yellow_crafting    
+      - dead_brain_coral_fan_dye_blue_crafting
+      - dead_bubble_coral_fan_dye_blue_crafting
+      - dead_fire_coral_fan_dye_blue_crafting
+      - dead_horn_coral_fan_dye_blue_crafting
+      - dead_brain_coral_dye_blue_crafting
+      - dead_bubble_coral_dye_blue_crafting
+      - dead_fire_coral_dye_blue_crafting
+      - dead_horn_coral_dye_blue_crafting
+      - dead_brain_coral_block_dye_blue_crafting
+      - dead_bubble_coral_block_dye_blue_crafting
+      - dead_fire_coral_block_dye_blue_crafting
+      - dead_horn_coral_block_dye_blue_crafting
+     
+dead_brain_coral_up_crafting:
+   shaped: true
+   result: DEAD_BRAIN_CORAL
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_FAN
+   ingredientB: DEAD_BRAIN_CORAL_FAN
+   ingredientC: 
+   ingredientD: DEAD_BRAIN_CORAL_FAN
+   ingredientE: DEAD_BRAIN_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+dead_bubble_coral_up_crafting:
+   shaped: true
+   result: DEAD_BUBBLE_CORAL
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_FAN
+   ingredientB: DEAD_BUBBLE_CORAL_FAN
+   ingredientC: 
+   ingredientD: DEAD_BUBBLE_CORAL_FAN
+   ingredientE: DEAD_BUBBLE_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+dead_fire_coral_up_crafting:
+   shaped: true
+   result: DEAD_FIRE_CORAL
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_FAN
+   ingredientB: DEAD_FIRE_CORAL_FAN
+   ingredientC: 
+   ingredientD: DEAD_FIRE_CORAL_FAN
+   ingredientE: DEAD_FIRE_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+dead_horn_coral_up_crafting:
+   shaped: true
+   result: DEAD_HORN_CORAL
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_FAN
+   ingredientB: DEAD_HORN_CORAL_FAN
+   ingredientC: 
+   ingredientD: DEAD_HORN_CORAL_FAN
+   ingredientE: DEAD_HORN_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+dead_tube_coral_up_crafting:
+   shaped: true
+   result: DEAD_TUBE_CORAL
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_FAN
+   ingredientB: DEAD_TUBE_CORAL_FAN
+   ingredientC: 
+   ingredientD: DEAD_TUBE_CORAL_FAN
+   ingredientE: DEAD_TUBE_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+dead_brain_coral_block_up_crafting:
+   shaped: true
+   result: DEAD_BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: DEAD_BRAIN_CORAL
+   ingredientC: DEAD_BRAIN_CORAL
+   ingredientD: DEAD_BRAIN_CORAL
+   ingredientE: DEAD_BRAIN_CORAL
+   ingredientF: DEAD_BRAIN_CORAL
+   ingredientG: DEAD_BRAIN_CORAL
+   ingredientH: DEAD_BRAIN_CORAL
+   ingredientI: DEAD_BRAIN_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+dead_bubble_coral_block_up_crafting:
+   shaped: true
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: DEAD_BUBBLE_CORAL
+   ingredientC: DEAD_BUBBLE_CORAL
+   ingredientD: DEAD_BUBBLE_CORAL
+   ingredientE: DEAD_BUBBLE_CORAL
+   ingredientF: DEAD_BUBBLE_CORAL
+   ingredientG: DEAD_BUBBLE_CORAL
+   ingredientH: DEAD_BUBBLE_CORAL
+   ingredientI: DEAD_BUBBLE_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+dead_fire_coral_block_up_crafting:
+   shaped: true
+   result: DEAD_FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: DEAD_FIRE_CORAL
+   ingredientC: DEAD_FIRE_CORAL
+   ingredientD: DEAD_FIRE_CORAL
+   ingredientE: DEAD_FIRE_CORAL
+   ingredientF: DEAD_FIRE_CORAL
+   ingredientG: DEAD_FIRE_CORAL
+   ingredientH: DEAD_FIRE_CORAL
+   ingredientI: DEAD_FIRE_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+dead_horn_coral_block_up_crafting:
+   shaped: true
+   result: DEAD_HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: DEAD_HORN_CORAL
+   ingredientC: DEAD_HORN_CORAL
+   ingredientD: DEAD_HORN_CORAL
+   ingredientE: DEAD_HORN_CORAL
+   ingredientF: DEAD_HORN_CORAL
+   ingredientG: DEAD_HORN_CORAL
+   ingredientH: DEAD_HORN_CORAL
+   ingredientI: DEAD_HORN_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+dead_tube_coral_block_up_crafting:
+   shaped: true
+   result: DEAD_TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: DEAD_TUBE_CORAL
+   ingredientC: DEAD_TUBE_CORAL
+   ingredientD: DEAD_TUBE_CORAL
+   ingredientE: DEAD_TUBE_CORAL
+   ingredientF: DEAD_TUBE_CORAL
+   ingredientG: DEAD_TUBE_CORAL
+   ingredientH: DEAD_TUBE_CORAL
+   ingredientI: DEAD_TUBE_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+dead_brain_coral_down_crafting:
+   shaped: true
+   result: DEAD_BRAIN_CORAL
+   amount: 9
+   ingredientA: DEAD_BRAIN_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_bubble_coral_down_crafting:
+   shaped: true
+   result: DEAD_BUBBLE_CORAL
+   amount: 9
+   ingredientA: DEAD_BUBBLE_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_fire_coral_down_crafting:
+   shaped: true
+   result: DEAD_FIRE_CORAL
+   amount: 9
+   ingredientA: DEAD_FIRE_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_horn_coral_down_crafting:
+   shaped: true
+   result: DEAD_HORN_CORAL
+   amount: 9
+   ingredientA: DEAD_HORN_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_tube_coral_down_crafting:
+   shaped: true
+   result: DEAD_TUBE_CORAL
+   amount: 9
+   ingredientA: DEAD_TUBE_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_brain_coral_fan_down_crafting:
+   shaped: true
+   result: DEAD_BRAIN_CORAL_FAN
+   amount: 4
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_bubble_coral_fan_down_crafting:
+   shaped: true
+   result: DEAD_BUBBLE_CORAL_FAN
+   amount: 4
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_fire_coral_fan_down_crafting:
+   shaped: true
+   result: DEAD_FIRE_CORAL_FAN
+   amount: 4
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_horn_coral_fan_down_crafting:
+   shaped: true
+   result: DEAD_HORN_CORAL_FAN
+   amount: 4
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+dead_tube_coral_fan_down_crafting:
+   shaped: true
+   result: DEAD_TUBE_CORAL_FAN
+   amount: 4
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+    
+brain_coral_up_crafting:
+   shaped: true
+   result: BRAIN_CORAL
+   amount: 1
+   ingredientA: BRAIN_CORAL_FAN
+   ingredientB: BRAIN_CORAL_FAN
+   ingredientC: 
+   ingredientD: BRAIN_CORAL_FAN
+   ingredientE: BRAIN_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+bubble_coral_up_crafting:
+   shaped: true
+   result: BUBBLE_CORAL
+   amount: 1
+   ingredientA: BUBBLE_CORAL_FAN
+   ingredientB: BUBBLE_CORAL_FAN
+   ingredientC: 
+   ingredientD: BUBBLE_CORAL_FAN
+   ingredientE: BUBBLE_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+fire_coral_up_crafting:
+   shaped: true
+   result: FIRE_CORAL
+   amount: 1
+   ingredientA: FIRE_CORAL_FAN
+   ingredientB: FIRE_CORAL_FAN
+   ingredientC: 
+   ingredientD: FIRE_CORAL_FAN
+   ingredientE: FIRE_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+horn_coral_up_crafting:
+   shaped: true
+   result: HORN_CORAL
+   amount: 1
+   ingredientA: HORN_CORAL_FAN
+   ingredientB: HORN_CORAL_FAN
+   ingredientC: 
+   ingredientD: HORN_CORAL_FAN
+   ingredientE: HORN_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+tube_coral_up_crafting:
+   shaped: true
+   result: TUBE_CORAL
+   amount: 1
+   ingredientA: TUBE_CORAL_FAN
+   ingredientB: TUBE_CORAL_FAN
+   ingredientC: 
+   ingredientD: TUBE_CORAL_FAN
+   ingredientE: TUBE_CORAL_FAN
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 2
+   cols: 2
+   version: 0.2.0
+   
+brain_coral_block_up_crafting:
+   shaped: true
+   result: BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: BRAIN_CORAL
+   ingredientB: BRAIN_CORAL
+   ingredientC: BRAIN_CORAL
+   ingredientD: BRAIN_CORAL
+   ingredientE: BRAIN_CORAL
+   ingredientF: BRAIN_CORAL
+   ingredientG: BRAIN_CORAL
+   ingredientH: BRAIN_CORAL
+   ingredientI: BRAIN_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+bubble_coral_block_up_crafting:
+   shaped: true
+   result: BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: BUBBLE_CORAL
+   ingredientB: BUBBLE_CORAL
+   ingredientC: BUBBLE_CORAL
+   ingredientD: BUBBLE_CORAL
+   ingredientE: BUBBLE_CORAL
+   ingredientF: BUBBLE_CORAL
+   ingredientG: BUBBLE_CORAL
+   ingredientH: BUBBLE_CORAL
+   ingredientI: BUBBLE_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+fire_coral_block_up_crafting:
+   shaped: true
+   result: FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: FIRE_CORAL
+   ingredientB: FIRE_CORAL
+   ingredientC: FIRE_CORAL
+   ingredientD: FIRE_CORAL
+   ingredientE: FIRE_CORAL
+   ingredientF: FIRE_CORAL
+   ingredientG: FIRE_CORAL
+   ingredientH: FIRE_CORAL
+   ingredientI: FIRE_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+horn_coral_block_up_crafting:
+   shaped: true
+   result: HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: HORN_CORAL
+   ingredientB: HORN_CORAL
+   ingredientC: HORN_CORAL
+   ingredientD: HORN_CORAL
+   ingredientE: HORN_CORAL
+   ingredientF: HORN_CORAL
+   ingredientG: HORN_CORAL
+   ingredientH: HORN_CORAL
+   ingredientI: HORN_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+tube_coral_block_up_crafting:
+   shaped: true
+   result: TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: TUBE_CORAL
+   ingredientB: TUBE_CORAL
+   ingredientC: TUBE_CORAL
+   ingredientD: TUBE_CORAL
+   ingredientE: TUBE_CORAL
+   ingredientF: TUBE_CORAL
+   ingredientG: TUBE_CORAL
+   ingredientH: TUBE_CORAL
+   ingredientI: TUBE_CORAL
+   rows: 3
+   cols: 3
+   version: 0.2.0
+   
+brain_coral_down_crafting:
+   shaped: true
+   result: BRAIN_CORAL
+   amount: 9
+   ingredientA: BRAIN_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+bubble_coral_down_crafting:
+   shaped: true
+   result: BUBBLE_CORAL
+   amount: 9
+   ingredientA: BUBBLE_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+fire_coral_down_crafting:
+   shaped: true
+   result: FIRE_CORAL
+   amount: 9
+   ingredientA: FIRE_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+horn_coral_down_crafting:
+   shaped: true
+   result: HORN_CORAL
+   amount: 9
+   ingredientA: HORN_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+tube_coral_down_crafting:
+   shaped: true
+   result: TUBE_CORAL
+   amount: 9
+   ingredientA: TUBE_CORAL_BLOCK
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+brain_coral_fan_down_crafting:
+   shaped: true
+   result: BRAIN_CORAL_FAN
+   amount: 4
+   ingredientA: BRAIN_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+bubble_coral_fan_down_crafting:
+   shaped: true
+   result: BUBBLE_CORAL_FAN
+   amount: 4
+   ingredientA: BUBBLE_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+fire_coral_fan_down_crafting:
+   shaped: true
+   result: FIRE_CORAL_FAN
+   amount: 4
+   ingredientA: FIRE_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+horn_coral_fan_down_crafting:
+   shaped: true
+   result: HORN_CORAL_FAN
+   amount: 4
+   ingredientA: HORN_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+tube_coral_fan_down_crafting:
+   shaped: true
+   result: TUBE_CORAL_FAN
+   amount: 4
+   ingredientA: TUBE_CORAL
+   ingredientB: 
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 1
+   cols: 1
+   version: 0.2.0
+   
+brain_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: BRAIN_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+fire_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: FIRE_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: HORN_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: TUBE_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+brain_coral_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL
+   amount: 1
+   ingredientA: BRAIN_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+fire_coral_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL
+   amount: 1
+   ingredientA: FIRE_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL
+   amount: 1
+   ingredientA: HORN_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL
+   amount: 1
+   ingredientA: TUBE_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+brain_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: BRAIN_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+fire_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: FIRE_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: HORN_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: TUBE_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+bubble_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: BUBBLE_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+fire_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: FIRE_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: HORN_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: TUBE_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL
+   amount: 1
+   ingredientA: BUBBLE_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+fire_coral_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL
+   amount: 1
+   ingredientA: FIRE_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL
+   amount: 1
+   ingredientA: HORN_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL
+   amount: 1
+   ingredientA: TUBE_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+bubble_coral_block_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: BUBBLE_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+fire_coral_block_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: FIRE_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_block_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: HORN_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_block_dye_pink_crafting:
+   shaped: false
+   result: BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: TUBE_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0 
+      
+brain_coral_fan_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: BRAIN_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_fan_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: BUBBLE_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_fan_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: HORN_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_fan_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: TUBE_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+brain_coral_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL
+   amount: 1
+   ingredientA: BRAIN_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL
+   amount: 1
+   ingredientA: BUBBLE_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL
+   amount: 1
+   ingredientA: HORN_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL
+   amount: 1
+   ingredientA: TUBE_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+brain_coral_block_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: BRAIN_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_block_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: BUBBLE_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_block_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: HORN_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_block_dye_red_crafting:
+   shaped: false
+   result: FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: TUBE_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+brain_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_FAN
+   amount: 1
+   ingredientA: BRAIN_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_FAN
+   amount: 1
+   ingredientA: BUBBLE_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+fire_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_FAN
+   amount: 1
+   ingredientA: FIRE_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_FAN
+   amount: 1
+   ingredientA: TUBE_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+brain_coral_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL
+   amount: 1
+   ingredientA: BRAIN_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL
+   amount: 1
+   ingredientA: BUBBLE_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+fire_coral_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL
+   amount: 1
+   ingredientA: FIRE_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL
+   amount: 1
+   ingredientA: TUBE_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+brain_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: BRAIN_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: BUBBLE_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+fire_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: FIRE_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+tube_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: TUBE_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+brain_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: BRAIN_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: BUBBLE_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+fire_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: FIRE_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: HORN_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+brain_coral_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL
+   amount: 1
+   ingredientA: BRAIN_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL
+   amount: 1
+   ingredientA: BUBBLE_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+fire_coral_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL
+   amount: 1
+   ingredientA: FIRE_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL
+   amount: 1
+   ingredientA: HORN_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+brain_coral_block_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: BRAIN_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+bubble_coral_block_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: BUBBLE_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+fire_coral_block_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: FIRE_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+horn_coral_block_dye_blue_crafting:
+   shaped: false
+   result: TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: HORN_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_to_live_crafting:
+   shaped: false
+   result: BRAIN_CORAL
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_to_live_crafting:
+   shaped: false
+   result: BUBBLE_CORAL
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_to_live_crafting:
+   shaped: false
+   result: FIRE_CORAL
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_horn_coral_to_live_crafting:
+   shaped: false
+   result: HORN_CORAL
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_tube_coral_to_live_crafting:
+   shaped: false
+   result: TUBE_CORAL
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_block_to_live_crafting:
+   shaped: false
+   result: BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_BLOCK
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_block_to_live_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_BLOCK
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_block_to_live_crafting:
+   shaped: false
+   result: FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_BLOCK
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_horn_coral_block_to_live_crafting:
+   shaped: false
+   result: HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_BLOCK
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_tube_coral_block_to_live_crafting:
+   shaped: false
+   result: TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_BLOCK
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_brain_coral_fan_to_live_crafting:
+   shaped: false
+   result: BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_FAN
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_fan_to_live_crafting:
+   shaped: false
+   result: BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_FAN
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_fan_to_live_crafting:
+   shaped: false
+   result: FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_FAN
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_fan_to_live_crafting:
+   shaped: false
+   result: HORN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_FAN
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_fan_to_live_crafting:
+   shaped: false
+   result: TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_FAN
+   ingredientB: PHANTOM_MEMBRANE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_brain_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_FAN
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_magenta_crafting:
+   shaped: false
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_BLOCK
+   ingredientB: MAGENTA_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_bubble_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_FAN
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_bubble_coral_block_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_fire_coral_block_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_pink_crafting:
+   shaped: false
+   result: DEAD_BRAIN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_BLOCK
+   ingredientB: PINK_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0 
+      
+dead_brain_coral_fan_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_fan_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_FAN
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_block_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_red_crafting:
+   shaped: false
+   result: DEAD_FIRE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_BLOCK
+   ingredientB: RED_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_FAN
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_yellow_crafting:
+   shaped: false
+   result: DEAD_HORN_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_TUBE_CORAL_BLOCK
+   ingredientB: YELLOW_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_FAN
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_FAN
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_brain_coral_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BRAIN_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+
+dead_bubble_coral_block_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_BUBBLE_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_fire_coral_block_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_FIRE_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_blue_crafting:
+   shaped: false
+   result: DEAD_TUBE_CORAL_BLOCK
+   amount: 1
+   ingredientA: DEAD_HORN_CORAL_BLOCK
+   ingredientB: BLUE_DYE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows:
+   cols:
+   version: 0.2.0
+   

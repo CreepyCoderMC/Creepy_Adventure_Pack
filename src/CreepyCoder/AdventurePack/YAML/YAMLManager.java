@@ -18,6 +18,7 @@ public class YAMLManager {
 	
 	private Plugin plugin;
 	private Dictionary<String, Object> YAMLContext = new Hashtable<String, Object>();
+	private YAMLValidator YAMLValidator;
 	
 	public YAMLManager(Plugin plugin) {
 		this.plugin = plugin;
@@ -41,5 +42,7 @@ public class YAMLManager {
 				plugin.getServer().getPluginManager().registerEvents(new CustomPlayerInteractEvent(plugin, dataConfig), plugin);
 				return;
 		}
+		
+		
 	}
 }

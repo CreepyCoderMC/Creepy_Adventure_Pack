@@ -28,7 +28,6 @@ public class CustomPlayerInteractEvent implements Listener {
 	private Plugin plugin;
 	private FileConfiguration dataConfig;
 	private PlayerFunction playerFunction;
-	private YAMLValidator YAMLValidator;
 	
 	private String Key;
 	private boolean Enable;
@@ -52,7 +51,6 @@ public class CustomPlayerInteractEvent implements Listener {
 		this.dataConfig = dataConfig;
 		this.KeyList = (List<String>) dataConfig.getList("CustomPlayerInteractEvent.key");
 		
-		//YAMLValidator.Validate(plugin, dataConfig);
 	}
 	
 	@EventHandler
