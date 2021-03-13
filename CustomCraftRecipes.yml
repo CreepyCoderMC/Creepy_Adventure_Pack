@@ -1,5 +1,19 @@
 CustomCraftRecipes:
+   version:
+      - 0.2.0
+      - 0.3.0
+      
+   group:
+      - dead_coral_crafting
+      - coral_crafting
+      - coral_dye_crafting
+      - revive_coral_crafting
+      - dead_coral_dye_crafting
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
    key:
+      # Version 0.2.0
       - dead_brain_coral_up_crafting
       - dead_bubble_coral_up_crafting
       - dead_fire_coral_up_crafting
@@ -100,21 +114,21 @@ CustomCraftRecipes:
       - bubble_coral_block_dye_blue_crafting
       - fire_coral_block_dye_blue_crafting
       - horn_coral_block_dye_blue_crafting
-      - dead_brain_coral_to_live_crafting
-      - dead_bubble_coral_to_live_crafting
-      - dead_fire_coral_to_live_crafting
-      - dead_horn_coral_to_live_crafting
-      - dead_tube_coral_to_live_crafting
-      - dead_brain_coral_block_to_live_crafting
-      - dead_bubble_coral_block_to_live_crafting
-      - dead_fire_coral_block_to_live_crafting
-      - dead_horn_coral_block_to_live_crafting
-      - dead_tube_coral_block_to_live_crafting 
-      - dead_brain_coral_fan_to_live_crafting
-      - dead_bubble_coral_fan_to_live_crafting
-      - dead_fire_coral_fan_to_live_crafting
-      - dead_horn_coral_fan_to_live_crafting
-      - dead_tube_coral_fan_to_live_crafting
+      - revive_dead_brain_coral_crafting
+      - revive_dead_bubble_coral_crafting
+      - revive_dead_fire_coral_crafting
+      - revive_dead_horn_coral_crafting
+      - revive_dead_tube_coral_crafting
+      - revive_dead_brain_coral_block_crafting
+      - revive_dead_bubble_coral_block_crafting
+      - revive_dead_fire_coral_block_crafting
+      - revive_dead_horn_coral_block_crafting
+      - revive_dead_tube_coral_block_crafting 
+      - revive_dead_brain_coral_fan_crafting
+      - revive_dead_bubble_coral_fan_crafting
+      - revive_dead_fire_coral_fan_crafting
+      - revive_dead_horn_coral_fan_crafting
+      - revive_dead_tube_coral_fan_crafting
       - dead_brain_coral_fan_dye_magenta_crafting
       - dead_fire_coral_fan_dye_magenta_crafting
       - dead_horn_coral_fan_dye_magenta_crafting
@@ -175,8 +189,41 @@ CustomCraftRecipes:
       - dead_bubble_coral_block_dye_blue_crafting
       - dead_fire_coral_block_dye_blue_crafting
       - dead_horn_coral_block_dye_blue_crafting
+      # Version 0.3.0
+      - torch_to_soul_torch_crafting
+      - campfire_to_soul_campfire_crafting
+      - lantern_to_soul_lantern_crafting
+      - torch_to_redstone_torch_crafting
+      - soul_torch_to_torch_crafting
+      - soul_lantern_to_lantern_crafting
+      - soul_campfire_to_campfire_crafting
+      - soul_torch_to_redstone_torch_crafting
+      - redstone_torch_to_torch_crafting
+      - redstone_torch_to_soul_torch_crafting
+      
+   structure:
+      - enable, boolean
+      - shaped, boolean
+      - result, material
+      - amount, number
+      - ingredientA, material
+      - ingredientB, material
+      - ingredientC, material
+      - ingredientD, material
+      - ingredientE, material
+      - ingredientF, material
+      - ingredientG, material
+      - ingredientH, material
+      - ingredientI, material
+      - rows, number
+      - cols, number
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
      
 dead_brain_coral_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_BRAIN_CORAL
    amount: 1
@@ -191,9 +238,13 @@ dead_brain_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_BUBBLE_CORAL
    amount: 1
@@ -211,6 +262,7 @@ dead_bubble_coral_up_crafting:
    version: 0.2.0
    
 dead_fire_coral_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_FIRE_CORAL
    amount: 1
@@ -228,6 +280,7 @@ dead_fire_coral_up_crafting:
    version: 0.2.0
    
 dead_horn_coral_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_HORN_CORAL
    amount: 1
@@ -245,6 +298,7 @@ dead_horn_coral_up_crafting:
    version: 0.2.0
    
 dead_tube_coral_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_TUBE_CORAL
    amount: 1
@@ -262,6 +316,7 @@ dead_tube_coral_up_crafting:
    version: 0.2.0
    
 dead_brain_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_BRAIN_CORAL_BLOCK
    amount: 1
@@ -279,6 +334,7 @@ dead_brain_coral_block_up_crafting:
    version: 0.2.0
    
 dead_bubble_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_BUBBLE_CORAL_BLOCK
    amount: 1
@@ -296,6 +352,7 @@ dead_bubble_coral_block_up_crafting:
    version: 0.2.0
    
 dead_fire_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_FIRE_CORAL_BLOCK
    amount: 1
@@ -313,6 +370,7 @@ dead_fire_coral_block_up_crafting:
    version: 0.2.0
    
 dead_horn_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_HORN_CORAL_BLOCK
    amount: 1
@@ -330,6 +388,7 @@ dead_horn_coral_block_up_crafting:
    version: 0.2.0
    
 dead_tube_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: DEAD_TUBE_CORAL_BLOCK
    amount: 1
@@ -347,6 +406,7 @@ dead_tube_coral_block_up_crafting:
    version: 0.2.0
    
 dead_brain_coral_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_BRAIN_CORAL
    amount: 9
@@ -364,6 +424,7 @@ dead_brain_coral_down_crafting:
    version: 0.2.0
    
 dead_bubble_coral_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_BUBBLE_CORAL
    amount: 9
@@ -381,6 +442,7 @@ dead_bubble_coral_down_crafting:
    version: 0.2.0
    
 dead_fire_coral_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_FIRE_CORAL
    amount: 9
@@ -398,6 +460,7 @@ dead_fire_coral_down_crafting:
    version: 0.2.0
    
 dead_horn_coral_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_HORN_CORAL
    amount: 9
@@ -415,6 +478,7 @@ dead_horn_coral_down_crafting:
    version: 0.2.0
    
 dead_tube_coral_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_TUBE_CORAL
    amount: 9
@@ -432,6 +496,7 @@ dead_tube_coral_down_crafting:
    version: 0.2.0
    
 dead_brain_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_BRAIN_CORAL_FAN
    amount: 4
@@ -449,6 +514,7 @@ dead_brain_coral_fan_down_crafting:
    version: 0.2.0
    
 dead_bubble_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_BUBBLE_CORAL_FAN
    amount: 4
@@ -466,6 +532,7 @@ dead_bubble_coral_fan_down_crafting:
    version: 0.2.0
    
 dead_fire_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_FIRE_CORAL_FAN
    amount: 4
@@ -483,6 +550,7 @@ dead_fire_coral_fan_down_crafting:
    version: 0.2.0
    
 dead_horn_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_HORN_CORAL_FAN
    amount: 4
@@ -500,6 +568,7 @@ dead_horn_coral_fan_down_crafting:
    version: 0.2.0
    
 dead_tube_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: DEAD_TUBE_CORAL_FAN
    amount: 4
@@ -517,6 +586,7 @@ dead_tube_coral_fan_down_crafting:
    version: 0.2.0
     
 brain_coral_up_crafting:
+   enable: true
    shaped: true
    result: BRAIN_CORAL
    amount: 1
@@ -534,6 +604,7 @@ brain_coral_up_crafting:
    version: 0.2.0
    
 bubble_coral_up_crafting:
+   enable: true
    shaped: true
    result: BUBBLE_CORAL
    amount: 1
@@ -551,6 +622,7 @@ bubble_coral_up_crafting:
    version: 0.2.0
    
 fire_coral_up_crafting:
+   enable: true
    shaped: true
    result: FIRE_CORAL
    amount: 1
@@ -568,6 +640,7 @@ fire_coral_up_crafting:
    version: 0.2.0
    
 horn_coral_up_crafting:
+   enable: true
    shaped: true
    result: HORN_CORAL
    amount: 1
@@ -585,6 +658,7 @@ horn_coral_up_crafting:
    version: 0.2.0
    
 tube_coral_up_crafting:
+   enable: true
    shaped: true
    result: TUBE_CORAL
    amount: 1
@@ -602,6 +676,7 @@ tube_coral_up_crafting:
    version: 0.2.0
    
 brain_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: BRAIN_CORAL_BLOCK
    amount: 1
@@ -619,6 +694,7 @@ brain_coral_block_up_crafting:
    version: 0.2.0
    
 bubble_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: BUBBLE_CORAL_BLOCK
    amount: 1
@@ -636,6 +712,7 @@ bubble_coral_block_up_crafting:
    version: 0.2.0
    
 fire_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: FIRE_CORAL_BLOCK
    amount: 1
@@ -653,6 +730,7 @@ fire_coral_block_up_crafting:
    version: 0.2.0
    
 horn_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: HORN_CORAL_BLOCK
    amount: 1
@@ -670,6 +748,7 @@ horn_coral_block_up_crafting:
    version: 0.2.0
    
 tube_coral_block_up_crafting:
+   enable: true
    shaped: true
    result: TUBE_CORAL_BLOCK
    amount: 1
@@ -687,6 +766,7 @@ tube_coral_block_up_crafting:
    version: 0.2.0
    
 brain_coral_down_crafting:
+   enable: true
    shaped: true
    result: BRAIN_CORAL
    amount: 9
@@ -704,6 +784,7 @@ brain_coral_down_crafting:
    version: 0.2.0
    
 bubble_coral_down_crafting:
+   enable: true
    shaped: true
    result: BUBBLE_CORAL
    amount: 9
@@ -721,6 +802,7 @@ bubble_coral_down_crafting:
    version: 0.2.0
    
 fire_coral_down_crafting:
+   enable: true
    shaped: true
    result: FIRE_CORAL
    amount: 9
@@ -738,6 +820,7 @@ fire_coral_down_crafting:
    version: 0.2.0
    
 horn_coral_down_crafting:
+   enable: true
    shaped: true
    result: HORN_CORAL
    amount: 9
@@ -755,6 +838,7 @@ horn_coral_down_crafting:
    version: 0.2.0
    
 tube_coral_down_crafting:
+   enable: true
    shaped: true
    result: TUBE_CORAL
    amount: 9
@@ -772,6 +856,7 @@ tube_coral_down_crafting:
    version: 0.2.0
    
 brain_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: BRAIN_CORAL_FAN
    amount: 4
@@ -789,6 +874,7 @@ brain_coral_fan_down_crafting:
    version: 0.2.0
    
 bubble_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: BUBBLE_CORAL_FAN
    amount: 4
@@ -806,6 +892,7 @@ bubble_coral_fan_down_crafting:
    version: 0.2.0
    
 fire_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: FIRE_CORAL_FAN
    amount: 4
@@ -823,6 +910,7 @@ fire_coral_fan_down_crafting:
    version: 0.2.0
    
 horn_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: HORN_CORAL_FAN
    amount: 4
@@ -840,6 +928,7 @@ horn_coral_fan_down_crafting:
    version: 0.2.0
    
 tube_coral_fan_down_crafting:
+   enable: true
    shaped: true
    result: TUBE_CORAL_FAN
    amount: 4
@@ -857,6 +946,7 @@ tube_coral_fan_down_crafting:
    version: 0.2.0
    
 brain_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_FAN
    amount: 1
@@ -874,6 +964,7 @@ brain_coral_fan_dye_magenta_crafting:
    version: 0.2.0
 
 fire_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_FAN
    amount: 1
@@ -891,6 +982,7 @@ fire_coral_fan_dye_magenta_crafting:
    version: 0.2.0
    
 horn_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_FAN
    amount: 1
@@ -908,6 +1000,7 @@ horn_coral_fan_dye_magenta_crafting:
    version: 0.2.0
    
 tube_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_FAN
    amount: 1
@@ -925,6 +1018,7 @@ tube_coral_fan_dye_magenta_crafting:
    version: 0.2.0
 
 brain_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL
    amount: 1
@@ -942,6 +1036,7 @@ brain_coral_dye_magenta_crafting:
    version: 0.2.0
 
 fire_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL
    amount: 1
@@ -959,6 +1054,7 @@ fire_coral_dye_magenta_crafting:
    version: 0.2.0
    
 horn_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL
    amount: 1
@@ -976,6 +1072,7 @@ horn_coral_dye_magenta_crafting:
    version: 0.2.0
    
 tube_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL
    amount: 1
@@ -993,6 +1090,7 @@ tube_coral_dye_magenta_crafting:
    version: 0.2.0
    
 brain_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_BLOCK
    amount: 1
@@ -1010,6 +1108,7 @@ brain_coral_block_dye_magenta_crafting:
    version: 0.2.0
 
 fire_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_BLOCK
    amount: 1
@@ -1027,6 +1126,7 @@ fire_coral_block_dye_magenta_crafting:
    version: 0.2.0
    
 horn_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_BLOCK
    amount: 1
@@ -1044,6 +1144,7 @@ horn_coral_block_dye_magenta_crafting:
    version: 0.2.0
    
 tube_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_BLOCK
    amount: 1
@@ -1061,6 +1162,7 @@ tube_coral_block_dye_magenta_crafting:
    version: 0.2.0
    
 bubble_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_FAN
    amount: 1
@@ -1078,6 +1180,7 @@ bubble_coral_fan_dye_pink_crafting:
    version: 0.2.0
 
 fire_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_FAN
    amount: 1
@@ -1095,6 +1198,7 @@ fire_coral_fan_dye_pink_crafting:
    version: 0.2.0
    
 horn_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_FAN
    amount: 1
@@ -1112,6 +1216,7 @@ horn_coral_fan_dye_pink_crafting:
    version: 0.2.0
    
 tube_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_FAN
    amount: 1
@@ -1129,6 +1234,7 @@ tube_coral_fan_dye_pink_crafting:
    version: 0.2.0
 
 bubble_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL
    amount: 1
@@ -1146,6 +1252,7 @@ bubble_coral_dye_pink_crafting:
    version: 0.2.0
 
 fire_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL
    amount: 1
@@ -1163,6 +1270,7 @@ fire_coral_dye_pink_crafting:
    version: 0.2.0
    
 horn_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL
    amount: 1
@@ -1180,6 +1288,7 @@ horn_coral_dye_pink_crafting:
    version: 0.2.0
    
 tube_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL
    amount: 1
@@ -1197,6 +1306,7 @@ tube_coral_dye_pink_crafting:
    version: 0.2.0
    
 bubble_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_BLOCK
    amount: 1
@@ -1214,6 +1324,7 @@ bubble_coral_block_dye_pink_crafting:
    version: 0.2.0
 
 fire_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_BLOCK
    amount: 1
@@ -1231,6 +1342,7 @@ fire_coral_block_dye_pink_crafting:
    version: 0.2.0
    
 horn_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_BLOCK
    amount: 1
@@ -1248,6 +1360,7 @@ horn_coral_block_dye_pink_crafting:
    version: 0.2.0
    
 tube_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_BLOCK
    amount: 1
@@ -1265,6 +1378,7 @@ tube_coral_block_dye_pink_crafting:
    version: 0.2.0 
       
 brain_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_FAN
    amount: 1
@@ -1282,6 +1396,7 @@ brain_coral_fan_dye_red_crafting:
    version: 0.2.0
 
 bubble_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_FAN
    amount: 1
@@ -1299,6 +1414,7 @@ bubble_coral_fan_dye_red_crafting:
    version: 0.2.0
    
 horn_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_FAN
    amount: 1
@@ -1316,6 +1432,7 @@ horn_coral_fan_dye_red_crafting:
    version: 0.2.0
    
 tube_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_FAN
    amount: 1
@@ -1333,6 +1450,7 @@ tube_coral_fan_dye_red_crafting:
    version: 0.2.0
 
 brain_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL
    amount: 1
@@ -1350,6 +1468,7 @@ brain_coral_dye_red_crafting:
    version: 0.2.0
 
 bubble_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL
    amount: 1
@@ -1367,6 +1486,7 @@ bubble_coral_dye_red_crafting:
    version: 0.2.0
    
 horn_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL
    amount: 1
@@ -1384,6 +1504,7 @@ horn_coral_dye_red_crafting:
    version: 0.2.0
    
 tube_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL
    amount: 1
@@ -1401,6 +1522,7 @@ tube_coral_dye_red_crafting:
    version: 0.2.0
    
 brain_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_BLOCK
    amount: 1
@@ -1418,6 +1540,7 @@ brain_coral_block_dye_red_crafting:
    version: 0.2.0
 
 bubble_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_BLOCK
    amount: 1
@@ -1435,6 +1558,7 @@ bubble_coral_block_dye_red_crafting:
    version: 0.2.0
    
 horn_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_BLOCK
    amount: 1
@@ -1452,6 +1576,7 @@ horn_coral_block_dye_red_crafting:
    version: 0.2.0
    
 tube_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_BLOCK
    amount: 1
@@ -1469,6 +1594,7 @@ tube_coral_block_dye_red_crafting:
    version: 0.2.0
 
 brain_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_FAN
    amount: 1
@@ -1486,6 +1612,7 @@ brain_coral_fan_dye_yellow_crafting:
    version: 0.2.0
 
 bubble_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_FAN
    amount: 1
@@ -1503,6 +1630,7 @@ bubble_coral_fan_dye_yellow_crafting:
    version: 0.2.0
    
 fire_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_FAN
    amount: 1
@@ -1520,6 +1648,7 @@ fire_coral_fan_dye_yellow_crafting:
    version: 0.2.0
    
 tube_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_FAN
    amount: 1
@@ -1537,6 +1666,7 @@ tube_coral_fan_dye_yellow_crafting:
    version: 0.2.0
 
 brain_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL
    amount: 1
@@ -1554,6 +1684,7 @@ brain_coral_dye_yellow_crafting:
    version: 0.2.0
 
 bubble_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL
    amount: 1
@@ -1571,6 +1702,7 @@ bubble_coral_dye_yellow_crafting:
    version: 0.2.0
    
 fire_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL
    amount: 1
@@ -1588,6 +1720,7 @@ fire_coral_dye_yellow_crafting:
    version: 0.2.0
    
 tube_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL
    amount: 1
@@ -1605,6 +1738,7 @@ tube_coral_dye_yellow_crafting:
    version: 0.2.0
    
 brain_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_BLOCK
    amount: 1
@@ -1622,6 +1756,7 @@ brain_coral_block_dye_yellow_crafting:
    version: 0.2.0
 
 bubble_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_BLOCK
    amount: 1
@@ -1639,6 +1774,7 @@ bubble_coral_block_dye_yellow_crafting:
    version: 0.2.0
    
 fire_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_BLOCK
    amount: 1
@@ -1656,6 +1792,7 @@ fire_coral_block_dye_yellow_crafting:
    version: 0.2.0
    
 tube_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_BLOCK
    amount: 1
@@ -1673,6 +1810,7 @@ tube_coral_block_dye_yellow_crafting:
    version: 0.2.0
 
 brain_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_FAN
    amount: 1
@@ -1690,6 +1828,7 @@ brain_coral_fan_dye_blue_crafting:
    version: 0.2.0
 
 bubble_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_FAN
    amount: 1
@@ -1707,6 +1846,7 @@ bubble_coral_fan_dye_blue_crafting:
    version: 0.2.0
    
 fire_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_FAN
    amount: 1
@@ -1724,6 +1864,7 @@ fire_coral_fan_dye_blue_crafting:
    version: 0.2.0
    
 horn_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_FAN
    amount: 1
@@ -1741,6 +1882,7 @@ horn_coral_fan_dye_blue_crafting:
    version: 0.2.0
 
 brain_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL
    amount: 1
@@ -1758,6 +1900,7 @@ brain_coral_dye_blue_crafting:
    version: 0.2.0
 
 bubble_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL
    amount: 1
@@ -1775,6 +1918,7 @@ bubble_coral_dye_blue_crafting:
    version: 0.2.0
    
 fire_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL
    amount: 1
@@ -1792,6 +1936,7 @@ fire_coral_dye_blue_crafting:
    version: 0.2.0
    
 horn_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL
    amount: 1
@@ -1809,6 +1954,7 @@ horn_coral_dye_blue_crafting:
    version: 0.2.0
    
 brain_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_BLOCK
    amount: 1
@@ -1826,6 +1972,7 @@ brain_coral_block_dye_blue_crafting:
    version: 0.2.0
 
 bubble_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_BLOCK
    amount: 1
@@ -1843,6 +1990,7 @@ bubble_coral_block_dye_blue_crafting:
    version: 0.2.0
    
 fire_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_BLOCK
    amount: 1
@@ -1860,6 +2008,7 @@ fire_coral_block_dye_blue_crafting:
    version: 0.2.0
    
 horn_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_BLOCK
    amount: 1
@@ -1876,7 +2025,8 @@ horn_coral_block_dye_blue_crafting:
    cols:
    version: 0.2.0
 
-dead_brain_coral_to_live_crafting:
+revive_dead_brain_coral_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL
    amount: 1
@@ -1893,7 +2043,8 @@ dead_brain_coral_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_bubble_coral_to_live_crafting:
+revive_dead_bubble_coral_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL
    amount: 1
@@ -1910,7 +2061,8 @@ dead_bubble_coral_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_fire_coral_to_live_crafting:
+revive_dead_fire_coral_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL
    amount: 1
@@ -1927,7 +2079,8 @@ dead_fire_coral_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_horn_coral_to_live_crafting:
+revive_dead_horn_coral_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL
    amount: 1
@@ -1944,7 +2097,8 @@ dead_horn_coral_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_tube_coral_to_live_crafting:
+revive_dead_tube_coral_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL
    amount: 1
@@ -1961,7 +2115,8 @@ dead_tube_coral_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_brain_coral_block_to_live_crafting:
+revive_dead_brain_coral_block_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_BLOCK
    amount: 1
@@ -1978,7 +2133,8 @@ dead_brain_coral_block_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_bubble_coral_block_to_live_crafting:
+revive_dead_bubble_coral_block_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_BLOCK
    amount: 1
@@ -1995,7 +2151,8 @@ dead_bubble_coral_block_to_live_crafting:
    cols:
    version: 0.2.0
    
-dead_fire_coral_block_to_live_crafting:
+revive_dead_fire_coral_block__crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_BLOCK
    amount: 1
@@ -2012,7 +2169,8 @@ dead_fire_coral_block_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_horn_coral_block_to_live_crafting:
+revive_dead_horn_coral_block_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_BLOCK
    amount: 1
@@ -2029,7 +2187,8 @@ dead_horn_coral_block_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_tube_coral_block_to_live_crafting:
+revive_dead_tube_coral_block_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_BLOCK
    amount: 1
@@ -2046,7 +2205,8 @@ dead_tube_coral_block_to_live_crafting:
    cols:
    version: 0.2.0
    
-dead_brain_coral_fan_to_live_crafting:
+revive_dead_brain_coral_fan_crafting:
+   enable: true
    shaped: false
    result: BRAIN_CORAL_FAN
    amount: 1
@@ -2063,7 +2223,8 @@ dead_brain_coral_fan_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_bubble_coral_fan_to_live_crafting:
+revive_dead_bubble_coral_fan_crafting:
+   enable: true
    shaped: false
    result: BUBBLE_CORAL_FAN
    amount: 1
@@ -2080,7 +2241,8 @@ dead_bubble_coral_fan_to_live_crafting:
    cols:
    version: 0.2.0
 
-dead_fire_coral_fan_to_live_crafting:
+revive_dead_fire_coral_fan_crafting:
+   enable: true
    shaped: false
    result: FIRE_CORAL_FAN
    amount: 1
@@ -2097,7 +2259,8 @@ dead_fire_coral_fan_to_live_crafting:
    cols:
    version: 0.2.0
    
-dead_horn_coral_fan_to_live_crafting:
+revive_dead_horn_coral_fan_crafting:
+   enable: true
    shaped: false
    result: HORN_CORAL_FAN
    amount: 1
@@ -2114,7 +2277,8 @@ dead_horn_coral_fan_to_live_crafting:
    cols:
    version: 0.2.0
    
-dead_tube_coral_fan_to_live_crafting:
+revive_dead_tube_coral_fan_crafting:
+   enable: true
    shaped: false
    result: TUBE_CORAL_FAN
    amount: 1
@@ -2132,6 +2296,7 @@ dead_tube_coral_fan_to_live_crafting:
    version: 0.2.0
    
 dead_brain_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_FAN
    amount: 1
@@ -2149,6 +2314,7 @@ dead_brain_coral_fan_dye_magenta_crafting:
    version: 0.2.0
 
 dead_fire_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_FAN
    amount: 1
@@ -2166,6 +2332,7 @@ dead_fire_coral_fan_dye_magenta_crafting:
    version: 0.2.0
    
 dead_horn_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_FAN
    amount: 1
@@ -2183,6 +2350,7 @@ dead_horn_coral_fan_dye_magenta_crafting:
    version: 0.2.0
    
 dead_tube_coral_fan_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_FAN
    amount: 1
@@ -2200,6 +2368,7 @@ dead_tube_coral_fan_dye_magenta_crafting:
    version: 0.2.0
 
 dead_brain_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL
    amount: 1
@@ -2217,6 +2386,7 @@ dead_brain_coral_dye_magenta_crafting:
    version: 0.2.0
 
 dead_fire_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL
    amount: 1
@@ -2234,6 +2404,7 @@ dead_fire_coral_dye_magenta_crafting:
    version: 0.2.0
    
 dead_horn_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL
    amount: 1
@@ -2251,6 +2422,7 @@ dead_horn_coral_dye_magenta_crafting:
    version: 0.2.0
    
 dead_tube_coral_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL
    amount: 1
@@ -2268,6 +2440,7 @@ dead_tube_coral_dye_magenta_crafting:
    version: 0.2.0
    
 dead_brain_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_BLOCK
    amount: 1
@@ -2285,6 +2458,7 @@ dead_brain_coral_block_dye_magenta_crafting:
    version: 0.2.0
 
 dead_fire_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_BLOCK
    amount: 1
@@ -2302,6 +2476,7 @@ dead_fire_coral_block_dye_magenta_crafting:
    version: 0.2.0
    
 dead_horn_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_BLOCK
    amount: 1
@@ -2319,6 +2494,7 @@ dead_horn_coral_block_dye_magenta_crafting:
    version: 0.2.0
    
 dead_tube_coral_block_dye_magenta_crafting:
+   enable: true
    shaped: false
    result: DEAD_BUBBLE_CORAL_BLOCK
    amount: 1
@@ -2336,6 +2512,7 @@ dead_tube_coral_block_dye_magenta_crafting:
    version: 0.2.0
    
 dead_bubble_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_FAN
    amount: 1
@@ -2353,6 +2530,7 @@ dead_bubble_coral_fan_dye_pink_crafting:
    version: 0.2.0
 
 dead_fire_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_FAN
    amount: 1
@@ -2370,6 +2548,7 @@ dead_fire_coral_fan_dye_pink_crafting:
    version: 0.2.0
    
 dead_horn_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_FAN
    amount: 1
@@ -2387,6 +2566,7 @@ dead_horn_coral_fan_dye_pink_crafting:
    version: 0.2.0
    
 dead_tube_coral_fan_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_FAN
    amount: 1
@@ -2404,6 +2584,7 @@ dead_tube_coral_fan_dye_pink_crafting:
    version: 0.2.0
 
 dead_bubble_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL
    amount: 1
@@ -2421,6 +2602,7 @@ dead_bubble_coral_dye_pink_crafting:
    version: 0.2.0
 
 dead_fire_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL
    amount: 1
@@ -2438,6 +2620,7 @@ dead_fire_coral_dye_pink_crafting:
    version: 0.2.0
    
 dead_horn_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL
    amount: 1
@@ -2455,6 +2638,7 @@ dead_horn_coral_dye_pink_crafting:
    version: 0.2.0
    
 dead_tube_coral_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL
    amount: 1
@@ -2472,6 +2656,7 @@ dead_tube_coral_dye_pink_crafting:
    version: 0.2.0
    
 dead_bubble_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_BLOCK
    amount: 1
@@ -2489,6 +2674,7 @@ dead_bubble_coral_block_dye_pink_crafting:
    version: 0.2.0
 
 dead_fire_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_BLOCK
    amount: 1
@@ -2506,6 +2692,7 @@ dead_fire_coral_block_dye_pink_crafting:
    version: 0.2.0
    
 dead_horn_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_BLOCK
    amount: 1
@@ -2523,6 +2710,7 @@ dead_horn_coral_block_dye_pink_crafting:
    version: 0.2.0
    
 dead_tube_coral_block_dye_pink_crafting:
+   enable: true
    shaped: false
    result: DEAD_BRAIN_CORAL_BLOCK
    amount: 1
@@ -2540,6 +2728,7 @@ dead_tube_coral_block_dye_pink_crafting:
    version: 0.2.0 
       
 dead_brain_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_FAN
    amount: 1
@@ -2557,6 +2746,7 @@ dead_brain_coral_fan_dye_red_crafting:
    version: 0.2.0
 
 dead_bubble_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_FAN
    amount: 1
@@ -2574,6 +2764,7 @@ dead_bubble_coral_fan_dye_red_crafting:
    version: 0.2.0
    
 dead_horn_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_FAN
    amount: 1
@@ -2591,6 +2782,7 @@ dead_horn_coral_fan_dye_red_crafting:
    version: 0.2.0
    
 dead_tube_coral_fan_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_FAN
    amount: 1
@@ -2608,6 +2800,7 @@ dead_tube_coral_fan_dye_red_crafting:
    version: 0.2.0
 
 dead_brain_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL
    amount: 1
@@ -2625,6 +2818,7 @@ dead_brain_coral_dye_red_crafting:
    version: 0.2.0
 
 dead_bubble_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL
    amount: 1
@@ -2642,6 +2836,7 @@ dead_bubble_coral_dye_red_crafting:
    version: 0.2.0
    
 dead_horn_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL
    amount: 1
@@ -2659,6 +2854,7 @@ dead_horn_coral_dye_red_crafting:
    version: 0.2.0
    
 dead_tube_coral_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL
    amount: 1
@@ -2676,6 +2872,7 @@ dead_tube_coral_dye_red_crafting:
    version: 0.2.0
    
 dead_brain_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_BLOCK
    amount: 1
@@ -2693,6 +2890,7 @@ dead_brain_coral_block_dye_red_crafting:
    version: 0.2.0
 
 dead_bubble_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_BLOCK
    amount: 1
@@ -2710,6 +2908,7 @@ dead_bubble_coral_block_dye_red_crafting:
    version: 0.2.0
    
 dead_horn_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_BLOCK
    amount: 1
@@ -2727,6 +2926,7 @@ dead_horn_coral_block_dye_red_crafting:
    version: 0.2.0
    
 dead_tube_coral_block_dye_red_crafting:
+   enable: true
    shaped: false
    result: DEAD_FIRE_CORAL_BLOCK
    amount: 1
@@ -2744,6 +2944,7 @@ dead_tube_coral_block_dye_red_crafting:
    version: 0.2.0
 
 dead_brain_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_FAN
    amount: 1
@@ -2761,6 +2962,7 @@ dead_brain_coral_fan_dye_yellow_crafting:
    version: 0.2.0
 
 dead_bubble_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_FAN
    amount: 1
@@ -2778,6 +2980,7 @@ dead_bubble_coral_fan_dye_yellow_crafting:
    version: 0.2.0
    
 dead_fire_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_FAN
    amount: 1
@@ -2795,6 +2998,7 @@ dead_fire_coral_fan_dye_yellow_crafting:
    version: 0.2.0
    
 dead_tube_coral_fan_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_FAN
    amount: 1
@@ -2812,6 +3016,7 @@ dead_tube_coral_fan_dye_yellow_crafting:
    version: 0.2.0
 
 dead_brain_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL
    amount: 1
@@ -2829,6 +3034,7 @@ dead_brain_coral_dye_yellow_crafting:
    version: 0.2.0
 
 dead_bubble_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL
    amount: 1
@@ -2846,6 +3052,7 @@ dead_bubble_coral_dye_yellow_crafting:
    version: 0.2.0
    
 dead_fire_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL
    amount: 1
@@ -2863,6 +3070,7 @@ dead_fire_coral_dye_yellow_crafting:
    version: 0.2.0
    
 dead_tube_coral_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL
    amount: 1
@@ -2880,6 +3088,7 @@ dead_tube_coral_dye_yellow_crafting:
    version: 0.2.0
    
 dead_brain_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_BLOCK
    amount: 1
@@ -2897,6 +3106,7 @@ dead_brain_coral_block_dye_yellow_crafting:
    version: 0.2.0
 
 dead_bubble_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_BLOCK
    amount: 1
@@ -2914,6 +3124,7 @@ dead_bubble_coral_block_dye_yellow_crafting:
    version: 0.2.0
    
 dead_fire_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_BLOCK
    amount: 1
@@ -2931,6 +3142,7 @@ dead_fire_coral_block_dye_yellow_crafting:
    version: 0.2.0
    
 dead_tube_coral_block_dye_yellow_crafting:
+   enable: true
    shaped: false
    result: DEAD_HORN_CORAL_BLOCK
    amount: 1
@@ -2948,6 +3160,7 @@ dead_tube_coral_block_dye_yellow_crafting:
    version: 0.2.0
 
 dead_brain_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_FAN
    amount: 1
@@ -2965,6 +3178,7 @@ dead_brain_coral_fan_dye_blue_crafting:
    version: 0.2.0
 
 dead_bubble_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_FAN
    amount: 1
@@ -2982,6 +3196,7 @@ dead_bubble_coral_fan_dye_blue_crafting:
    version: 0.2.0
    
 dead_fire_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_FAN
    amount: 1
@@ -2999,6 +3214,7 @@ dead_fire_coral_fan_dye_blue_crafting:
    version: 0.2.0
    
 dead_horn_coral_fan_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_FAN
    amount: 1
@@ -3016,6 +3232,7 @@ dead_horn_coral_fan_dye_blue_crafting:
    version: 0.2.0
 
 dead_brain_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL
    amount: 1
@@ -3033,6 +3250,7 @@ dead_brain_coral_dye_blue_crafting:
    version: 0.2.0
 
 dead_bubble_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL
    amount: 1
@@ -3050,6 +3268,7 @@ dead_bubble_coral_dye_blue_crafting:
    version: 0.2.0
    
 dead_fire_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL
    amount: 1
@@ -3067,6 +3286,7 @@ dead_fire_coral_dye_blue_crafting:
    version: 0.2.0
    
 dead_horn_coral_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL
    amount: 1
@@ -3084,6 +3304,7 @@ dead_horn_coral_dye_blue_crafting:
    version: 0.2.0
    
 dead_brain_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_BLOCK
    amount: 1
@@ -3101,6 +3322,7 @@ dead_brain_coral_block_dye_blue_crafting:
    version: 0.2.0
 
 dead_bubble_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_BLOCK
    amount: 1
@@ -3118,6 +3340,7 @@ dead_bubble_coral_block_dye_blue_crafting:
    version: 0.2.0
    
 dead_fire_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_BLOCK
    amount: 1
@@ -3135,6 +3358,7 @@ dead_fire_coral_block_dye_blue_crafting:
    version: 0.2.0
    
 dead_horn_coral_block_dye_blue_crafting:
+   enable: true
    shaped: false
    result: DEAD_TUBE_CORAL_BLOCK
    amount: 1
