@@ -11,6 +11,8 @@ import java.util.Set;
 import java.util.logging.Level;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Effect;
+import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
@@ -66,6 +68,7 @@ public class YAMLManager {
 			case "contributor":
 			case "version":
 			case "number":
+			case "group":
 				break;
 			default:
 				Bukkit.getLogger().log(Level.WARNING, ""+YAMLContextKey+".structure("+ fullString +") : Type incorrectly Specified in " + filename);
@@ -75,13 +78,59 @@ public class YAMLManager {
 		for(Iterator<String> iKey = KeyList.iterator(); iKey.hasNext(); ) {
 			String Key = iKey.next();
 			
-			// Check that all events contains correct keys
+			// Check that all events contains correct keys and values
 			Set<String> itemKey = dataConfig.getConfigurationSection(Key).getKeys(false);
 			for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
 				String fullString = iStructure.next();
 				String[] splitString = fullString.split(", ");
-				
 				if(!itemKey.contains(splitString[0])) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Key not found in " + filename);
+				String valueTest = dataConfig.getString(Key + "." + splitString[0]);
+				switch (splitString[1]) {
+					case "boolean":
+						if(!(valueTest == "false" || valueTest == "true")) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid boolean value used in " + filename);
+						break;
+					case "material":
+						if (valueTest != null) {
+							try {	
+								Material materialTest = Material.valueOf(valueTest);
+							}
+							catch (Exception e) {
+								Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename);
+							}
+						}
+						break;
+					case "effect":
+						if (valueTest != null) {
+							try {	
+								Effect effectTest = Effect.valueOf(valueTest);
+							}
+							catch (Exception e) {
+								Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid effect value used in " + filename);
+							}
+						}
+						break;
+					case "string":
+						break;
+					case "contributor":
+						if(!ContributorList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid contributor value used in " + filename);
+						break;
+					case "version":
+						if(!VersionList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid version value used in " + filename);
+						break;
+					case "number":
+						if (valueTest != null) {
+							try {	
+								float testNumber = Float.parseFloat(valueTest);
+							}
+							catch (Exception e) {
+								Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid nuber value used in " + filename);
+							}
+						}
+						break;
+					case "group":
+						if(!GroupList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid group value used in " + filename);
+						break;
+				}
 			}		
 		}
 	}

@@ -278,7 +278,7 @@ CustomPlayerInteractEvent:
       - drop, boolean
       - replace, boolean
       - break, boolean
-      - group, string
+      - group, group
       - permission, boolean
       - addedBy, contributor
       - version, version
