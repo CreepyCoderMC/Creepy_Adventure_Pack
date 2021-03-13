@@ -21,7 +21,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
 import CreepyCoder.AdventurePack.Function.PlayerFunction;
-import CreepyCoder.AdventurePack.YAML.YAMLValidator;
 
 public class CustomPlayerInteractEvent implements Listener {
 	
