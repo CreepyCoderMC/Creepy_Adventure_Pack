@@ -9,6 +9,7 @@ CustomCraftRecipes:
       - coral_dye_crafting
       - revive_coral_crafting
       - dead_coral_dye_crafting
+      - flame_type_change_crafting
    contributor:
       - CreepyCoderMC
       - Killerblade347
@@ -229,13 +230,13 @@ dead_brain_coral_up_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_FAN
    ingredientB: DEAD_BRAIN_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: DEAD_BRAIN_CORAL_FAN
    ingredientE: DEAD_BRAIN_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: dead_coral_crafting
@@ -259,6 +260,9 @@ dead_bubble_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_up_crafting:
@@ -277,6 +281,9 @@ dead_fire_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_up_crafting:
@@ -295,6 +302,9 @@ dead_horn_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_up_crafting:
@@ -313,6 +323,9 @@ dead_tube_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_up_crafting:
@@ -331,6 +344,9 @@ dead_brain_coral_block_up_crafting:
    ingredientI: DEAD_BRAIN_CORAL
    rows: 3
    cols: 3
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_up_crafting:
@@ -349,6 +365,9 @@ dead_bubble_coral_block_up_crafting:
    ingredientI: DEAD_BUBBLE_CORAL
    rows: 3
    cols: 3
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_up_crafting:
@@ -367,6 +386,9 @@ dead_fire_coral_block_up_crafting:
    ingredientI: DEAD_FIRE_CORAL
    rows: 3
    cols: 3
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_up_crafting:
@@ -385,6 +407,9 @@ dead_horn_coral_block_up_crafting:
    ingredientI: DEAD_HORN_CORAL
    rows: 3
    cols: 3
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_up_crafting:
@@ -403,6 +428,9 @@ dead_tube_coral_block_up_crafting:
    ingredientI: DEAD_TUBE_CORAL
    rows: 3
    cols: 3
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_down_crafting:
@@ -421,6 +449,9 @@ dead_brain_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_down_crafting:
@@ -439,6 +470,9 @@ dead_bubble_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_down_crafting:
@@ -457,6 +491,9 @@ dead_fire_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_down_crafting:
@@ -475,6 +512,9 @@ dead_horn_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_down_crafting:
@@ -493,6 +533,9 @@ dead_tube_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_fan_down_crafting:
@@ -511,6 +554,9 @@ dead_brain_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_down_crafting:
@@ -529,6 +575,9 @@ dead_bubble_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_down_crafting:
@@ -547,6 +596,9 @@ dead_fire_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_down_crafting:
@@ -565,6 +617,9 @@ dead_horn_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_down_crafting:
@@ -583,6 +638,9 @@ dead_tube_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: dead_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
     
 brain_coral_up_crafting:
@@ -601,6 +659,9 @@ brain_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_up_crafting:
@@ -619,6 +680,9 @@ bubble_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_up_crafting:
@@ -637,6 +701,9 @@ fire_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_up_crafting:
@@ -655,6 +722,9 @@ horn_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_up_crafting:
@@ -673,6 +743,9 @@ tube_coral_up_crafting:
    ingredientI: 
    rows: 2
    cols: 2
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_up_crafting:
@@ -691,6 +764,9 @@ brain_coral_block_up_crafting:
    ingredientI: BRAIN_CORAL
    rows: 3
    cols: 3
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_up_crafting:
@@ -709,6 +785,9 @@ bubble_coral_block_up_crafting:
    ingredientI: BUBBLE_CORAL
    rows: 3
    cols: 3
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_up_crafting:
@@ -727,6 +806,9 @@ fire_coral_block_up_crafting:
    ingredientI: FIRE_CORAL
    rows: 3
    cols: 3
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_up_crafting:
@@ -745,6 +827,9 @@ horn_coral_block_up_crafting:
    ingredientI: HORN_CORAL
    rows: 3
    cols: 3
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_up_crafting:
@@ -763,6 +848,9 @@ tube_coral_block_up_crafting:
    ingredientI: TUBE_CORAL
    rows: 3
    cols: 3
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_down_crafting:
@@ -781,6 +869,9 @@ brain_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_down_crafting:
@@ -799,6 +890,9 @@ bubble_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_down_crafting:
@@ -817,6 +911,9 @@ fire_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_down_crafting:
@@ -835,6 +932,9 @@ horn_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_down_crafting:
@@ -853,6 +953,9 @@ tube_coral_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_fan_down_crafting:
@@ -871,6 +974,9 @@ brain_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_down_crafting:
@@ -889,6 +995,9 @@ bubble_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_down_crafting:
@@ -907,6 +1016,9 @@ fire_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_down_crafting:
@@ -925,6 +1037,9 @@ horn_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_down_crafting:
@@ -943,6 +1058,9 @@ tube_coral_fan_down_crafting:
    ingredientI: 
    rows: 1
    cols: 1
+   group: coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_fan_dye_magenta_crafting:
@@ -959,8 +1077,11 @@ brain_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_fan_dye_magenta_crafting:
@@ -977,8 +1098,11 @@ fire_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_magenta_crafting:
@@ -995,8 +1119,11 @@ horn_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_magenta_crafting:
@@ -1013,8 +1140,11 @@ tube_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_dye_magenta_crafting:
@@ -1031,8 +1161,11 @@ brain_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_dye_magenta_crafting:
@@ -1049,8 +1182,11 @@ fire_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_magenta_crafting:
@@ -1067,8 +1203,11 @@ horn_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_magenta_crafting:
@@ -1085,8 +1224,11 @@ tube_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_magenta_crafting:
@@ -1103,8 +1245,11 @@ brain_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_block_dye_magenta_crafting:
@@ -1121,8 +1266,11 @@ fire_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_magenta_crafting:
@@ -1139,8 +1287,11 @@ horn_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_magenta_crafting:
@@ -1157,8 +1308,11 @@ tube_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_fan_dye_pink_crafting:
@@ -1175,8 +1329,11 @@ bubble_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_fan_dye_pink_crafting:
@@ -1193,8 +1350,11 @@ fire_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_pink_crafting:
@@ -1211,8 +1371,11 @@ horn_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_pink_crafting:
@@ -1229,8 +1392,11 @@ tube_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_dye_pink_crafting:
@@ -1247,8 +1413,11 @@ bubble_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_dye_pink_crafting:
@@ -1265,8 +1434,11 @@ fire_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_pink_crafting:
@@ -1283,8 +1455,11 @@ horn_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_pink_crafting:
@@ -1301,8 +1476,11 @@ tube_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 bubble_coral_block_dye_pink_crafting:
@@ -1319,8 +1497,11 @@ bubble_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 fire_coral_block_dye_pink_crafting:
@@ -1337,8 +1518,11 @@ fire_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_pink_crafting:
@@ -1355,8 +1539,11 @@ horn_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_pink_crafting:
@@ -1373,8 +1560,11 @@ tube_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0 
       
 brain_coral_fan_dye_red_crafting:
@@ -1391,8 +1581,11 @@ brain_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_fan_dye_red_crafting:
@@ -1409,8 +1602,11 @@ bubble_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_red_crafting:
@@ -1427,8 +1623,11 @@ horn_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_red_crafting:
@@ -1445,8 +1644,11 @@ tube_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_dye_red_crafting:
@@ -1463,8 +1665,11 @@ brain_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_dye_red_crafting:
@@ -1481,8 +1686,11 @@ bubble_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_red_crafting:
@@ -1499,8 +1707,11 @@ horn_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_red_crafting:
@@ -1517,8 +1728,11 @@ tube_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_red_crafting:
@@ -1535,8 +1749,11 @@ brain_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_block_dye_red_crafting:
@@ -1553,8 +1770,11 @@ bubble_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_red_crafting:
@@ -1571,8 +1791,11 @@ horn_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_red_crafting:
@@ -1589,8 +1812,11 @@ tube_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_fan_dye_yellow_crafting:
@@ -1607,8 +1833,11 @@ brain_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_fan_dye_yellow_crafting:
@@ -1625,8 +1854,11 @@ bubble_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_dye_yellow_crafting:
@@ -1643,8 +1875,11 @@ fire_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_fan_dye_yellow_crafting:
@@ -1661,8 +1896,11 @@ tube_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_dye_yellow_crafting:
@@ -1679,8 +1917,11 @@ brain_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_dye_yellow_crafting:
@@ -1697,8 +1938,11 @@ bubble_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_dye_yellow_crafting:
@@ -1715,8 +1959,11 @@ fire_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_dye_yellow_crafting:
@@ -1733,8 +1980,11 @@ tube_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_yellow_crafting:
@@ -1751,8 +2001,11 @@ brain_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_block_dye_yellow_crafting:
@@ -1769,8 +2022,11 @@ bubble_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_dye_yellow_crafting:
@@ -1787,8 +2043,11 @@ fire_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 tube_coral_block_dye_yellow_crafting:
@@ -1805,8 +2064,11 @@ tube_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_fan_dye_blue_crafting:
@@ -1823,8 +2085,11 @@ brain_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_fan_dye_blue_crafting:
@@ -1841,8 +2106,11 @@ bubble_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_fan_dye_blue_crafting:
@@ -1859,8 +2127,11 @@ fire_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_fan_dye_blue_crafting:
@@ -1877,8 +2148,11 @@ horn_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 brain_coral_dye_blue_crafting:
@@ -1895,8 +2169,11 @@ brain_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_dye_blue_crafting:
@@ -1913,8 +2190,11 @@ bubble_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_dye_blue_crafting:
@@ -1931,8 +2211,11 @@ fire_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_dye_blue_crafting:
@@ -1949,8 +2232,11 @@ horn_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 brain_coral_block_dye_blue_crafting:
@@ -1967,8 +2253,11 @@ brain_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 bubble_coral_block_dye_blue_crafting:
@@ -1985,8 +2274,11 @@ bubble_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 fire_coral_block_dye_blue_crafting:
@@ -2003,8 +2295,11 @@ fire_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 horn_coral_block_dye_blue_crafting:
@@ -2021,8 +2316,11 @@ horn_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_brain_coral_crafting:
@@ -2039,8 +2337,11 @@ revive_dead_brain_coral_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_crafting:
@@ -2057,8 +2358,11 @@ revive_dead_bubble_coral_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_fire_coral_crafting:
@@ -2075,8 +2379,11 @@ revive_dead_fire_coral_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_horn_coral_crafting:
@@ -2093,8 +2400,11 @@ revive_dead_horn_coral_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_tube_coral_crafting:
@@ -2111,8 +2421,11 @@ revive_dead_tube_coral_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_brain_coral_block_crafting:
@@ -2129,8 +2442,11 @@ revive_dead_brain_coral_block_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_block_crafting:
@@ -2147,8 +2463,11 @@ revive_dead_bubble_coral_block_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_fire_coral_block__crafting:
@@ -2165,8 +2484,11 @@ revive_dead_fire_coral_block__crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_horn_coral_block_crafting:
@@ -2183,8 +2505,11 @@ revive_dead_horn_coral_block_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_tube_coral_block_crafting:
@@ -2201,8 +2526,11 @@ revive_dead_tube_coral_block_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_brain_coral_fan_crafting:
@@ -2219,8 +2547,11 @@ revive_dead_brain_coral_fan_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_bubble_coral_fan_crafting:
@@ -2237,8 +2568,11 @@ revive_dead_bubble_coral_fan_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 revive_dead_fire_coral_fan_crafting:
@@ -2255,8 +2589,11 @@ revive_dead_fire_coral_fan_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_horn_coral_fan_crafting:
@@ -2273,8 +2610,11 @@ revive_dead_horn_coral_fan_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 revive_dead_tube_coral_fan_crafting:
@@ -2291,8 +2631,11 @@ revive_dead_tube_coral_fan_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: revive_coral_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_fan_dye_magenta_crafting:
@@ -2309,8 +2652,11 @@ dead_brain_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_fan_dye_magenta_crafting:
@@ -2327,8 +2673,11 @@ dead_fire_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_magenta_crafting:
@@ -2345,8 +2694,11 @@ dead_horn_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_magenta_crafting:
@@ -2363,8 +2715,11 @@ dead_tube_coral_fan_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_dye_magenta_crafting:
@@ -2381,8 +2736,11 @@ dead_brain_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_dye_magenta_crafting:
@@ -2399,8 +2757,11 @@ dead_fire_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_magenta_crafting:
@@ -2417,8 +2778,11 @@ dead_horn_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_magenta_crafting:
@@ -2435,8 +2799,11 @@ dead_tube_coral_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_magenta_crafting:
@@ -2453,8 +2820,11 @@ dead_brain_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_block_dye_magenta_crafting:
@@ -2471,8 +2841,11 @@ dead_fire_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_magenta_crafting:
@@ -2489,8 +2862,11 @@ dead_horn_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_magenta_crafting:
@@ -2507,8 +2883,11 @@ dead_tube_coral_block_dye_magenta_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_fan_dye_pink_crafting:
@@ -2525,8 +2904,11 @@ dead_bubble_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_fan_dye_pink_crafting:
@@ -2543,8 +2925,11 @@ dead_fire_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_pink_crafting:
@@ -2561,8 +2946,11 @@ dead_horn_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_pink_crafting:
@@ -2579,8 +2967,11 @@ dead_tube_coral_fan_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_dye_pink_crafting:
@@ -2597,8 +2988,11 @@ dead_bubble_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_dye_pink_crafting:
@@ -2615,8 +3009,11 @@ dead_fire_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_pink_crafting:
@@ -2633,8 +3030,11 @@ dead_horn_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_pink_crafting:
@@ -2651,8 +3051,11 @@ dead_tube_coral_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_bubble_coral_block_dye_pink_crafting:
@@ -2669,8 +3072,11 @@ dead_bubble_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_fire_coral_block_dye_pink_crafting:
@@ -2687,8 +3093,11 @@ dead_fire_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_pink_crafting:
@@ -2705,8 +3114,11 @@ dead_horn_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_pink_crafting:
@@ -2723,8 +3135,11 @@ dead_tube_coral_block_dye_pink_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0 
       
 dead_brain_coral_fan_dye_red_crafting:
@@ -2741,8 +3156,11 @@ dead_brain_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_fan_dye_red_crafting:
@@ -2759,8 +3177,11 @@ dead_bubble_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_red_crafting:
@@ -2777,8 +3198,11 @@ dead_horn_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_red_crafting:
@@ -2795,8 +3219,11 @@ dead_tube_coral_fan_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_dye_red_crafting:
@@ -2813,8 +3240,11 @@ dead_brain_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_dye_red_crafting:
@@ -2831,8 +3261,11 @@ dead_bubble_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_red_crafting:
@@ -2849,8 +3282,11 @@ dead_horn_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_red_crafting:
@@ -2867,8 +3303,11 @@ dead_tube_coral_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_red_crafting:
@@ -2885,8 +3324,11 @@ dead_brain_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_block_dye_red_crafting:
@@ -2903,8 +3345,11 @@ dead_bubble_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_red_crafting:
@@ -2921,8 +3366,11 @@ dead_horn_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_red_crafting:
@@ -2939,8 +3387,11 @@ dead_tube_coral_block_dye_red_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_fan_dye_yellow_crafting:
@@ -2957,8 +3408,11 @@ dead_brain_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_fan_dye_yellow_crafting:
@@ -2975,8 +3429,11 @@ dead_bubble_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_dye_yellow_crafting:
@@ -2993,8 +3450,11 @@ dead_fire_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_fan_dye_yellow_crafting:
@@ -3011,8 +3471,11 @@ dead_tube_coral_fan_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_dye_yellow_crafting:
@@ -3029,8 +3492,11 @@ dead_brain_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_dye_yellow_crafting:
@@ -3047,8 +3513,11 @@ dead_bubble_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_dye_yellow_crafting:
@@ -3065,8 +3534,11 @@ dead_fire_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_dye_yellow_crafting:
@@ -3083,8 +3555,11 @@ dead_tube_coral_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_yellow_crafting:
@@ -3101,8 +3576,11 @@ dead_brain_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_block_dye_yellow_crafting:
@@ -3119,8 +3597,11 @@ dead_bubble_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_dye_yellow_crafting:
@@ -3137,8 +3618,11 @@ dead_fire_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_tube_coral_block_dye_yellow_crafting:
@@ -3155,8 +3639,11 @@ dead_tube_coral_block_dye_yellow_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_fan_dye_blue_crafting:
@@ -3173,8 +3660,11 @@ dead_brain_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_fan_dye_blue_crafting:
@@ -3191,8 +3681,11 @@ dead_bubble_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_fan_dye_blue_crafting:
@@ -3209,8 +3702,11 @@ dead_fire_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_fan_dye_blue_crafting:
@@ -3227,8 +3723,11 @@ dead_horn_coral_fan_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_brain_coral_dye_blue_crafting:
@@ -3245,8 +3744,11 @@ dead_brain_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_dye_blue_crafting:
@@ -3263,8 +3765,11 @@ dead_bubble_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_dye_blue_crafting:
@@ -3281,8 +3786,11 @@ dead_fire_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_dye_blue_crafting:
@@ -3299,8 +3807,11 @@ dead_horn_coral_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_brain_coral_block_dye_blue_crafting:
@@ -3317,8 +3828,11 @@ dead_brain_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
 
 dead_bubble_coral_block_dye_blue_crafting:
@@ -3335,8 +3849,11 @@ dead_bubble_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_fire_coral_block_dye_blue_crafting:
@@ -3353,8 +3870,11 @@ dead_fire_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
 dead_horn_coral_block_dye_blue_crafting:
@@ -3371,7 +3891,219 @@ dead_horn_coral_block_dye_blue_crafting:
    ingredientG: 
    ingredientH: 
    ingredientI: 
-   rows:
-   cols:
+   rows: 0
+   cols: 0
+   group: dead_coral_dye_crafting
+   permission: true
+   addedBy: CreepyCoderMC
    version: 0.2.0
    
+torch_to_soul_torch_crafting:
+   enable: true
+   shaped: false
+   result: SOUL_TORCH
+   amount: 1
+   ingredientA: TORCH
+   ingredientB: SOUL_SOIL
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+campfire_to_soul_campfire_crafting:
+   enable: true
+   shaped: false
+   result: SOUL_CAMPFIRE
+   amount: 1
+   ingredientA: CAMPFIRE
+   ingredientB: SOUL_SOIL
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+lantern_to_soul_lantern_crafting:
+   enable: true
+   shaped: false
+   result: SOUL_LANTERN
+   amount: 1
+   ingredientA: LANTERN
+   ingredientB: SOUL_SOIL
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+torch_to_redstone_torch_crafting:
+   enable: true
+   shaped: false
+   result: REDSTONE_TORCH
+   amount: 1
+   ingredientA: TORCH
+   ingredientB: REDSTONE_TORCH
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+soul_TORCH_to_TORCH_crafting:
+   enable: true
+   shaped: false
+   result: TORCH
+   amount: 1
+   ingredientA: SOUL_TORCH
+   ingredientB: SAND
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+soul_lantern_to_lantern_crafting:
+   enable: true
+   shaped: false
+   result: LANTERN
+   amount: 1
+   ingredientA: SOUL_LANTERN
+   ingredientB: SAND
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+soul_campfire_to_campfire_crafting:
+   enable: true
+   shaped: false
+   result: CAMPFIRE
+   amount: 1
+   ingredientA: SOUL_CAMPFIRE
+   ingredientB: SAND
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+soul_torch_to_redstone_torch_crafting:
+   enable: true
+   shaped: false
+   result: REDSTONE_TORCH
+   amount: 1
+   ingredientA: SOUL_TORCH
+   ingredientB: REDSTONE
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+redstone_torch_to_torch_crafting:
+   enable: true
+   shaped: false
+   result: TORCH
+   amount: 1
+   ingredientA: REDSTONE_TORCH
+   ingredientB: SAND
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
+   
+redstone_torch_to_soul_torch_crafting:
+   enable: true
+   shaped: false
+   result: SOUL_TORCH
+   amount: 1
+   ingredientA: REDSTONE_TORCH
+   ingredientB: SOUL_SOIL
+   ingredientC: 
+   ingredientD: 
+   ingredientE: 
+   ingredientF: 
+   ingredientG: 
+   ingredientH: 
+   ingredientI: 
+   rows: 0
+   cols: 0
+   group: flame_type_change_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.2.0
