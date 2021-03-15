@@ -251,13 +251,13 @@ dead_bubble_coral_up_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_FAN
    ingredientB: DEAD_BUBBLE_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: DEAD_BUBBLE_CORAL_FAN
    ingredientE: DEAD_BUBBLE_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: dead_coral_crafting
@@ -272,13 +272,13 @@ dead_fire_coral_up_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_FAN
    ingredientB: DEAD_FIRE_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: DEAD_FIRE_CORAL_FAN
    ingredientE: DEAD_FIRE_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: dead_coral_crafting
@@ -293,13 +293,13 @@ dead_horn_coral_up_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_FAN
    ingredientB: DEAD_HORN_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: DEAD_HORN_CORAL_FAN
    ingredientE: DEAD_HORN_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: dead_coral_crafting
@@ -314,13 +314,13 @@ dead_tube_coral_up_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_FAN
    ingredientB: DEAD_TUBE_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: DEAD_TUBE_CORAL_FAN
    ingredientE: DEAD_TUBE_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: dead_coral_crafting
@@ -439,14 +439,14 @@ dead_brain_coral_down_crafting:
    result: DEAD_BRAIN_CORAL
    amount: 9
    ingredientA: DEAD_BRAIN_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -460,14 +460,14 @@ dead_bubble_coral_down_crafting:
    result: DEAD_BUBBLE_CORAL
    amount: 9
    ingredientA: DEAD_BUBBLE_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -481,14 +481,14 @@ dead_fire_coral_down_crafting:
    result: DEAD_FIRE_CORAL
    amount: 9
    ingredientA: DEAD_FIRE_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -502,14 +502,14 @@ dead_horn_coral_down_crafting:
    result: DEAD_HORN_CORAL
    amount: 9
    ingredientA: DEAD_HORN_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -523,14 +523,14 @@ dead_tube_coral_down_crafting:
    result: DEAD_TUBE_CORAL
    amount: 9
    ingredientA: DEAD_TUBE_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -544,14 +544,14 @@ dead_brain_coral_fan_down_crafting:
    result: DEAD_BRAIN_CORAL_FAN
    amount: 4
    ingredientA: DEAD_BRAIN_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -565,14 +565,14 @@ dead_bubble_coral_fan_down_crafting:
    result: DEAD_BUBBLE_CORAL_FAN
    amount: 4
    ingredientA: DEAD_BUBBLE_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -586,14 +586,14 @@ dead_fire_coral_fan_down_crafting:
    result: DEAD_FIRE_CORAL_FAN
    amount: 4
    ingredientA: DEAD_FIRE_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -607,14 +607,14 @@ dead_horn_coral_fan_down_crafting:
    result: DEAD_HORN_CORAL_FAN
    amount: 4
    ingredientA: DEAD_HORN_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -628,14 +628,14 @@ dead_tube_coral_fan_down_crafting:
    result: DEAD_TUBE_CORAL_FAN
    amount: 4
    ingredientA: DEAD_TUBE_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: dead_coral_crafting
@@ -650,13 +650,13 @@ brain_coral_up_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_FAN
    ingredientB: BRAIN_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: BRAIN_CORAL_FAN
    ingredientE: BRAIN_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: coral_crafting
@@ -671,13 +671,13 @@ bubble_coral_up_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_FAN
    ingredientB: BUBBLE_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: BUBBLE_CORAL_FAN
    ingredientE: BUBBLE_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: coral_crafting
@@ -692,13 +692,13 @@ fire_coral_up_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_FAN
    ingredientB: FIRE_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: FIRE_CORAL_FAN
    ingredientE: FIRE_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: coral_crafting
@@ -713,13 +713,13 @@ horn_coral_up_crafting:
    amount: 1
    ingredientA: HORN_CORAL_FAN
    ingredientB: HORN_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: HORN_CORAL_FAN
    ingredientE: HORN_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: coral_crafting
@@ -734,13 +734,13 @@ tube_coral_up_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_FAN
    ingredientB: TUBE_CORAL_FAN
-   ingredientC: 
+   ingredientC: AIR
    ingredientD: TUBE_CORAL_FAN
    ingredientE: TUBE_CORAL_FAN
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 2
    cols: 2
    group: coral_crafting
@@ -859,14 +859,14 @@ brain_coral_down_crafting:
    result: BRAIN_CORAL
    amount: 9
    ingredientA: BRAIN_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -880,14 +880,14 @@ bubble_coral_down_crafting:
    result: BUBBLE_CORAL
    amount: 9
    ingredientA: BUBBLE_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -901,14 +901,14 @@ fire_coral_down_crafting:
    result: FIRE_CORAL
    amount: 9
    ingredientA: FIRE_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -922,14 +922,14 @@ horn_coral_down_crafting:
    result: HORN_CORAL
    amount: 9
    ingredientA: HORN_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -943,14 +943,14 @@ tube_coral_down_crafting:
    result: TUBE_CORAL
    amount: 9
    ingredientA: TUBE_CORAL_BLOCK
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -964,14 +964,14 @@ brain_coral_fan_down_crafting:
    result: BRAIN_CORAL_FAN
    amount: 4
    ingredientA: BRAIN_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -985,14 +985,14 @@ bubble_coral_fan_down_crafting:
    result: BUBBLE_CORAL_FAN
    amount: 4
    ingredientA: BUBBLE_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -1006,14 +1006,14 @@ fire_coral_fan_down_crafting:
    result: FIRE_CORAL_FAN
    amount: 4
    ingredientA: FIRE_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -1027,14 +1027,14 @@ horn_coral_fan_down_crafting:
    result: HORN_CORAL_FAN
    amount: 4
    ingredientA: HORN_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -1048,14 +1048,14 @@ tube_coral_fan_down_crafting:
    result: TUBE_CORAL_FAN
    amount: 4
    ingredientA: TUBE_CORAL
-   ingredientB: 
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientB: AIR 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 1
    cols: 1
    group: coral_crafting
@@ -1070,13 +1070,13 @@ brain_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1091,13 +1091,13 @@ fire_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1112,13 +1112,13 @@ horn_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: HORN_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1133,13 +1133,13 @@ tube_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1154,13 +1154,13 @@ brain_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1175,13 +1175,13 @@ fire_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: FIRE_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1196,13 +1196,13 @@ horn_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: HORN_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1217,13 +1217,13 @@ tube_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: TUBE_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1238,13 +1238,13 @@ brain_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1259,13 +1259,13 @@ fire_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1280,13 +1280,13 @@ horn_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: HORN_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1301,13 +1301,13 @@ tube_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1322,13 +1322,13 @@ bubble_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1343,13 +1343,13 @@ fire_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1364,13 +1364,13 @@ horn_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: HORN_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1385,13 +1385,13 @@ tube_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1406,13 +1406,13 @@ bubble_coral_dye_pink_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1427,13 +1427,13 @@ fire_coral_dye_pink_crafting:
    amount: 1
    ingredientA: FIRE_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1448,13 +1448,13 @@ horn_coral_dye_pink_crafting:
    amount: 1
    ingredientA: HORN_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1469,13 +1469,13 @@ tube_coral_dye_pink_crafting:
    amount: 1
    ingredientA: TUBE_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1490,13 +1490,13 @@ bubble_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1511,13 +1511,13 @@ fire_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1532,13 +1532,13 @@ horn_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: HORN_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1553,13 +1553,13 @@ tube_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1574,13 +1574,13 @@ brain_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1595,13 +1595,13 @@ bubble_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1616,13 +1616,13 @@ horn_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: HORN_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1637,13 +1637,13 @@ tube_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1658,13 +1658,13 @@ brain_coral_dye_red_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1679,13 +1679,13 @@ bubble_coral_dye_red_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1700,13 +1700,13 @@ horn_coral_dye_red_crafting:
    amount: 1
    ingredientA: HORN_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1721,13 +1721,13 @@ tube_coral_dye_red_crafting:
    amount: 1
    ingredientA: TUBE_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1742,13 +1742,13 @@ brain_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1763,13 +1763,13 @@ bubble_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1784,13 +1784,13 @@ horn_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: HORN_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1805,13 +1805,13 @@ tube_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1826,13 +1826,13 @@ brain_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1847,13 +1847,13 @@ bubble_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1868,13 +1868,13 @@ fire_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1889,13 +1889,13 @@ tube_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1910,13 +1910,13 @@ brain_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1931,13 +1931,13 @@ bubble_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1952,13 +1952,13 @@ fire_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: FIRE_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1973,13 +1973,13 @@ tube_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: TUBE_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -1994,13 +1994,13 @@ brain_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2015,13 +2015,13 @@ bubble_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2036,13 +2036,13 @@ fire_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2057,13 +2057,13 @@ tube_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: TUBE_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2078,13 +2078,13 @@ brain_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2099,13 +2099,13 @@ bubble_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2120,13 +2120,13 @@ fire_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2141,13 +2141,13 @@ horn_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: HORN_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2162,13 +2162,13 @@ brain_coral_dye_blue_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2183,13 +2183,13 @@ bubble_coral_dye_blue_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2204,13 +2204,13 @@ fire_coral_dye_blue_crafting:
    amount: 1
    ingredientA: FIRE_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2225,13 +2225,13 @@ horn_coral_dye_blue_crafting:
    amount: 1
    ingredientA: HORN_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2246,13 +2246,13 @@ brain_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: BRAIN_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2267,13 +2267,13 @@ bubble_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: BUBBLE_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2288,13 +2288,13 @@ fire_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: FIRE_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2309,13 +2309,13 @@ horn_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: HORN_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: coral_dye_crafting
@@ -2330,13 +2330,13 @@ revive_dead_brain_coral_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2351,13 +2351,13 @@ revive_dead_bubble_coral_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2372,13 +2372,13 @@ revive_dead_fire_coral_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2393,13 +2393,13 @@ revive_dead_horn_coral_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2414,13 +2414,13 @@ revive_dead_tube_coral_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2435,13 +2435,13 @@ revive_dead_brain_coral_block_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_BLOCK
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2456,13 +2456,13 @@ revive_dead_bubble_coral_block_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_BLOCK
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2477,13 +2477,13 @@ revive_dead_fire_coral_block__crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_BLOCK
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2498,13 +2498,13 @@ revive_dead_horn_coral_block_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_BLOCK
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2519,13 +2519,13 @@ revive_dead_tube_coral_block_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_BLOCK
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2540,13 +2540,13 @@ revive_dead_brain_coral_fan_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_FAN
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2561,13 +2561,13 @@ revive_dead_bubble_coral_fan_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_FAN
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2582,13 +2582,13 @@ revive_dead_fire_coral_fan_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_FAN
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2603,13 +2603,13 @@ revive_dead_horn_coral_fan_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_FAN
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2624,13 +2624,13 @@ revive_dead_tube_coral_fan_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_FAN
    ingredientB: PHANTOM_MEMBRANE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: revive_coral_crafting
@@ -2645,13 +2645,13 @@ dead_brain_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2666,13 +2666,13 @@ dead_fire_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2687,13 +2687,13 @@ dead_horn_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2708,13 +2708,13 @@ dead_tube_coral_fan_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_FAN
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2729,13 +2729,13 @@ dead_brain_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2750,13 +2750,13 @@ dead_fire_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2771,13 +2771,13 @@ dead_horn_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2792,13 +2792,13 @@ dead_tube_coral_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2813,13 +2813,13 @@ dead_brain_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2834,13 +2834,13 @@ dead_fire_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2855,13 +2855,13 @@ dead_horn_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2876,13 +2876,13 @@ dead_tube_coral_block_dye_magenta_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_BLOCK
    ingredientB: MAGENTA_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2897,13 +2897,13 @@ dead_bubble_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2918,13 +2918,13 @@ dead_fire_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2939,13 +2939,13 @@ dead_horn_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2960,13 +2960,13 @@ dead_tube_coral_fan_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_FAN
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -2981,13 +2981,13 @@ dead_bubble_coral_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3002,13 +3002,13 @@ dead_fire_coral_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3023,13 +3023,13 @@ dead_horn_coral_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3044,13 +3044,13 @@ dead_tube_coral_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3065,13 +3065,13 @@ dead_bubble_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3086,13 +3086,13 @@ dead_fire_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3107,13 +3107,13 @@ dead_horn_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3128,13 +3128,13 @@ dead_tube_coral_block_dye_pink_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_BLOCK
    ingredientB: PINK_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3149,13 +3149,13 @@ dead_brain_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3170,13 +3170,13 @@ dead_bubble_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3191,13 +3191,13 @@ dead_horn_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3212,13 +3212,13 @@ dead_tube_coral_fan_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_FAN
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3233,13 +3233,13 @@ dead_brain_coral_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3254,13 +3254,13 @@ dead_bubble_coral_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3275,13 +3275,13 @@ dead_horn_coral_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3296,13 +3296,13 @@ dead_tube_coral_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3317,13 +3317,13 @@ dead_brain_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3338,13 +3338,13 @@ dead_bubble_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3359,13 +3359,13 @@ dead_horn_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3380,13 +3380,13 @@ dead_tube_coral_block_dye_red_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_BLOCK
    ingredientB: RED_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3401,13 +3401,13 @@ dead_brain_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3422,13 +3422,13 @@ dead_bubble_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3443,13 +3443,13 @@ dead_fire_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3464,13 +3464,13 @@ dead_tube_coral_fan_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_FAN
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3485,13 +3485,13 @@ dead_brain_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3506,13 +3506,13 @@ dead_bubble_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3527,13 +3527,13 @@ dead_fire_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3548,13 +3548,13 @@ dead_tube_coral_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3569,13 +3569,13 @@ dead_brain_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3590,13 +3590,13 @@ dead_bubble_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3611,13 +3611,13 @@ dead_fire_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3632,13 +3632,13 @@ dead_tube_coral_block_dye_yellow_crafting:
    amount: 1
    ingredientA: DEAD_TUBE_CORAL_BLOCK
    ingredientB: YELLOW_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3653,13 +3653,13 @@ dead_brain_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3674,13 +3674,13 @@ dead_bubble_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3695,13 +3695,13 @@ dead_fire_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3716,13 +3716,13 @@ dead_horn_coral_fan_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_FAN
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3737,13 +3737,13 @@ dead_brain_coral_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3758,13 +3758,13 @@ dead_bubble_coral_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3779,13 +3779,13 @@ dead_fire_coral_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3800,13 +3800,13 @@ dead_horn_coral_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3821,13 +3821,13 @@ dead_brain_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_BRAIN_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3842,13 +3842,13 @@ dead_bubble_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_BUBBLE_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3863,13 +3863,13 @@ dead_fire_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_FIRE_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3884,13 +3884,13 @@ dead_horn_coral_block_dye_blue_crafting:
    amount: 1
    ingredientA: DEAD_HORN_CORAL_BLOCK
    ingredientB: BLUE_DYE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: dead_coral_dye_crafting
@@ -3905,13 +3905,13 @@ torch_to_soul_torch_crafting:
    amount: 1
    ingredientA: TORCH
    ingredientB: SOUL_SOIL
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -3926,13 +3926,13 @@ campfire_to_soul_campfire_crafting:
    amount: 1
    ingredientA: CAMPFIRE
    ingredientB: SOUL_SOIL
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -3947,13 +3947,13 @@ lantern_to_soul_lantern_crafting:
    amount: 1
    ingredientA: LANTERN
    ingredientB: SOUL_SOIL
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -3968,13 +3968,13 @@ torch_to_redstone_torch_crafting:
    amount: 1
    ingredientA: TORCH
    ingredientB: REDSTONE_TORCH
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -3989,13 +3989,13 @@ soul_TORCH_to_TORCH_crafting:
    amount: 1
    ingredientA: SOUL_TORCH
    ingredientB: SAND
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -4010,13 +4010,13 @@ soul_lantern_to_lantern_crafting:
    amount: 1
    ingredientA: SOUL_LANTERN
    ingredientB: SAND
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -4031,13 +4031,13 @@ soul_campfire_to_campfire_crafting:
    amount: 1
    ingredientA: SOUL_CAMPFIRE
    ingredientB: SAND
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -4052,13 +4052,13 @@ soul_torch_to_redstone_torch_crafting:
    amount: 1
    ingredientA: SOUL_TORCH
    ingredientB: REDSTONE
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -4073,13 +4073,13 @@ redstone_torch_to_torch_crafting:
    amount: 1
    ingredientA: REDSTONE_TORCH
    ingredientB: SAND
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting
@@ -4094,13 +4094,13 @@ redstone_torch_to_soul_torch_crafting:
    amount: 1
    ingredientA: REDSTONE_TORCH
    ingredientB: SOUL_SOIL
-   ingredientC: 
-   ingredientD: 
-   ingredientE: 
-   ingredientF: 
-   ingredientG: 
-   ingredientH: 
-   ingredientI: 
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
    rows: 0
    cols: 0
    group: flame_type_change_crafting

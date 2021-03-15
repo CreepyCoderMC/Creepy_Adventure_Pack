@@ -83,7 +83,7 @@ public class YAMLManager {
 			for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
 				String fullString = iStructure.next();
 				String[] splitString = fullString.split(", ");
-				if(!itemKey.contains(splitString[0])) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Key not found in " + filename);
+				if(!itemKey.contains(splitString[0])) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Key not found or empty in " + filename);
 				String valueTest = dataConfig.getString(Key + "." + splitString[0]);
 				switch (splitString[1]) {
 					case "boolean":
