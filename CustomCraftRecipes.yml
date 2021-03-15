@@ -3917,7 +3917,7 @@ torch_to_soul_torch_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 campfire_to_soul_campfire_crafting:
    enable: true
@@ -3938,7 +3938,7 @@ campfire_to_soul_campfire_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 lantern_to_soul_lantern_crafting:
    enable: true
@@ -3959,7 +3959,7 @@ lantern_to_soul_lantern_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 torch_to_redstone_torch_crafting:
    enable: true
@@ -3980,7 +3980,7 @@ torch_to_redstone_torch_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 soul_TORCH_to_TORCH_crafting:
    enable: true
@@ -4001,7 +4001,7 @@ soul_TORCH_to_TORCH_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 soul_lantern_to_lantern_crafting:
    enable: true
@@ -4022,7 +4022,7 @@ soul_lantern_to_lantern_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 soul_campfire_to_campfire_crafting:
    enable: true
@@ -4043,7 +4043,7 @@ soul_campfire_to_campfire_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 soul_torch_to_redstone_torch_crafting:
    enable: true
@@ -4064,7 +4064,7 @@ soul_torch_to_redstone_torch_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 redstone_torch_to_torch_crafting:
    enable: true
@@ -4085,7 +4085,7 @@ redstone_torch_to_torch_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
    
 redstone_torch_to_soul_torch_crafting:
    enable: true
@@ -4106,4 +4106,4 @@ redstone_torch_to_soul_torch_crafting:
    group: flame_type_change_crafting
    permission: true
    addedBy: Killerblade347
-   version: 0.2.0
+   version: 0.3.0
