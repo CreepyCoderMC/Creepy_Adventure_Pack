@@ -22,7 +22,6 @@ import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 public class YAMLManager {
 	
 	private Plugin plugin;
-	private Dictionary<String, Object> YAMLContext = new Hashtable<String, Object>();
 	
 	public YAMLManager(Plugin plugin) {
 		this.plugin = plugin;
@@ -40,7 +39,6 @@ public class YAMLManager {
 		InputStream defaultStream = this.plugin.getResource(filename);
 		YamlConfiguration defaultConfig = YamlConfiguration.loadConfiguration(new InputStreamReader(defaultStream));
 		dataConfig.setDefaults(defaultConfig);
-		YAMLContext.put(YAMLContextKey, dataConfig);
 		
 		switch(YAMLContextKey)
 		{
@@ -54,6 +52,7 @@ public class YAMLManager {
 		List<String> ContributorList = (List<String>) dataConfig.getList(YAMLContextKey+".contributor");
 		List<String> KeyList = (List<String>) dataConfig.getList(YAMLContextKey+".key");
 		List<String> StructureList = (List<String>) dataConfig.getList(YAMLContextKey+".structure");
+		List<String> KeyPressList = (List<String>) dataConfig.getList(YAMLContextKey+".keyPress");
 
 		// Check that all structure items is of correct type
 		for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
@@ -69,6 +68,7 @@ public class YAMLManager {
 			case "version":
 			case "number":
 			case "group":
+			case "keyPress":
 				break;
 			default:
 				Bukkit.getLogger().log(Level.WARNING, ""+YAMLContextKey+".structure("+ fullString +") : Type incorrectly Specified in " + filename);
@@ -79,59 +79,67 @@ public class YAMLManager {
 			String Key = iKey.next();
 			
 			// Check that all events contains correct keys and values
-			Set<String> itemKey = dataConfig.getConfigurationSection(Key).getKeys(false);
-			for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
-				String fullString = iStructure.next();
-				String[] splitString = fullString.split(", ");
-				if(!itemKey.contains(splitString[0])) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Key not found or empty in " + filename);
-				String valueTest = dataConfig.getString(Key + "." + splitString[0]);
-				switch (splitString[1]) {
-					case "boolean":
-						if(!(valueTest == "false" || valueTest == "true")) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid boolean value used in " + filename);
-						break;
-					case "material":
-						if (valueTest != null) {
-							try {	
-								Material materialTest = Material.valueOf(valueTest);
+			try {
+				Set<String> itemKey = dataConfig.getConfigurationSection(Key).getKeys(false);			
+				for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
+					String fullString = iStructure.next();
+					String[] splitString = fullString.split(", ");
+					if(!itemKey.contains(splitString[0])) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Key not found or empty in " + filename);
+					String valueTest = dataConfig.getString(Key + "." + splitString[0]);
+					switch (splitString[1]) {
+						case "boolean":
+							if(!(valueTest == "false" || valueTest == "true")) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid boolean value used in " + filename);
+							break;
+						case "material":
+							if (valueTest != null) {
+								try {	
+									Material materialTest = Material.valueOf(valueTest);
+								}
+								catch (Exception e) {
+									Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename);
+								}
 							}
-							catch (Exception e) {
-								Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename);
+							break;
+						case "effect":
+							if (valueTest != null) {
+								try {	
+									Effect effectTest = Effect.valueOf(valueTest);
+								}
+								catch (Exception e) {
+									Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid effect value used in " + filename);
+								}
 							}
-						}
-						break;
-					case "effect":
-						if (valueTest != null) {
-							try {	
-								Effect effectTest = Effect.valueOf(valueTest);
+							break;
+						case "string":
+							break;
+						case "contributor":
+							if(!ContributorList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid contributor value used in " + filename);
+							break;
+						case "version":
+							if(!VersionList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid version value used in " + filename);
+							break;
+						case "number":
+							if (valueTest != null) {
+								try {	
+									float testNumber = Float.parseFloat(valueTest);
+								}
+								catch (Exception e) {
+									Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid nuber value used in " + filename);
+								}
 							}
-							catch (Exception e) {
-								Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid effect value used in " + filename);
-							}
-						}
-						break;
-					case "string":
-						break;
-					case "contributor":
-						if(!ContributorList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid contributor value used in " + filename);
-						break;
-					case "version":
-						if(!VersionList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid version value used in " + filename);
-						break;
-					case "number":
-						if (valueTest != null) {
-							try {	
-								float testNumber = Float.parseFloat(valueTest);
-							}
-							catch (Exception e) {
-								Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid nuber value used in " + filename);
-							}
-						}
-						break;
-					case "group":
-						if(!GroupList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid group value used in " + filename);
-						break;
+							break;
+						case "group":
+							if(!GroupList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid group value used in " + filename);
+							break;
+						case "keyPress":
+							if(!KeyPressList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid key press value used in " + filename);
+							break;
+					}
 				}
-			}		
+			}
+			catch (Exception e) {
+				Bukkit.getLogger().log(Level.WARNING, Key+" : Key not found in file "+filename);
+			}
 		}
 	}
 }

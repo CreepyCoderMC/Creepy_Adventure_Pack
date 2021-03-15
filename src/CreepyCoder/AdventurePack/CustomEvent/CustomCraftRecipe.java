@@ -71,7 +71,7 @@ public class CustomCraftRecipe {
 			this.Shaped = dataConfig.getBoolean(key+".shaped");
 			this.Result = new ItemStack(Material.valueOf(dataConfig.getString(key+".result")));
 			this.Amount = dataConfig.getInt(key+".amount");
-			this.IngredientA = dataConfig.getString(key+".IngredientA");
+			this.IngredientA = dataConfig.getString(key+".ingredientA");
 			this.IngredientB = dataConfig.getString(key+".ingredientB");
 			this.IngredientC = dataConfig.getString(key+".ingredientC");
 			this.IngredientD = dataConfig.getString(key+".ingredientD");
@@ -80,93 +80,93 @@ public class CustomCraftRecipe {
 			this.IngredientG = dataConfig.getString(key+".ingredientG");
 			this.IngredientH = dataConfig.getString(key+".ingredientH");
 			this.IngredientI = dataConfig.getString(key+".ingredientI");
-			this.Rows = dataConfig.getInt(key+".Rows");
+			this.Rows = dataConfig.getInt(key+".rows");
 			this.Cols = dataConfig.getInt(key+".cols");			
 			
-			Result.setAmount(Amount);
+			this.Result.setAmount(this.Amount);
 			
-			if(Shaped) {
+			if(this.Shaped) {
 				
 				ShapedRecipe addRecipe = new ShapedRecipe(new NamespacedKey(plugin, key), this.Result);
 			
-				if(this.IngredientA == "AIR" && Rows > 0) {
+				if(this.IngredientA == "AIR" && this.Rows > 0) {
 					IngredientAIngredient = " ";
 				}
 				else {
 					IngredientAIngredient = "A";
 				}
 			
-				if(this.IngredientB == "AIR" && Rows > 0) {
+				if(this.IngredientB == "AIR" && this.Rows > 0) {
 					IngredientBIngredient = " ";
 				}
 				else {
 				IngredientBIngredient = "B";
 				}
 			
-				if(this.IngredientC == "AIR" && Rows > 0) {
+				if(this.IngredientC == "AIR" && this.Rows > 0) {
 					IngredientCIngredient = " ";
 				}
 				else {
 					IngredientCIngredient = "C";
 				}
 			
-				if(this.IngredientD == "AIR" && Rows > 1) {
+				if(this.IngredientD == "AIR" && this.Rows > 1) {
 					IngredientDIngredient = " ";
 				}
 				else {
 					IngredientDIngredient = "D";
 				}
 			
-				if(this.IngredientE == "AIR" && Rows > 1) {
+				if(this.IngredientE == "AIR" && this.Rows > 1) {
 					IngredientEIngredient = " ";
 				}
 				else {
 					IngredientEIngredient = "E";
 				}
 			
-				if(this.IngredientF == "AIR" && Rows > 1) {
+				if(this.IngredientF == "AIR" && this.Rows > 1) {
 					IngredientFIngredient = " ";
 				}
 				else {
 					IngredientFIngredient = "F";
 				}
 			
-				if(this.IngredientG == "AIR" && Rows > 2) {
+				if(this.IngredientG == "AIR" && this.Rows > 2) {
 					IngredientGIngredient = " ";
 				}
 				else {
 					IngredientGIngredient = "G";
 				}
 			
-				if(this.IngredientH == "AIR" && Rows > 2) {
+				if(this.IngredientH == "AIR" && this.Rows > 2) {
 					IngredientHIngredient = " ";
 				}
 				else {
 					IngredientHIngredient = "H";
 				}
 			
-				if(this.IngredientI == "AIR" && Rows > 2) {
+				if(this.IngredientI == "AIR" && this.Rows > 2) {
 					IngredientIIngredient = " ";
 				}
 				else {
 					IngredientIIngredient = "I";
 				}
 
-				if (Cols == 1) IngredientRow1 = IngredientAIngredient;
-				if (Cols == 2) IngredientRow1 = IngredientAIngredient + IngredientBIngredient;
-				if (Cols == 3) IngredientRow1 = IngredientAIngredient + IngredientBIngredient + IngredientCIngredient;
+				if (this.Cols == 1) IngredientRow1 = IngredientAIngredient;
+				if (this.Cols == 2) IngredientRow1 = IngredientAIngredient + IngredientBIngredient;
+				if (this.Cols == 3) IngredientRow1 = IngredientAIngredient + IngredientBIngredient + IngredientCIngredient;
 
-				if (Cols == 1) IngredientRow2 = IngredientDIngredient;
-				if (Cols == 2) IngredientRow2 = IngredientDIngredient + IngredientEIngredient;
-				if (Cols == 3) IngredientRow2 = IngredientDIngredient + IngredientEIngredient + IngredientFIngredient;			
+				if (this.Cols == 1) IngredientRow2 = IngredientDIngredient;
+				if (this.Cols == 2) IngredientRow2 = IngredientDIngredient + IngredientEIngredient;
+				if (this.Cols == 3) IngredientRow2 = IngredientDIngredient + IngredientEIngredient + IngredientFIngredient;			
 			
-				if (Cols == 1) IngredientRow3 = IngredientGIngredient;
-				if (Cols == 2) IngredientRow3 = IngredientGIngredient + IngredientHIngredient;
-				if (Cols == 3) IngredientRow3 = IngredientGIngredient + IngredientHIngredient + IngredientIIngredient;			
+				if (this.Cols == 1) IngredientRow3 = IngredientGIngredient;
+				if (this.Cols == 2) IngredientRow3 = IngredientGIngredient + IngredientHIngredient;
+				if (this.Cols == 3) IngredientRow3 = IngredientGIngredient + IngredientHIngredient + IngredientIIngredient;			
 
-				if(Rows == 1) addRecipe.shape(IngredientRow1);
-				if(Rows == 2) addRecipe.shape(IngredientRow1, IngredientRow2);
-				if(Rows == 3) addRecipe.shape(IngredientRow1, IngredientRow2, IngredientRow3);	
+				if(this.Rows == 1) addRecipe.shape(IngredientRow1);
+				if(this.Rows == 2) addRecipe.shape(IngredientRow1, IngredientRow2);
+				if(this.Rows == 3) addRecipe.shape(IngredientRow1, IngredientRow2, IngredientRow3);	
 			
 				if(this.IngredientA != "AIR") addRecipe.setIngredient('A', Material.getMaterial(IngredientA));
 				if(this.IngredientB != "AIR") addRecipe.setIngredient('B', Material.getMaterial(IngredientB));

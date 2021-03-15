@@ -3,6 +3,7 @@ CustomPlayerInteractEvent:
       - 0.1.0
       - 0.2.0
       - 0.3.0
+      
    group:
       - flower_bonemeal_playerinteract
       - whither_rose_fertilize_playerinteract
@@ -12,9 +13,11 @@ CustomPlayerInteractEvent:
       - dead_coral_bonemeal_playerinteract
       - dead_coral_dye_playerinteract
       - flame_type_change_playerinteract
+      
    contributor:
       - CreepyCoderMC
       - Killerblade347
+      
    key:
       # Version 0.1.0
       - oxeye_daisy_fertilize_playerinteract
@@ -284,6 +287,9 @@ CustomPlayerInteractEvent:
       - permission, boolean
       - addedBy, contributor
       - version, version
+      
+   keyPress:
+      - none
  
 oxeye_daisy_fertilize_playerinteract:
    enable: true
