@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.logging.log4j.Level;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -64,8 +65,12 @@ public class CustomCraftRecipe {
 		
 		this.plugin = plugin;
 		this.dataConfig = dataConfig;
-		this.KeyList = (List<String>) dataConfig.getList("CustomCraftRecipes.key");
+	}
 		
+	public void addRecipe() {
+			
+		this.KeyList = (List<String>) dataConfig.getList("CustomCraftRecipes.key");
+	
 		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
 			String key = i.next();
 			this.Shaped = dataConfig.getBoolean(key+".shaped");
@@ -83,69 +88,69 @@ public class CustomCraftRecipe {
 			this.Rows = dataConfig.getInt(key+".rows");
 			this.Cols = dataConfig.getInt(key+".cols");			
 			
+			try {
 			this.Result.setAmount(this.Amount);
 			
 			if(this.Shaped) {
-				
-				ShapedRecipe addRecipe = new ShapedRecipe(new NamespacedKey(plugin, key), this.Result);
+				ShapedRecipe addRecipe = new ShapedRecipe(new NamespacedKey(this.plugin, key), this.Result);
 			
-				if(this.IngredientA == "AIR" && this.Rows > 0) {
+				if(IngredientA.equals("AIR") && this.Rows > 0) {
 					IngredientAIngredient = " ";
 				}
 				else {
 					IngredientAIngredient = "A";
 				}
 			
-				if(this.IngredientB == "AIR" && this.Rows > 0) {
+				if(IngredientB.equals("AIR") && this.Rows > 0) {
 					IngredientBIngredient = " ";
 				}
 				else {
 				IngredientBIngredient = "B";
 				}
 			
-				if(this.IngredientC == "AIR" && this.Rows > 0) {
+				if(IngredientC.equals("AIR") && this.Rows > 0) {
 					IngredientCIngredient = " ";
 				}
 				else {
 					IngredientCIngredient = "C";
 				}
 			
-				if(this.IngredientD == "AIR" && this.Rows > 1) {
+				if(IngredientD.equals("AIR") && this.Rows > 1) {
 					IngredientDIngredient = " ";
 				}
 				else {
 					IngredientDIngredient = "D";
 				}
 			
-				if(this.IngredientE == "AIR" && this.Rows > 1) {
+				if(IngredientE.equals("AIR") && this.Rows > 1) {
 					IngredientEIngredient = " ";
 				}
 				else {
 					IngredientEIngredient = "E";
 				}
 			
-				if(this.IngredientF == "AIR" && this.Rows > 1) {
+				if(IngredientF.equals("AIR") && this.Rows > 1) {
 					IngredientFIngredient = " ";
 				}
 				else {
 					IngredientFIngredient = "F";
 				}
 			
-				if(this.IngredientG == "AIR" && this.Rows > 2) {
+				if(IngredientG.equals("AIR") && this.Rows > 2) {
 					IngredientGIngredient = " ";
 				}
 				else {
 					IngredientGIngredient = "G";
 				}
 			
-				if(this.IngredientH == "AIR" && this.Rows > 2) {
+				if(IngredientH.equals("AIR") && this.Rows > 2) {
 					IngredientHIngredient = " ";
 				}
 				else {
 					IngredientHIngredient = "H";
 				}
 			
-				if(this.IngredientI == "AIR" && this.Rows > 2) {
+				if(IngredientI.equals("AIR") && this.Rows > 2) {
 					IngredientIIngredient = " ";
 				}
 				else {
@@ -163,42 +168,45 @@ public class CustomCraftRecipe {
 				if (this.Cols == 1) IngredientRow3 = IngredientGIngredient;
 				if (this.Cols == 2) IngredientRow3 = IngredientGIngredient + IngredientHIngredient;
 				if (this.Cols == 3) IngredientRow3 = IngredientGIngredient + IngredientHIngredient + IngredientIIngredient;			
-
+				
 				if(this.Rows == 1) addRecipe.shape(IngredientRow1);
 				if(this.Rows == 2) addRecipe.shape(IngredientRow1, IngredientRow2);
 				if(this.Rows == 3) addRecipe.shape(IngredientRow1, IngredientRow2, IngredientRow3);	
-			
-				if(this.IngredientA != "AIR") addRecipe.setIngredient('A', Material.getMaterial(IngredientA));
-				if(this.IngredientB != "AIR") addRecipe.setIngredient('B', Material.getMaterial(IngredientB));
-				if(this.IngredientC != "AIR") addRecipe.setIngredient('C', Material.getMaterial(IngredientC));
-				if(this.IngredientD != "AIR") addRecipe.setIngredient('D', Material.getMaterial(IngredientD));
-				if(this.IngredientE != "AIR") addRecipe.setIngredient('E', Material.getMaterial(IngredientE));
-				if(this.IngredientF != "AIR") addRecipe.setIngredient('F', Material.getMaterial(IngredientF));
-				if(this.IngredientG != "AIR") addRecipe.setIngredient('G', Material.getMaterial(IngredientG));
-				if(this.IngredientH != "AIR") addRecipe.setIngredient('H', Material.getMaterial(IngredientH));
-				if(this.IngredientI != "AIR") addRecipe.setIngredient('I', Material.getMaterial(IngredientI));
-			
+				
+				if(!this.IngredientA.equals("AIR")) addRecipe.setIngredient('A', Material.getMaterial(IngredientA));
+				if(!this.IngredientB.equals("AIR")) addRecipe.setIngredient('B', Material.getMaterial(IngredientB));
+				if(!this.IngredientC.equals("AIR")) addRecipe.setIngredient('C', Material.getMaterial(IngredientC));
+				if(!this.IngredientD.equals("AIR")) addRecipe.setIngredient('D', Material.getMaterial(IngredientD));
+				if(!this.IngredientE.equals("AIR")) addRecipe.setIngredient('E', Material.getMaterial(IngredientE));
+				if(!this.IngredientF.equals("AIR")) addRecipe.setIngredient('F', Material.getMaterial(IngredientF));
+				if(!this.IngredientG.equals("AIR")) addRecipe.setIngredient('G', Material.getMaterial(IngredientG));
+				if(!this.IngredientH.equals("AIR")) addRecipe.setIngredient('H', Material.getMaterial(IngredientH));
+				if(!this.IngredientI.equals("AIR")) addRecipe.setIngredient('I', Material.getMaterial(IngredientI));
+
 				Bukkit.addRecipe(addRecipe);
 			}
 			else {
 				
 				ShapelessRecipe addRecipe = new ShapelessRecipe(new NamespacedKey(plugin, key), this.Result);
 				
-				if(this.IngredientA != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientA));
-				if(this.IngredientB != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientB));
-				if(this.IngredientC != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientC));
-				if(this.IngredientD != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientD));
-				if(this.IngredientE != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientE));
-				if(this.IngredientF != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientF));
-				if(this.IngredientG != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientG));
-				if(this.IngredientH != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientH));
-				if(this.IngredientI != "AIR") addRecipe.addIngredient(1, Material.getMaterial(IngredientI));
+				if(!this.IngredientA.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientA));
+				if(!this.IngredientB.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientB));
+				if(!this.IngredientC.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientC));
+				if(!this.IngredientD.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientD));
+				if(!this.IngredientE.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientE));
+				if(!this.IngredientF.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientF));
+				if(!this.IngredientG.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientG));
+				if(!this.IngredientH.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientH));
+				if(!this.IngredientI.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientI));
 				
 				Bukkit.addRecipe(addRecipe);
+			}}
+			catch (Exception e) {
+				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Can not load crafting recipe "+key);
+			}
 			}
 		}
 	}
-}
 
 	
 	
