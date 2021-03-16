@@ -47,7 +47,7 @@ public class YAMLManager {
 		List<String> KeyList = (List<String>) dataConfig.getList(YAMLContextKey+".key");
 		List<String> StructureList = (List<String>) dataConfig.getList(YAMLContextKey+".structure");
 		List<String> KeyPressList = (List<String>) dataConfig.getList(YAMLContextKey+".keyPress");
-
+		
 		// Check that all structure items is of correct type
 		for(Iterator<String> iStructure = StructureList.iterator(); iStructure.hasNext();) {
 			String fullString = iStructure.next();
