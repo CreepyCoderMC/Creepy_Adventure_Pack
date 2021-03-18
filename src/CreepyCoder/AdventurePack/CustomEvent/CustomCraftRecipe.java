@@ -184,17 +184,6 @@ public class CustomCraftRecipe {
 					if(!this.IngredientG.equals("AIR")) addRecipe.setIngredient('G', new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientG)));
 					if(!this.IngredientH.equals("AIR")) addRecipe.setIngredient('H', new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientH)));
 					if(!this.IngredientI.equals("AIR")) addRecipe.setIngredient('I', new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientI)));
-					/*
-					if(!this.IngredientA.equals("AIR")) addRecipe.setIngredient('A', Material.getMaterial(IngredientA));
-					if(!this.IngredientB.equals("AIR")) addRecipe.setIngredient('B', Material.getMaterial(IngredientB));
-					if(!this.IngredientC.equals("AIR")) addRecipe.setIngredient('C', Material.getMaterial(IngredientC));
-					if(!this.IngredientD.equals("AIR")) addRecipe.setIngredient('D', Material.getMaterial(IngredientD));
-					if(!this.IngredientE.equals("AIR")) addRecipe.setIngredient('E', Material.getMaterial(IngredientE));
-					if(!this.IngredientF.equals("AIR")) addRecipe.setIngredient('F', Material.getMaterial(IngredientF));
-					if(!this.IngredientG.equals("AIR")) addRecipe.setIngredient('G', Material.getMaterial(IngredientG));
-					if(!this.IngredientH.equals("AIR")) addRecipe.setIngredient('H', Material.getMaterial(IngredientH));
-					if(!this.IngredientI.equals("AIR")) addRecipe.setIngredient('I', Material.getMaterial(IngredientI));
-					*/
 					
 					Bukkit.addRecipe(addRecipe);
 				}
@@ -202,6 +191,16 @@ public class CustomCraftRecipe {
 
 					ShapelessRecipe addRecipe = new ShapelessRecipe(new NamespacedKey(this.plugin, key), this.Result);
 
+					if(!this.IngredientA.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientA)));
+					if(!this.IngredientB.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientB)));
+					if(!this.IngredientC.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientC)));
+					if(!this.IngredientD.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientD)));
+					if(!this.IngredientE.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientE)));
+					if(!this.IngredientF.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientF)));
+					if(!this.IngredientG.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientG)));
+					if(!this.IngredientH.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientH)));
+					if(!this.IngredientI.equals("AIR")) addRecipe.addIngredient(new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(IngredientI)));
+					/*
 					if(!this.IngredientA.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientA));
 					if(!this.IngredientB.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientB));
 					if(!this.IngredientC.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientC));
@@ -211,7 +210,7 @@ public class CustomCraftRecipe {
 					if(!this.IngredientG.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientG));
 					if(!this.IngredientH.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientH));
 					if(!this.IngredientI.equals("AIR")) addRecipe.addIngredient(1, Material.getMaterial(IngredientI));
-
+					*/
 					Bukkit.addRecipe(addRecipe);
 
 				}
