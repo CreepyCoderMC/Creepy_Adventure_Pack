@@ -1,4 +1,5 @@
 CustomCraftRecipes:
+
    version:
       - 0.2.0
       - 0.3.0
@@ -10,12 +11,12 @@ CustomCraftRecipes:
       - revive_coral_crafting
       - dead_coral_dye_crafting
       - flame_type_change_crafting
-      - legacy_logs_crafting
-      - legacy_stripped_logs_crafting
-      - legacy_wood_crafting
+      - convert_logs_with_saplings_crafting
+
    contributor:
       - CreepyCoderMC
       - Killerblade347
+      
    key:
       # Version 0.2.0
       - dead_brain_coral_up_crafting
@@ -204,30 +205,30 @@ CustomCraftRecipes:
       - soul_torch_to_redstone_torch_crafting
       - redstone_torch_to_torch_crafting
       - redstone_torch_to_soul_torch_crafting
-      - legacy_logs_with_oak_sapling_crafting
-      - legacy_logs_with_spruce_sapling_crafting
-      - legacy_logs_with_birch_sapling_crafting
-      - legacy_logs_with_jungle_sapling_crafting
-      - legacy_logs_with_acacia_sapling_crafting
-      - legacy_logs_with_dark_oak_sapling_crafting
-      - legacy_logs_with_crimson_fungus_crafting
-      - legacy_logs_with_warped_fungus_crafting
-      - legacy_stripped_logs_with_oak_sapling_crafting
-      - legacy_stripped_logs_with_spruce_sapling_crafting
-      - legacy_stripped_logs_with_birch_sapling_crafting
-      - legacy_stripped_logs_with_jungle_sapling_crafting
-      - legacy_stripped_logs_with_acacia_sapling_crafting
-      - legacy_stripped_logs_with_dark_oak_sapling_crafting
-      - legacy_stripped_logs_with_crimson_fungus_crafting
-      - legacy_stripped_logs_with_warped_fungus_crafting
-      - legacy_wood_with_oak_sapling_crafting
-      - legacy_wood_with_spruce_sapling_crafting
-      - legacy_wood_with_birch_sapling_crafting
-      - legacy_wood_with_jungle_sapling_crafting
-      - legacy_wood_with_acacia_sapling_crafting
-      - legacy_wood_with_dark_oak_sapling_crafting
-      - legacy_wood_with_crimson_fungus_crafting
-      - legacy_wood_with_warped_fungus_crafting
+      - convert_logs_with_oak_sapling_crafting
+      # legacy_logs_with_spruce_sapling_crafting
+      # legacy_logs_with_birch_sapling_crafting
+      # legacy_logs_with_jungle_sapling_crafting
+      # legacy_logs_with_acacia_sapling_crafting
+      # legacy_logs_with_dark_oak_sapling_crafting
+      # legacy_logs_with_crimson_fungus_crafting
+      # legacy_logs_with_warped_fungus_crafting
+      # legacy_stripped_logs_with_oak_sapling_crafting
+      # legacy_stripped_logs_with_spruce_sapling_crafting
+      # legacy_stripped_logs_with_birch_sapling_crafting
+      # legacy_stripped_logs_with_jungle_sapling_crafting
+      # legacy_stripped_logs_with_acacia_sapling_crafting
+      # legacy_stripped_logs_with_dark_oak_sapling_crafting
+      # legacy_stripped_logs_with_crimson_fungus_crafting
+      # legacy_stripped_logs_with_warped_fungus_crafting
+      # legacy_wood_with_oak_sapling_crafting
+      # legacy_wood_with_spruce_sapling_crafting
+      # legacy_wood_with_birch_sapling_crafting
+      # legacy_wood_with_jungle_sapling_crafting
+      # legacy_wood_with_acacia_sapling_crafting
+      # legacy_wood_with_dark_oak_sapling_crafting
+      # legacy_wood_with_crimson_fungus_crafting
+      # legacy_wood_with_warped_fungus_crafting
       
    structure:
       - enable, boolean
@@ -2497,7 +2498,7 @@ revive_dead_bubble_coral_block_crafting:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-revive_dead_fire_coral_block__crafting:
+revive_dead_fire_coral_block_crafting:
    enable: true
    shaped: false
    result: FIRE_CORAL_BLOCK
@@ -4009,7 +4010,7 @@ torch_to_redstone_torch_crafting:
    addedBy: Killerblade347
    version: 0.3.0
    
-soul_TORCH_to_TORCH_crafting:
+soul_torch_to_torch_crafting:
    enable: true
    shaped: false
    result: TORCH
@@ -4135,464 +4136,23 @@ redstone_torch_to_soul_torch_crafting:
    addedBy: Killerblade347
    version: 0.3.0
    
-legacy_logs_with_oak_sapling_crafting:
+convert_logs_with_oak_sapling_crafting:
    enable: true
    shaped: true
-   result: OAK_LOGS
+   result: OAK_LOG
    amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
+   ingredientA: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientB: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientC: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientD: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
    ingredientE: OAK_SAPLING
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
+   ingredientF: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientG: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientH: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientI: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
    rows: 3
    cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_logs_with_spruce_sapling_crafting:
-   enable: true
-   shaped: true
-   result: SPRUCE_LOGS
-   amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
-   ingredientE: SPRUCE_SAPLING
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-
-legacy_logs_with_birch_sapling_crafting:
-   enable: true
-   shaped: true
-   result: BIRCH_LOGS
-   amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
-   ingredientE: BIRCH_SAPLING
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_logs_with_jungle_sapling_crafting:
-   enable: true
-   shaped: true
-   result: JUNGLE_LOGS
-   amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
-   ingredientE: JUNGLE_SAPLING
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_logs_with_acacia_sapling_crafting:
-   enable: true
-   shaped: true
-   result: ACACIA_LOGS
-   amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
-   ingredientE: ACACIA_SAPLING
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_logs_with_crimson_fungus_crafting:
-   enable: true
-   shaped: true
-   result: CRIMSON_STEM
-   amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
-   ingredientE: CRIMSON_FUNGUS
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_logs_with_warped_fungus_crafting:
-   enable: true
-   shaped: true
-   result: WARPED_STEM
-   amount: 8
-   ingredientA: LEGACY_LOGS
-   ingredientB: LEGACY_LOGS
-   ingredientC: LEGACY_LOGS
-   ingredientD: LEGACY_LOGS
-   ingredientE: WARPED_FUNGUS
-   ingredientF: LEGACY_LOGS
-   ingredientG: LEGACY_LOGS
-   ingredientH: LEGACY_LOGS
-   ingredientI: LEGACY_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_oak_sapling_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_OAK_LOGS
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: OAK_SAPLING
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-
-legacy_stripped_logs_with_spruce_sapling_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_SPRUCE_LOGS
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: SPRUCE_SAPLING
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_birch_sapling_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_BIRCH_LOGS
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: BIRCH_SAPLING
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_jungle_sapling_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_JUNGLE_LOGS
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: JUNGLE_SAPLING
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_acacia_sapling_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_ACACIA_LOGS
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: ACACIA_SAPLING
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_dark_oak_sapling_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_DARK_OAK_LOGS
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: DARK_OAK_SAPLING
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_crimson_fungus_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_CRIMSON_STEM
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: CRIMSON_FUNGUS
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_stripped_logs_with_warped_fungus_crafting:
-   enable: true
-   shaped: true
-   result: STRIPPED_WARPED_STEM
-   amount: 8
-   ingredientA: LEGACY_STRIPPED_LOGS
-   ingredientB: LEGACY_STRIPPED_LOGS
-   ingredientC: LEGACY_STRIPPED_LOGS
-   ingredientD: LEGACY_STRIPPED_LOGS
-   ingredientE: WARPED_FUNGUS
-   ingredientF: LEGACY_STRIPPED_LOGS
-   ingredientG: LEGACY_STRIPPED_LOGS
-   ingredientH: LEGACY_STRIPPED_LOGS
-   ingredientI: LEGACY_STRIPPED_LOGS
-   rows: 3
-   cols: 3
-   group: legacy_stripped_logs_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_oak_sapling_crafting:
-   enable: true
-   shaped: true
-   result: OAK_WOOD
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: OAK_SAPLING
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_spruce_sapling_crafting:
-   enable: true
-   shaped: true
-   result: SPRUCE_WOOD
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: SPRUCE_SAPLING
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_birch_sapling_crafting:
-   enable: true
-   shaped: true
-   result: BIRCH_WOOD
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: BIRCH_SAPLING
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_jungle_sapling_crafting:
-   enable: true
-   shaped: true
-   result: JUNGLE_WOOD
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: JUNGLE_SAPLING
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_acacia_sapling_crafting:
-   enable: true
-   shaped: true
-   result: ACACIA_WOOD
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: ACACIA_SAPLING
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_dark_oak_sapling_crafting:
-   enable: true
-   shaped: true
-   result: DARK_OAK_WOOD
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: DARK_OAK_SAPLING
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
-   permission: true
-   addedBy: Killerblade347
-   version: 0.3.0
-   
-legacy_wood_with_warped_fungus_crafting:
-   enable: true
-   shaped: true
-   result: WARPED_STEM
-   amount: 8
-   ingredientA: LEGACY_WOOD
-   ingredientB: LEGACY_WOOD
-   ingredientC: LEGACY_WOOD
-   ingredientD: LEGACY_WOOD
-   ingredientE: WARPED_FUNGUS
-   ingredientF: LEGACY_WOOD
-   ingredientG: LEGACY_WOOD
-   ingredientH: LEGACY_WOOD
-   ingredientI: LEGACY_WOOD
-   rows: 3
-   cols: 3
-   group: legacy_wood_crafting
+   group: convert_logs_with_saplings_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0

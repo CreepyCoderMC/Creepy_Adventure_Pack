@@ -86,11 +86,14 @@ public class YAMLManager {
 								break;
 							case "material":
 								if (valueTest != null) {
-									try {	
-										Material materialTest = Material.valueOf(valueTest);
-									}
-									catch (Exception e) {
-										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename);
+									String[] valueTestSplit = valueTest.split("\\W+");
+									for (String valueTestNew : valueTestSplit) {
+										try {	
+											Material materialTest = Material.valueOf(valueTestNew);
+										}
+										catch (Exception e) {
+											Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename);
+										}
 									}
 								}
 								break;
