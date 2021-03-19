@@ -19,6 +19,7 @@ import org.bukkit.plugin.Plugin;
 
 import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
+import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 
 public class YAMLManager {
@@ -150,6 +151,9 @@ public class YAMLManager {
 				break;
 			case "CustomCampfireRecipes":
 				CustomCampfireRecipe CustomCampfireRecipe = new CustomCampfireRecipe(plugin, dataConfig);
+				break;
+			case "CustomFurnaceRecipes":
+				CustomFurnaceRecipe CustomFurnaceRecipe = new CustomFurnaceRecipe(plugin, dataConfig);
 				break;
 		}
 	}

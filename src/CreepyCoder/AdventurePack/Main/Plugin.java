@@ -14,6 +14,7 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomPlayerInteractEvent.yml");
 		YAMLManager.LoadYAML("CustomCraftRecipes.yml");
 		YAMLManager.LoadYAML("CustomCampfireRecipes.yml");
+		YAMLManager.LoadYAML("CustomFurnaceRecipes.yml");
 	}
 	
     @Override
