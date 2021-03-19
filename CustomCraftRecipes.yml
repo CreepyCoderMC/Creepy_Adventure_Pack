@@ -12,6 +12,7 @@ CustomCraftRecipes:
       - dead_coral_dye_crafting
       - flame_type_change_crafting
       - convert_logs_with_saplings_crafting
+      - convert_logs_with_fungus_crafting
 
    contributor:
       - CreepyCoderMC
@@ -206,13 +207,13 @@ CustomCraftRecipes:
       - redstone_torch_to_torch_crafting
       - redstone_torch_to_soul_torch_crafting
       - convert_logs_with_oak_sapling_crafting
-      # legacy_logs_with_spruce_sapling_crafting
-      # legacy_logs_with_birch_sapling_crafting
-      # legacy_logs_with_jungle_sapling_crafting
-      # legacy_logs_with_acacia_sapling_crafting
-      # legacy_logs_with_dark_oak_sapling_crafting
-      # legacy_logs_with_crimson_fungus_crafting
-      # legacy_logs_with_warped_fungus_crafting
+      - covert_logs_with_spruce_sapling_crafting
+      - covert_logs_with_birch_sapling_crafting
+      - covert_logs_with_jungle_sapling_crafting
+      - covert_logs_with_acacia_sapling_crafting
+      - covert_logs_with_dark_oak_sapling_crafting
+      - covert_logs_with_crimson_fungus_crafting
+      - covert_logs_with_warped_fungus_crafting
       # legacy_stripped_logs_with_oak_sapling_crafting
       # legacy_stripped_logs_with_spruce_sapling_crafting
       # legacy_stripped_logs_with_birch_sapling_crafting
@@ -4153,6 +4154,153 @@ convert_logs_with_oak_sapling_crafting:
    rows: 3
    cols: 3
    group: convert_logs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_LOG
+   amount: 8
+   ingredientA: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientB: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientC: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientD: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientG: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientH: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientI: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_LOG
+   amount: 8
+   ingredientA: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientB: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientC: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientD: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientE: BIRCH_SAPLING
+   ingredientF: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientG: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientH: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientI: ACACIA_LOG, OAK_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_LOG
+   amount: 8
+   ingredientA: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientB: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientC: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientD: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientG: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientH: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientI: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_LOG
+   amount: 8
+   ingredientA: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientB: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientC: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientD: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientG: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientH: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientI: OAK_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_LOG
+   amount: 8
+   ingredientA: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientB: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientC: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientD: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientG: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientH: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   ingredientI: ACACIA_LOG, BIRCH_LOG, OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_crimson_fungus_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_STEM
+   amount: 8
+   ingredientA: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientB: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientC: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientD: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientE: CRIMSON_FUNGUS
+   ingredientF: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientG: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientH: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   ingredientI: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_logs_with_warped_fungus_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_STEM
+   amount: 8
+   ingredientA: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientB: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientC: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientD: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientE: WARPED_FUNGUS
+   ingredientF: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientG: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientH: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   ingredientI: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM
+   rows: 3
+   cols: 3
+   group: convert_logs_with_fungus_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
