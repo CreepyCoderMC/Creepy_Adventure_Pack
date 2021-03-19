@@ -63,10 +63,6 @@ public class CustomCraftRecipe {
 
 		this.plugin = plugin;
 		this.dataConfig = dataConfig;
-	}
-
-	public void addRecipe() {
-
 		this.KeyList = (List<String>) dataConfig.getList("CustomCraftRecipes.key");
 
 		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
@@ -211,8 +207,3 @@ public class CustomCraftRecipe {
 		}
 	}
 }
-
-
-
-
-

@@ -17,6 +17,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
+import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 
@@ -146,7 +147,9 @@ public class YAMLManager {
 				break;
 			case "CustomCraftRecipes":
 				CustomCraftRecipe CustomCraftRecipe = new CustomCraftRecipe(plugin, dataConfig);
-				CustomCraftRecipe.addRecipe();
+				break;
+			case "CustomCampfireRecipes":
+				CustomCampfireRecipe CustomCampfireRecipe = new CustomCampfireRecipe(plugin, dataConfig);
 				break;
 		}
 	}

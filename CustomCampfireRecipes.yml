@@ -1,10 +1,13 @@
 CustomCampfireRecipes:
+
    version:
       - 0.2.0
       - 0.3.0
       
    group:
       - dead_coral_campfire 
+      - wood_logs_to_charcoal_campfire
+      - stripped_wood_logs_to_charcoal_campfire
       
    contributor:
       - CreepyCoderMC
@@ -27,6 +30,9 @@ CustomCampfireRecipes:
       - dead_fire_coral_block_campfire
       - dead_horn_coral_block_campfire
       - dead_tube_coral_block_campfire
+      # Version 0.3.0
+      - wood_logs_to_charcoal_campfire
+      - stripped_wood_logs_to_charcoal_campfire
       
    structure:
       - enable, boolean
@@ -203,3 +209,25 @@ dead_tube_coral_block_campfire:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
+   
+wood_logs_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   experience: 0.3
+   cookingTime: 360
+   group: wood_logs_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+stripped_wood_logs_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_ACACIA_LOG, STRIPPED_BIRCH_LOG, STRIPPED_DARK_OAK_LOG, STRIPPED_JUNGLE_LOG, STRIPPED_SPRUCE_LOG, STRIPPED_OAK_LOG, STRIPPED_CRIMSON_STEM, STRIPPED_WARPED_STEM
+   experience: 0.3
+   cookingTime: 360
+   group: stripped_wood_logs_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
