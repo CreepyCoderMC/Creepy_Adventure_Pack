@@ -207,13 +207,13 @@ CustomCraftRecipes:
       - redstone_torch_to_torch_crafting
       - redstone_torch_to_soul_torch_crafting
       - convert_logs_with_oak_sapling_crafting
-      - covert_logs_with_spruce_sapling_crafting
-      - covert_logs_with_birch_sapling_crafting
-      - covert_logs_with_jungle_sapling_crafting
-      - covert_logs_with_acacia_sapling_crafting
-      - covert_logs_with_dark_oak_sapling_crafting
-      - covert_logs_with_crimson_fungus_crafting
-      - covert_logs_with_warped_fungus_crafting
+      - convert_logs_with_spruce_sapling_crafting
+      - convert_logs_with_birch_sapling_crafting
+      - convert_logs_with_jungle_sapling_crafting
+      - convert_logs_with_acacia_sapling_crafting
+      - convert_logs_with_dark_oak_sapling_crafting
+      - convert_logs_with_crimson_fungus_crafting
+      - convert_logs_with_warped_fungus_crafting
       # legacy_stripped_logs_with_oak_sapling_crafting
       # legacy_stripped_logs_with_spruce_sapling_crafting
       # legacy_stripped_logs_with_birch_sapling_crafting

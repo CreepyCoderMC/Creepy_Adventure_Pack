@@ -8,6 +8,8 @@ CustomCampfireRecipes:
       - dead_coral_campfire 
       - wood_logs_to_charcoal_campfire
       - stripped_wood_logs_to_charcoal_campfire
+      - wood_to_charcoal_campfire
+      - stripped_wood_to_charcoal_campfire
       
    contributor:
       - CreepyCoderMC
@@ -33,6 +35,8 @@ CustomCampfireRecipes:
       # Version 0.3.0
       - wood_logs_to_charcoal_campfire
       - stripped_wood_logs_to_charcoal_campfire
+      - wood_to_charcoal_campfire
+      - stripped_wood_to_charcoal_campfire
       
    structure:
       - enable, boolean
@@ -228,6 +232,28 @@ stripped_wood_logs_to_charcoal_campfire:
    experience: 0.3
    cookingTime: 360
    group: stripped_wood_logs_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+wood_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: ACACIA_WOOD, BIRCH_WOOD, DARK_OAK_WOOD, JUNGLE_WOOD, SPRUCE_WOOD, OAK_WOOD, CRIMSON_HYPHAE, WARPED_HYPHAE
+   experience: 0.3
+   cookingTime: 360
+   group: wood_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+stripped_wood_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_ACACIA_WOOD, STRIPPED_BIRCH_WOOD, STRIPPED_DARK_OAK_WOOD, STRIPPED_JUNGLE_WOOD, STRIPPED_SPRUCE_WOOD, STRIPPED_OAK_WOOD, STRIPPED_CRIMSON_HYPHAE, STRIPPED_WARPED_HYPHAE
+   experience: 0.3
+   cookingTime: 360
+   group: stripped_wood_to_charcoal_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
