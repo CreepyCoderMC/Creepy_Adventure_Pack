@@ -2,6 +2,7 @@ package CreepyCoder.AdventurePack.Function;
 
 import org.bukkit.block.Block;
 import org.bukkit.block.data.Directional;
+import org.bukkit.inventory.ItemStack;
 
 public class BlockFunction {
 
@@ -24,5 +25,9 @@ public class BlockFunction {
 		}
 		
 		return block.getRelative(0 + xMod, 0, 0 + zMod);
+	}
+	
+	public void Interact(Block currentBlock, ItemStack newBlock, boolean Drop, boolean InventoryAdd, boolean replace, boolean Break) {
+		
 	}
 }
