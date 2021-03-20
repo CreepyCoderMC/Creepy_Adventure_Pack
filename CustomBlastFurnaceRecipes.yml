@@ -1,32 +1,31 @@
-CustomFurnaceRecipes:
+CustomBlastFurnaceRecipes:
 
    version:
       - 0.2.0
             
    group:
-      - dead_coral_furnace
+      - dead_coral_blastfurnace
       
    contributor:
       - CreepyCoderMC
       - Killerblade347   
-      
    key:
       # Version 0.2.0
-      - dead_brain_coral_fan_furnace
-      - dead_bubble_coral_fan_furnace
-      - dead_fire_coral_fan_furnace
-      - dead_horn_coral_fan_furnace
-      - dead_tube_coral_fan_furnace
-      - dead_brain_coral_furnace
-      - dead_bubble_coral_furnace
-      - dead_fire_coral_furnace
-      - dead_horn_coral_furnace
-      - dead_tube_coral_furnace
-      - dead_brain_coral_block_furnace
-      - dead_bubble_coral_block_furnace
-      - dead_fire_coral_block_furnace
-      - dead_horn_coral_block_furnace
-      - dead_tube_coral_block_furnace
+      - dead_brain_coral_fan_blastfurnace
+      - dead_bubble_coral_fan_blastfurnace
+      - dead_fire_coral_fan_blastfurnace
+      - dead_horn_coral_fan_blastfurnace
+      - dead_tube_coral_fan_blastfurnace
+      - dead_brain_coral_blastfurnace
+      - dead_bubble_coral_blastfurnace
+      - dead_fire_coral_blastfurnace
+      - dead_horn_coral_blastfurnace
+      - dead_tube_coral_blastfurnace
+      - dead_brain_coral_block_blastfurnace
+      - dead_bubble_coral_block_blastfurnace
+      - dead_fire_coral_block_blastfurnace
+      - dead_horn_coral_block_blastfurnace
+      - dead_tube_coral_block_blastfurnace
       
    structure:
       - enable, boolean
@@ -38,168 +37,168 @@ CustomFurnaceRecipes:
       - permission, boolean
       - addedBy, contributor
       - version, version
-
-dead_brain_coral_fan_furnace:
+      
+dead_brain_coral_fan_blastfurnace:
    enable: true
    result: DEAD_BRAIN_CORAL_FAN
    source: BRAIN_CORAL_FAN
    experience: 0.1
-   cookingTime: 16
-   group: dead_coral_furnace
+   cookingTime: 8
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_bubble_coral_fan_furnace:
+dead_bubble_coral_fan_blastfurnace:
    enable: true
    result: DEAD_BUBBLE_CORAL_FAN
    source: BUBBLE_CORAL_FAN
    experience: 0.1
-   cookingTime: 16
-   group: dead_coral_furnace
+   cookingTime: 8
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0  
      
-dead_fire_coral_fan_furnace:
+dead_fire_coral_fan_blastfurnace:
    enable: true
    result: DEAD_FIRE_CORAL_FAN
    source: FIRE_CORAL_FAN
    experience: 0.1
-   cookingTime: 16
-   group: dead_coral_furnace
+   cookingTime: 8
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
-   version: 0.2.0   
+   version: 0.2.0    
 
-dead_horn_coral_fan_furnace:
+dead_horn_coral_fan_blastfurnace:
    enable: true
    result: DEAD_HORN_CORAL_FAN
    source: HORN_CORAL_FAN
    experience: 0.1
-   cookingTime: 16
-   group: dead_coral_furnace
+   cookingTime: 8
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_tube_coral_fan_furnace:
+dead_tube_coral_fan_blastfurnace:
    enable: true
    result: DEAD_TUBE_CORAL_FAN
    source: TUBE_CORAL_FAN
    experience: 0.1
-   cookingTime: 16
-   group: dead_coral_furnace
+   cookingTime: 8
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
  
-dead_brain_coral_furnace:
+dead_brain_coral_blastfurnace:
    enable: true
    result: DEAD_BRAIN_CORAL
    source: BRAIN_CORAL
    experience: 0.2
-   cookingTime: 32
-   group: dead_coral_furnace
+   cookingTime: 16
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_bubble_coral_furnace:
+dead_bubble_coral_blastfurnace:
    enable: true
    result: DEAD_BUBBLE_CORAL
    source: BUBBLE_CORAL
    experience: 0.2
-   cookingTime: 32
-   group: dead_coral_furnace
+   cookingTime: 16
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
-   version: 0.2.0  
+   version: 0.2.0   
      
-dead_fire_coral_furnace:
+dead_fire_coral_blastfurnace:
    enable: true
    result: DEAD_FIRE_CORAL
    source: FIRE_CORAL
    experience: 0.2
-   cookingTime: 32
-   group: dead_coral_furnace
+   cookingTime: 16
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
-   version: 0.2.0   
+   version: 0.2.0    
 
-dead_horn_coral_furnace:
+dead_horn_coral_blastfurnace:
    enable: true
    result: DEAD_HORN_CORAL
    source: HORN_CORAL
    experience: 0.2
-   cookingTime: 32
-   group: dead_coral_furnace
+   cookingTime: 16
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_tube_coral_furnace:
+dead_tube_coral_blastfurnace:
    enable: true
    result: DEAD_TUBE_CORAL
    source: TUBE_CORAL
    experience: 0.2
-   cookingTime: 32
-   group: dead_coral_furnace
+   cookingTime: 16
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
   
-dead_brain_coral_block_furnace:
+dead_brain_coral_block_blastfurnace:
    enable: true
    result: DEAD_BRAIN_CORAL_BLOCK
    source: BRAIN_CORAL_BLOCK
    experience: 0.3
-   cookingTime: 48
-   group: dead_coral_furnace
+   cookingTime: 24
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_bubble_coral_block_furnace:
+dead_bubble_coral_block_blastfurnace:
    enable: true
    result: DEAD_BUBBLE_CORAL_BLOCK
    source: BUBBLE_CORAL_BLOCK
    experience: 0.3
-   cookingTime: 48
-   group: dead_coral_furnace
+   cookingTime: 24
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
-   version: 0.2.0  
+   version: 0.2.0   
      
-dead_fire_coral_block_furnace:
+dead_fire_coral_block_blastfurnace:
    enable: true
    result: DEAD_FIRE_CORAL_BLOCK
    source: FIRE_CORAL_BLOCK
    experience: 0.3
-   cookingTime: 48
-   group: dead_coral_furnace
+   cookingTime: 24
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
-   version: 0.2.0 
+   version: 0.2.0    
 
-dead_horn_coral_block_furnace:
+dead_horn_coral_block_blastfurnace:
    enable: true
    result: DEAD_HORN_CORAL_BLOCK
    source: HORN_CORAL_BLOCK
    experience: 0.3
-   cookingTime: 48
-   group: dead_coral_furnace
+   cookingTime: 24
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_tube_coral_block_furnace:
+dead_tube_coral_block_blastfurnace:
    enable: true
    result: DEAD_TUBE_CORAL_BLOCK
    source: TUBE_CORAL_BLOCK
    experience: 0.3
-   cookingTime: 48
-   group: dead_coral_furnace
+   cookingTime: 24
+   group: dead_coral_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0

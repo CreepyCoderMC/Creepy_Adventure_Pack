@@ -17,6 +17,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
+import CreepyCoder.AdventurePack.CustomEvent.CustomBlastFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
@@ -154,6 +155,9 @@ public class YAMLManager {
 				break;
 			case "CustomFurnaceRecipes":
 				CustomFurnaceRecipe CustomFurnaceRecipe = new CustomFurnaceRecipe(plugin, dataConfig);
+				break;
+			case "CustomBlastFurnaceRecipes":
+				CustomBlastFurnaceRecipe CustomBlastFurnaceRecipe = new CustomBlastFurnaceRecipe(plugin, dataConfig);
 				break;
 		}
 	}
