@@ -20,6 +20,7 @@ import org.bukkit.plugin.Plugin;
 import CreepyCoder.AdventurePack.CustomEvent.CustomBlastFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
+import CreepyCoder.AdventurePack.CustomEvent.CustomDispenserEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomSmokerRecipe;
@@ -162,6 +163,9 @@ public class YAMLManager {
 				break;
 			case "CustomSmokerRecipes":
 				CustomSmokerRecipe CustomSmokerRecipe = new CustomSmokerRecipe(plugin, dataConfig);
+				break;
+			case "CustomDispenserEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomDispenserEvent(plugin, dataConfig), plugin);
 				break;
 		}
 	}

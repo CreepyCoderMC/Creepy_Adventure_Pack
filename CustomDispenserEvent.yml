@@ -1,0 +1,3064 @@
+CustomDispenserEvent:
+
+   version:
+      - 0.1.0
+      - 0.2.0
+      
+   group:
+      - flower_fertilize_dispenserevent
+      - witherrose_fertilize_dispenserevent
+      - dead_coral_dye_dispenserevent
+      - coral_dye_dispenserevent
+      - revive_dead_coral_dispenserevent
+      - coral_fertilize_dispenserevent
+      - dead_coral_fertilize_dispenserevent
+  
+
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+   key:
+      # Version 0.1.0
+      - oxeye_daisy_fertilizer_dispenserevent
+      - dandelion_fertilizer_dispenserevent
+      - poppy_fertilizer_dispenserevent
+      - blue_orchid_fertilizer_dispenserevent
+      - allium_fertilizer_dispenserevent
+      - azure_bluet_fertilizer_dispenserevent
+      - red_tulip_fertilizer_dispenserevent
+      - orange_tulip_fertilizer_dispenserevent
+      - white_tulip_fertilizer_dispenserevent
+      - pink_tulip_fertilizer_dispenserevent
+      - cornflower_fertilizer_dispenserevent
+      - lily_of_the_valley_fertilizer_dispenserevent
+      - wither_rose_fertilizer_dispenserevent
+      # Version 0.2.0
+      - brain_coral_fan_dye_magenta_dispenserevent
+      - brain_coral_fan_dye_red_dispenserevent
+      - brain_coral_fan_dye_yellow_dispenserevent
+      - brain_coral_fan_dye_blue_dispenserevent
+      - bubble_coral_fan_dye_pink_dispenserevent
+      - bubble_coral_fan_dye_red_dispenserevent
+      - bubble_coral_fan_dye_yellow_dispenserevent
+      - bubble_coral_fan_dye_blue_dispenserevent
+      - fire_coral_fan_dye_magenta_dispenserevent
+      - fire_coral_fan_dye_pink_dispenserevent
+      - fire_coral_fan_dye_yellow_dispenserevent
+      - fire_coral_fan_dye_blue_dispenserevent 
+      - horn_coral_fan_dye_magenta_dispenserevent
+      - horn_coral_fan_dye_pink_dispenserevent
+      - horn_coral_fan_dye_red_dispenserevent
+      - horn_coral_fan_dye_blue_dispenserevent
+      - tube_coral_fan_dye_magenta_dispenserevent
+      - tube_coral_fan_dye_pink_dispenserevent
+      - tube_coral_fan_dye_red_dispenserevent
+      - tube_coral_fan_dye_yellow_dispenserevent 
+      - brain_coral_dye_magenta_dispenserevent
+      - brain_coral_dye_red_dispenserevent
+      - brain_coral_dye_yellow_dispenserevent
+      - brain_coral_dye_blue_dispenserevent
+      - bubble_coral_dye_pink_dispenserevent
+      - bubble_coral_dye_red_dispenserevent
+      - bubble_coral_dye_yellow_dispenserevent
+      - bubble_coral_dye_blue_dispenserevent
+      - fire_coral_dye_magenta_dispenserevent
+      - fire_coral_dye_pink_dispenserevent
+      - fire_coral_dye_yellow_dispenserevent
+      - fire_coral_dye_blue_dispenserevent  
+      - horn_coral_dye_magenta_dispenserevent
+      - horn_coral_dye_pink_dispenserevent
+      - horn_coral_dye_red_dispenserevent
+      - horn_coral_dye_blue_dispenserevent
+      - tube_coral_dye_magenta_dispenserevent
+      - tube_coral_dye_pink_dispenserevent
+      - tube_coral_dye_red_dispenserevent
+      - tube_coral_dye_yellow_dispenserevent
+      - brain_coral_block_dye_magenta_dispenserevent
+      - brain_coral_block_dye_red_dispenserevent
+      - brain_coral_block_dye_yellow_dispenserevent
+      - brain_coral_block_dye_blue_dispenserevent
+      - bubble_coral_block_dye_pink_dispenserevent
+      - bubble_coral_block_dye_red_dispenserevent
+      - bubble_coral_block_dye_yellow_dispenserevent
+      - bubble_coral_block_dye_blue_dispenserevent
+      - fire_coral_block_dye_magenta_dispenserevent
+      - fire_coral_block_dye_pink_dispenserevent
+      - fire_coral_block_dye_yellow_dispenserevent
+      - fire_coral_block_dye_blue_dispenserevent  
+      - horn_coral_block_dye_magenta_dispenserevent
+      - horn_coral_block_dye_pink_dispenserevent
+      - horn_coral_block_dye_red_dispenserevent
+      - horn_coral_block_dye_blue_dispenserevent
+      - tube_coral_block_dye_magenta_dispenserevent
+      - tube_coral_block_dye_pink_dispenserevent
+      - tube_coral_block_dye_red_dispenserevent
+      - tube_coral_block_dye_yellow_dispenserevent
+      - brain_coral_wall_fan_dye_magenta_dispenserevent
+      - brain_coral_wall_fan_dye_red_dispenserevent
+      - brain_coral_wall_fan_dye_yellow_dispenserevent
+      - brain_coral_wall_fan_dye_blue_dispenserevent
+      - bubble_coral_wall_fan_dye_pink_dispenserevent
+      - bubble_coral_wall_fan_dye_red_dispenserevent
+      - bubble_coral_wall_fan_dye_yellow_dispenserevent
+      - bubble_coral_wall_fan_dye_blue_dispenserevent
+      - fire_coral_wall_fan_dye_magenta_dispenserevent
+      - fire_coral_wall_fan_dye_pink_dispenserevent
+      - fire_coral_wall_fan_dye_yellow_dispenserevent
+      - fire_coral_wall_fan_dye_blue_dispenserevent   
+      - horn_coral_wall_fan_dye_magenta_dispenserevent
+      - horn_coral_wall_fan_dye_pink_dispenserevent
+      - horn_coral_wall_fan_dye_red_dispenserevent
+      - horn_coral_wall_fan_dye_blue_dispenserevent 
+      - tube_coral_wall_fan_dye_magenta_dispenserevent
+      - tube_coral_wall_fan_dye_pink_dispenserevent
+      - tube_coral_wall_fan_dye_red_dispenserevent
+      - tube_coral_wall_fan_dye_yellow_dispenserevent 
+      - dead_brain_coral_to_live_dispenserevent
+      - dead_bubble_coral_to_live_dispenserevent
+      - dead_fire_coral_to_live_dispenserevent
+      - dead_horn_coral_to_live_dispenserevent
+      - dead_tube_coral_to_live_dispenserevent
+      - dead_brain_coral_block_to_live_dispenserevent
+      - dead_bubble_coral_block_to_live_dispenserevent
+      - dead_fire_coral_block_to_live_dispenserevent
+      - dead_horn_coral_block_to_live_dispenserevent
+      - dead_tube_coral_block_to_live_dispenserevent
+      - dead_brain_coral_fan_to_live_dispenserevent
+      - dead_bubble_coral_fan_to_live_dispenserevent
+      - dead_fire_coral_fan_to_live_dispenserevent
+      - dead_horn_coral_fan_to_live_dispenserevent
+      - dead_tube_coral_fan_to_live_dispenserevent
+      - dead_brain_coral_wall_fan_to_live_dispenserevent
+      - dead_bubble_coral_wall_fan_to_live_dispenserevent
+      - dead_fire_coral_wall_fan_to_live_dispenserevent
+      - dead_horn_coral_wall_fan_to_live_dispenserevent
+      - dead_tube_coral_wall_fan_to_live_dispenserevent
+      - brain_coral_bonemeal_dispenserevent
+      - bubble_coral_bonemeal_dispenserevent
+      - fire_coral_bonemeal_dispenserevent
+      - horn_coral_bonemeal_dispenserevent
+      - tube_coral_bonemeal_dispenserevent
+      - brain_coral_block_bonemeal_dispenserevent
+      - bubble_coral_block_bonemeal_dispenserevent
+      - fire_coral_block_bonemeal_dispenserevent
+      - horn_coral_block_bonemeal_dispenserevent
+      - tube_coral_block_bonemeal_dispenserevent
+      - brain_coral_fan_bonemeal_dispenserevent
+      - bubble_coral_fan_bonemeal_dispenserevent
+      - fire_coral_fan_bonemeal_dispenserevent
+      - horn_coral_fan_bonemeal_dispenserevent
+      - tube_coral_fan_bonemeal_dispenserevent
+      - brain_coral_wall_fan_bonemeal_dispenserevent
+      - bubble_coral_wall_fan_bonemeal_dispenserevent
+      - fire_coral_wall_fan_bonemeal_dispenserevent
+      - horn_coral_wall_fan_bonemeal_dispenserevent
+      - tube_coral_wall_fan_bonemeal_dispenserevent
+      - dead_brain_coral_bonemeal_dispenserevent
+      - dead_bubble_coral_bonemeal_dispenserevent
+      - dead_fire_coral_bonemeal_dispenserevent
+      - dead_horn_coral_bonemeal_dispenserevent
+      - dead_tube_coral_bonemeal_dispenserevent
+      - dead_brain_coral_block_bonemeal_dispenserevent
+      - dead_bubble_coral_block_bonemeal_dispenserevent
+      - dead_fire_coral_block_bonemeal_dispenserevent
+      - dead_horn_coral_block_bonemeal_dispenserevent
+      - dead_tube_coral_block_bonemeal_dispenserevent
+      - dead_brain_coral_fan_bonemeal_dispenserevent
+      - dead_bubble_coral_fan_bonemeal_dispenserevent
+      - dead_fire_coral_fan_bonemeal_dispenserevent
+      - dead_horn_coral_fan_bonemeal_dispenserevent
+      - dead_tube_coral_fan_bonemeal_dispenserevent
+      - dead_brain_coral_wall_fan_bonemeal_dispenserevent
+      - dead_bubble_coral_wall_fan_bonemeal_dispenserevent
+      - dead_fire_coral_wall_fan_bonemeal_dispenserevent
+      - dead_horn_coral_wall_fan_bonemeal_dispenserevent
+      - dead_tube_coral_wall_fan_bonemeal_dispenserevent
+      - dead_brain_coral_fan_dye_magenta_dispenserevent
+      - dead_brain_coral_fan_dye_red_dispenserevent
+      - dead_brain_coral_fan_dye_yellow_dispenserevent
+      - dead_brain_coral_fan_dye_blue_dispenserevent
+      - dead_bubble_coral_fan_dye_pink_dispenserevent
+      - dead_bubble_coral_fan_dye_red_dispenserevent
+      - dead_bubble_coral_fan_dye_yellow_dispenserevent
+      - dead_bubble_coral_fan_dye_blue_dispenserevent
+      - dead_fire_coral_fan_dye_magenta_dispenserevent
+      - dead_fire_coral_fan_dye_pink_dispenserevent
+      - dead_fire_coral_fan_dye_yellow_dispenserevent
+      - dead_fire_coral_fan_dye_blue_dispenserevent    
+      - dead_horn_coral_fan_dye_magenta_dispenserevent
+      - dead_horn_coral_fan_dye_pink_dispenserevent
+      - dead_horn_coral_fan_dye_red_dispenserevent
+      - dead_horn_coral_fan_dye_blue_dispenserevent
+      - dead_tube_coral_fan_dye_magenta_dispenserevent
+      - dead_tube_coral_fan_dye_pink_dispenserevent
+      - dead_tube_coral_fan_dye_red_dispenserevent
+      - dead_tube_coral_fan_dye_yellow_dispenserevent 
+      - dead_brain_coral_dye_magenta_dispenserevent
+      - dead_brain_coral_dye_red_dispenserevent
+      - dead_brain_coral_dye_yellow_dispenserevent
+      - dead_brain_coral_dye_blue_dispenserevent
+      - dead_bubble_coral_dye_pink_dispenserevent
+      - dead_bubble_coral_dye_red_dispenserevent
+      - dead_bubble_coral_dye_yellow_dispenserevent
+      - dead_bubble_coral_dye_blue_dispenserevent
+      - dead_fire_coral_dye_magenta_dispenserevent
+      - dead_fire_coral_dye_pink_dispenserevent
+      - dead_fire_coral_dye_yellow_dispenserevent
+      - dead_fire_coral_dye_blue_dispenserevent
+      - dead_horn_coral_dye_magenta_dispenserevent
+      - dead_horn_coral_dye_pink_dispenserevent
+      - dead_horn_coral_dye_red_dispenserevent
+      - dead_horn_coral_dye_blue_dispenserevent
+      - dead_tube_coral_dye_magenta_dispenserevent
+      - dead_tube_coral_dye_pink_dispenserevent
+      - dead_tube_coral_dye_red_dispenserevent
+      - dead_tube_coral_dye_yellow_dispenserevent
+      - dead_brain_coral_block_dye_magenta_dispenserevent
+      - dead_brain_coral_block_dye_red_dispenserevent
+      - dead_brain_coral_block_dye_yellow_dispenserevent
+      - dead_brain_coral_block_dye_blue_dispenserevent
+      - dead_bubble_coral_block_dye_pink_dispenserevent
+      - dead_bubble_coral_block_dye_red_dispenserevent
+      - dead_bubble_coral_block_dye_yellow_dispenserevent
+      - dead_bubble_coral_block_dye_blue_dispenserevent
+      - dead_fire_coral_block_dye_magenta_dispenserevent
+      - dead_fire_coral_block_dye_pink_dispenserevent
+      - dead_fire_coral_block_dye_yellow_dispenserevent
+      - dead_fire_coral_block_dye_blue_dispenserevent
+      - dead_horn_coral_block_dye_magenta_dispenserevent
+      - dead_horn_coral_block_dye_pink_dispenserevent
+      - dead_horn_coral_block_dye_red_dispenserevent
+      - dead_horn_coral_block_dye_blue_dispenserevent
+      - dead_tube_coral_block_dye_magenta_dispenserevent
+      - dead_tube_coral_block_dye_pink_dispenserevent
+      - dead_tube_coral_block_dye_red_dispenserevent
+      - dead_tube_coral_block_dye_yellow_dispenserevent
+      - dead_brain_coral_wall_fan_dye_magenta_dispenserevent
+      - dead_brain_coral_wall_fan_dye_red_dispenserevent
+      - dead_brain_coral_wall_fan_dye_yellow_dispenserevent
+      - dead_brain_coral_wall_fan_dye_blue_dispenserevent
+      - dead_bubble_coral_wall_fan_dye_pink_dispenserevent
+      - dead_bubble_coral_wall_fan_dye_red_dispenserevent
+      - dead_bubble_coral_wall_fan_dye_yellow_dispenserevent
+      - dead_bubble_coral_wall_fan_dye_blue_dispenserevent
+      - dead_fire_coral_wall_fan_dye_magenta_dispenserevent
+      - dead_fire_coral_wall_fan_dye_pink_dispenserevent
+      - dead_fire_coral_wall_fan_dye_yellow_dispenserevent
+      - dead_fire_coral_wall_fan_dye_blue_dispenserevent  
+      - dead_horn_coral_wall_fan_dye_magenta_dispenserevent
+      - dead_horn_coral_wall_fan_dye_pink_dispenserevent
+      - dead_horn_coral_wall_fan_dye_red_dispenserevent
+      - dead_horn_coral_wall_fan_dye_blue_dispenserevent
+      - dead_tube_coral_wall_fan_dye_magenta_dispenserevent
+      - dead_tube_coral_wall_fan_dye_pink_dispenserevent
+      - dead_tube_coral_wall_fan_dye_red_dispenserevent
+      - dead_tube_coral_wall_fan_dye_yellow_dispenserevent
+        
+   structure:
+      - enable, boolean
+      - source, material
+      - result, material
+      - itemUsed, material
+      - particle, effect
+      - break, boolean
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version  
+           
+oxeye_daisy_fertilizer_dispenserevent:
+   enable: true
+   source: OXEYE_DAISY
+   result: OXEYE_DAISY
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+dandelion_fertilizer_dispenserevent:
+   enable: true
+   source: DANDELION
+   result: DANDELION
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+
+poppy_fertilizer_dispenserevent:
+   enable: true
+   source: POPPY
+   result: POPPY
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+
+blue_orchid_fertilizer_dispenserevent:
+   enable: true
+   source: BLUE_ORCHID
+   result: BLUE_ORCHID
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+
+allium_fertilizer_dispenserevent:
+   enable: true
+   source: ALLIUM
+   result: ALLIUM
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+azure_bluet_fertilizer_dispenserevent:
+   enable: true
+   source: AZURE_BLUET
+   result: AZURE_BLUET
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+red_tulip_fertilizer_dispenserevent:
+   enable: true
+   source: RED_TULIP
+   result: RED_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+orange_tulip_fertilizer_dispenserevent:
+   enable: true
+   source: ORANGE_TULIP
+   result: ORANGE_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+white_tulip_fertilizer_dispenserevent:
+   enable: true
+   source: WHITE_TULIP
+   result: WHITE_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+pink_tulip_fertilizer_dispenserevent:
+   enable: true
+   source: PINK_TULIP
+   result: PINK_TULIP
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+cornflower_fertilizer_dispenserevent:
+   enable: true
+   source: CORNFLOWER
+   result: CORNFLOWER
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+lily_of_the_valley_fertilizer_dispenserevent:
+   enable: true
+   source: LILY_OF_THE_VALLEY
+   result: LILY_OF_THE_VALLEY
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: flower_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+wither_rose_fertilizer_dispenserevent:
+   enable: true  
+   source: WITHER_ROSE
+   result: WITHER_ROSE
+   itemUsed: POISONOUS_POTATO
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: witherrose_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.1.0
+   
+brain_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+brain_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+horn_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: HORN_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: HORN_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: HORN_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: HORN_CORAL_FAN 
+   result: TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+    
+brain_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_dye_red_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_dye_blue_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_dye_pink_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_dye_red_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_dye_blue_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: FIRE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_dye_pink_dispenserevent:
+   enable: true
+   source: FIRE_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: FIRE_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_dye_blue_dispenserevent:
+   enable: true
+   source: FIRE_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+horn_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: HORN_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_dye_pink_dispenserevent:
+   enable: true
+   source: HORN_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_dye_red_dispenserevent:
+   enable: true
+   source: HORN_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_dye_blue_dispenserevent:
+   enable: true
+   source: HORN_CORAL
+   result: TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: TUBE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_dye_pink_dispenserevent:
+   enable: true
+   source: TUBE_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_dye_red_dispenserevent:
+   enable: true
+   source: TUBE_CORAL
+   result: FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: TUBE_CORAL
+   result: HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+fire_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+horn_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: HORN_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: HORN_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: HORN_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: HORN_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+brain_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_WALL_FAN
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_WALL_FAN
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_WALL_FAN
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+horn_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: HORN_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: HORN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: HORN_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: HORN_CORAL_WALL_FAN 
+   result: TUBE_CORAL_WALL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_WALL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_WALL_FAN
+   result: BRAIN_CORAL_WALL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_WALL_FAN
+   result: FIRE_CORAL_WALL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_WALL_FAN
+   result: HORN_CORAL_WALL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+ 
+dead_brain_coral_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL
+   result: BRAIN_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_bubble_coral_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_to_live_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL
+   result: FIRE_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_to_live_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL
+   result: HORN_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_to_live_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL
+   result: TUBE_CORAL
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_brain_coral_block_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_block_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_block_to_live_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_block_to_live_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_block_to_live_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_wall_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_wall_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_wall_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_wall_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_wall_fan_to_live_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: PHANTOM_MEMBRANE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+  
+brain_coral_bonemeal_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL
+   result: BRAIN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+bubble_coral_bonemeal_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL
+   result: BUBBLE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+fire_coral_bonemeal_dispenserevent:
+   enable: true
+   source: FIRE_CORAL
+   result: FIRE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: revive_dead_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_bonemeal_dispenserevent:
+   enable: true
+   source: HORN_CORAL
+   result: HORN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_bonemeal_dispenserevent:
+   enable: true
+   source: TUBE_CORAL
+   result: TUBE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_BLOCK
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_BLOCK
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+fire_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_BLOCK
+   result: FIRE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: HORN_CORAL_BLOCK
+   result: HORN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_BLOCK
+   result: TUBE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: HORN_CORAL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_bubble_coral_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_fire_coral_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_fire_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_block_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_wall_fan_bonemeal_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BONE_MEAL
+   particle: VILLAGER_PLANT_GROW
+   break: false
+   group: dead_coral_fertilize_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_brain_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+dead_horn_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_FAN 
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+    
+dead_brain_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+dead_horn_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL
+   result: DEAD_TUBE_CORAL
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL
+   result: DEAD_BRAIN_CORAL
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL
+   result: DEAD_FIRE_CORAL
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL
+   result: DEAD_HORN_CORAL
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_fire_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+dead_horn_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_block_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_BLOCK
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_block_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_BLOCK
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+
+dead_brain_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_brain_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BRAIN_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_bubble_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_BUBBLE_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_fire_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_FIRE_CORAL_WALL_FAN
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true  
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+     
+dead_horn_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_horn_coral_wall_fan_dye_blue_dispenserevent:
+   enable: true
+   source: DEAD_HORN_CORAL_WALL_FAN 
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: BLUE_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_wall_fan_dye_magenta_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: MAGENTA_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_wall_fan_dye_pink_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: PINK_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_wall_fan_dye_red_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: RED_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+dead_tube_coral_wall_fan_dye_yellow_dispenserevent:
+   enable: true
+   source: DEAD_TUBE_CORAL_WALL_FAN
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: YELLOW_DYE
+   particle: VILLAGER_PLANT_GROW
+   break: true
+   group: dead_coral_dye_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
