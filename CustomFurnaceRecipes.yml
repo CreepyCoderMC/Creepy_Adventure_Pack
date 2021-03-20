@@ -2,9 +2,11 @@ CustomFurnaceRecipes:
 
    version:
       - 0.2.0
+      - 0.3.0
             
    group:
       - dead_coral_furnace
+      - sapling_to_deadbush_furnace
       
    contributor:
       - CreepyCoderMC
@@ -27,6 +29,8 @@ CustomFurnaceRecipes:
       - dead_fire_coral_block_furnace
       - dead_horn_coral_block_furnace
       - dead_tube_coral_block_furnace
+      # Version 0.3.0
+      - sapling_to_deadbush_furnace
       
    structure:
       - enable, boolean
@@ -203,3 +207,14 @@ dead_tube_coral_block_furnace:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
+   
+sapling_to_deadbush_furnace:
+   enable: true
+   result: DEAD_BUSH
+   source: ACACIA_SAPLING, BIRCH_SAPLING, DARK_OAK_SAPLING, JUNGLE_SAPLING, OAK_SAPLING, SPRUCE_SAPLING
+   experience: 0.1
+   cookingTime: 16
+   group: sapling_to_deadbush_furnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0

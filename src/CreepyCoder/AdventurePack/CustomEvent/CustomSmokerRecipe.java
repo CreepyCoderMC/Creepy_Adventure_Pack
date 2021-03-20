@@ -13,11 +13,12 @@ import org.bukkit.inventory.CampfireRecipe;
 import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.RecipeChoice;
+import org.bukkit.inventory.SmokingRecipe;
 import org.bukkit.plugin.Plugin;
 
 import CreepyCoder.AdventurePack.Function.IngredientFunction;
 
-public class CustomBlastFurnaceRecipe {
+public class CustomSmokerRecipe {
 
 	private Plugin plugin;
 	private FileConfiguration dataConfig;
@@ -36,11 +37,11 @@ public class CustomBlastFurnaceRecipe {
 	
 	public List<String> KeyList = new ArrayList<String>();
 
-	public CustomBlastFurnaceRecipe(Plugin plugin, FileConfiguration dataConfig) {
+	public CustomSmokerRecipe(Plugin plugin, FileConfiguration dataConfig) {
 
 		this.plugin = plugin;
 		this.dataConfig = dataConfig;
-		this.KeyList = (List<String>) dataConfig.getList("CustomBlastFurnaceRecipes.key");
+		this.KeyList = (List<String>) dataConfig.getList("CustomSmokerRecipes.key");
 
 		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
 			String key = i.next();
@@ -51,13 +52,13 @@ public class CustomBlastFurnaceRecipe {
 				this.CookingTime = dataConfig.getInt(key+".cookingTime");			
 			}
 			catch (Exception e) {
-				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Error when retrieving blast furnace recipe "+key);
+				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Error when retrieving smoker recipe "+key);
 			}
 			try {
-				Bukkit.addRecipe(new BlastingRecipe(new NamespacedKey(plugin, key), this.Result ,  new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(this.Source)), this.Experience, this.CookingTime));
+				Bukkit.addRecipe(new SmokingRecipe(new NamespacedKey(plugin, key), this.Result ,  new RecipeChoice.MaterialChoice(IngredientFunction.IngredientToMaterialList(this.Source)), this.Experience, this.CookingTime));
 			}
 			catch (Exception e) {
-				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Can not load blast furnace recipe "+key);
+				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Can not load smoker recipe "+key);
 			}
 		}
 	}

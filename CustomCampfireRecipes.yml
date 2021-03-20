@@ -10,6 +10,7 @@ CustomCampfireRecipes:
       - stripped_wood_logs_to_charcoal_campfire
       - wood_to_charcoal_campfire
       - stripped_wood_to_charcoal_campfire
+      - sapling_to_deadbush_campfire
       
    contributor:
       - CreepyCoderMC
@@ -37,6 +38,7 @@ CustomCampfireRecipes:
       - stripped_wood_logs_to_charcoal_campfire
       - wood_to_charcoal_campfire
       - stripped_wood_to_charcoal_campfire
+      - sapling_to_deadbush_campfire
       
    structure:
       - enable, boolean
@@ -254,6 +256,17 @@ stripped_wood_to_charcoal_campfire:
    experience: 0.3
    cookingTime: 360
    group: stripped_wood_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+sapling_to_deadbush_campfire:
+   enable: true
+   result: DEAD_BUSH
+   source: ACACIA_SAPLING, BIRCH_SAPLING, DARK_OAK_SAPLING, JUNGLE_SAPLING, OAK_SAPLING, SPRUCE_SAPLING
+   experience: 0.1
+   cookingTime: 32
+   group: sapling_to_deadbush_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0

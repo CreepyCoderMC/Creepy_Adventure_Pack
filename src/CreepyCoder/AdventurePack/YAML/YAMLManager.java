@@ -22,6 +22,7 @@ import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
+import CreepyCoder.AdventurePack.CustomEvent.CustomSmokerRecipe;
 
 public class YAMLManager {
 	
@@ -158,6 +159,9 @@ public class YAMLManager {
 				break;
 			case "CustomBlastFurnaceRecipes":
 				CustomBlastFurnaceRecipe CustomBlastFurnaceRecipe = new CustomBlastFurnaceRecipe(plugin, dataConfig);
+				break;
+			case "CustomSmokerRecipes":
+				CustomSmokerRecipe CustomSmokerRecipe = new CustomSmokerRecipe(plugin, dataConfig);
 				break;
 		}
 	}

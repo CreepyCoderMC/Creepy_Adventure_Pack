@@ -1,0 +1,36 @@
+CustomSmokerRecipes:
+
+   version:
+      - 0.3.0
+            
+   group:
+      - sapling_to_deadbush_smoker
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347   
+   key:
+      # Version 0.3.0
+      - sapling_to_deadbush_smoker
+      
+   structure:
+      - enable, boolean
+      - result, material
+      - source, material
+      - experience, number
+      - cookingTime, number
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+sapling_to_deadbush_smoker:
+   enable: true
+   result: DEAD_BUSH
+   source: ACACIA_SAPLING, BIRCH_SAPLING, DARK_OAK_SAPLING, JUNGLE_SAPLING, OAK_SAPLING, SPRUCE_SAPLING
+   experience: 0.1
+   cookingTime: 8
+   group: sapling_to_deadbush_smoker
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
