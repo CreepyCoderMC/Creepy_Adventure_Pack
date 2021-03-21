@@ -62,6 +62,6 @@ public class BlockFunction {
 			catch (Exception e) {}
 		}		
 		if(Drop) location.getWorld().dropItemNaturally(location, new ItemStack(Material.getMaterial(Result, false)));
-		if(Break) location.getBlock().breakNaturally();
+		if(Break) location.getBlock().setType(Material.AIR);
 	}
 }
