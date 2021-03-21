@@ -9,9 +9,9 @@ CustomBlastFurnaceRecipes:
       - dead_coral_blastfurnace
       - dead_coral_fan_blastfurnace
       - dead_coral_block_blastfurnace
+      # Version 0.3.0
       - wood_log_blastfurnace
       - wood_blastfurnace
-      # Version 0.3.0
       - stripped_wood_log_blastfurnace
       - stripped_wood_blastfurnace
       - fungus_log_blastfurnace
