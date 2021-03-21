@@ -5,8 +5,10 @@ CustomDispenserEvent:
       - 0.2.0
       
    group:
+      # Version 0.1.0
       - flower_fertilize_dispenserevent
       - witherrose_fertilize_dispenserevent
+      # Version 0.2.0
       - dead_coral_dye_dispenserevent
       - coral_dye_dispenserevent
       - revive_dead_coral_dispenserevent

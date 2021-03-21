@@ -8,9 +8,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.inventory.BlastingRecipe;
-import org.bukkit.inventory.CampfireRecipe;
-import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.RecipeChoice;
 import org.bukkit.inventory.SmokingRecipe;
@@ -20,23 +17,24 @@ import CreepyCoder.AdventurePack.Function.IngredientFunction;
 
 public class CustomSmokerRecipe {
 
-	private Plugin plugin;
-	private FileConfiguration dataConfig;
+	public Plugin plugin;
+	public FileConfiguration dataConfig;
 	
 	private IngredientFunction IngredientFunction = new IngredientFunction();
 
-	private boolean Enable;
+	//private boolean Enable;
 	private ItemStack Result;
 	private String Source;
 	private float Experience;
 	private int CookingTime;
-	private String Group;
-	private boolean Permission;
-	private String AddedBy;
-	private String Version;
+	//private String Group;
+	//private boolean Permission;
+	//private String AddedBy;
+	//private String Version;
 	
 	public List<String> KeyList = new ArrayList<String>();
 
+	@SuppressWarnings({ "unchecked", "deprecation" })
 	public CustomSmokerRecipe(Plugin plugin, FileConfiguration dataConfig) {
 
 		this.plugin = plugin;

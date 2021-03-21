@@ -5,11 +5,13 @@ CustomBlastFurnaceRecipes:
       - 0.3.0
             
    group:
+      # Version 0.2.0
       - dead_coral_blastfurnace
       - dead_coral_fan_blastfurnace
       - dead_coral_block_blastfurnace
       - wood_log_blastfurnace
       - wood_blastfurnace
+      # Version 0.3.0
       - stripped_wood_log_blastfurnace
       - stripped_wood_blastfurnace
       - fungus_log_blastfurnace
