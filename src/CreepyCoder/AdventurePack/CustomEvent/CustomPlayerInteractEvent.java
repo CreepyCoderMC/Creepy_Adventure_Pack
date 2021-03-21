@@ -3,9 +3,7 @@ package CreepyCoder.AdventurePack.CustomEvent;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.logging.Level;
 
-import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -24,26 +22,27 @@ import CreepyCoder.AdventurePack.Function.PlayerFunction;
 
 public class CustomPlayerInteractEvent implements Listener {
 	
-	private Plugin plugin;
-	private FileConfiguration dataConfig;
-	private PlayerFunction playerFunction;
+	public Plugin plugin;
+	public FileConfiguration dataConfig;
+	//private PlayerFunction playerFunction;
 	
 	private String Key;
-	private boolean Enable;
+	//private boolean Enable;
 	private String Source;
 	private String Result;
 	private String ItemUsed;
 	private String Particle;
 	private boolean Drop;
 	private boolean Replace;
-	private boolean Break;
-    private String Group;
-    private boolean Permission;
-    private String AddedBy;
-    private String Version;
+	//private boolean Break;
+    //private String Group;
+    //private boolean Permission;
+    //private String AddedBy;
+    //private String Version;
 	
 	public List<String> KeyList = new ArrayList<String>();
 
+	@SuppressWarnings({ "unchecked" })
 	public CustomPlayerInteractEvent(Plugin plugin, FileConfiguration dataConfig) {
 		
 		this.plugin = plugin;
@@ -62,6 +61,7 @@ public class CustomPlayerInteractEvent implements Listener {
 		catch (Exception e) {}	
 	}
 	
+	@SuppressWarnings("deprecation")
 	public boolean IsCustomInteract(PlayerInteractEvent event) {
 	
 		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
@@ -76,7 +76,7 @@ public class CustomPlayerInteractEvent implements Listener {
 					this.Particle = dataConfig.getString(this.Key+".particle");
 					this.Drop = dataConfig.getBoolean(this.Key+".drop");
 					this.Replace = dataConfig.getBoolean(this.Key+".replace");
-					this.Break = dataConfig.getBoolean(this.Key+".break");
+					//this.Break = dataConfig.getBoolean(this.Key+".break");
 					
 					return true;
 				}
@@ -86,6 +86,7 @@ public class CustomPlayerInteractEvent implements Listener {
 		return false;
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void DoCustomInteract(PlayerInteractEvent event) {
 		
 		Player player = event.getPlayer();

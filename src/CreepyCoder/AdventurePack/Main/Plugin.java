@@ -1,6 +1,5 @@
 package CreepyCoder.AdventurePack.Main;
 
-import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import CreepyCoder.AdventurePack.YAML.YAMLManager;

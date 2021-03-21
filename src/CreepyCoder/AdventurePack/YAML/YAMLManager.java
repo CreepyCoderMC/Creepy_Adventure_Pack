@@ -3,8 +3,6 @@ package CreepyCoder.AdventurePack.YAML;
 import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Dictionary;
-import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -33,6 +31,7 @@ public class YAMLManager {
 		this.plugin = plugin;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public void LoadYAML(String filename)
 	{	
 		String YAMLContextKey = filename.replace(".yml", "");
@@ -94,6 +93,7 @@ public class YAMLManager {
 									String[] valueTestSplit = valueTest.split("\\W+");
 									for (String valueTestNew : valueTestSplit) {
 										try {	
+											@SuppressWarnings("unused")
 											Material materialTest = Material.valueOf(valueTestNew);
 										}
 										catch (Exception e) {
@@ -105,6 +105,7 @@ public class YAMLManager {
 							case "effect":
 								if (valueTest != null) {
 									try {	
+										@SuppressWarnings("unused")
 										Effect effectTest = Effect.valueOf(valueTest);
 									}
 									catch (Exception e) {
@@ -123,6 +124,7 @@ public class YAMLManager {
 							case "number":
 								if (valueTest != null) {
 									try {	
+										@SuppressWarnings("unused")
 										float testNumber = Float.parseFloat(valueTest);
 									}
 									catch (Exception e) {
@@ -150,19 +152,19 @@ public class YAMLManager {
 				plugin.getServer().getPluginManager().registerEvents(new CustomPlayerInteractEvent(plugin, dataConfig), plugin);
 				break;
 			case "CustomCraftRecipes":
-				CustomCraftRecipe CustomCraftRecipe = new CustomCraftRecipe(plugin, dataConfig);
+				@SuppressWarnings("unused") CustomCraftRecipe CustomCraftRecipe = new CustomCraftRecipe(plugin, dataConfig);
 				break;
 			case "CustomCampfireRecipes":
-				CustomCampfireRecipe CustomCampfireRecipe = new CustomCampfireRecipe(plugin, dataConfig);
+				@SuppressWarnings("unused") CustomCampfireRecipe CustomCampfireRecipe = new CustomCampfireRecipe(plugin, dataConfig);
 				break;
 			case "CustomFurnaceRecipes":
-				CustomFurnaceRecipe CustomFurnaceRecipe = new CustomFurnaceRecipe(plugin, dataConfig);
+				@SuppressWarnings("unused") CustomFurnaceRecipe CustomFurnaceRecipe = new CustomFurnaceRecipe(plugin, dataConfig);
 				break;
 			case "CustomBlastFurnaceRecipes":
-				CustomBlastFurnaceRecipe CustomBlastFurnaceRecipe = new CustomBlastFurnaceRecipe(plugin, dataConfig);
+				@SuppressWarnings("unused") CustomBlastFurnaceRecipe CustomBlastFurnaceRecipe = new CustomBlastFurnaceRecipe(plugin, dataConfig);
 				break;
 			case "CustomSmokerRecipes":
-				CustomSmokerRecipe CustomSmokerRecipe = new CustomSmokerRecipe(plugin, dataConfig);
+				@SuppressWarnings("unused") CustomSmokerRecipe CustomSmokerRecipe = new CustomSmokerRecipe(plugin, dataConfig);
 				break;
 			case "CustomDispenserEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomDispenserEvent(plugin, dataConfig), plugin);

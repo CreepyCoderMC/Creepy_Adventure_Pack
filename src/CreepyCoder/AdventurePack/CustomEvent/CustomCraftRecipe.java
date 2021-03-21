@@ -18,12 +18,12 @@ import CreepyCoder.AdventurePack.Function.IngredientFunction;
 
 public class CustomCraftRecipe {
 
-	private Plugin plugin;
-	private FileConfiguration dataConfig;
+	public Plugin plugin;
+	public FileConfiguration dataConfig;
 	
 	private IngredientFunction IngredientFunction = new IngredientFunction();
 
-	private boolean Enable;
+	//private boolean Enable;
 	private boolean Shaped;
 	private ItemStack Result;
 	private int Amount;
@@ -38,10 +38,10 @@ public class CustomCraftRecipe {
 	private String IngredientI;
 	private int Rows;
 	private int Cols;
-	private String Group;
-	private boolean Permission;
-	private String AddedBy;
-	private String Version;
+	//private String Group;
+	//private boolean Permission;
+	//private String AddedBy;
+	//private String Version;
 
 	private String IngredientAIngredient;
 	private String IngredientBIngredient;
@@ -59,6 +59,7 @@ public class CustomCraftRecipe {
 
 	public List<String> KeyList = new ArrayList<String>();
 
+	@SuppressWarnings({ "unchecked" })
 	public CustomCraftRecipe(Plugin plugin, FileConfiguration dataConfig) {
 
 		this.plugin = plugin;

@@ -5,9 +5,11 @@ CustomCampfireRecipes:
       - 0.3.0
       
    group:
+      # Version 0.2.0
       - dead_coral_campfire 
       - dead_coral_fan_campfire 
-      - dead_coral_block_campfire 
+      - dead_coral_block_campfire
+      # Version 0.3.0 
       - wood_logs_to_charcoal_campfire
       - stripped_wood_logs_to_charcoal_campfire
       - wood_to_charcoal_campfire
