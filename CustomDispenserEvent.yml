@@ -487,7 +487,7 @@ brain_coral_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -503,7 +503,7 @@ brain_coral_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -519,7 +519,7 @@ brain_coral_fan_dye_yellow_dispenserevent:
    drop: true
    itemReduce: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -535,7 +535,7 @@ brain_coral_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -551,7 +551,7 @@ bubble_coral_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -567,7 +567,7 @@ bubble_coral_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -583,7 +583,7 @@ bubble_coral_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -599,7 +599,7 @@ bubble_coral_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -615,7 +615,7 @@ fire_coral_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -631,7 +631,7 @@ fire_coral_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -647,7 +647,7 @@ fire_coral_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -664,7 +664,7 @@ fire_coral_fan_dye_blue_dispenserevent:
    break: true
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    group: coral_dye_dispenserevent
    permission: true
    addedBy: CreepyCoderMC
@@ -679,7 +679,7 @@ horn_coral_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -695,7 +695,7 @@ horn_coral_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -711,7 +711,7 @@ horn_coral_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -727,7 +727,7 @@ horn_coral_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -743,7 +743,7 @@ tube_coral_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -759,7 +759,7 @@ tube_coral_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -775,7 +775,7 @@ tube_coral_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -791,7 +791,7 @@ tube_coral_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -807,7 +807,7 @@ brain_coral_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -823,7 +823,7 @@ brain_coral_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -839,7 +839,7 @@ brain_coral_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -855,7 +855,7 @@ brain_coral_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -871,7 +871,7 @@ bubble_coral_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -887,7 +887,7 @@ bubble_coral_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -903,7 +903,7 @@ bubble_coral_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -919,7 +919,7 @@ bubble_coral_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -935,7 +935,7 @@ fire_coral_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -951,7 +951,7 @@ fire_coral_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -967,7 +967,7 @@ fire_coral_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -983,7 +983,7 @@ fire_coral_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -999,7 +999,7 @@ horn_coral_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1015,7 +1015,7 @@ horn_coral_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1031,7 +1031,7 @@ horn_coral_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1047,7 +1047,7 @@ horn_coral_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1063,7 +1063,7 @@ tube_coral_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1079,7 +1079,7 @@ tube_coral_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1095,7 +1095,7 @@ tube_coral_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1111,7 +1111,7 @@ tube_coral_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1127,7 +1127,7 @@ brain_coral_block_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1143,7 +1143,7 @@ brain_coral_block_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1159,7 +1159,7 @@ brain_coral_block_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1175,7 +1175,7 @@ brain_coral_block_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1191,7 +1191,7 @@ bubble_coral_block_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1207,7 +1207,7 @@ bubble_coral_block_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1223,7 +1223,7 @@ bubble_coral_block_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1239,7 +1239,7 @@ bubble_coral_block_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1255,7 +1255,7 @@ fire_coral_block_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1271,7 +1271,7 @@ fire_coral_block_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1287,7 +1287,7 @@ fire_coral_block_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1303,7 +1303,7 @@ fire_coral_block_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1319,7 +1319,7 @@ horn_coral_block_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1335,7 +1335,7 @@ horn_coral_block_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1351,7 +1351,7 @@ horn_coral_block_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1367,7 +1367,7 @@ horn_coral_block_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1383,7 +1383,7 @@ tube_coral_block_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1399,7 +1399,7 @@ tube_coral_block_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1415,7 +1415,7 @@ tube_coral_block_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1431,7 +1431,7 @@ tube_coral_block_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1447,7 +1447,7 @@ brain_coral_wall_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1463,7 +1463,7 @@ brain_coral_wall_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1479,7 +1479,7 @@ brain_coral_wall_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1495,7 +1495,7 @@ brain_coral_wall_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1511,7 +1511,7 @@ bubble_coral_wall_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1527,7 +1527,7 @@ bubble_coral_wall_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1543,7 +1543,7 @@ bubble_coral_wall_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1559,7 +1559,7 @@ bubble_coral_wall_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1575,7 +1575,7 @@ fire_coral_wall_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1591,7 +1591,7 @@ fire_coral_wall_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1607,7 +1607,7 @@ fire_coral_wall_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1623,7 +1623,7 @@ fire_coral_wall_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true  
    group: coral_dye_dispenserevent
    permission: true
@@ -1639,7 +1639,7 @@ horn_coral_wall_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1655,7 +1655,7 @@ horn_coral_wall_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1671,7 +1671,7 @@ horn_coral_wall_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1687,7 +1687,7 @@ horn_coral_wall_fan_dye_blue_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1703,7 +1703,7 @@ tube_coral_wall_fan_dye_magenta_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1719,7 +1719,7 @@ tube_coral_wall_fan_dye_pink_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1735,7 +1735,7 @@ tube_coral_wall_fan_dye_red_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1751,7 +1751,7 @@ tube_coral_wall_fan_dye_yellow_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: coral_dye_dispenserevent
    permission: true
@@ -1767,7 +1767,7 @@ dead_brain_coral_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1783,7 +1783,7 @@ dead_bubble_coral_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1799,7 +1799,7 @@ dead_fire_coral_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1815,7 +1815,7 @@ dead_horn_coral_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1831,7 +1831,7 @@ dead_tube_coral_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1847,7 +1847,7 @@ dead_brain_coral_block_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1863,7 +1863,7 @@ dead_bubble_coral_block_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1879,7 +1879,7 @@ dead_fire_coral_block_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1895,7 +1895,7 @@ dead_horn_coral_block_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1911,7 +1911,7 @@ dead_tube_coral_block_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1927,7 +1927,7 @@ dead_brain_coral_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1943,7 +1943,7 @@ dead_bubble_coral_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1959,7 +1959,7 @@ dead_fire_coral_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1975,7 +1975,7 @@ dead_horn_coral_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -1991,7 +1991,7 @@ dead_tube_coral_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -2007,7 +2007,7 @@ dead_brain_coral_wall_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -2023,7 +2023,7 @@ dead_bubble_coral_wall_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
@@ -2039,7 +2039,7 @@ dead_fire_coral_wall_fan_to_live_dispenserevent:
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
-   replace: false
+   replace: true
    break: true
    group: revive_dead_coral_dispenserevent
    permission: true
