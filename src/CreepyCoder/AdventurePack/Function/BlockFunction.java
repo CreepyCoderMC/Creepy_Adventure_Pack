@@ -1,7 +1,16 @@
 package CreepyCoder.AdventurePack.Function;
 
+import java.util.logging.Level;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Effect;
+import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
 import org.bukkit.block.data.Directional;
+import org.bukkit.block.data.Waterlogged;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 public class BlockFunction {
@@ -27,7 +36,42 @@ public class BlockFunction {
 		return block.getRelative(0 + xMod, 0, 0 + zMod);
 	}
 	
-	public void Interact(Block currentBlock, ItemStack newBlock, boolean Drop, boolean InventoryAdd, boolean replace, boolean Break) {
+	public void Interact(Block currentBlock, String Result, boolean Drop, boolean InventoryAdd, boolean Replace, boolean Break, String Particle) {
+	
+		Bukkit.getLogger().log(Level.WARNING, "Result: "+Result);
+		Bukkit.getLogger().log(Level.WARNING, "Drop: "+Drop);
+		Bukkit.getLogger().log(Level.WARNING, "InventoryAdd: "+InventoryAdd);
+		Bukkit.getLogger().log(Level.WARNING, "Replace: "+Replace);
+		Bukkit.getLogger().log(Level.WARNING, "Break: "+Break);
+		Bukkit.getLogger().log(Level.WARNING, "Particle: "+Particle);
 		
+		Location location = currentBlock.getLocation();
+		location.getWorld().playEffect(location, Effect.valueOf(Particle) , 10);
+		String oldData = location.getBlock().getBlockData().toString();
+		
+		if(Replace) {
+			location.getBlock().setType(Material.valueOf(Result));
+			try {
+				if(oldData.contains("waterlogged=")) {	
+					Waterlogged newWaterlogged = (Waterlogged) location.getBlock().getBlockData();
+					if(oldData.contains("waterlogged=false")) newWaterlogged.setWaterlogged(false);
+					if(oldData.contains("waterlogged=true")) newWaterlogged.setWaterlogged(true);
+					location.getBlock().setBlockData(newWaterlogged, false);
+				}
+			}
+			catch (Exception e) {}		
+			try {
+				if(oldData.contains("facing=")) {
+					Directional newDirectional = (Directional) location.getBlock().getBlockData();
+					if(oldData.contains("facing=west")) newDirectional.setFacing(BlockFace.WEST);
+					if(oldData.contains("facing=north")) newDirectional.setFacing(BlockFace.NORTH);
+					if(oldData.contains("facing=south")) newDirectional.setFacing(BlockFace.SOUTH);
+					if(oldData.contains("facing=east")) newDirectional.setFacing(BlockFace.EAST);
+					location.getBlock().setBlockData(newDirectional, false);
+				}
+			}
+			catch (Exception e) {}
+		}		
+		if(Drop) location.getWorld().dropItemNaturally(location, new ItemStack(Material.getMaterial(Result, false)));	
 	}
 }

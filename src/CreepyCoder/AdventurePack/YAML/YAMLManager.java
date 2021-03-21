@@ -70,7 +70,7 @@ public class YAMLManager {
 				case "keyPress":
 					break;
 				default:
-					Bukkit.getLogger().log(Level.WARNING, ""+YAMLContextKey+".structure("+ fullString +") : Type incorrectly Specified in " + filename);
+					Bukkit.getLogger().log(Level.WARNING, YAMLContextKey+".structure("+ fullString +") : Type incorrectly Specified in " + filename);
 			}
 		}
 
