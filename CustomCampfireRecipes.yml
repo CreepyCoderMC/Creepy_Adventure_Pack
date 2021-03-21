@@ -6,10 +6,16 @@ CustomCampfireRecipes:
       
    group:
       - dead_coral_campfire 
+      - dead_coral_fan_campfire 
+      - dead_coral_block_campfire 
       - wood_logs_to_charcoal_campfire
       - stripped_wood_logs_to_charcoal_campfire
       - wood_to_charcoal_campfire
       - stripped_wood_to_charcoal_campfire
+      - fungus_logs_to_charcoal_campfire
+      - stripped_fungus_logs_to_charcoal_campfire
+      - fungus_to_charcoal_campfire
+      - stripped_fungus_to_charcoal_campfire
       - sapling_to_deadbush_campfire
       
    contributor:
@@ -38,6 +44,10 @@ CustomCampfireRecipes:
       - stripped_wood_logs_to_charcoal_campfire
       - wood_to_charcoal_campfire
       - stripped_wood_to_charcoal_campfire
+      - fungus_logs_to_charcoal_campfire
+      - stripped_fungus_logs_to_charcoal_campfire
+      - fungus_to_charcoal_campfire
+      - stripped_fungus_to_charcoal_campfire
       - sapling_to_deadbush_campfire
       
    structure:
@@ -57,7 +67,7 @@ dead_brain_coral_fan_campfire:
    source: BRAIN_CORAL_FAN
    experience: 0.1
    cookingTime: 32
-   group: dead_coral_campfire
+   group: dead_coral_fan_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -68,7 +78,7 @@ dead_bubble_coral_fan_campfire:
    source: BUBBLE_CORAL_FAN
    experience: 0.1
    cookingTime: 32
-   group: dead_coral_campfire
+   group: dead_coral_fan_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0  
@@ -79,7 +89,7 @@ dead_fire_coral_fan_campfire:
    source: FIRE_CORAL_FAN
    experience: 0.1
    cookingTime: 32
-   group: dead_coral_campfire
+   group: dead_coral_fan_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0   
@@ -90,7 +100,7 @@ dead_horn_coral_fan_campfire:
    source: HORN_CORAL_FAN
    experience: 0.1
    cookingTime: 32
-   group: dead_coral_campfire
+   group: dead_coral_fan_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -101,7 +111,7 @@ dead_tube_coral_fan_campfire:
    source: TUBE_CORAL_FAN
    experience: 0.1
    cookingTime: 32
-   group: dead_coral_campfire
+   group: dead_coral_fan_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -167,7 +177,7 @@ dead_brain_coral_block_campfire:
    source: BRAIN_CORAL_BLOCK
    experience: 0.3
    cookingTime: 92
-   group: dead_coral_campfire
+   group: dead_coral_block_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -178,7 +188,7 @@ dead_bubble_coral_block_campfire:
    source: BUBBLE_CORAL_BLOCK
    experience: 0.3
    cookingTime: 92
-   group: dead_coral_campfire
+   group: dead_coral_block_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0  
@@ -189,7 +199,7 @@ dead_fire_coral_block_campfire:
    source: FIRE_CORAL_BLOCK
    experience: 0.3
    cookingTime: 92
-   group: dead_coral_campfire
+   group: dead_coral_block_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0   
@@ -200,7 +210,7 @@ dead_horn_coral_block_campfire:
    source: HORN_CORAL_BLOCK
    experience: 0.3
    cookingTime: 92
-   group: dead_coral_campfire
+   group: dead_coral_block_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -211,7 +221,7 @@ dead_tube_coral_block_campfire:
    source: TUBE_CORAL_BLOCK
    experience: 0.3
    cookingTime: 92
-   group: dead_coral_campfire
+   group: dead_coral_block_campfire
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -219,7 +229,7 @@ dead_tube_coral_block_campfire:
 wood_logs_to_charcoal_campfire:
    enable: true
    result: CHARCOAL
-   source: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG, CRIMSON_STEM, WARPED_STEM
+   source: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG
    experience: 0.3
    cookingTime: 360
    group: wood_logs_to_charcoal_campfire
@@ -230,7 +240,7 @@ wood_logs_to_charcoal_campfire:
 stripped_wood_logs_to_charcoal_campfire:
    enable: true
    result: CHARCOAL
-   source: STRIPPED_ACACIA_LOG, STRIPPED_BIRCH_LOG, STRIPPED_DARK_OAK_LOG, STRIPPED_JUNGLE_LOG, STRIPPED_SPRUCE_LOG, STRIPPED_OAK_LOG, STRIPPED_CRIMSON_STEM, STRIPPED_WARPED_STEM
+   source: STRIPPED_ACACIA_LOG, STRIPPED_BIRCH_LOG, STRIPPED_DARK_OAK_LOG, STRIPPED_JUNGLE_LOG, STRIPPED_SPRUCE_LOG, STRIPPED_OAK_LOG
    experience: 0.3
    cookingTime: 360
    group: stripped_wood_logs_to_charcoal_campfire
@@ -241,7 +251,7 @@ stripped_wood_logs_to_charcoal_campfire:
 wood_to_charcoal_campfire:
    enable: true
    result: CHARCOAL
-   source: ACACIA_WOOD, BIRCH_WOOD, DARK_OAK_WOOD, JUNGLE_WOOD, SPRUCE_WOOD, OAK_WOOD, CRIMSON_HYPHAE, WARPED_HYPHAE
+   source: ACACIA_WOOD, BIRCH_WOOD, DARK_OAK_WOOD, JUNGLE_WOOD, SPRUCE_WOOD, OAK_WOOD
    experience: 0.3
    cookingTime: 360
    group: wood_to_charcoal_campfire
@@ -252,7 +262,7 @@ wood_to_charcoal_campfire:
 stripped_wood_to_charcoal_campfire:
    enable: true
    result: CHARCOAL
-   source: STRIPPED_ACACIA_WOOD, STRIPPED_BIRCH_WOOD, STRIPPED_DARK_OAK_WOOD, STRIPPED_JUNGLE_WOOD, STRIPPED_SPRUCE_WOOD, STRIPPED_OAK_WOOD, STRIPPED_CRIMSON_HYPHAE, STRIPPED_WARPED_HYPHAE
+   source: STRIPPED_ACACIA_WOOD, STRIPPED_BIRCH_WOOD, STRIPPED_DARK_OAK_WOOD, STRIPPED_JUNGLE_WOOD, STRIPPED_SPRUCE_WOOD, STRIPPED_OAK_WOOD
    experience: 0.3
    cookingTime: 360
    group: stripped_wood_to_charcoal_campfire
@@ -260,12 +270,56 @@ stripped_wood_to_charcoal_campfire:
    addedBy: CreepyCoderMC
    version: 0.3.0
    
+fungus_logs_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: CRIMSON_STEM, WARPED_STEM
+   experience: 0.3
+   cookingTime: 360
+   group: fungus_logs_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+stripped_fungus_logs_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_CRIMSON_STEM, STRIPPED_WARPED_STEM
+   experience: 0.3
+   cookingTime: 360
+   group: stripped_fungus_logs_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+fungus_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: CRIMSON_HYPHAE, WARPED_HYPHAE
+   experience: 0.3
+   cookingTime: 360
+   group: fungus_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+stripped_fungus_to_charcoal_campfire:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_CRIMSON_HYPHAE, STRIPPED_WARPED_HYPHAE
+   experience: 0.3
+   cookingTime: 360
+   group: stripped_fungus_to_charcoal_campfire
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0  
+  
 sapling_to_deadbush_campfire:
    enable: true
    result: DEAD_BUSH
    source: ACACIA_SAPLING, BIRCH_SAPLING, DARK_OAK_SAPLING, JUNGLE_SAPLING, OAK_SAPLING, SPRUCE_SAPLING
    experience: 0.1
-   cookingTime: 32
+   cookingTime: 360
    group: sapling_to_deadbush_campfire
    permission: true
    addedBy: CreepyCoderMC

@@ -6,6 +6,8 @@ CustomBlastFurnaceRecipes:
             
    group:
       - dead_coral_blastfurnace
+      - dead_coral_fan_blastfurnace
+      - dead_coral_block_blastfurnace
       - wood_log_blastfurnace
       - wood_blastfurnace
       - stripped_wood_log_blastfurnace
@@ -62,7 +64,7 @@ dead_brain_coral_fan_blastfurnace:
    source: BRAIN_CORAL_FAN
    experience: 0.1
    cookingTime: 8
-   group: dead_coral_blastfurnace
+   group: dead_coral_fan_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -73,7 +75,7 @@ dead_bubble_coral_fan_blastfurnace:
    source: BUBBLE_CORAL_FAN
    experience: 0.1
    cookingTime: 8
-   group: dead_coral_blastfurnace
+   group: dead_coral_fan_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0  
@@ -84,7 +86,7 @@ dead_fire_coral_fan_blastfurnace:
    source: FIRE_CORAL_FAN
    experience: 0.1
    cookingTime: 8
-   group: dead_coral_blastfurnace
+   group: dead_coral_fan_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0    
@@ -95,7 +97,7 @@ dead_horn_coral_fan_blastfurnace:
    source: HORN_CORAL_FAN
    experience: 0.1
    cookingTime: 8
-   group: dead_coral_blastfurnace
+   group: dead_coral_fan_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -106,7 +108,7 @@ dead_tube_coral_fan_blastfurnace:
    source: TUBE_CORAL_FAN
    experience: 0.1
    cookingTime: 8
-   group: dead_coral_blastfurnace
+   group: dead_coral_fan_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -172,7 +174,7 @@ dead_brain_coral_block_blastfurnace:
    source: BRAIN_CORAL_BLOCK
    experience: 0.3
    cookingTime: 24
-   group: dead_coral_blastfurnace
+   group: dead_coral_block_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -183,7 +185,7 @@ dead_bubble_coral_block_blastfurnace:
    source: BUBBLE_CORAL_BLOCK
    experience: 0.3
    cookingTime: 24
-   group: dead_coral_blastfurnace
+   group: dead_coral_block_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0   
@@ -194,7 +196,7 @@ dead_fire_coral_block_blastfurnace:
    source: FIRE_CORAL_BLOCK
    experience: 0.3
    cookingTime: 24
-   group: dead_coral_blastfurnace
+   group: dead_coral_block_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0    
@@ -205,7 +207,7 @@ dead_horn_coral_block_blastfurnace:
    source: HORN_CORAL_BLOCK
    experience: 0.3
    cookingTime: 24
-   group: dead_coral_blastfurnace
+   group: dead_coral_block_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -216,7 +218,7 @@ dead_tube_coral_block_blastfurnace:
    source: TUBE_CORAL_BLOCK
    experience: 0.3
    cookingTime: 24
-   group: dead_coral_blastfurnace
+   group: dead_coral_block_blastfurnace
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
@@ -243,7 +245,6 @@ wood_blastfurnace:
    addedBy: CreepyCoderMC
    version: 0.3.0
    
-   
 stripped_wood_log_blastfurnace:
    enable: true
    result: CHARCOAL
@@ -266,9 +267,6 @@ stripped_wood_blastfurnace:
    addedBy: CreepyCoderMC
    version: 0.3.0
    
- 
- 
- 
 fungus_log_blastfurnace:
    enable: true
    result: CHARCOAL
@@ -290,7 +288,6 @@ fungus_blastfurnace:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
-   
    
 stripped_fungus_log_blastfurnace:
    enable: true

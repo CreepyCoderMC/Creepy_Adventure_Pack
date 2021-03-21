@@ -17,23 +17,24 @@ import CreepyCoder.AdventurePack.Function.IngredientFunction;
 
 public class CustomCampfireRecipe {
 
-	private Plugin plugin;
-	private FileConfiguration dataConfig;
+	public Plugin plugin;
+	public FileConfiguration dataConfig;
 	
 	private IngredientFunction IngredientFunction = new IngredientFunction();
 
-	private boolean Enable;
+	//private boolean Enable;
 	private ItemStack Result;
 	private String Source;
 	private float Experience;
 	private int CookingTime;
-	private String Group;
-	private boolean Permission;
-	private String AddedBy;
-	private String Version;
+	//private String Group;
+	//private boolean Permission;
+	//private String AddedBy;
+	//private String Version;
 	
 	public List<String> KeyList = new ArrayList<String>();
 
+	@SuppressWarnings({ "unchecked", "deprecation" })
 	public CustomCampfireRecipe(Plugin plugin, FileConfiguration dataConfig) {
 
 		this.plugin = plugin;
