@@ -37,13 +37,6 @@ public class BlockFunction {
 	}
 	
 	public void Interact(Block currentBlock, String Result, boolean Drop, boolean InventoryAdd, boolean Replace, boolean Break, String Particle) {
-	
-		Bukkit.getLogger().log(Level.WARNING, "Result: "+Result);
-		Bukkit.getLogger().log(Level.WARNING, "Drop: "+Drop);
-		Bukkit.getLogger().log(Level.WARNING, "InventoryAdd: "+InventoryAdd);
-		Bukkit.getLogger().log(Level.WARNING, "Replace: "+Replace);
-		Bukkit.getLogger().log(Level.WARNING, "Break: "+Break);
-		Bukkit.getLogger().log(Level.WARNING, "Particle: "+Particle);
 		
 		Location location = currentBlock.getLocation();
 		location.getWorld().playEffect(location, Effect.valueOf(Particle) , 10);

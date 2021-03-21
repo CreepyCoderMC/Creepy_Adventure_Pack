@@ -259,6 +259,7 @@ CustomDispenserEvent:
       - source, material
       - result, material
       - itemUsed, material
+      - itemReduce, boolean
       - particle, effect
       - drop, boolean
       - inventoryAdd, boolean
@@ -274,6 +275,7 @@ oxeye_daisy_fertilizer_dispenserevent:
    source: OXEYE_DAISY
    result: OXEYE_DAISY
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -289,6 +291,7 @@ dandelion_fertilizer_dispenserevent:
    source: DANDELION
    result: DANDELION
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -304,6 +307,7 @@ poppy_fertilizer_dispenserevent:
    source: POPPY
    result: POPPY
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -319,6 +323,7 @@ blue_orchid_fertilizer_dispenserevent:
    source: BLUE_ORCHID
    result: BLUE_ORCHID
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -334,6 +339,7 @@ allium_fertilizer_dispenserevent:
    source: ALLIUM
    result: ALLIUM
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -349,6 +355,7 @@ azure_bluet_fertilizer_dispenserevent:
    source: AZURE_BLUET
    result: AZURE_BLUET
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -364,6 +371,7 @@ red_tulip_fertilizer_dispenserevent:
    source: RED_TULIP
    result: RED_TULIP
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -379,6 +387,7 @@ orange_tulip_fertilizer_dispenserevent:
    source: ORANGE_TULIP
    result: ORANGE_TULIP
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -394,6 +403,7 @@ white_tulip_fertilizer_dispenserevent:
    source: WHITE_TULIP
    result: WHITE_TULIP
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -409,6 +419,7 @@ pink_tulip_fertilizer_dispenserevent:
    source: PINK_TULIP
    result: PINK_TULIP
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -424,6 +435,7 @@ cornflower_fertilizer_dispenserevent:
    source: CORNFLOWER
    result: CORNFLOWER
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -439,6 +451,7 @@ lily_of_the_valley_fertilizer_dispenserevent:
    source: LILY_OF_THE_VALLEY
    result: LILY_OF_THE_VALLEY
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -454,6 +467,7 @@ wither_rose_fertilizer_dispenserevent:
    source: WITHER_ROSE
    result: WITHER_ROSE
    itemUsed: POISONOUS_POTATO
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -469,6 +483,7 @@ brain_coral_fan_dye_magenta_dispenserevent:
    source: BRAIN_CORAL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -484,6 +499,7 @@ brain_coral_fan_dye_red_dispenserevent:
    source: BRAIN_CORAL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -501,6 +517,7 @@ brain_coral_fan_dye_yellow_dispenserevent:
    itemUsed: YELLOW_DYE
    particle: VILLAGER_PLANT_GROW
    drop: true
+   itemReduce: true
    inventoryAdd: false
    replace: false
    break: true
@@ -514,6 +531,7 @@ brain_coral_fan_dye_blue_dispenserevent:
    source: BRAIN_CORAL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -529,6 +547,7 @@ bubble_coral_fan_dye_pink_dispenserevent:
    source: BUBBLE_CORAL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -544,6 +563,7 @@ bubble_coral_fan_dye_red_dispenserevent:
    source: BUBBLE_CORAL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -559,6 +579,7 @@ bubble_coral_fan_dye_yellow_dispenserevent:
    source: BUBBLE_CORAL_FAN
    result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -574,6 +595,7 @@ bubble_coral_fan_dye_blue_dispenserevent:
    source: BUBBLE_CORAL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -589,6 +611,7 @@ fire_coral_fan_dye_magenta_dispenserevent:
    source: FIRE_CORAL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -604,6 +627,7 @@ fire_coral_fan_dye_pink_dispenserevent:
    source: FIRE_CORAL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -619,6 +643,7 @@ fire_coral_fan_dye_yellow_dispenserevent:
    source: FIRE_CORAL_FAN
    result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -634,6 +659,7 @@ fire_coral_fan_dye_blue_dispenserevent:
    source: FIRE_CORAL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    break: true
    drop: true
@@ -649,6 +675,7 @@ horn_coral_fan_dye_magenta_dispenserevent:
    source: HORN_CORAL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -664,6 +691,7 @@ horn_coral_fan_dye_pink_dispenserevent:
    source: HORN_CORAL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -679,6 +707,7 @@ horn_coral_fan_dye_red_dispenserevent:
    source: HORN_CORAL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -694,6 +723,7 @@ horn_coral_fan_dye_blue_dispenserevent:
    source: HORN_CORAL_FAN 
    result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -709,6 +739,7 @@ tube_coral_fan_dye_magenta_dispenserevent:
    source: TUBE_CORAL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -724,6 +755,7 @@ tube_coral_fan_dye_pink_dispenserevent:
    source: TUBE_CORAL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -739,6 +771,7 @@ tube_coral_fan_dye_red_dispenserevent:
    source: TUBE_CORAL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -754,6 +787,7 @@ tube_coral_fan_dye_yellow_dispenserevent:
    source: TUBE_CORAL_FAN
    result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -769,6 +803,7 @@ brain_coral_dye_magenta_dispenserevent:
    source: BRAIN_CORAL
    result: BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -784,6 +819,7 @@ brain_coral_dye_red_dispenserevent:
    source: BRAIN_CORAL
    result: FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -799,6 +835,7 @@ brain_coral_dye_yellow_dispenserevent:
    source: BRAIN_CORAL
    result: HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -814,6 +851,7 @@ brain_coral_dye_blue_dispenserevent:
    source: BRAIN_CORAL
    result: TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -829,6 +867,7 @@ bubble_coral_dye_pink_dispenserevent:
    source: BUBBLE_CORAL
    result: BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -844,6 +883,7 @@ bubble_coral_dye_red_dispenserevent:
    source: BUBBLE_CORAL
    result: FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -859,6 +899,7 @@ bubble_coral_dye_yellow_dispenserevent:
    source: BUBBLE_CORAL
    result: HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -874,6 +915,7 @@ bubble_coral_dye_blue_dispenserevent:
    source: BUBBLE_CORAL
    result: TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -889,6 +931,7 @@ fire_coral_dye_magenta_dispenserevent:
    source: FIRE_CORAL
    result: BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -904,6 +947,7 @@ fire_coral_dye_pink_dispenserevent:
    source: FIRE_CORAL
    result: BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -919,6 +963,7 @@ fire_coral_dye_yellow_dispenserevent:
    source: FIRE_CORAL
    result: HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -934,6 +979,7 @@ fire_coral_dye_blue_dispenserevent:
    source: FIRE_CORAL
    result: TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -949,6 +995,7 @@ horn_coral_dye_magenta_dispenserevent:
    source: HORN_CORAL
    result: BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -964,6 +1011,7 @@ horn_coral_dye_pink_dispenserevent:
    source: HORN_CORAL
    result: BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -979,6 +1027,7 @@ horn_coral_dye_red_dispenserevent:
    source: HORN_CORAL
    result: FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -994,6 +1043,7 @@ horn_coral_dye_blue_dispenserevent:
    source: HORN_CORAL
    result: TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1009,6 +1059,7 @@ tube_coral_dye_magenta_dispenserevent:
    source: TUBE_CORAL
    result: BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1024,6 +1075,7 @@ tube_coral_dye_pink_dispenserevent:
    source: TUBE_CORAL
    result: BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1039,6 +1091,7 @@ tube_coral_dye_red_dispenserevent:
    source: TUBE_CORAL
    result: FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1054,6 +1107,7 @@ tube_coral_dye_yellow_dispenserevent:
    source: TUBE_CORAL
    result: HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1069,6 +1123,7 @@ brain_coral_block_dye_magenta_dispenserevent:
    source: BRAIN_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1084,6 +1139,7 @@ brain_coral_block_dye_red_dispenserevent:
    source: BRAIN_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1099,6 +1155,7 @@ brain_coral_block_dye_yellow_dispenserevent:
    source: BRAIN_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1114,6 +1171,7 @@ brain_coral_block_dye_blue_dispenserevent:
    source: BRAIN_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1129,6 +1187,7 @@ bubble_coral_block_dye_pink_dispenserevent:
    source: BUBBLE_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1144,6 +1203,7 @@ bubble_coral_block_dye_red_dispenserevent:
    source: BUBBLE_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1159,6 +1219,7 @@ bubble_coral_block_dye_yellow_dispenserevent:
    source: BUBBLE_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1174,6 +1235,7 @@ bubble_coral_block_dye_blue_dispenserevent:
    source: BUBBLE_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1189,6 +1251,7 @@ fire_coral_block_dye_magenta_dispenserevent:
    source: FIRE_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1204,6 +1267,7 @@ fire_coral_block_dye_pink_dispenserevent:
    source: FIRE_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1219,6 +1283,7 @@ fire_coral_block_dye_yellow_dispenserevent:
    source: FIRE_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1234,6 +1299,7 @@ fire_coral_block_dye_blue_dispenserevent:
    source: FIRE_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1249,6 +1315,7 @@ horn_coral_block_dye_magenta_dispenserevent:
    source: HORN_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1264,6 +1331,7 @@ horn_coral_block_dye_pink_dispenserevent:
    source: HORN_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1279,6 +1347,7 @@ horn_coral_block_dye_red_dispenserevent:
    source: HORN_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1294,6 +1363,7 @@ horn_coral_block_dye_blue_dispenserevent:
    source: HORN_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1309,6 +1379,7 @@ tube_coral_block_dye_magenta_dispenserevent:
    source: TUBE_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1324,6 +1395,7 @@ tube_coral_block_dye_pink_dispenserevent:
    source: TUBE_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1339,6 +1411,7 @@ tube_coral_block_dye_red_dispenserevent:
    source: TUBE_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1354,6 +1427,7 @@ tube_coral_block_dye_yellow_dispenserevent:
    source: TUBE_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1369,6 +1443,7 @@ brain_coral_wall_fan_dye_magenta_dispenserevent:
    source: BRAIN_CORAL_WALL_FAN
    result: BUBBLE_CORAL_WALL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1384,6 +1459,7 @@ brain_coral_wall_fan_dye_red_dispenserevent:
    source: BRAIN_CORAL_WALL_FAN
    result: FIRE_CORAL_WALL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1399,6 +1475,7 @@ brain_coral_wall_fan_dye_yellow_dispenserevent:
    source: BRAIN_CORAL_WALL_FAN
    result: HORN_CORAL_WALL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1414,6 +1491,7 @@ brain_coral_wall_fan_dye_blue_dispenserevent:
    source: BRAIN_CORAL_WALL_FAN
    result: TUBE_CORAL_WALL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1429,6 +1507,7 @@ bubble_coral_wall_fan_dye_pink_dispenserevent:
    source: BUBBLE_CORAL_WALL_FAN
    result: BRAIN_CORAL_WALL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1444,6 +1523,7 @@ bubble_coral_wall_fan_dye_red_dispenserevent:
    source: BUBBLE_CORAL_WALL_FAN
    result: FIRE_CORAL_WALL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1459,6 +1539,7 @@ bubble_coral_wall_fan_dye_yellow_dispenserevent:
    source: BUBBLE_CORAL_WALL_FAN
    result: HORN_CORAL_WALL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1474,6 +1555,7 @@ bubble_coral_wall_fan_dye_blue_dispenserevent:
    source: BUBBLE_CORAL_WALL_FAN
    result: TUBE_CORAL_WALL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1489,6 +1571,7 @@ fire_coral_wall_fan_dye_magenta_dispenserevent:
    source: FIRE_CORAL_WALL_FAN
    result: BUBBLE_CORAL_WALL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1504,6 +1587,7 @@ fire_coral_wall_fan_dye_pink_dispenserevent:
    source: FIRE_CORAL_WALL_FAN
    result: BRAIN_CORAL_WALL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1519,6 +1603,7 @@ fire_coral_wall_fan_dye_yellow_dispenserevent:
    source: FIRE_CORAL_WALL_FAN
    result: HORN_CORAL_WALL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1534,6 +1619,7 @@ fire_coral_wall_fan_dye_blue_dispenserevent:
    source: FIRE_CORAL_WALL_FAN
    result: TUBE_CORAL_WALL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1549,6 +1635,7 @@ horn_coral_wall_fan_dye_magenta_dispenserevent:
    source: HORN_CORAL_WALL_FAN
    result: BUBBLE_CORAL_WALL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1564,6 +1651,7 @@ horn_coral_wall_fan_dye_pink_dispenserevent:
    source: HORN_CORAL_WALL_FAN
    result: BRAIN_CORAL_WALL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1579,6 +1667,7 @@ horn_coral_wall_fan_dye_red_dispenserevent:
    source: HORN_CORAL_WALL_FAN
    result: FIRE_CORAL_WALL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1594,6 +1683,7 @@ horn_coral_wall_fan_dye_blue_dispenserevent:
    source: HORN_CORAL_WALL_FAN 
    result: TUBE_CORAL_WALL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1609,6 +1699,7 @@ tube_coral_wall_fan_dye_magenta_dispenserevent:
    source: TUBE_CORAL_WALL_FAN
    result: BUBBLE_CORAL_WALL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1624,6 +1715,7 @@ tube_coral_wall_fan_dye_pink_dispenserevent:
    source: TUBE_CORAL_WALL_FAN
    result: BRAIN_CORAL_WALL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1639,6 +1731,7 @@ tube_coral_wall_fan_dye_red_dispenserevent:
    source: TUBE_CORAL_WALL_FAN
    result: FIRE_CORAL_WALL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1654,6 +1747,7 @@ tube_coral_wall_fan_dye_yellow_dispenserevent:
    source: TUBE_CORAL_WALL_FAN
    result: HORN_CORAL_WALL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1669,6 +1763,7 @@ dead_brain_coral_to_live_dispenserevent:
    source: DEAD_BRAIN_CORAL
    result: BRAIN_CORAL
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1684,6 +1779,7 @@ dead_bubble_coral_to_live_dispenserevent:
    source: DEAD_BUBBLE_CORAL
    result: BUBBLE_CORAL
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1699,6 +1795,7 @@ dead_fire_coral_to_live_dispenserevent:
    source: DEAD_FIRE_CORAL
    result: FIRE_CORAL
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1714,6 +1811,7 @@ dead_horn_coral_to_live_dispenserevent:
    source: DEAD_HORN_CORAL
    result: HORN_CORAL
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1729,6 +1827,7 @@ dead_tube_coral_to_live_dispenserevent:
    source: DEAD_TUBE_CORAL
    result: TUBE_CORAL
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1744,6 +1843,7 @@ dead_brain_coral_block_to_live_dispenserevent:
    source: DEAD_BRAIN_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1759,6 +1859,7 @@ dead_bubble_coral_block_to_live_dispenserevent:
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1774,6 +1875,7 @@ dead_fire_coral_block_to_live_dispenserevent:
    source: DEAD_FIRE_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1789,6 +1891,7 @@ dead_horn_coral_block_to_live_dispenserevent:
    source: DEAD_HORN_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1804,6 +1907,7 @@ dead_tube_coral_block_to_live_dispenserevent:
    source: DEAD_TUBE_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1819,6 +1923,7 @@ dead_brain_coral_fan_to_live_dispenserevent:
    source: DEAD_BRAIN_CORAL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1834,6 +1939,7 @@ dead_bubble_coral_fan_to_live_dispenserevent:
    source: DEAD_BUBBLE_CORAL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1849,6 +1955,7 @@ dead_fire_coral_fan_to_live_dispenserevent:
    source: DEAD_FIRE_CORAL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1864,6 +1971,7 @@ dead_horn_coral_fan_to_live_dispenserevent:
    source: DEAD_HORN_CORAL_FAN
    result: HORN_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1879,6 +1987,7 @@ dead_tube_coral_fan_to_live_dispenserevent:
    source: DEAD_TUBE_CORAL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1894,6 +2003,7 @@ dead_brain_coral_wall_fan_to_live_dispenserevent:
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1909,6 +2019,7 @@ dead_bubble_coral_wall_fan_to_live_dispenserevent:
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1924,6 +2035,7 @@ dead_fire_coral_wall_fan_to_live_dispenserevent:
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1939,6 +2051,7 @@ dead_horn_coral_wall_fan_to_live_dispenserevent:
    source: DEAD_HORN_CORAL_WALL_FAN
    result: HORN_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1954,6 +2067,7 @@ dead_tube_coral_wall_fan_to_live_dispenserevent:
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: PHANTOM_MEMBRANE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1969,6 +2083,7 @@ brain_coral_bonemeal_dispenserevent:
    source: BRAIN_CORAL
    result: BRAIN_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1984,6 +2099,7 @@ bubble_coral_bonemeal_dispenserevent:
    source: BUBBLE_CORAL
    result: BUBBLE_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -1999,6 +2115,7 @@ fire_coral_bonemeal_dispenserevent:
    source: FIRE_CORAL
    result: FIRE_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2014,6 +2131,7 @@ horn_coral_bonemeal_dispenserevent:
    source: HORN_CORAL
    result: HORN_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2029,6 +2147,7 @@ tube_coral_bonemeal_dispenserevent:
    source: TUBE_CORAL
    result: TUBE_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2044,6 +2163,7 @@ brain_coral_block_bonemeal_dispenserevent:
    source: BRAIN_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2059,6 +2179,7 @@ bubble_coral_block_bonemeal_dispenserevent:
    source: BUBBLE_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2074,6 +2195,7 @@ fire_coral_block_bonemeal_dispenserevent:
    source: FIRE_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2089,6 +2211,7 @@ horn_coral_block_bonemeal_dispenserevent:
    source: HORN_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2104,6 +2227,7 @@ tube_coral_block_bonemeal_dispenserevent:
    source: TUBE_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2119,6 +2243,7 @@ brain_coral_fan_bonemeal_dispenserevent:
    source: BRAIN_CORAL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2134,6 +2259,7 @@ bubble_coral_fan_bonemeal_dispenserevent:
    source: BUBBLE_CORAL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2149,6 +2275,7 @@ fire_coral_fan_bonemeal_dispenserevent:
    source: FIRE_CORAL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2164,6 +2291,7 @@ horn_coral_fan_bonemeal_dispenserevent:
    source: HORN_CORAL_FAN
    result: HORN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2179,6 +2307,7 @@ tube_coral_fan_bonemeal_dispenserevent:
    source: TUBE_CORAL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2194,6 +2323,7 @@ brain_coral_wall_fan_bonemeal_dispenserevent:
    source: BRAIN_CORAL_WALL_FAN
    result: BRAIN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2209,6 +2339,7 @@ bubble_coral_wall_fan_bonemeal_dispenserevent:
    source: BUBBLE_CORAL_WALL_FAN
    result: BUBBLE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2224,6 +2355,7 @@ fire_coral_wall_fan_bonemeal_dispenserevent:
    source: FIRE_CORAL_WALL_FAN
    result: FIRE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2239,6 +2371,7 @@ horn_coral_wall_fan_bonemeal_dispenserevent:
    source: HORN_CORAL_WALL_FAN
    result: HORN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2254,6 +2387,7 @@ tube_coral_wall_fan_bonemeal_dispenserevent:
    source: TUBE_CORAL_WALL_FAN
    result: TUBE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2269,6 +2403,7 @@ dead_brain_coral_bonemeal_dispenserevent:
    source: DEAD_BRAIN_CORAL
    result: DEAD_BRAIN_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2284,6 +2419,7 @@ dead_bubble_coral_bonemeal_dispenserevent:
    source: DEAD_BUBBLE_CORAL
    result: DEAD_BUBBLE_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2299,6 +2435,7 @@ dead_fire_coral_bonemeal_dispenserevent:
    source: DEAD_FIRE_CORAL
    result: DEAD_FIRE_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2314,6 +2451,7 @@ dead_horn_coral_bonemeal_dispenserevent:
    source: DEAD_HORN_CORAL
    result: DEAD_HORN_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2329,6 +2467,7 @@ dead_tube_coral_bonemeal_dispenserevent:
    source: DEAD_TUBE_CORAL
    result: DEAD_TUBE_CORAL
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2344,6 +2483,7 @@ dead_brain_coral_block_bonemeal_dispenserevent:
    source: DEAD_BRAIN_CORAL_BLOCK
    result: DEAD_BRAIN_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2359,6 +2499,7 @@ dead_bubble_coral_block_bonemeal_dispenserevent:
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: DEAD_BUBBLE_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2374,6 +2515,7 @@ dead_fire_coral_block_bonemeal_dispenserevent:
    source: DEAD_FIRE_CORAL_BLOCK
    result: DEAD_FIRE_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2389,6 +2531,7 @@ dead_horn_coral_block_bonemeal_dispenserevent:
    source: DEAD_HORN_CORAL_BLOCK
    result: DEAD_HORN_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2404,6 +2547,7 @@ dead_tube_coral_block_bonemeal_dispenserevent:
    source: DEAD_TUBE_CORAL_BLOCK
    result: DEAD_TUBE_CORAL_BLOCK
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2419,6 +2563,7 @@ dead_brain_coral_fan_bonemeal_dispenserevent:
    source: DEAD_BRAIN_CORAL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2434,6 +2579,7 @@ dead_bubble_coral_fan_bonemeal_dispenserevent:
    source: DEAD_BUBBLE_CORAL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2449,6 +2595,7 @@ dead_fire_coral_fan_bonemeal_dispenserevent:
    source: DEAD_FIRE_CORAL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2464,6 +2611,7 @@ dead_horn_coral_fan_bonemeal_dispenserevent:
    source: DEAD_HORN_CORAL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2479,6 +2627,7 @@ dead_tube_coral_fan_bonemeal_dispenserevent:
    source: DEAD_TUBE_CORAL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2494,6 +2643,7 @@ dead_brain_coral_wall_fan_bonemeal_dispenserevent:
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2509,6 +2659,7 @@ dead_bubble_coral_wall_fan_bonemeal_dispenserevent:
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2524,6 +2675,7 @@ dead_fire_coral_wall_fan_bonemeal_dispenserevent:
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2539,6 +2691,7 @@ dead_horn_coral_wall_fan_bonemeal_dispenserevent:
    source: DEAD_HORN_CORAL_WALL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2554,6 +2707,7 @@ dead_tube_coral_wall_fan_bonemeal_dispenserevent:
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BONE_MEAL
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2569,6 +2723,7 @@ dead_brain_coral_fan_dye_magenta_dispenserevent:
    source: DEAD_BRAIN_CORAL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2584,6 +2739,7 @@ dead_brain_coral_fan_dye_red_dispenserevent:
    source: DEAD_BRAIN_CORAL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2599,6 +2755,7 @@ dead_brain_coral_fan_dye_yellow_dispenserevent:
    source: DEAD_BRAIN_CORAL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2614,6 +2771,7 @@ dead_brain_coral_fan_dye_blue_dispenserevent:
    source: DEAD_BRAIN_CORAL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2629,6 +2787,7 @@ dead_bubble_coral_fan_dye_pink_dispenserevent:
    source: DEAD_BUBBLE_CORAL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2644,6 +2803,7 @@ dead_bubble_coral_fan_dye_red_dispenserevent:
    source: DEAD_BUBBLE_CORAL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2659,6 +2819,7 @@ dead_bubble_coral_fan_dye_yellow_dispenserevent:
    source: DEAD_BUBBLE_CORAL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2674,6 +2835,7 @@ dead_bubble_coral_fan_dye_blue_dispenserevent:
    source: DEAD_BUBBLE_CORAL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2689,6 +2851,7 @@ dead_fire_coral_fan_dye_magenta_dispenserevent:
    source: DEAD_FIRE_CORAL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2704,6 +2867,7 @@ dead_fire_coral_fan_dye_pink_dispenserevent:
    source: DEAD_FIRE_CORAL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2719,6 +2883,7 @@ dead_fire_coral_fan_dye_yellow_dispenserevent:
    source: DEAD_FIRE_CORAL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2734,6 +2899,7 @@ dead_fire_coral_fan_dye_blue_dispenserevent:
    source: DEAD_FIRE_CORAL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2749,6 +2915,7 @@ dead_horn_coral_fan_dye_magenta_dispenserevent:
    source: DEAD_HORN_CORAL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2764,6 +2931,7 @@ dead_horn_coral_fan_dye_pink_dispenserevent:
    source: DEAD_HORN_CORAL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2779,6 +2947,7 @@ dead_horn_coral_fan_dye_red_dispenserevent:
    source: DEAD_HORN_CORAL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2794,6 +2963,7 @@ dead_horn_coral_fan_dye_blue_dispenserevent:
    source: DEAD_HORN_CORAL_FAN 
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2809,6 +2979,7 @@ dead_tube_coral_fan_dye_magenta_dispenserevent:
    source: DEAD_TUBE_CORAL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2824,6 +2995,7 @@ dead_tube_coral_fan_dye_pink_dispenserevent:
    source: DEAD_TUBE_CORAL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2839,6 +3011,7 @@ dead_tube_coral_fan_dye_red_dispenserevent:
    source: DEAD_TUBE_CORAL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2854,6 +3027,7 @@ dead_tube_coral_fan_dye_yellow_dispenserevent:
    source: DEAD_TUBE_CORAL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2869,6 +3043,7 @@ dead_brain_coral_dye_magenta_dispenserevent:
    source: DEAD_BRAIN_CORAL
    result: DEAD_BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2884,6 +3059,7 @@ dead_brain_coral_dye_red_dispenserevent:
    source: DEAD_BRAIN_CORAL
    result: DEAD_FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2899,6 +3075,7 @@ dead_brain_coral_dye_yellow_dispenserevent:
    source: DEAD_BRAIN_CORAL
    result: DEAD_HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2914,6 +3091,7 @@ dead_brain_coral_dye_blue_dispenserevent:
    source: DEAD_BRAIN_CORAL
    result: DEAD_TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2929,6 +3107,7 @@ dead_bubble_coral_dye_pink_dispenserevent:
    source: DEAD_BUBBLE_CORAL
    result: DEAD_BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2944,6 +3123,7 @@ dead_bubble_coral_dye_red_dispenserevent:
    source: DEAD_BUBBLE_CORAL
    result: DEAD_FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2959,6 +3139,7 @@ dead_bubble_coral_dye_yellow_dispenserevent:
    source: DEAD_BUBBLE_CORAL
    result: DEAD_HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2974,6 +3155,7 @@ dead_bubble_coral_dye_blue_dispenserevent:
    source: DEAD_BUBBLE_CORAL
    result: DEAD_TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -2989,6 +3171,7 @@ dead_fire_coral_dye_magenta_dispenserevent:
    source: DEAD_FIRE_CORAL
    result: DEAD_BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3004,6 +3187,7 @@ dead_fire_coral_dye_pink_dispenserevent:
    source: DEAD_FIRE_CORAL
    result: DEAD_BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3019,6 +3203,7 @@ dead_fire_coral_dye_yellow_dispenserevent:
    source: DEAD_FIRE_CORAL
    result: DEAD_HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3034,6 +3219,7 @@ dead_fire_coral_dye_blue_dispenserevent:
    source: DEAD_FIRE_CORAL
    result: DEAD_TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3049,6 +3235,7 @@ dead_horn_coral_dye_magenta_dispenserevent:
    source: DEAD_HORN_CORAL
    result: DEAD_BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3064,6 +3251,7 @@ dead_horn_coral_dye_pink_dispenserevent:
    source: DEAD_HORN_CORAL
    result: DEAD_BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3079,6 +3267,7 @@ dead_horn_coral_dye_red_dispenserevent:
    source: DEAD_HORN_CORAL
    result: DEAD_FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3094,6 +3283,7 @@ dead_horn_coral_dye_blue_dispenserevent:
    source: DEAD_HORN_CORAL
    result: DEAD_TUBE_CORAL
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3109,6 +3299,7 @@ dead_tube_coral_dye_magenta_dispenserevent:
    source: DEAD_TUBE_CORAL
    result: DEAD_BUBBLE_CORAL
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3124,6 +3315,7 @@ dead_tube_coral_dye_pink_dispenserevent:
    source: DEAD_TUBE_CORAL
    result: DEAD_BRAIN_CORAL
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3139,6 +3331,7 @@ dead_tube_coral_dye_red_dispenserevent:
    source: DEAD_TUBE_CORAL
    result: DEAD_FIRE_CORAL
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3154,6 +3347,7 @@ dead_tube_coral_dye_yellow_dispenserevent:
    source: DEAD_TUBE_CORAL
    result: DEAD_HORN_CORAL
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3169,6 +3363,7 @@ dead_brain_coral_block_dye_magenta_dispenserevent:
    source: DEAD_BRAIN_CORAL_BLOCK
    result: DEAD_BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3184,6 +3379,7 @@ dead_brain_coral_block_dye_red_dispenserevent:
    source: DEAD_BRAIN_CORAL_BLOCK
    result: DEAD_FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3199,6 +3395,7 @@ dead_brain_coral_block_dye_yellow_dispenserevent:
    source: DEAD_BRAIN_CORAL_BLOCK
    result: DEAD_HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3214,6 +3411,7 @@ dead_brain_coral_block_dye_blue_dispenserevent:
    source: DEAD_BRAIN_CORAL_BLOCK
    result: DEAD_TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3229,6 +3427,7 @@ dead_bubble_coral_block_dye_pink_dispenserevent:
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: DEAD_BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3244,6 +3443,7 @@ dead_bubble_coral_block_dye_red_dispenserevent:
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: DEAD_FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3259,6 +3459,7 @@ dead_bubble_coral_block_dye_yellow_dispenserevent:
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: DEAD_HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3274,6 +3475,7 @@ dead_bubble_coral_block_dye_blue_dispenserevent:
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: DEAD_TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3289,6 +3491,7 @@ dead_fire_coral_block_dye_magenta_dispenserevent:
    source: DEAD_FIRE_CORAL_BLOCK
    result: DEAD_BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3304,6 +3507,7 @@ dead_fire_coral_block_dye_pink_dispenserevent:
    source: DEAD_FIRE_CORAL_BLOCK
    result: DEAD_BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3319,6 +3523,7 @@ dead_fire_coral_block_dye_yellow_dispenserevent:
    source: DEAD_FIRE_CORAL_BLOCK
    result: DEAD_HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3334,6 +3539,7 @@ dead_fire_coral_block_dye_blue_dispenserevent:
    source: DEAD_FIRE_CORAL_BLOCK
    result: DEAD_TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3349,6 +3555,7 @@ dead_horn_coral_block_dye_magenta_dispenserevent:
    source: DEAD_HORN_CORAL_BLOCK
    result: DEAD_BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3364,6 +3571,7 @@ dead_horn_coral_block_dye_pink_dispenserevent:
    source: DEAD_HORN_CORAL_BLOCK
    result: DEAD_BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3379,6 +3587,7 @@ dead_horn_coral_block_dye_red_dispenserevent:
    source: DEAD_HORN_CORAL_BLOCK
    result: DEAD_FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3394,6 +3603,7 @@ dead_horn_coral_block_dye_blue_dispenserevent:
    source: DEAD_HORN_CORAL_BLOCK
    result: DEAD_TUBE_CORAL_BLOCK
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3409,6 +3619,7 @@ dead_tube_coral_block_dye_magenta_dispenserevent:
    source: DEAD_TUBE_CORAL_BLOCK
    result: DEAD_BUBBLE_CORAL_BLOCK
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3424,6 +3635,7 @@ dead_tube_coral_block_dye_pink_dispenserevent:
    source: DEAD_TUBE_CORAL_BLOCK
    result: DEAD_BRAIN_CORAL_BLOCK
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3439,6 +3651,7 @@ dead_tube_coral_block_dye_red_dispenserevent:
    source: DEAD_TUBE_CORAL_BLOCK
    result: DEAD_FIRE_CORAL_BLOCK
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3454,6 +3667,7 @@ dead_tube_coral_block_dye_yellow_dispenserevent:
    source: DEAD_TUBE_CORAL_BLOCK
    result: DEAD_HORN_CORAL_BLOCK
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3469,6 +3683,7 @@ dead_brain_coral_wall_fan_dye_magenta_dispenserevent:
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3484,6 +3699,7 @@ dead_brain_coral_wall_fan_dye_red_dispenserevent:
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3499,6 +3715,7 @@ dead_brain_coral_wall_fan_dye_yellow_dispenserevent:
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3514,6 +3731,7 @@ dead_brain_coral_wall_fan_dye_blue_dispenserevent:
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3529,6 +3747,7 @@ dead_bubble_coral_wall_fan_dye_pink_dispenserevent:
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3544,6 +3763,7 @@ dead_bubble_coral_wall_fan_dye_red_dispenserevent:
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3559,6 +3779,7 @@ dead_bubble_coral_wall_fan_dye_yellow_dispenserevent:
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3574,6 +3795,7 @@ dead_bubble_coral_wall_fan_dye_blue_dispenserevent:
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3589,6 +3811,7 @@ dead_fire_coral_wall_fan_dye_magenta_dispenserevent:
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3604,6 +3827,7 @@ dead_fire_coral_wall_fan_dye_pink_dispenserevent:
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3619,6 +3843,7 @@ dead_fire_coral_wall_fan_dye_yellow_dispenserevent:
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3634,6 +3859,7 @@ dead_fire_coral_wall_fan_dye_blue_dispenserevent:
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3649,6 +3875,7 @@ dead_horn_coral_wall_fan_dye_magenta_dispenserevent:
    source: DEAD_HORN_CORAL_WALL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3664,6 +3891,7 @@ dead_horn_coral_wall_fan_dye_pink_dispenserevent:
    source: DEAD_HORN_CORAL_WALL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3679,6 +3907,7 @@ dead_horn_coral_wall_fan_dye_red_dispenserevent:
    source: DEAD_HORN_CORAL_WALL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3694,6 +3923,7 @@ dead_horn_coral_wall_fan_dye_blue_dispenserevent:
    source: DEAD_HORN_CORAL_WALL_FAN 
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3709,6 +3939,7 @@ dead_tube_coral_wall_fan_dye_magenta_dispenserevent:
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3724,6 +3955,7 @@ dead_tube_coral_wall_fan_dye_pink_dispenserevent:
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3739,6 +3971,7 @@ dead_tube_coral_wall_fan_dye_red_dispenserevent:
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: RED_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false
@@ -3754,6 +3987,7 @@ dead_tube_coral_wall_fan_dye_yellow_dispenserevent:
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: DEAD_HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
+   itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: true
    inventoryAdd: false

@@ -2,9 +2,18 @@ CustomBlastFurnaceRecipes:
 
    version:
       - 0.2.0
+      - 0.3.0
             
    group:
       - dead_coral_blastfurnace
+      - wood_log_blastfurnace
+      - wood_blastfurnace
+      - stripped_wood_log_blastfurnace
+      - stripped_wood_blastfurnace
+      - fungus_log_blastfurnace
+      - fungus_blastfurnace
+      - stripped_fungus_log_blastfurnace
+      - stripped_fungus_blastfurnace
       
    contributor:
       - CreepyCoderMC
@@ -26,6 +35,15 @@ CustomBlastFurnaceRecipes:
       - dead_fire_coral_block_blastfurnace
       - dead_horn_coral_block_blastfurnace
       - dead_tube_coral_block_blastfurnace
+      # Version 0.3.0
+      - wood_log_blastfurnace
+      - wood_blastfurnace
+      - stripped_wood_log_blastfurnace
+      - stripped_wood_blastfurnace
+      - fungus_log_blastfurnace
+      - fungus_blastfurnace
+      - stripped_fungus_log_blastfurnace
+      - stripped_fungus_blastfurnace
       
    structure:
       - enable, boolean
@@ -202,3 +220,97 @@ dead_tube_coral_block_blastfurnace:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
+   
+wood_log_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, OAK_LOG
+   experience: 0.15
+   cookingTime: 100
+   group: wood_log_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+wood_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: ACACIA_WOOD, BIRCH_WOOD, DARK_OAK_WOOD, JUNGLE_WOOD, SPRUCE_WOOD, OAK_WOOD
+   experience: 0.15
+   cookingTime: 100
+   group: wood_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+   
+stripped_wood_log_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_ACACIA_LOG, STRIPPED_BIRCH_LOG, STRIPPED_DARK_OAK_LOG, STRIPPED_JUNGLE_LOG, STRIPPED_SPRUCE_LOG, STRIPPED_OAK_LOG
+   experience: 0.15
+   cookingTime: 100
+   group: stripped_wood_log_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+stripped_wood_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_ACACIA_WOOD, STRIPPED_BIRCH_WOOD, STRIPPED_DARK_OAK_WOOD, STRIPPED_JUNGLE_WOOD, STRIPPED_SPRUCE_WOOD, STRIPPED_OAK_WOOD
+   experience: 0.15
+   cookingTime: 100
+   group: stripped_wood_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+ 
+ 
+ 
+fungus_log_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: CRIMSON_STEM, WARPED_STEM
+   experience: 0.15
+   cookingTime: 100
+   group: fungus_log_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+fungus_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: CRIMSON_HYPHAE, WARPED_HYPHAE
+   experience: 0.15
+   cookingTime: 100
+   group: fungus_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+   
+stripped_fungus_log_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_CRIMSON_STEM, STRIPPED_WARPED_STEM
+   experience: 0.15
+   cookingTime: 100
+   group: stripped_fungus_log_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+stripped_fungus_blastfurnace:
+   enable: true
+   result: CHARCOAL
+   source: STRIPPED_CRIMSON_HYPHAE, STRIPPED_WARPED_HYPHAE
+   experience: 0.15
+   cookingTime: 100
+   group: stripped_fungus_blastfurnace
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
