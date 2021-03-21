@@ -1,8 +1,5 @@
 package CreepyCoder.AdventurePack.Function;
 
-import java.util.logging.Level;
-
-import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -10,7 +7,6 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.data.Directional;
 import org.bukkit.block.data.Waterlogged;
-import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 public class BlockFunction {
