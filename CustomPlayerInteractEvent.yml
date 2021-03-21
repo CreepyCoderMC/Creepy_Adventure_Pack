@@ -6,13 +6,16 @@ CustomPlayerInteractEvent:
       - 0.3.0
       
    group:
+      # Version 0.1.0
       - flower_bonemeal_playerinteract
       - whither_rose_fertilize_playerinteract
+      # Version 0.2.0
       - coral_dye_playerinteract
       - revive_dead_coral_playerinteract
       - coral_bonemeal_playerinteract
       - dead_coral_bonemeal_playerinteract
       - dead_coral_dye_playerinteract
+      # Version 0.3.0
       - flame_type_change_playerinteract
       
    contributor:
