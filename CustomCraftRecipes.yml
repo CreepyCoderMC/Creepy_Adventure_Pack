@@ -222,8 +222,8 @@ CustomCraftRecipes:
       - convert_stripped_logs_with_jungle_sapling_crafting
       - convert_stripped_logs_with_acacia_sapling_crafting
       - convert_stripped_logs_with_dark_oak_sapling_crafting
-      - convert_logs_with_crimson_fungus_crafting
-      - convert_logs_with_warped_fungus_crafting
+      - convert_stripped_stem_with_warped_fungus_crafting
+      - convert_stripped_stem_with_crimson_fungus_crafting
       # legacy_wood_with_oak_sapling_crafting
       # legacy_wood_with_spruce_sapling_crafting
       # legacy_wood_with_birch_sapling_crafting
@@ -4451,7 +4451,8 @@ convert_stripped_stem_with_crimson_fungus_crafting:
    cols: 3
    group: convert_stripped_stem_with_fungus_crafting
    permission: true
-   addedBy: Killerblade347 
+   addedBy: Killerblade347
+   version: 0.3.0 
 
 convert_stripped_stem_with_warped_fungus_crafting:
    enable: true
@@ -4472,3 +4473,4 @@ convert_stripped_stem_with_warped_fungus_crafting:
    group: convert_stripped_stem_with_fungus_crafting
    permission: true
    addedBy: Killerblade347 
+   version: 0.3.0
