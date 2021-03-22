@@ -1,0 +1,225 @@
+CustomBlockFadeEvent:
+
+   version:
+      - 0.2.0
+      
+   group:
+      # Version 0.2.0
+      - coral_live_blockfadeevent
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+      
+   key:
+      # Version 0.2.0
+      - brain_coral_block_blockfadeevent
+      - bubble_coral_block_blockfadeevent
+      - fire_coral_block_blockfadeevent
+      - horn_coral_block_blockfadeevent
+      - tube_coral_block_blockfadeevent
+      - brain_coral_blockfadeevent
+      - bubble_coral_blockfadeevent
+      - fire_coral_blockfadeevent
+      - horn_coral_blockfadeevent
+      - tube_coral_blockfadeevent
+      - brain_coral_fan_blockfadeevent
+      - bubble_coral_fan_blockfadeevent
+      - fire_coral_fan_blockfadeevent
+      - horn_coral_fan_blockfadeevent
+      - tube_coral_fan_blockfadeevent
+      - brain_coral_wall_fan_blockfadeevent
+      - bubble_coral_wall_fan_blockfadeevent
+      - fire_coral_wall_fan_blockfadeevent
+      - horn_coral_wall_fan_blockfadeevent
+      - tube_coral_wall_fan_blockfadeevent
+      
+   structure:
+      - enable, boolean
+      - source, material
+      - cancelEvent, boolean
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+brain_coral_block_blockfadeevent:
+   enable: true
+   source: BRAIN_CORAL_BLOCK
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_block_blockfadeevent:
+   enable: true
+   source: BUBBLE_CORAL_BLOCK
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_block_blockfadeevent:
+   enable: true
+   source: FIRE_CORAL_BLOCK
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_block_blockfadeevent:
+   enable: true
+   source: HORN_CORAL_BLOCK
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_block_blockfadeevent:
+   enable: true
+   source: TUBE_CORAL_BLOCK
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_blockfadeevent:
+   enable: true
+   source: BRAIN_CORAL
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_blockfadeevent:
+   enable: true
+   source: BUBBLE_CORAL
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_blockfadeevent:
+   enable: true
+   source: FIRE_CORAL
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_blockfadeevent:
+   enable: true
+   source: HORN_CORAL
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_blockfadeevent:
+   enable: true
+   source: TUBE_CORAL
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_fan_blockfadeevent:
+   enable: true
+   source: BRAIN_CORAL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_fan_blockfadeevent:
+   enable: true
+   source: BUBBLE_CORAL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_fan_blockfadeevent:
+   enable: true
+   source: FIRE_CORAL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_fan_blockfadeevent:
+   enable: true
+   source: HORN_CORAL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_fan_blockfadeevent:
+   enable: true
+   source: TUBE_CORAL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+brain_coral_wall_fan_blockfadeevent:
+   enable: true
+   source: BRAIN_CORAL_WALL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+bubble_coral_wall_fan_blockfadeevent:
+   enable: true
+   source: BUBBLE_CORAL_WALL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+fire_coral_wall_fan_blockfadeevent:
+   enable: true
+   source: FIRE_CORAL_WALL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+horn_coral_wall_fan_blockfadeevent:
+   enable: true
+   source: HORN_CORAL_WALL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+tube_coral_wall_fan_blockfadeevent: 
+   enable: true
+   source: TUBE_CORAL_WALL_FAN
+   cancelEvent: true
+   group: coral_live_blockfadeevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
