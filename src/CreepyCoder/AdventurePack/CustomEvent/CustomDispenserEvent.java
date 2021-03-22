@@ -3,6 +3,7 @@ package CreepyCoder.AdventurePack.CustomEvent;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.logging.Level;
 
 import org.bukkit.Bukkit;
@@ -18,6 +19,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import CreepyCoder.AdventurePack.Function.BlockFunction;
 import CreepyCoder.AdventurePack.Function.DispenserFunction;
+import CreepyCoder.AdventurePack.Function.IngredientFunction;
 
 public class CustomDispenserEvent implements Listener {
 
@@ -41,6 +43,7 @@ public class CustomDispenserEvent implements Listener {
 	//private String Version;
 
 	public List<String> KeyList = new ArrayList<String>();
+	private IngredientFunction IngredientFunction = new IngredientFunction();
 
 	@SuppressWarnings({ "unchecked" })
 	public CustomDispenserEvent(Plugin plugin, FileConfiguration dataConfig) {
@@ -69,18 +72,22 @@ public class CustomDispenserEvent implements Listener {
 				this.AddInventory = dataConfig.getBoolean(key+".addInventory");
 				this.Replace = dataConfig.getBoolean(key+".replace");
 				
-				if(block.getType().toString().equals(Source) && event.getItem().getType().toString().equals(ItemUsed.getType().toString())) {
-					event.setCancelled(true);
-					BlockFunction.Interact(block, Result, Drop, AddInventory, Replace, Break, Particle);
-					String tmpItemUsed = ItemUsed.getType().toString();
-					if(ItemReduce) {
-						new BukkitRunnable() {
-							@Override
-							public void run() {
-								DispenserFunction DispenserFunction = new DispenserFunction();
-								DispenserFunction.ReduceDispenserItem(event, tmpItemUsed);	
-							}
-						}.runTaskLater(plugin, 1L);
+				for(@SuppressWarnings("unchecked")
+				ListIterator<Material> newSource = IngredientFunction.IngredientToMaterialList(Source).listIterator(); newSource.hasNext(); ) {
+					String tmpSource = newSource.next().toString();
+					if(block.getType().toString().equals(tmpSource) && event.getItem().getType().toString().equals(ItemUsed.getType().toString())) {
+						event.setCancelled(true);
+						BlockFunction.Interact(block, Result, Drop, AddInventory, Replace, Break, Particle);
+						String tmpItemUsed = ItemUsed.getType().toString();
+						if(ItemReduce) {
+							new BukkitRunnable() {
+								@Override
+								public void run() {
+									DispenserFunction DispenserFunction = new DispenserFunction();
+									DispenserFunction.ReduceDispenserItem(event, tmpItemUsed);	
+								}
+							}.runTaskLater(plugin, 1L);
+						}
 					}
 				}
 			}

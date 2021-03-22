@@ -47,6 +47,11 @@ public class BlockFunction {
 					if(oldData.contains("waterlogged=true")) newWaterlogged.setWaterlogged(true);
 					location.getBlock().setBlockData(newWaterlogged, false);
 				}
+				else {
+					Waterlogged newWaterlogged = (Waterlogged) location.getBlock().getBlockData();
+					newWaterlogged.setWaterlogged(false);
+					location.getBlock().setBlockData(newWaterlogged, false);
+				}
 			}
 			catch (Exception e) {}		
 			try {
@@ -57,7 +62,7 @@ public class BlockFunction {
 					if(oldData.contains("facing=south")) newDirectional.setFacing(BlockFace.SOUTH);
 					if(oldData.contains("facing=east")) newDirectional.setFacing(BlockFace.EAST);
 					location.getBlock().setBlockData(newDirectional, false);
-				}
+				}				
 			}
 			catch (Exception e) {}
 		}		

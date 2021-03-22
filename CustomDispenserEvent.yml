@@ -4033,7 +4033,7 @@ dead_tube_coral_wall_fan_dye_yellow_dispenserevent:
 
 place_brain_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: BRAIN_CORAL
    itemUsed: BRAIN_CORAL
    itemReduce: true
@@ -4049,7 +4049,7 @@ place_brain_coral_dispenserevent:
    
 place_bubble_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: BUBBLE_CORAL
    itemUsed: BUBBLE_CORAL
    itemReduce: true
@@ -4065,7 +4065,7 @@ place_bubble_coral_dispenserevent:
    
 place_fire_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: FIRE_CORAL
    itemUsed: FIRE_CORAL
    itemReduce: true
@@ -4081,7 +4081,7 @@ place_fire_coral_dispenserevent:
    
 place_horn_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: HORN_CORAL
    itemUsed: HORN_CORAL
    itemReduce: true
@@ -4097,7 +4097,7 @@ place_horn_coral_dispenserevent:
    
 place_tube_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: TUBE_CORAL
    itemUsed: TUBE_CORAL
    itemReduce: true
@@ -4113,7 +4113,7 @@ place_tube_coral_dispenserevent:
    
 place_brain_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: BRAIN_CORAL_BLOCK
    itemUsed: BRAIN_CORAL_BLOCK
    itemReduce: true
@@ -4129,7 +4129,7 @@ place_brain_coral_block_dispenserevent:
    
 place_bubble_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: BUBBLE_CORAL_BLOCK
    itemUsed: BUBBLE_CORAL_BLOCK
    itemReduce: true
@@ -4145,7 +4145,7 @@ place_bubble_coral_block_dispenserevent:
    
 place_fire_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: FIRE_CORAL_BLOCK
    itemUsed: FIRE_CORAL_BLOCK
    itemReduce: true
@@ -4161,7 +4161,7 @@ place_fire_coral_block_dispenserevent:
    
 place_horn_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: HORN_CORAL_BLOCK
    itemUsed: HORN_CORAL_BLOCK
    itemReduce: true
@@ -4177,7 +4177,7 @@ place_horn_coral_block_dispenserevent:
    
 place_tube_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: TUBE_CORAL_BLOCK
    itemUsed: TUBE_CORAL_BLOCK
    itemReduce: true
@@ -4193,7 +4193,7 @@ place_tube_coral_block_dispenserevent:
    
 place_brain_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: BRAIN_CORAL_FAN
    itemUsed: BRAIN_CORAL_FAN
    itemReduce: true
@@ -4209,7 +4209,7 @@ place_brain_coral_fan_dispenserevent:
    
 place_bubble_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: BUBBLE_CORAL_FAN
    itemUsed: BUBBLE_CORAL_FAN
    itemReduce: true
@@ -4225,7 +4225,7 @@ place_bubble_coral_fan_dispenserevent:
    
 place_fire_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: FIRE_CORAL_FAN
    itemUsed: FIRE_CORAL_FAN
    itemReduce: true
@@ -4241,7 +4241,7 @@ place_fire_coral_fan_dispenserevent:
    
 place_horn_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: HORN_CORAL_FAN
    itemUsed: HORN_CORAL_FAN
    itemReduce: true
@@ -4257,7 +4257,7 @@ place_horn_coral_fan_dispenserevent:
    
 place_tube_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: TUBE_CORAL_FAN
    itemUsed: TUBE_CORAL_FAN
    itemReduce: true
@@ -4273,7 +4273,7 @@ place_tube_coral_fan_dispenserevent:
    
 place_dead_brain_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_BRAIN_CORAL
    itemUsed: DEAD_BRAIN_CORAL
    itemReduce: true
@@ -4289,7 +4289,7 @@ place_dead_brain_coral_dispenserevent:
    
 place_dead_bubble_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_BUBBLE_CORAL
    itemUsed: DEAD_BUBBLE_CORAL
    itemReduce: true
@@ -4305,7 +4305,7 @@ place_dead_bubble_coral_dispenserevent:
    
 place_dead_fire_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_FIRE_CORAL
    itemUsed: DEAD_FIRE_CORAL
    itemReduce: true
@@ -4321,7 +4321,7 @@ place_dead_fire_coral_dispenserevent:
    
 place_dead_horn_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_HORN_CORAL
    itemUsed: DEAD_HORN_CORAL
    itemReduce: true
@@ -4337,7 +4337,7 @@ place_dead_horn_coral_dispenserevent:
    
 place_dead_tube_coral_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_TUBE_CORAL
    itemUsed: DEAD_TUBE_CORAL
    itemReduce: true
@@ -4353,7 +4353,7 @@ place_dead_tube_coral_dispenserevent:
    
 place_dead_brain_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_BRAIN_CORAL_BLOCK
    itemUsed: DEAD_BRAIN_CORAL_BLOCK
    itemReduce: true
@@ -4369,7 +4369,7 @@ place_dead_brain_coral_block_dispenserevent:
    
 place_dead_bubble_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_BUBBLE_CORAL_BLOCK
    itemUsed: DEAD_BUBBLE_CORAL_BLOCK
    itemReduce: true
@@ -4385,7 +4385,7 @@ place_dead_bubble_coral_block_dispenserevent:
    
 place_dead_fire_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_FIRE_CORAL_BLOCK
    itemUsed: DEAD_FIRE_CORAL_BLOCK
    itemReduce: true
@@ -4401,7 +4401,7 @@ place_dead_fire_coral_block_dispenserevent:
    
 place_dead_horn_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_HORN_CORAL_BLOCK
    itemUsed: DEAD_HORN_CORAL_BLOCK
    itemReduce: true
@@ -4417,7 +4417,7 @@ place_dead_horn_coral_block_dispenserevent:
    
 place_dead_tube_coral_block_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_TUBE_CORAL_BLOCK
    itemUsed: DEAD_TUBE_CORAL_BLOCK
    itemReduce: true
@@ -4433,7 +4433,7 @@ place_dead_tube_coral_block_dispenserevent:
    
 place_dead_brain_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_BRAIN_CORAL_FAN
    itemUsed: DEAD_BRAIN_CORAL_FAN
    itemReduce: true
@@ -4449,7 +4449,7 @@ place_dead_brain_coral_fan_dispenserevent:
    
 place_dead_bubble_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_BUBBLE_CORAL_FAN
    itemUsed: DEAD_BUBBLE_CORAL_FAN
    itemReduce: true
@@ -4465,7 +4465,7 @@ place_dead_bubble_coral_fan_dispenserevent:
    
 place_dead_fire_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_FIRE_CORAL_FAN
    itemUsed: DEAD_FIRE_CORAL_FAN
    itemReduce: true
@@ -4481,7 +4481,7 @@ place_dead_fire_coral_fan_dispenserevent:
    
 place_dead_horn_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_HORN_CORAL_FAN
    itemUsed: DEAD_HORN_CORAL_FAN
    itemReduce: true
@@ -4497,7 +4497,7 @@ place_dead_horn_coral_fan_dispenserevent:
    
 place_dead_tube_coral_fan_dispenserevent:
    enable: true
-   source: AIR
+   source: AIR, WATER
    result: DEAD_TUBE_CORAL_FAN
    itemUsed: DEAD_TUBE_CORAL_FAN
    itemReduce: true
