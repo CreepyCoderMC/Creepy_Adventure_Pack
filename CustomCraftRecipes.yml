@@ -23,6 +23,8 @@ CustomCraftRecipes:
       - convert_stripped_hyphae_with_fungus_crafting
       - convert_wood_slab_with_saplings_crafting
       - convert_wood_slab_with_fungus_crafting
+      - convert_wood_planks_with_saplings_crafting
+      - convert_wood_planks_with_fungus_crafting
 
    contributor:
       - CreepyCoderMC
@@ -256,6 +258,14 @@ CustomCraftRecipes:
       - convert_wood_slab_with_dark_oak_sapling_crafting
       - convert_wood_slab_with_warped_fungus_crafting
       - convert_wood_slab_with_crimson_fungus_crafting
+      - convert_wood_planks_with_oak_sapling_crafting
+      - convert_wood_planks_with_spruce_sapling_crafting
+      - convert_wood_planks_with_birch_sapling_crafting
+      - convert_wood_planks_with_jungle_sapling_crafting
+      - convert_wood_planks_with_acacia_sapling_crafting
+      - convert_wood_planks_with_dark_oak_sapling_crafting
+      - convert_wood_planks_with_warped_fungus_crafting
+      - convert_wood_planks_with_crimson_fungus_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -4998,6 +5008,174 @@ convert_wood_slab_with_crimson_fungus_crafting:
    rows: 3
    cols: 3
    group: convert_wood_slab_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_PLANKS
+   amount: 8
+   ingredientA: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientB: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientC: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientD: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientE: OAK_SAPLING
+   ingredientF: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientG: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientH: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientI: ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientB: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientC: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientD: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientG: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientH: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientI: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientB: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientC: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientD: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientE: BIRCH_SAPLING
+   ingredientF: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientG: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientH: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientI: OAK_PLANKS, ACACIA_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientB: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientC: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientD: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientG: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientH: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientI: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientB: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientC: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientD: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientG: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientH: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientI: OAK_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientB: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientC: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientD: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientG: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientH: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   ingredientI: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_warped_fungus_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientB: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientC: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientD: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientE: WARPED_FUNGUS
+   ingredientF: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientG: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientH: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   ingredientI: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, CRIMSON_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_planks_with_crimson_fungus_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_PLANKS
+   amount: 8
+   ingredientA: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientB: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientC: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientD: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientE: CRIMSON_FUNGUS
+   ingredientF: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientG: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientH: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   ingredientI: OAK_PLANKS, ACACIA_PLANKS, BIRCH_PLANKS, DARK_OAK_PLANKS, JUNGLE_PLANKS, SPRUCE_PLANKS, WARPED_PLANKS
+   rows: 3
+   cols: 3
+   group: convert_wood_planks_with_fungus_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
