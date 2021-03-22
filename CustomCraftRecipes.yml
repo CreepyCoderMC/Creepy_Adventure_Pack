@@ -27,6 +27,10 @@ CustomCraftRecipes:
       - convert_wood_planks_with_fungus_crafting
       - convert_wood_stairs_with_saplings_crafting
       - convert_wood_stairs_with_fungus_crafting
+      - convert_wood_sign_with_saplings_crafting
+      - convert_wood_sign_with_fungus_crafting
+      - convert_wood_boat_with_saplings_crafting
+      - convert_wood_boat_with_fungus_crafting
 
    contributor:
       - CreepyCoderMC
@@ -276,6 +280,22 @@ CustomCraftRecipes:
       - convert_wood_stairs_with_dark_oak_sapling_crafting
       - convert_wood_stairs_with_warped_fungus_crafting
       - convert_wood_stairs_with_crimson_fungus_crafting
+      - convert_wood_sign_with_oak_sapling_crafting
+      - convert_wood_sign_with_spruce_sapling_crafting
+      - convert_wood_sign_with_birch_sapling_crafting
+      - convert_wood_sign_with_jungle_sapling_crafting
+      - convert_wood_sign_with_acacia_sapling_crafting
+      - convert_wood_sign_with_dark_oak_sapling_crafting
+      - convert_wood_sign_with_warped_fungus_crafting
+      - convert_wood_sign_with_crimson_fungus_crafting
+      - convert_wood_boat_with_oak_sapling_crafting
+      - convert_wood_boat_with_spruce_sapling_crafting
+      - convert_wood_boat_with_birch_sapling_crafting
+      - convert_wood_boat_with_jungle_sapling_crafting
+      - convert_wood_boat_with_acacia_sapling_crafting
+      - convert_wood_boat_with_dark_oak_sapling_crafting
+      - convert_wood_boat_with_warped_fungus_crafting
+      - convert_wood_boat_with_crimson_fungus_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -5354,6 +5374,342 @@ convert_wood_stairs_with_crimson_fungus_crafting:
    rows: 3
    cols: 3
    group: convert_wood_stairs_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_SIGN
+   amount: 8
+   ingredientA: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientB: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientC: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientD: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientE: OAK_SAPLING
+   ingredientF: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientG: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientH: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientI: ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientB: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientC: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientD: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientG: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientH: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientI: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientB: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientC: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientD: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientE: BIRCH_SAPLING
+   ingredientF: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientG: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientH: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientI: OAK_SIGN, ACACIA_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientB: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientC: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientD: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientG: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientH: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientI: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientB: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientC: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientD: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientG: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientH: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientI: OAK_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientB: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientC: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientD: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientG: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientH: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   ingredientI: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_warped_fungus_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientB: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientC: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientD: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientE: WARPED_FUNGUS
+   ingredientF: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientG: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientH: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   ingredientI: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, CRIMSON_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_sign_with_crimson_fungus_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_SIGN
+   amount: 8
+   ingredientA: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientB: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientC: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientD: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientE: CRIMSON_FUNGUS
+   ingredientF: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientG: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientH: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   ingredientI: OAK_SIGN, ACACIA_SIGN, BIRCH_SIGN, DARK_OAK_SIGN, JUNGLE_SIGN, SPRUCE_SIGN, WARPED_SIGN
+   rows: 3
+   cols: 3
+   group: convert_wood_sign_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_BOAT
+   amount: 8
+   ingredientA: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientB: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientC: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientD: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientE: OAK_SAPLING
+   ingredientF: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientG: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientH: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientI: ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientB: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientC: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientD: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientG: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientH: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientI: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientB: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientC: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientD: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientE: BIRCH_SAPLING
+   ingredientF: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientG: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientH: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientI: OAK_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientB: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientC: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientD: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientG: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientH: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientI: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientB: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientC: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientD: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientG: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientH: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientI: OAK_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientB: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientC: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientD: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientG: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientH: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   ingredientI: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_warped_fungus_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientB: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientC: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientD: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientE: WARPED_FUNGUS
+   ingredientF: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientG: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientH: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   ingredientI: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, CRIMSON_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_boat_with_crimson_fungus_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_BOAT
+   amount: 8
+   ingredientA: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientB: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientC: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientD: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientE: CRIMSON_FUNGUS
+   ingredientF: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientG: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientH: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   ingredientI: OAK_BOAT, ACACIA_BOAT, BIRCH_BOAT, DARK_OAK_BOAT, JUNGLE_BOAT, SPRUCE_BOAT, WARPED_BOAT
+   rows: 3
+   cols: 3
+   group: convert_wood_boat_with_fungus_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
