@@ -23,6 +23,7 @@ import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomDispenserEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
+import CreepyCoder.AdventurePack.CustomEvent.CustomLeavesDecayEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomSmokerRecipe;
 
@@ -198,6 +199,9 @@ public class YAMLManager {
 				break;
 			case "CustomBlockFadeEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomBlockFadeEvent(plugin, dataConfig), plugin);
+				break;
+			case "CustomLeavesDecayEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomLeavesDecayEvent(plugin, dataConfig), plugin);
 				break;
 		}
 	}
