@@ -16,6 +16,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
 import CreepyCoder.AdventurePack.CustomEvent.CustomBlastFurnaceRecipe;
+import CreepyCoder.AdventurePack.CustomEvent.CustomBlockFadeEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomDispenserEvent;
@@ -168,6 +169,9 @@ public class YAMLManager {
 				break;
 			case "CustomDispenserEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomDispenserEvent(plugin, dataConfig), plugin);
+				break;
+			case "CustomBlockFadeEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomBlockFadeEvent(plugin, dataConfig), plugin);
 				break;
 		}
 	}

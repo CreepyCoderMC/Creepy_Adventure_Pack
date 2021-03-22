@@ -17,6 +17,7 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomBlastFurnaceRecipes.yml");
 		YAMLManager.LoadYAML("CustomSmokerRecipes.yml");
 		YAMLManager.LoadYAML("CustomDispenserEvent.yml");
+		YAMLManager.LoadYAML("CustomBlockFadeEvent.yml");
 	}
 	
     @Override
