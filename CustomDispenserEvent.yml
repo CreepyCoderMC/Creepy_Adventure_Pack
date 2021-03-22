@@ -14,6 +14,7 @@ CustomDispenserEvent:
       - revive_dead_coral_dispenserevent
       - coral_fertilize_dispenserevent
       - dead_coral_fertilize_dispenserevent
+      - place_coral_dispenserevent
 
    contributor:
       - CreepyCoderMC
@@ -255,6 +256,36 @@ CustomDispenserEvent:
       - dead_tube_coral_wall_fan_dye_pink_dispenserevent
       - dead_tube_coral_wall_fan_dye_red_dispenserevent
       - dead_tube_coral_wall_fan_dye_yellow_dispenserevent
+      - place_brain_coral_dispenserevent
+      - place_bubble_coral_dispenserevent
+      - place_fire_coral_dispenserevent
+      - place_horn_coral_dispenserevent
+      - place_tube_coral_dispenserevent
+      - place_brain_coral_block_dispenserevent
+      - place_bubble_coral_block_dispenserevent
+      - place_fire_coral_block_dispenserevent
+      - place_horn_coral_block_dispenserevent
+      - place_tube_coral_block_dispenserevent
+      - place_brain_coral_fan_dispenserevent
+      - place_bubble_coral_fan_dispenserevent
+      - place_fire_coral_fan_dispenserevent
+      - place_horn_coral_fan_dispenserevent
+      - place_tube_coral_fan_dispenserevent
+      - place_dead_brain_coral_dispenserevent
+      - place_dead_bubble_coral_dispenserevent
+      - place_dead_fire_coral_dispenserevent
+      - place_dead_horn_coral_dispenserevent
+      - place_dead_tube_coral_dispenserevent
+      - place_dead_brain_coral_block_dispenserevent
+      - place_dead_bubble_coral_block_dispenserevent
+      - place_dead_fire_coral_block_dispenserevent
+      - place_dead_horn_coral_block_dispenserevent
+      - place_dead_tube_coral_block_dispenserevent
+      - place_dead_brain_coral_fan_dispenserevent
+      - place_dead_bubble_coral_fan_dispenserevent
+      - place_dead_fire_coral_fan_dispenserevent
+      - place_dead_horn_coral_fan_dispenserevent
+      - place_dead_tube_coral_fan_dispenserevent
         
    structure:
       - enable, boolean
@@ -3999,4 +4030,483 @@ dead_tube_coral_wall_fan_dye_yellow_dispenserevent:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.2.0
+
+place_brain_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: BRAIN_CORAL
+   itemUsed: BRAIN_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
    
+place_bubble_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: BUBBLE_CORAL
+   itemUsed: BUBBLE_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_fire_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: FIRE_CORAL
+   itemUsed: FIRE_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_horn_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: HORN_CORAL
+   itemUsed: HORN_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_tube_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: TUBE_CORAL
+   itemUsed: TUBE_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_brain_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: BRAIN_CORAL_BLOCK
+   itemUsed: BRAIN_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_bubble_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: BUBBLE_CORAL_BLOCK
+   itemUsed: BUBBLE_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_fire_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: FIRE_CORAL_BLOCK
+   itemUsed: FIRE_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_horn_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: HORN_CORAL_BLOCK
+   itemUsed: HORN_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_tube_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: TUBE_CORAL_BLOCK
+   itemUsed: TUBE_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_brain_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: BRAIN_CORAL_FAN
+   itemUsed: BRAIN_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_bubble_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: BUBBLE_CORAL_FAN
+   itemUsed: BUBBLE_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_fire_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: FIRE_CORAL_FAN
+   itemUsed: FIRE_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_horn_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: HORN_CORAL_FAN
+   itemUsed: HORN_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_tube_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: TUBE_CORAL_FAN
+   itemUsed: TUBE_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_brain_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_BRAIN_CORAL
+   itemUsed: DEAD_BRAIN_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_bubble_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_BUBBLE_CORAL
+   itemUsed: DEAD_BUBBLE_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_fire_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_FIRE_CORAL
+   itemUsed: DEAD_FIRE_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_horn_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_HORN_CORAL
+   itemUsed: DEAD_HORN_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_tube_coral_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_TUBE_CORAL
+   itemUsed: DEAD_TUBE_CORAL
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_brain_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_BRAIN_CORAL_BLOCK
+   itemUsed: DEAD_BRAIN_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_bubble_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_BUBBLE_CORAL_BLOCK
+   itemUsed: DEAD_BUBBLE_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_fire_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_FIRE_CORAL_BLOCK
+   itemUsed: DEAD_FIRE_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_horn_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_HORN_CORAL_BLOCK
+   itemUsed: DEAD_HORN_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_tube_coral_block_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_TUBE_CORAL_BLOCK
+   itemUsed: DEAD_TUBE_CORAL_BLOCK
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_brain_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_BRAIN_CORAL_FAN
+   itemUsed: DEAD_BRAIN_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_bubble_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_BUBBLE_CORAL_FAN
+   itemUsed: DEAD_BUBBLE_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_fire_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_FIRE_CORAL_FAN
+   itemUsed: DEAD_FIRE_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_horn_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_HORN_CORAL_FAN
+   itemUsed: DEAD_HORN_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
+   
+place_dead_tube_coral_fan_dispenserevent:
+   enable: true
+   source: AIR
+   result: DEAD_TUBE_CORAL_FAN
+   itemUsed: DEAD_TUBE_CORAL_FAN
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: place_coral_dispenserevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.2.0
