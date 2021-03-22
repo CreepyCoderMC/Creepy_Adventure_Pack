@@ -21,6 +21,8 @@ CustomCraftRecipes:
       - convert_hyphae_with_fungus_crafting
       - convert_stripped_wood_with_saplings_crafting
       - convert_stripped_hyphae_with_fungus_crafting
+      - convert_wood_slab_with_saplings_crafting
+      - convert_wood_slab_with_fungus_crafting
 
    contributor:
       - CreepyCoderMC
@@ -246,6 +248,14 @@ CustomCraftRecipes:
       - convert_stripped_wood_with_dark_oak_sapling_crafting
       - convert_stripped_hyphae_with_warped_fungus_crafting
       - convert_stripped_hyphae_with_crimson_fungus_crafting
+      - convert_wood_slab_with_oak_sapling_crafting
+      - convert_wood_slab_with_spruce_sapling_crafting
+      - convert_wood_slab_with_birch_sapling_crafting
+      - convert_wood_slab_with_jungle_sapling_crafting
+      - convert_wood_slab_with_acacia_sapling_crafting
+      - convert_wood_slab_with_dark_oak_sapling_crafting
+      - convert_wood_slab_with_warped_fungus_crafting
+      - convert_wood_slab_with_crimson_fungus_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -4822,4 +4832,172 @@ convert_stripped_hyphae_with_warped_fungus_crafting:
    group: convert_stripped_hyphae_with_fungus_crafting
    permission: true
    addedBy: Killerblade347 
+   version: 0.3.0
+   
+convert_wood_slab_with_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_SLAB
+   amount: 8
+   ingredientA: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientB: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientC: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientD: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientE: OAK_SAPLING
+   ingredientF: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientG: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientH: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientI: ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientB: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientC: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientD: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientG: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientH: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientI: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientB: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientC: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientD: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientE: BIRCH_SAPLING
+   ingredientF: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientG: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientH: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientI: OAK_SLAB, ACACIA_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientB: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientC: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientD: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientG: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientH: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientI: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientB: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientC: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientD: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientG: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientH: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientI: OAK_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientB: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientC: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientD: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientG: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientH: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   ingredientI: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_warped_fungus_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientB: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientC: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientD: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientE: WARPED_FUNGUS
+   ingredientF: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientG: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientH: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   ingredientI: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, CRIMSON_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_slab_with_crimson_fungus_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_SLAB
+   amount: 8
+   ingredientA: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientB: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientC: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientD: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientE: CRIMSON_FUNGUS
+   ingredientF: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientG: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientH: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   ingredientI: OAK_SLAB, ACACIA_SLAB, BIRCH_SLAB, DARK_OAK_SLAB, JUNGLE_SLAB, SPRUCE_SLAB, WARPED_SLAB
+   rows: 3
+   cols: 3
+   group: convert_wood_slab_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
    version: 0.3.0
