@@ -25,6 +25,8 @@ CustomCraftRecipes:
       - convert_wood_slab_with_fungus_crafting
       - convert_wood_planks_with_saplings_crafting
       - convert_wood_planks_with_fungus_crafting
+      - convert_wood_stairs_with_saplings_crafting
+      - convert_wood_stairs_with_fungus_crafting
 
    contributor:
       - CreepyCoderMC
@@ -266,6 +268,14 @@ CustomCraftRecipes:
       - convert_wood_planks_with_dark_oak_sapling_crafting
       - convert_wood_planks_with_warped_fungus_crafting
       - convert_wood_planks_with_crimson_fungus_crafting
+      - convert_wood_stairs_with_oak_sapling_crafting
+      - convert_wood_stairs_with_spruce_sapling_crafting
+      - convert_wood_stairs_with_birch_sapling_crafting
+      - convert_wood_stairs_with_jungle_sapling_crafting
+      - convert_wood_stairs_with_acacia_sapling_crafting
+      - convert_wood_stairs_with_dark_oak_sapling_crafting
+      - convert_wood_stairs_with_warped_fungus_crafting
+      - convert_wood_stairs_with_crimson_fungus_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -5176,6 +5186,174 @@ convert_wood_planks_with_crimson_fungus_crafting:
    rows: 3
    cols: 3
    group: convert_wood_planks_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_STAIRS
+   amount: 8
+   ingredientA: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientB: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientC: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientD: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientE: OAK_SAPLING
+   ingredientF: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientG: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientH: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientI: ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientB: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientC: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientD: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientG: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientH: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientI: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientB: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientC: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientD: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientE: BIRCH_SAPLING
+   ingredientF: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientG: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientH: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientI: OAK_STAIRS, ACACIA_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientB: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientC: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientD: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientG: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientH: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientI: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientB: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientC: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientD: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientG: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientH: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientI: OAK_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientB: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientC: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientD: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientG: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientH: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   ingredientI: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_warped_fungus_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientB: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientC: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientD: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientE: WARPED_FUNGUS
+   ingredientF: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientG: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientH: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   ingredientI: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, CRIMSON_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_wood_stairs_with_crimson_fungus_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_STAIRS
+   amount: 8
+   ingredientA: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientB: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientC: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientD: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientE: CRIMSON_FUNGUS
+   ingredientF: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientG: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientH: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   ingredientI: OAK_STAIRS, ACACIA_STAIRS, BIRCH_STAIRS, DARK_OAK_STAIRS, JUNGLE_STAIRS, SPRUCE_STAIRS, WARPED_STAIRS
+   rows: 3
+   cols: 3
+   group: convert_wood_stairs_with_fungus_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
