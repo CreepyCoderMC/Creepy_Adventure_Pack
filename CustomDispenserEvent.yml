@@ -115,26 +115,26 @@ CustomDispenserEvent:
       - tube_coral_wall_fan_dye_pink_dispenserevent
       - tube_coral_wall_fan_dye_red_dispenserevent
       - tube_coral_wall_fan_dye_yellow_dispenserevent 
-      - dead_brain_coral_to_live_dispenserevent
-      - dead_bubble_coral_to_live_dispenserevent
-      - dead_fire_coral_to_live_dispenserevent
-      - dead_horn_coral_to_live_dispenserevent
-      - dead_tube_coral_to_live_dispenserevent
-      - dead_brain_coral_block_to_live_dispenserevent
-      - dead_bubble_coral_block_to_live_dispenserevent
-      - dead_fire_coral_block_to_live_dispenserevent
-      - dead_horn_coral_block_to_live_dispenserevent
-      - dead_tube_coral_block_to_live_dispenserevent
-      - dead_brain_coral_fan_to_live_dispenserevent
-      - dead_bubble_coral_fan_to_live_dispenserevent
-      - dead_fire_coral_fan_to_live_dispenserevent
-      - dead_horn_coral_fan_to_live_dispenserevent
-      - dead_tube_coral_fan_to_live_dispenserevent
-      - dead_brain_coral_wall_fan_to_live_dispenserevent
-      - dead_bubble_coral_wall_fan_to_live_dispenserevent
-      - dead_fire_coral_wall_fan_to_live_dispenserevent
-      - dead_horn_coral_wall_fan_to_live_dispenserevent
-      - dead_tube_coral_wall_fan_to_live_dispenserevent
+      - dead_brain_coral_revice_dispenserevent
+      - dead_bubble_coral_revice_dispenserevent
+      - dead_fire_coral_revice_dispenserevent
+      - dead_horn_coral_revice_dispenserevent
+      - dead_tube_coral_revice_dispenserevent
+      - dead_brain_coral_block_revice_dispenserevent
+      - dead_bubble_coral_block_revice_dispenserevent
+      - dead_fire_coral_block_revice_dispenserevent
+      - dead_horn_coral_block_revice_dispenserevent
+      - dead_tube_coral_block_revice_dispenserevent
+      - dead_brain_coral_fan_revice_dispenserevent
+      - dead_bubble_coral_fan_revice_dispenserevent
+      - dead_fire_coral_fan_revice_dispenserevent
+      - dead_horn_coral_fan_revice_dispenserevent
+      - dead_tube_coral_fan_revice_dispenserevent
+      - dead_brain_coral_wall_fan_revice_dispenserevent
+      - dead_bubble_coral_wall_fan_revice_dispenserevent
+      - dead_fire_coral_wall_fan_revice_dispenserevent
+      - dead_horn_coral_wall_fan_revice_dispenserevent
+      - dead_tube_coral_wall_fan_revice_dispenserevent
       - brain_coral_bonemeal_dispenserevent
       - bubble_coral_bonemeal_dispenserevent
       - fire_coral_bonemeal_dispenserevent
@@ -1443,7 +1443,7 @@ tube_coral_block_dye_yellow_dispenserevent:
 brain_coral_wall_fan_dye_magenta_dispenserevent:
    enable: true
    source: BRAIN_CORAL_WALL_FAN
-   result: BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1459,7 +1459,7 @@ brain_coral_wall_fan_dye_magenta_dispenserevent:
 brain_coral_wall_fan_dye_red_dispenserevent:
    enable: true
    source: BRAIN_CORAL_WALL_FAN
-   result: FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1475,7 +1475,7 @@ brain_coral_wall_fan_dye_red_dispenserevent:
 brain_coral_wall_fan_dye_yellow_dispenserevent:
    enable: true
    source: BRAIN_CORAL_WALL_FAN
-   result: HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1491,7 +1491,7 @@ brain_coral_wall_fan_dye_yellow_dispenserevent:
 brain_coral_wall_fan_dye_blue_dispenserevent:
    enable: true
    source: BRAIN_CORAL_WALL_FAN
-   result: TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1507,7 +1507,7 @@ brain_coral_wall_fan_dye_blue_dispenserevent:
 bubble_coral_wall_fan_dye_pink_dispenserevent:
    enable: true
    source: BUBBLE_CORAL_WALL_FAN
-   result: BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1523,7 +1523,7 @@ bubble_coral_wall_fan_dye_pink_dispenserevent:
 bubble_coral_wall_fan_dye_red_dispenserevent:
    enable: true
    source: BUBBLE_CORAL_WALL_FAN
-   result: FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1539,7 +1539,7 @@ bubble_coral_wall_fan_dye_red_dispenserevent:
 bubble_coral_wall_fan_dye_yellow_dispenserevent:
    enable: true
    source: BUBBLE_CORAL_WALL_FAN
-   result: HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1555,7 +1555,7 @@ bubble_coral_wall_fan_dye_yellow_dispenserevent:
 bubble_coral_wall_fan_dye_blue_dispenserevent:
    enable: true
    source: BUBBLE_CORAL_WALL_FAN
-   result: TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1571,7 +1571,7 @@ bubble_coral_wall_fan_dye_blue_dispenserevent:
 fire_coral_wall_fan_dye_magenta_dispenserevent:
    enable: true
    source: FIRE_CORAL_WALL_FAN
-   result: BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1587,7 +1587,7 @@ fire_coral_wall_fan_dye_magenta_dispenserevent:
 fire_coral_wall_fan_dye_pink_dispenserevent:
    enable: true
    source: FIRE_CORAL_WALL_FAN
-   result: BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1603,7 +1603,7 @@ fire_coral_wall_fan_dye_pink_dispenserevent:
 fire_coral_wall_fan_dye_yellow_dispenserevent:
    enable: true
    source: FIRE_CORAL_WALL_FAN
-   result: HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1619,7 +1619,7 @@ fire_coral_wall_fan_dye_yellow_dispenserevent:
 fire_coral_wall_fan_dye_blue_dispenserevent:
    enable: true
    source: FIRE_CORAL_WALL_FAN
-   result: TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1635,7 +1635,7 @@ fire_coral_wall_fan_dye_blue_dispenserevent:
 horn_coral_wall_fan_dye_magenta_dispenserevent:
    enable: true
    source: HORN_CORAL_WALL_FAN
-   result: BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1651,7 +1651,7 @@ horn_coral_wall_fan_dye_magenta_dispenserevent:
 horn_coral_wall_fan_dye_pink_dispenserevent:
    enable: true
    source: HORN_CORAL_WALL_FAN
-   result: BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1667,7 +1667,7 @@ horn_coral_wall_fan_dye_pink_dispenserevent:
 horn_coral_wall_fan_dye_red_dispenserevent:
    enable: true
    source: HORN_CORAL_WALL_FAN
-   result: FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1683,7 +1683,7 @@ horn_coral_wall_fan_dye_red_dispenserevent:
 horn_coral_wall_fan_dye_blue_dispenserevent:
    enable: true
    source: HORN_CORAL_WALL_FAN 
-   result: TUBE_CORAL_WALL_FAN
+   result: TUBE_CORAL_FAN
    itemUsed: BLUE_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1699,7 +1699,7 @@ horn_coral_wall_fan_dye_blue_dispenserevent:
 tube_coral_wall_fan_dye_magenta_dispenserevent:
    enable: true
    source: TUBE_CORAL_WALL_FAN
-   result: BUBBLE_CORAL_WALL_FAN
+   result: BUBBLE_CORAL_FAN
    itemUsed: MAGENTA_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1715,7 +1715,7 @@ tube_coral_wall_fan_dye_magenta_dispenserevent:
 tube_coral_wall_fan_dye_pink_dispenserevent:
    enable: true
    source: TUBE_CORAL_WALL_FAN
-   result: BRAIN_CORAL_WALL_FAN
+   result: BRAIN_CORAL_FAN
    itemUsed: PINK_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1731,7 +1731,7 @@ tube_coral_wall_fan_dye_pink_dispenserevent:
 tube_coral_wall_fan_dye_red_dispenserevent:
    enable: true
    source: TUBE_CORAL_WALL_FAN
-   result: FIRE_CORAL_WALL_FAN
+   result: FIRE_CORAL_FAN
    itemUsed: RED_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1747,7 +1747,7 @@ tube_coral_wall_fan_dye_red_dispenserevent:
 tube_coral_wall_fan_dye_yellow_dispenserevent:
    enable: true
    source: TUBE_CORAL_WALL_FAN
-   result: HORN_CORAL_WALL_FAN
+   result: HORN_CORAL_FAN
    itemUsed: YELLOW_DYE
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -1760,7 +1760,7 @@ tube_coral_wall_fan_dye_yellow_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
  
-dead_brain_coral_to_live_dispenserevent:
+dead_brain_coral_revice_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL
    result: BRAIN_CORAL
@@ -1776,7 +1776,7 @@ dead_brain_coral_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_bubble_coral_to_live_dispenserevent:
+dead_bubble_coral_revice_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL
    result: BUBBLE_CORAL
@@ -1792,7 +1792,7 @@ dead_bubble_coral_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_to_live_dispenserevent:
+dead_fire_coral_revice_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL
    result: FIRE_CORAL
@@ -1808,7 +1808,7 @@ dead_fire_coral_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_to_live_dispenserevent:
+dead_horn_coral_revice_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL
    result: HORN_CORAL
@@ -1824,7 +1824,7 @@ dead_horn_coral_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_to_live_dispenserevent:
+dead_tube_coral_revice_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL
    result: TUBE_CORAL
@@ -1840,7 +1840,7 @@ dead_tube_coral_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_brain_coral_block_to_live_dispenserevent:
+dead_brain_coral_block_revice_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
@@ -1856,7 +1856,7 @@ dead_brain_coral_block_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_bubble_coral_block_to_live_dispenserevent:
+dead_bubble_coral_block_revice_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
@@ -1872,7 +1872,7 @@ dead_bubble_coral_block_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_block_to_live_dispenserevent:
+dead_fire_coral_block_revice_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
@@ -1888,7 +1888,7 @@ dead_fire_coral_block_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_block_to_live_dispenserevent:
+dead_horn_coral_block_revice_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
@@ -1904,7 +1904,7 @@ dead_horn_coral_block_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_block_to_live_dispenserevent:
+dead_tube_coral_block_revice_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
@@ -1920,7 +1920,7 @@ dead_tube_coral_block_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_brain_coral_fan_to_live_dispenserevent:
+dead_brain_coral_fan_revice_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL_FAN
    result: BRAIN_CORAL_FAN
@@ -1936,7 +1936,7 @@ dead_brain_coral_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_bubble_coral_fan_to_live_dispenserevent:
+dead_bubble_coral_fan_revice_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL_FAN
    result: BUBBLE_CORAL_FAN
@@ -1952,7 +1952,7 @@ dead_bubble_coral_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_fan_to_live_dispenserevent:
+dead_fire_coral_fan_revice_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL_FAN
    result: FIRE_CORAL_FAN
@@ -1968,7 +1968,7 @@ dead_fire_coral_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_fan_to_live_dispenserevent:
+dead_horn_coral_fan_revice_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL_FAN
    result: HORN_CORAL_FAN
@@ -1984,7 +1984,7 @@ dead_horn_coral_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_fan_to_live_dispenserevent:
+dead_tube_coral_fan_revice_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL_FAN
    result: TUBE_CORAL_FAN
@@ -2000,7 +2000,7 @@ dead_tube_coral_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_brain_coral_wall_fan_to_live_dispenserevent:
+dead_brain_coral_wall_fan_revice_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: BRAIN_CORAL_FAN
@@ -2016,7 +2016,7 @@ dead_brain_coral_wall_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_bubble_coral_wall_fan_to_live_dispenserevent:
+dead_bubble_coral_wall_fan_revice_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: BUBBLE_CORAL_FAN
@@ -2032,7 +2032,7 @@ dead_bubble_coral_wall_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_wall_fan_to_live_dispenserevent:
+dead_fire_coral_wall_fan_revice_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: FIRE_CORAL_FAN
@@ -2048,7 +2048,7 @@ dead_fire_coral_wall_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_wall_fan_to_live_dispenserevent:
+dead_horn_coral_wall_fan_revice_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL_WALL_FAN
    result: HORN_CORAL_FAN
@@ -2064,7 +2064,7 @@ dead_horn_coral_wall_fan_to_live_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_wall_fan_to_live_dispenserevent:
+dead_tube_coral_wall_fan_revice_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: TUBE_CORAL_FAN
