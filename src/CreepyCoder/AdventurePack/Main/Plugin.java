@@ -18,10 +18,11 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomSmokerRecipes.yml");
 		YAMLManager.LoadYAML("CustomDispenserEvent.yml");
 		YAMLManager.LoadYAML("CustomBlockFadeEvent.yml");
+		YAMLManager.LoadYAML("CustomLeavesDecayEvent.yml");
 	}
 	
     @Override
     public void onDisable() {
-    	
+
     }    
 }

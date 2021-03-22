@@ -11,6 +11,8 @@ import java.util.logging.Level;
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.Material;
+import org.bukkit.Particle;
+import org.bukkit.Sound;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
@@ -68,6 +70,8 @@ public class YAMLManager {
 				case "number":
 				case "group":
 				case "keyPress":
+				case "sound":
+				case "particle":
 					break;
 				default:
 					Bukkit.getLogger().log(Level.WARNING, YAMLContextKey+".structure("+ fullString +") : Type incorrectly Specified in " + filename);
@@ -138,6 +142,28 @@ public class YAMLManager {
 								break;
 							case "keyPress":
 								if(!KeyPressList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid key press value used in " + filename);
+								break;
+							case "sound":
+								if (valueTest != null) {
+									try {	
+										@SuppressWarnings("unused")
+										Sound soundTest = Sound.valueOf(valueTest);
+									}
+									catch (Exception e) {
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid sound used in " + filename);
+									}
+								}
+								break;
+							case "particle":
+								if (valueTest != null) {
+									try {	
+										@SuppressWarnings("unused")
+										Particle particleTest = Particle.valueOf(valueTest);
+									}
+									catch (Exception e) {
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid particle used in " + filename);
+									}
+								}
 								break;
 						}
 					}

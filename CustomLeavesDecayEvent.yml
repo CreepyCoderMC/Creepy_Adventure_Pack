@@ -1,0 +1,40 @@
+CustomLeavesDecayEvent:
+
+   version:
+      - 0.3.0
+      
+   group:
+      - fast_decay_leavesdecayevent
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+      
+   key:
+      # Version 0.3.0
+      - fast_decay_leavesdecayevent
+      
+   structure:
+      - enable, boolean
+      - breakDelay, number
+      - decayDelay, number
+      - oneByOne, boolean
+      - particles, particle
+      - playSound, sound
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+fast_decay_leavesdecayevent:
+   enable: true
+   breakDelay: 5
+   decayDelay: 2
+   oneByOne: true
+   particles: BLOCK_DUST
+   playSound: BLOCK_GRASS_BREAK
+   group: fast_decay_leavesdecayevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
