@@ -26,6 +26,7 @@ import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomLeavesDecayEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomSmokerRecipe;
+import CreepyCoder.AdventurePack.CustomEvent.CustomStructureGrowEvent;
 
 public class YAMLManager {
 	
@@ -202,6 +203,9 @@ public class YAMLManager {
 				break;
 			case "CustomLeavesDecayEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomLeavesDecayEvent(plugin, dataConfig), plugin);
+				break;
+			case "CustomStructureGrowEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomStructureGrowEvent(plugin, dataConfig), plugin);
 				break;
 		}
 	}

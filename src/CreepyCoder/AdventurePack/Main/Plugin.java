@@ -2,6 +2,8 @@ package CreepyCoder.AdventurePack.Main;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
+import CreepyCoder.AdventurePack.CustomEvent.CustomTreeGrowEvent;
 import CreepyCoder.AdventurePack.YAML.YAMLManager;
 
 public class Plugin extends JavaPlugin {
@@ -19,6 +21,9 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomDispenserEvent.yml");
 		YAMLManager.LoadYAML("CustomBlockFadeEvent.yml");
 		YAMLManager.LoadYAML("CustomLeavesDecayEvent.yml");
+		YAMLManager.LoadYAML("CustomStructureGrowEvent.yml");
+		
+		this.getServer().getPluginManager().registerEvents(new CustomTreeGrowEvent(this), this);
 	}
 	
     @Override
