@@ -3,20 +3,12 @@ package CreepyCoder.AdventurePack.CustomEvent;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.logging.Level;
 
 import org.bukkit.Bukkit;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.TreeType;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.world.StructureGrowEvent;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.RecipeChoice;
-import org.bukkit.inventory.SmokingRecipe;
 import org.bukkit.plugin.Plugin;
 
 public class CustomStructureGrowEvent implements Listener {
