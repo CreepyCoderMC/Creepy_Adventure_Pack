@@ -64,7 +64,6 @@ public class CustomStructureGrowEvent implements Listener {
 				for (String BiomeNew : BiomeSplit) {
 					if(event.getSpecies().toString().equals(Source))
 						if(BiomeNew.equals(event.getLocation().getBlock().getBiome().toString())) {
-							Bukkit.getLogger().log(Level.WARNING, ""+BiomeNew.equals(event.getLocation().getBlock().getBiome().toString()));
 							return;
 						}
 					}
