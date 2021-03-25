@@ -53,18 +53,24 @@ public class CustomStructureGrowEvent implements Listener {
 				this.CancelBonemeal = dataConfig.getBoolean(key+".cancelBonemeal");
 				this.Biome = dataConfig.getString(key+".biome");
 				
-				if(key.equals(Source) && CancelBonemeal) {
-					event.setCancelled(true);
-					return;
+				if(event.getSpecies().toString().equals(Source)) {
+					if(event.isFromBonemeal() && CancelBonemeal) {
+						event.setCancelled(true);
+						return;
+					}
 				}
 				
 				String[] BiomeSplit = Biome.split("\\W+");
 				for (String BiomeNew : BiomeSplit) {
-					if(key.equals(Source) && BiomeNew.equals(Biome)) return;
+					if(event.getSpecies().toString().equals(Source))
+						if(BiomeNew.equals(event.getLocation().getBlock().getBiome().toString())) {
+							Bukkit.getLogger().log(Level.WARNING, ""+BiomeNew.equals(event.getLocation().getBlock().getBiome().toString()));
+							return;
+						}
+					}
 				}
-			}
-			catch (Exception e) {
-				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Error when retrieving structure grow "+key);
+				catch (Exception e) {
+					Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Error when retrieving structure grow "+key);
 			}
 		}
 		event.setCancelled(true);
