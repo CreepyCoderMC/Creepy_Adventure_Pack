@@ -42,6 +42,14 @@ CustomCraftRecipes:
       - convert_wood_fence_gate_with_fungus_crafting
       - convert_wood_trapdoor_with_saplings_crafting
       - convert_wood_trapdoor_with_fungus_crafting
+      - convert_leaves_with_saplings_crafting
+      - convert_stripped_log_with_dead_bush_crafting
+      - convert_stripped_stem_with_vines_crafting
+      - convert_stripped_wood_with_dead_bush_crafting
+      - convert_stripped_hyphae_with_vines_crafting
+      - craft_sapling_crafting
+      - craft_dead_bush_crafting
+      
 
    contributor:
       - CreepyCoderMC
@@ -353,6 +361,35 @@ CustomCraftRecipes:
       - convert_wood_trapdoor_with_dark_oak_sapling_crafting
       - convert_wood_trapdoor_with_warped_fungus_crafting
       - convert_wood_trapdoor_with_crimson_fungus_crafting
+      - convert_leaves_with_oak_sapling_crafting
+      - convert_leaves_with_spruce_sapling_crafting
+      - convert_leaves_with_birch_sapling_crafting
+      - convert_leaves_with_jungle_sapling_crafting
+      - convert_leaves_with_acacia_sapling_crafting
+      - convert_leaves_with_dark_oak_sapling_crafting
+      - convert_stripped_oak_log_with_dead_bush_crafting
+      - convert_stripped_spruce_log_with_dead_bush_crafting
+      - convert_stripped_birch_log_with_dead_bush_crafting
+      - convert_stripped_jungle_log_with_dead_bush_crafting
+      - convert_stripped_acacia_log_with_dead_bush_crafting
+      - convert_stripped_dark_oak_log_with_dead_bush_crafting
+      - convert_stripped_crimson_stem_with_weeping_vines_crafting
+      - convert_stripped_warped_stem_with_twisting_vines_crafting
+      - convert_stripped_oak_wood_with_dead_bush_crafting
+      - convert_stripped_spruce_wood_with_dead_bush_crafting
+      - convert_stripped_birch_wood_with_dead_bush_crafting
+      - convert_stripped_jungle_wood_with_dead_bush_crafting
+      - convert_stripped_acacia_wood_with_dead_bush_crafting
+      - convert_stripped_dark_oak_wood_with_dead_bush_crafting
+      - convert_stripped_crimson_hyphae_with_weeping_vines_crafting
+      - convert_stripped_warped_hyphae_with_twisting_vines_crafting
+      - craft_oak_sapling_crafting
+      - craft_spruce_sapling_crafting
+      - craft_birch_sapling_crafting
+      - craft_jungle_sapling_crafting
+      - craft_acacia_sapling_crafting
+      - craft_dark_oak_sapling_crafting
+      - craft_dead_bush_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -6645,7 +6682,7 @@ convert_wood_trapdoor_with_jungle_sapling_crafting:
    ingredientF: OAK_TRAPDOOR, ACACIA_TRAPDOOR, BIRCH_TRAPDOOR, DARK_OAK_TRAPDOOR, SPRUCE_TRAPDOOR, CRIMSON_TRAPDOOR, WARPED_TRAPDOOR
    ingredientG: OAK_TRAPDOOR, ACACIA_TRAPDOOR, BIRCH_TRAPDOOR, DARK_OAK_TRAPDOOR, SPRUCE_TRAPDOOR, CRIMSON_TRAPDOOR, WARPED_TRAPDOOR
    ingredientH: OAK_TRAPDOOR, ACACIA_TRAPDOOR, BIRCH_TRAPDOOR, DARK_OAK_TRAPDOOR, SPRUCE_TRAPDOOR, CRIMSON_TRAPDOOR, WARPED_TRAPDOOR
-   ingredientI: OAK_TRAPDOOR, ACACIA_TRAPDOOR, BIRCH_TRAPDOOR, DARK_OAK_TRAPDOOR, SPRUCE_TRAPDOOR, CRIMSON_TRAPDOOR, WARPED_FENCE
+   ingredientI: OAK_TRAPDOOR, ACACIA_TRAPDOOR, BIRCH_TRAPDOOR, DARK_OAK_TRAPDOOR, SPRUCE_TRAPDOOR, CRIMSON_TRAPDOOR, WARPED_TRAPDOOR
    rows: 3
    cols: 3
    group: convert_wood_trapdoor_with_saplings_crafting
@@ -6733,6 +6770,615 @@ convert_wood_trapdoor_with_crimson_fungus_crafting:
    rows: 3
    cols: 3
    group: convert_wood_trapdoor_with_fungus_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_leaves_with_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_LEAVES
+   amount: 8
+   ingredientA: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientB: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientC: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientD: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientE: OAK_SAPLING
+   ingredientF: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientG: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientH: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientI: ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   rows: 3
+   cols: 3
+   group: convert_leaves_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_leaves_with_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_LEAVES
+   amount: 8
+   ingredientA: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientB: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientC: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientD: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientE: SPRUCE_SAPLING
+   ingredientF: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientG: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientH: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   ingredientI: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES
+   rows: 3
+   cols: 3
+   group: convert_leaves_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_leaves_with_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_LEAVES
+   amount: 8
+   ingredientA: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientB: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientC: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientD: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientE: BIRCH_SAPLING
+   ingredientF: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientG: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientH: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientI: OAK_LEAVES, ACACIA_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   rows: 3
+   cols: 3
+   group: convert_leaves_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_leaves_with_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_LEAVES
+   amount: 8
+   ingredientA: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientB: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientC: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientD: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientE: JUNGLE_SAPLING
+   ingredientF: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientG: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientH: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   ingredientI: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, SPRUCE_LEAVES
+   rows: 3
+   cols: 3
+   group: convert_leaves_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_leaves_with_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_LEAVES
+   amount: 8
+   ingredientA: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientB: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientC: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientD: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientE: ACACIA_SAPLING
+   ingredientF: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientG: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientH: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientI: OAK_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   rows: 3
+   cols: 3
+   group: convert_leaves_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_leaves_with_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_LEAVES
+   amount: 8
+   ingredientA: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientB: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientC: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientD: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientE: DARK_OAK_SAPLING
+   ingredientF: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientG: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientH: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   ingredientI: OAK_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, JUNGLE_LEAVES, SPRUCE_LEAVES
+   rows: 3
+   cols: 3
+   group: convert_leaves_with_saplings_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_oak_log_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: OAK_LOG
+   amount: 8
+   ingredientA: STRIPPED_OAK_LOG
+   ingredientB: STRIPPED_OAK_LOG
+   ingredientC: STRIPPED_OAK_LOG
+   ingredientD: STRIPPED_OAK_LOG
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_OAK_LOG
+   ingredientG: STRIPPED_OAK_LOG
+   ingredientH: STRIPPED_OAK_LOG
+   ingredientI: STRIPPED_OAK_LOG
+   rows: 3
+   cols: 3
+   group: convert_stripped_log_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_spruce_log_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_LOG
+   amount: 8
+   ingredientA: STRIPPED_SPRUCE_LOG
+   ingredientB: STRIPPED_SPRUCE_LOG
+   ingredientC: STRIPPED_SPRUCE_LOG
+   ingredientD: STRIPPED_SPRUCE_LOG
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_SPRUCE_LOG
+   ingredientG: STRIPPED_SPRUCE_LOG
+   ingredientH: STRIPPED_SPRUCE_LOG
+   ingredientI: STRIPPED_SPRUCE_LOG
+   rows: 3
+   cols: 3
+   group: convert_stripped_log_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_birch_log_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_LOG
+   amount: 8
+   ingredientA: STRIPPED_BIRCH_LOG
+   ingredientB: STRIPPED_BIRCH_LOG
+   ingredientC: STRIPPED_BIRCH_LOG
+   ingredientD: STRIPPED_BIRCH_LOG
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_BIRCH_LOG
+   ingredientG: STRIPPED_BIRCH_LOG
+   ingredientH: STRIPPED_BIRCH_LOG
+   ingredientI: STRIPPED_BIRCH_LOG
+   rows: 3
+   cols: 3
+   group: convert_stripped_log_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_jungle_log_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_LOG
+   amount: 8
+   ingredientA: STRIPPED_JUNGLE_LOG
+   ingredientB: STRIPPED_JUNGLE_LOG
+   ingredientC: STRIPPED_JUNGLE_LOG
+   ingredientD: STRIPPED_JUNGLE_LOG
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_JUNGLE_LOG
+   ingredientG: STRIPPED_JUNGLE_LOG
+   ingredientH: STRIPPED_JUNGLE_LOG
+   ingredientI: STRIPPED_JUNGLE_LOG
+   rows: 3
+   cols: 3
+   group: convert_stripped_log_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_acacia_log_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_LOG
+   amount: 8
+   ingredientA: STRIPPED_ACACIA_LOG
+   ingredientB: STRIPPED_ACACIA_LOG
+   ingredientC: STRIPPED_ACACIA_LOG
+   ingredientD: STRIPPED_ACACIA_LOG
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_ACACIA_LOG
+   ingredientG: STRIPPED_ACACIA_LOG
+   ingredientH: STRIPPED_ACACIA_LOG
+   ingredientI: STRIPPED_ACACIA_LOG
+   rows: 3
+   cols: 3
+   group: convert_stripped_log_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_dark_oak_log_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_LOG
+   amount: 8
+   ingredientA: STRIPPED_DARK_OAK_LOG
+   ingredientB: STRIPPED_DARK_OAK_LOG
+   ingredientC: STRIPPED_DARK_OAK_LOG
+   ingredientD: STRIPPED_DARK_OAK_LOG
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_DARK_OAK_LOG
+   ingredientG: STRIPPED_DARK_OAK_LOG
+   ingredientH: STRIPPED_DARK_OAK_LOG
+   ingredientI: STRIPPED_DARK_OAK_LOG
+   rows: 3
+   cols: 3
+   group: convert_stripped_log_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_crimson_stem_with_weeping_vines_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_STEM
+   amount: 8
+   ingredientA: STRIPPED_CRIMSON_STEM
+   ingredientB: STRIPPED_CRIMSON_STEM
+   ingredientC: STRIPPED_CRIMSON_STEM
+   ingredientD: STRIPPED_CRIMSON_STEM
+   ingredientE: WEEPING_VINES
+   ingredientF: STRIPPED_CRIMSON_STEM
+   ingredientG: STRIPPED_CRIMSON_STEM
+   ingredientH: STRIPPED_CRIMSON_STEM
+   ingredientI: STRIPPED_CRIMSON_STEM
+   rows: 3
+   cols: 3
+   group: convert_stripped_stem_with_vines_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_warped_stem_with_twisting_vines_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_STEM
+   amount: 8
+   ingredientA: STRIPPED_WARPED_STEM
+   ingredientB: STRIPPED_WARPED_STEM
+   ingredientC: STRIPPED_WARPED_STEM
+   ingredientD: STRIPPED_WARPED_STEM
+   ingredientE: TWISTING_VINES
+   ingredientF: STRIPPED_WARPED_STEM
+   ingredientG: STRIPPED_WARPED_STEM
+   ingredientH: STRIPPED_WARPED_STEM
+   ingredientI: STRIPPED_WARPED_STEM
+   rows: 3
+   cols: 3
+   group: convert_stripped_stem_with_vines_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_oak_wood_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: OAK_WOOD
+   amount: 8
+   ingredientA: STRIPPED_OAK_WOOD
+   ingredientB: STRIPPED_OAK_WOOD
+   ingredientC: STRIPPED_OAK_WOOD
+   ingredientD: STRIPPED_OAK_WOOD
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_OAK_WOOD
+   ingredientG: STRIPPED_OAK_WOOD
+   ingredientH: STRIPPED_OAK_WOOD
+   ingredientI: STRIPPED_OAK_WOOD
+   rows: 3
+   cols: 3
+   group: convert_stripped_wood_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_spruce_wood_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_WOOD
+   amount: 8
+   ingredientA: STRIPPED_SPRUCE_WOOD
+   ingredientB: STRIPPED_SPRUCE_WOOD
+   ingredientC: STRIPPED_SPRUCE_WOOD
+   ingredientD: STRIPPED_SPRUCE_WOOD
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_SPRUCE_WOOD
+   ingredientG: STRIPPED_SPRUCE_WOOD
+   ingredientH: STRIPPED_SPRUCE_WOOD
+   ingredientI: STRIPPED_SPRUCE_WOOD
+   rows: 3
+   cols: 3
+   group: convert_stripped_wood_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_birch_wood_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_WOOD
+   amount: 8
+   ingredientA: STRIPPED_BIRCH_WOOD
+   ingredientB: STRIPPED_BIRCH_WOOD
+   ingredientC: STRIPPED_BIRCH_WOOD
+   ingredientD: STRIPPED_BIRCH_WOOD
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_BIRCH_WOOD
+   ingredientG: STRIPPED_BIRCH_WOOD
+   ingredientH: STRIPPED_BIRCH_WOOD
+   ingredientI: STRIPPED_BIRCH_WOOD
+   rows: 3
+   cols: 3
+   group: convert_stripped_wood_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_jungle_wood_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_WOOD
+   amount: 8
+   ingredientA: STRIPPED_JUNGLE_WOOD
+   ingredientB: STRIPPED_JUNGLE_WOOD
+   ingredientC: STRIPPED_JUNGLE_WOOD
+   ingredientD: STRIPPED_JUNGLE_WOOD
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_JUNGLE_WOOD
+   ingredientG: STRIPPED_JUNGLE_WOOD
+   ingredientH: STRIPPED_JUNGLE_WOOD
+   ingredientI: STRIPPED_JUNGLE_WOOD
+   rows: 3
+   cols: 3
+   group: convert_stripped_wood_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_acacia_wood_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_WOOD
+   amount: 8
+   ingredientA: STRIPPED_ACACIA_WOOD
+   ingredientB: STRIPPED_ACACIA_WOOD
+   ingredientC: STRIPPED_ACACIA_WOOD
+   ingredientD: STRIPPED_ACACIA_WOOD
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_ACACIA_WOOD
+   ingredientG: STRIPPED_ACACIA_WOOD
+   ingredientH: STRIPPED_ACACIA_WOOD
+   ingredientI: STRIPPED_ACACIA_WOOD
+   rows: 3
+   cols: 3
+   group: convert_stripped_wood_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_dark_oak_wood_with_dead_bush_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_WOOD
+   amount: 8
+   ingredientA: STRIPPED_DARK_OAK_WOOD
+   ingredientB: STRIPPED_DARK_OAK_WOOD
+   ingredientC: STRIPPED_DARK_OAK_WOOD
+   ingredientD: STRIPPED_DARK_OAK_WOOD
+   ingredientE: DEAD_BUSH
+   ingredientF: STRIPPED_DARK_OAK_WOOD
+   ingredientG: STRIPPED_DARK_OAK_WOOD
+   ingredientH: STRIPPED_DARK_OAK_WOOD
+   ingredientI: STRIPPED_DARK_OAK_WOOD
+   rows: 3
+   cols: 3
+   group: convert_stripped_wood_with_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_crimson_hyphae_with_weeping_vines_crafting:
+   enable: true
+   shaped: true
+   result: CRIMSON_HYPHAE
+   amount: 8
+   ingredientA: STRIPPED_CRIMSON_HYPHAE
+   ingredientB: STRIPPED_CRIMSON_HYPHAE
+   ingredientC: STRIPPED_CRIMSON_HYPHAE
+   ingredientD: STRIPPED_CRIMSON_HYPHAE
+   ingredientE: WEEPING_VINES
+   ingredientF: STRIPPED_CRIMSON_HYPHAE
+   ingredientG: STRIPPED_CRIMSON_HYPHAE
+   ingredientH: STRIPPED_CRIMSON_HYPHAE
+   ingredientI: STRIPPED_CRIMSON_HYPHAE
+   rows: 3
+   cols: 3
+   group: convert_stripped_hyphae_with_vines_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+convert_stripped_warped_hyphae_with_twisting_vines_crafting:
+   enable: true
+   shaped: true
+   result: WARPED_HYPHAE
+   amount: 8
+   ingredientA: STRIPPED_WARPED_HYPHAE
+   ingredientB: STRIPPED_WARPED_HYPHAE
+   ingredientC: STRIPPED_WARPED_HYPHAE
+   ingredientD: STRIPPED_WARPED_HYPHAE
+   ingredientE: TWISTING_VINES
+   ingredientF: STRIPPED_WARPED_HYPHAE
+   ingredientG: STRIPPED_WARPED_HYPHAE
+   ingredientH: STRIPPED_WARPED_HYPHAE
+   ingredientI: STRIPPED_WARPED_HYPHAE
+   rows: 3
+   cols: 3
+   group: convert_stripped_hyphae_with_vines_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: OAK_SAPLING
+   amount: 1
+   ingredientA: OAK_LEAVES
+   ingredientB: OAK_LEAVES
+   ingredientC: OAK_LEAVES
+   ingredientD: OAK_LEAVES
+   ingredientE: STICK
+   ingredientF: OAK_LEAVES
+   ingredientG: AIR
+   ingredientH: STICK
+   ingredientI: AIR
+   rows: 3
+   cols: 3
+   group: craft_sapling_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_spruce_sapling_crafting:
+   enable: true
+   shaped: true
+   result: SPRUCE_SAPLING
+   amount: 1
+   ingredientA: SPRUCE_LEAVES
+   ingredientB: SPRUCE_LEAVES
+   ingredientC: SPRUCE_LEAVES
+   ingredientD: SPRUCE_LEAVES
+   ingredientE: STICK
+   ingredientF: SPRUCE_LEAVES
+   ingredientG: AIR
+   ingredientH: STICK
+   ingredientI: AIR
+   rows: 3
+   cols: 3
+   group: craft_sapling_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_birch_sapling_crafting:
+   enable: true
+   shaped: true
+   result: BIRCH_SAPLING
+   amount: 1
+   ingredientA: BIRCH_LEAVES
+   ingredientB: BIRCH_LEAVES
+   ingredientC: BIRCH_LEAVES
+   ingredientD: BIRCH_LEAVES
+   ingredientE: STICK
+   ingredientF: BIRCH_LEAVES
+   ingredientG: AIR
+   ingredientH: STICK
+   ingredientI: AIR
+   rows: 3
+   cols: 3
+   group: craft_sapling_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_jungle_sapling_crafting:
+   enable: true
+   shaped: true
+   result: JUNGLE_SAPLING
+   amount: 1
+   ingredientA: JUNGLE_LEAVES
+   ingredientB: JUNGLE_LEAVES
+   ingredientC: JUNGLE_LEAVES
+   ingredientD: JUNGLE_LEAVES
+   ingredientE: STICK
+   ingredientF: JUNGLE_LEAVES
+   ingredientG: AIR
+   ingredientH: STICK
+   ingredientI: AIR
+   rows: 3
+   cols: 3
+   group: craft_sapling_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_acacia_sapling_crafting:
+   enable: true
+   shaped: true
+   result: ACACIA_SAPLING
+   amount: 1
+   ingredientA: ACACIA_LEAVES
+   ingredientB: ACACIA_LEAVES
+   ingredientC: ACACIA_LEAVES
+   ingredientD: ACACIA_LEAVES
+   ingredientE: STICK
+   ingredientF: ACACIA_LEAVES
+   ingredientG: AIR
+   ingredientH: STICK
+   ingredientI: AIR
+   rows: 3
+   cols: 3
+   group: craft_sapling_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_dark_oak_sapling_crafting:
+   enable: true
+   shaped: true
+   result: DARK_OAK_SAPLING
+   amount: 1
+   ingredientA: DARK_OAK_LEAVES
+   ingredientB: DARK_OAK_LEAVES
+   ingredientC: DARK_OAK_LEAVES
+   ingredientD: DARK_OAK_LEAVES
+   ingredientE: STICK
+   ingredientF: DARK_OAK_LEAVES
+   ingredientG: AIR
+   ingredientH: STICK
+   ingredientI: AIR
+   rows: 3
+   cols: 3
+   group: craft_sapling_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+craft_dead_bush_crafting:
+   enable: true
+   shaped: false
+   result: DEAD_BUSH
+   amount: 1
+   ingredientA: AIR
+   ingredientB: STICK
+   ingredientC: STICK
+   ingredientD: AIR
+   ingredientE: STICK
+   ingredientF: STICK
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: craft_dead_bush_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
