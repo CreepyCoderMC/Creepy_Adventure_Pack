@@ -7401,7 +7401,7 @@ reverse_craft_oak_stairs_crafting:
    amount: 6
    ingredientA: AIR
    ingredientB: OAK_STAIRS
-   ingredientC: OAKSTAIRS
+   ingredientC: OAK_STAIRS
    ingredientD: AIR
    ingredientE: OAK_STAIRS
    ingredientF: OAK_STAIRS
