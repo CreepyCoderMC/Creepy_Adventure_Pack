@@ -49,6 +49,7 @@ CustomCraftRecipes:
       - convert_stripped_hyphae_with_vines_crafting
       - craft_sapling_crafting
       - craft_dead_bush_crafting
+      - reverse_craft_oak_type_crafting
       
 
    contributor:
@@ -390,6 +391,16 @@ CustomCraftRecipes:
       - craft_acacia_sapling_crafting
       - craft_dark_oak_sapling_crafting
       - craft_dead_bush_crafting
+      - reverse_craft_oak_stairs_crafting
+      - reverse_craft_oak_slab_crafting
+      - reverse_craft_oak_pressure_plate_crafting
+      - reverse_craft_oak_fence_crafting
+      - reverse_craft_oak_trapdoor_crafting
+      - reverse_craft_oak_fence_gate_crafting
+      - reverse_craft_oak_button_crafting
+      - reverse_craft_oak_door_crafting
+      - reverse_craft_oak_boat_crafting
+      - reverse_craft_oak_sign_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -7379,6 +7390,216 @@ craft_dead_bush_crafting:
    rows: 2
    cols: 2
    group: craft_dead_bush_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_stairs_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: OAK_STAIRS
+   ingredientC: OAKSTAIRS
+   ingredientD: AIR
+   ingredientE: OAK_STAIRS
+   ingredientF: OAK_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_slab_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 1
+   ingredientA: OAK_SLAB
+   ingredientB: OAK_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 2
+   ingredientA: OAK_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_fence_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 2
+   ingredientA: OAK_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 3
+   ingredientA: OAK_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 4
+   ingredientA: OAK_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_button_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 1
+   ingredientA: OAK_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_door_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 2
+   ingredientA: OAK_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_boat_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 5
+   ingredientA: OAK_BOAT
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_oak_sign_crafting:
+   enable: true
+   shaped: false
+   result: OAK_PLANKS
+   amount: 2
+   ingredientA: OAK_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_oak_type_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
