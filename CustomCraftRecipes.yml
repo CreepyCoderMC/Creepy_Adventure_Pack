@@ -50,6 +50,11 @@ CustomCraftRecipes:
       - craft_sapling_crafting
       - craft_dead_bush_crafting
       - reverse_craft_oak_type_crafting
+      - reverse_craft_spruce_type_crafting
+      - reverse_craft_birch_type_crafting
+      - reverse_craft_jungle_type_crafting
+      - reverse_craft_acacia_type_crafting
+      - reverse_craft_dark_oak_type_crafting
       
 
    contributor:
@@ -401,6 +406,56 @@ CustomCraftRecipes:
       - reverse_craft_oak_door_crafting
       - reverse_craft_oak_boat_crafting
       - reverse_craft_oak_sign_crafting
+      - reverse_craft_spruce_stairs_crafting
+      - reverse_craft_spruce_slab_crafting
+      - reverse_craft_spruce_pressure_plate_crafting
+      - reverse_craft_spruce_fence_crafting
+      - reverse_craft_spruce_trapdoor_crafting
+      - reverse_craft_spruce_fence_gate_crafting
+      - reverse_craft_spruce_button_crafting
+      - reverse_craft_spruce_door_crafting
+      - reverse_craft_spruce_boat_crafting
+      - reverse_craft_spruce_sign_crafting
+      - reverse_craft_birch_stairs_crafting
+      - reverse_craft_birch_slab_crafting
+      - reverse_craft_birch_pressure_plate_crafting
+      - reverse_craft_birch_fence_crafting
+      - reverse_craft_birch_trapdoor_crafting
+      - reverse_craft_birch_fence_gate_crafting
+      - reverse_craft_birch_button_crafting
+      - reverse_craft_birch_door_crafting
+      - reverse_craft_birch_boat_crafting
+      - reverse_craft_birch_sign_crafting
+      - reverse_craft_jungle_stairs_crafting
+      - reverse_craft_jungle_slab_crafting
+      - reverse_craft_jungle_pressure_plate_crafting
+      - reverse_craft_jungle_fence_crafting
+      - reverse_craft_jungle_trapdoor_crafting
+      - reverse_craft_jungle_fence_gate_crafting
+      - reverse_craft_jungle_button_crafting
+      - reverse_craft_jungle_door_crafting
+      - reverse_craft_jungle_boat_crafting
+      - reverse_craft_jungle_sign_crafting
+      - reverse_craft_acacia_stairs_crafting
+      - reverse_craft_acacia_slab_crafting
+      - reverse_craft_acacia_pressure_plate_crafting
+      - reverse_craft_acacia_fence_crafting
+      - reverse_craft_acacia_trapdoor_crafting
+      - reverse_craft_acacia_fence_gate_crafting
+      - reverse_craft_acacia_button_crafting
+      - reverse_craft_acacia_door_crafting
+      - reverse_craft_acacia_boat_crafting
+      - reverse_craft_acacia_sign_crafting
+      - reverse_craft_dark_oak_stairs_crafting
+      - reverse_craft_dark_oak_slab_crafting
+      - reverse_craft_dark_oak_pressure_plate_crafting
+      - reverse_craft_dark_oak_fence_crafting
+      - reverse_craft_dark_oak_trapdoor_crafting
+      - reverse_craft_dark_oak_fence_gate_crafting
+      - reverse_craft_dark_oak_button_crafting
+      - reverse_craft_dark_oak_door_crafting
+      - reverse_craft_dark_oak_boat_crafting
+      - reverse_craft_dark_oak_sign_crafting
    structure:
       - enable, boolean
       - shaped, boolean
@@ -7600,6 +7655,1056 @@ reverse_craft_oak_sign_crafting:
    rows: 1
    cols: 1
    group: reverse_craft_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_stairs_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: SPRUCE_STAIRS
+   ingredientC: SPRUCE_STAIRS
+   ingredientD: AIR
+   ingredientE: SPRUCE_STAIRS
+   ingredientF: SPRUCE_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_slab_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 1
+   ingredientA: SPRUCE_SLAB
+   ingredientB: SPRUCE_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 1
+   ingredientA: SPRUCE_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_fence_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 2
+   ingredientA: SPRUCE_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 3
+   ingredientA: SPRUCE_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 4
+   ingredientA: SPRUCE_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_button_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 1
+   ingredientA: SPRUCE_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_door_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 2
+   ingredientA: SPRUCE_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_boat_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 5
+   ingredientA: SPRUCE_BOAT
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_spruce_sign_crafting:
+   enable: true
+   shaped: false
+   result: SPRUCE_PLANKS
+   amount: 2
+   ingredientA: SPRUCE_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_spruce_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_stairs_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: BIRCH_STAIRS
+   ingredientC: BIRCH_STAIRS
+   ingredientD: AIR
+   ingredientE: BIRCH_STAIRS
+   ingredientF: BIRCH_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_slab_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 1
+   ingredientA: BIRCH_SLAB
+   ingredientB: BIRCH_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 1
+   ingredientA: BIRCH_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_fence_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 2
+   ingredientA: BIRCH_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 3
+   ingredientA: BIRCH_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 4
+   ingredientA: BIRCH_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_button_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 1
+   ingredientA: BIRCH_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_door_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 2
+   ingredientA: BIRCH_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_boat_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 5
+   ingredientA: BIRCH_BOAT
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_birch_sign_crafting:
+   enable: true
+   shaped: false
+   result: BIRCH_PLANKS
+   amount: 2
+   ingredientA: BIRCH_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_birch_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_stairs_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: JUNGLE_STAIRS
+   ingredientC: JUNGLE_STAIRS
+   ingredientD: AIR
+   ingredientE: JUNGLE_STAIRS
+   ingredientF: JUNGLE_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_slab_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 1
+   ingredientA: JUNGLE_SLAB
+   ingredientB: JUNGLE_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 1
+   ingredientA: JUNGLE_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_fence_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 2
+   ingredientA: JUNGLE_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 3
+   ingredientA: JUNGLE_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 4
+   ingredientA: JUNGLE_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_button_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 1
+   ingredientA: JUNGLE_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_door_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 2
+   ingredientA: JUNGLE_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_boat_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 5
+   ingredientA: JUNGLE_BOAT
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_jungle_sign_crafting:
+   enable: true
+   shaped: false
+   result: JUNGLE_PLANKS
+   amount: 2
+   ingredientA: JUNGLE_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_jungle_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_stairs_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: ACACIA_STAIRS
+   ingredientC: ACACIA_STAIRS
+   ingredientD: AIR
+   ingredientE: ACACIA_STAIRS
+   ingredientF: ACACIA_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_slab_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 1
+   ingredientA: ACACIA_SLAB
+   ingredientB: ACACIA_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 1
+   ingredientA: ACACIA_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_fence_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 2
+   ingredientA: ACACIA_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 3
+   ingredientA: ACACIA_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 4
+   ingredientA: ACACIA_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_button_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 1
+   ingredientA: ACACIA_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_door_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 2
+   ingredientA: ACACIA_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_boat_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 5
+   ingredientA: ACACIA_BOAT
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_acacia_sign_crafting:
+   enable: true
+   shaped: false
+   result: ACACIA_PLANKS
+   amount: 2
+   ingredientA: ACACIA_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_acacia_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_stairs_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: DARK_OAK_STAIRS
+   ingredientC: DARK_OAK_STAIRS
+   ingredientD: AIR
+   ingredientE: DARK_OAK_STAIRS
+   ingredientF: DARK_OAK_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_slab_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 1
+   ingredientA: DARK_OAK_SLAB
+   ingredientB: DARK_OAK_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 1
+   ingredientA: DARK_OAK_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_fence_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 2
+   ingredientA: DARK_OAK_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 3
+   ingredientA: DARK_OAK_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 4
+   ingredientA: DARK_OAK_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_button_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 1
+   ingredientA: DARK_OAK_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_door_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 2
+   ingredientA: DARK_OAK_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_boat_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 5
+   ingredientA: DARK_OAK_BOAT
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_dark_oak_sign_crafting:
+   enable: true
+   shaped: false
+   result: DARK_OAK_PLANKS
+   amount: 2
+   ingredientA: DARK_OAK_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_dark_oak_type_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
