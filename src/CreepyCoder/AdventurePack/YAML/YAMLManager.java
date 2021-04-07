@@ -13,6 +13,8 @@ import org.bukkit.Effect;
 import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.Sound;
+import org.bukkit.TreeSpecies;
+import org.bukkit.block.Biome;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
@@ -74,6 +76,8 @@ public class YAMLManager {
 				case "keyPress":
 				case "sound":
 				case "particle":
+				case "treetype":
+				case "biome":
 					break;
 				default:
 					Bukkit.getLogger().log(Level.WARNING, YAMLContextKey+".structure("+ fullString +") : Type incorrectly Specified in " + filename);
@@ -104,7 +108,7 @@ public class YAMLManager {
 											Material materialTest = Material.valueOf(valueTestNew);
 										}
 										catch (Exception e) {
-											Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename);
+											Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid material value used in " + filename + " [value: "+valueTest+"]");
 										}
 									}
 								}
@@ -116,17 +120,17 @@ public class YAMLManager {
 										Effect effectTest = Effect.valueOf(valueTest);
 									}
 									catch (Exception e) {
-										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid effect value used in " + filename);
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid effect value used in " + filename + " [value: "+valueTest+"]");
 									}
 								}
 								break;
 							case "string":
 								break;
 							case "contributor":
-								if(!ContributorList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid contributor value used in " + filename);
+								if(!ContributorList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid contributor value used in " + filename + " [value: "+valueTest+"]");
 								break;
 							case "version":
-								if(!VersionList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid version value used in " + filename);
+								if(!VersionList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid version value used in " + filename  + " [value: "+valueTest+"]");
 								break;
 							case "number":
 								if (valueTest != null) {
@@ -135,15 +139,15 @@ public class YAMLManager {
 										float testNumber = Float.parseFloat(valueTest);
 									}
 									catch (Exception e) {
-										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid nuber value used in " + filename);
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid nuber value used in " + filename  + " [value: "+valueTest+"]");
 									}
 								}
 								break;
 							case "group":
-								if(!GroupList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid group value used in " + filename);
+								if(!GroupList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid group value used in " + filename  + " [value: "+valueTest+"]");
 								break;
 							case "keyPress":
-								if(!KeyPressList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid key press value used in " + filename);
+								if(!KeyPressList.contains(valueTest)) Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid key press value used in " + filename  + " [value: "+valueTest+"]");
 								break;
 							case "sound":
 								if (valueTest != null) {
@@ -152,7 +156,7 @@ public class YAMLManager {
 										Sound soundTest = Sound.valueOf(valueTest);
 									}
 									catch (Exception e) {
-										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid sound used in " + filename);
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid sound used in " + filename + " [value: "+valueTest+"]");
 									}
 								}
 								break;
@@ -163,7 +167,32 @@ public class YAMLManager {
 										Particle particleTest = Particle.valueOf(valueTest);
 									}
 									catch (Exception e) {
-										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid particle used in " + filename);
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid particle used in " + filename + " [value: "+valueTest+"]");
+									}
+								}
+								break;
+							case "treetype":
+								if (valueTest != null) {
+									try {	
+										@SuppressWarnings("unused")
+										TreeSpecies TreeTest = TreeSpecies.valueOf(valueTest);
+									}
+									catch (Exception e) {
+										Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid tree type used in " + filename + " [value: "+valueTest+"]");
+									}
+								}
+								break;
+							case "biome":								
+								if (valueTest != null) {
+									String[] valueTestSplit = valueTest.split(", ");
+									for (String valueTestNew : valueTestSplit) {
+										try {	
+											@SuppressWarnings("unused")
+											Biome BiomeTest = Biome.valueOf(valueTestNew);
+										}
+										catch (Exception e) {
+											Bukkit.getLogger().log(Level.WARNING, Key + "." + splitString[0] + " : Invalid biome used in " + filename + " [value: "+valueTestNew+"]");
+										}
 									}
 								}
 								break;
