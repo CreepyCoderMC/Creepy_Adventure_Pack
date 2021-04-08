@@ -1,0 +1,156 @@
+CustomLeavesDropEvent:
+
+   version:
+      - 0.3.0
+            
+   group:
+      - leaves_drop
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347   
+      
+   key:
+      # Version 0.3.0
+      - acacia_leavesdropevent
+      - birch_leavesdropevent
+      - dark_oak_leavesdropevent
+      - jungle_leavesdropevent
+      - oak_leavesdropevent
+      - spurce_leavesdropevent
+      - acacia_special_leavesdropevent
+      - birch_special_leavesdropevent
+      - dark_oak_special_leavesdropevent
+      - jungle_special_leavesdropevent
+      - oak_special_leavesdropevent
+      - spurce_special_leavesdropevent
+      
+   structure:
+      - enable, boolean
+      - source, material
+      - drops, material
+      - chance, number
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+acacia_leavesdropevent:
+   enable: true
+   source: ACACIA_LEAVES
+   drops: ACACIA_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
+   chance: 25
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_leavesdropevent:
+   enable: true
+   source: BIRCH_LEAVES
+   drops: BIRCH_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
+   chance: 25  
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_leavesdropevent:
+   enable: true
+   source: DARK_OAK_LEAVES
+   drops: DARK_OAK_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
+   chance: 25   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_leavesdropevent:
+   enable: true
+   source: JUNGLE_LEAVES
+   drops: JUNGLE_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
+   chance: 25   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0  
+  
+oak_leavesdropevent:
+   enable: true
+   source: OAK_LEAVES
+   drops: OAK_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
+   chance: 25   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
+   
+spurce_leavesdropevent:
+   enable: true
+   source: SPRUCE_LEAVES 
+   drops: SPRUCE_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
+   chance: 25   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
+
+acacia_special_leavesdropevent:
+   enable: true
+   source: ACACIA_LEAVES
+   drops: DEAD_BUSH
+   chance: 5
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_special_leavesdropevent:
+   enable: true
+   source: BIRCH_LEAVES
+   drops: SWEET_BERRIES
+   chance: 5  
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_special_leavesdropevent:
+   enable: true
+   source: DARK_OAK_LEAVES
+   drops: APPLE, ENCHANTED_GOLDEN_APPLE, GOLDEN_APPLE
+   chance: 5   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_special_leavesdropevent:
+   enable: true
+   source: JUNGLE_LEAVES
+   drops: COCOA_BEANS
+   chance: 5   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0  
+  
+oak_special_leavesdropevent:
+   enable: true
+   source: OAK_LEAVES
+   drops: APPLE, ENCHANTED_GOLDEN_APPLE, GOLDEN_APPLE
+   chance: 5   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
+   
+spurce_special_leavesdropevent:
+   enable: true
+   source: SPRUCE_LEAVES 
+   drops: VINE
+   chance: 5   
+   group: leaves_drop
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
