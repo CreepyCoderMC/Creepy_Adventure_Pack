@@ -1,0 +1,83 @@
+CustomTreeGrowEvent:
+
+   version:
+      - 0.3.0
+            
+   group:
+      - trees_grow_fast
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347   
+      
+   key:
+      # Version 0.3.0
+      - acacia_treegrowevent
+      - birch_treegrowevent
+      - dark_oak_treegrowevent
+      - jungle_treegrowevent
+      - oak_treegrowevent
+      - spurce_treegrowevent
+      
+   structure:
+      - enable, boolean
+      - source, material
+      - delay, number
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+acacia_treegrowevent:
+   enable: true
+   source: ACACIA_SAPLING
+   delay: 200
+   group: trees_grow_fast
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_treegrowevent:
+   enable: true
+   source: BIRCH_SAPLING
+   delay: 200
+   group: trees_grow_fast
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_treegrowevent:
+   enable: true
+   source: DARK_OAK_SAPLING
+   delay: 200
+   group: trees_grow_fast
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_treegrowevent:
+   enable: true
+   source: JUNGLE_SAPLING
+   delay: 200
+   group: trees_grow_fast
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0  
+  
+oak_treegrowevent:
+   enable: true
+   source: OAK_SAPLING
+   delay: 200
+   group: trees_grow_fast
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
+   
+spurce_treegrowevent:
+   enable: true
+   source: SPRUCE_SAPLING 
+   delay: 200
+   group: trees_grow_fast
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
