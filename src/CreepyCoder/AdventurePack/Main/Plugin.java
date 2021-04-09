@@ -23,7 +23,7 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomLeavesDecayEvent.yml");
 		YAMLManager.LoadYAML("CustomStructureGrowEvent.yml");
 		YAMLManager.LoadYAML("CustomTreeGrowEvent.yml");
-		
+		YAMLManager.LoadYAML("CustomLeavesDropEvent.yml");
 	}
 	
     @Override

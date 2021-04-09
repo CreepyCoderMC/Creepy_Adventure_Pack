@@ -26,6 +26,7 @@ import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomDispenserEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomLeavesDecayEvent;
+import CreepyCoder.AdventurePack.CustomEvent.CustomLeavesDropEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomSmokerRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomStructureGrowEvent;
@@ -239,7 +240,10 @@ public class YAMLManager {
 				break;
 			case "CustomTreeGrowEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomTreeGrowEvent(plugin, dataConfig), plugin);
-				break;				
+				break;		
+			case "CustomLeavesDropEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomLeavesDropEvent(plugin, dataConfig), plugin);
+				break;	
 		}
 	}
 }			
