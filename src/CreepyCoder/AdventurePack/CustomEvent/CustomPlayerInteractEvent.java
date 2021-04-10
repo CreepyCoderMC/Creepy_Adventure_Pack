@@ -34,7 +34,7 @@ public class CustomPlayerInteractEvent implements Listener {
 	private String Particle;
 	private boolean Drop;
 	private boolean Replace;
-	//private boolean Break;
+	private boolean Break;
     //private String Group;
     //private boolean Permission;
     //private String AddedBy;
@@ -76,7 +76,7 @@ public class CustomPlayerInteractEvent implements Listener {
 					this.Particle = dataConfig.getString(this.Key+".particle");
 					this.Drop = dataConfig.getBoolean(this.Key+".drop");
 					this.Replace = dataConfig.getBoolean(this.Key+".replace");
-					//this.Break = dataConfig.getBoolean(this.Key+".break");
+					this.Break = dataConfig.getBoolean(this.Key+".break");
 					
 					return true;
 				}
@@ -127,5 +127,6 @@ public class CustomPlayerInteractEvent implements Listener {
 		}
 		
 		if(this.Drop) location.getWorld().dropItemNaturally(location, new ItemStack(Material.getMaterial(this.Result, false)));
+		if(this.Break) location.getBlock().setType(Material.AIR);
 	}	
 }
