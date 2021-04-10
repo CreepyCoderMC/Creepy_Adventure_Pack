@@ -18,6 +18,9 @@ CustomPlayerInteractEvent:
       # Version 0.3.0
       - flame_type_change_playerinteract
       - turn_wood_to_charcoal_playerinteract
+      - turn_stripped_wood_to_charcoal_playerinteract
+      - turn_stripped_log_to_charcoal_playerinteract
+      - turn_log_to_charcoal_playerinteract
       
    contributor:
       - CreepyCoderMC
@@ -276,7 +279,30 @@ CustomPlayerInteractEvent:
       - soul_wall_torch_to_wall_torch_playerinteract
       - redstone_torch_to_soul_torch_playerinteract
       - redstone_wall_torch_to_soul_wall_torch_playerinteract
-      - turn_wood_to_charcoal_playerinteract
+      - turn_oak_wood_to_charcoal_playerinteract
+      - turn_birch_wood_to_charcoal_playerinteract
+      - turn_spruce_wood_to_charcoal_playerinteract
+      - turn_jungle_wood_to_charcoal_playerinteract
+      - turn_acacia_wood_to_charcoal_playerinteract
+      - turn_dark_oak_wood_to_charcoal_playerinteract
+      - turn_stripped_oak_wood_to_charcoal_playerinteract
+      - turn_stripped_birch_wood_to_charcoal_playerinteract
+      - turn_stripped_spruce_wood_to_charcoal_playerinteract
+      - turn_stripped_jungle_wood_to_charcoal_playerinteract
+      - turn_stripped_acacia_wood_to_charcoal_playerinteract
+      - turn_stripped_dark_oak_wood_to_charcoal_playerinteract
+      - turn_stripped_oak_log_to_charcoal_playerinteract
+      - turn_stripped_birch_log_to_charcoal_playerinteract
+      - turn_stripped_spruce_log_to_charcoal_playerinteract
+      - turn_stripped_jungle_log_to_charcoal_playerinteract
+      - turn_stripped_acacia_log_to_charcoal_playerinteract
+      - turn_stripped_dark_oak_log_to_charcoal_playerinteract
+      - turn_oak_log_to_charcoal_playerinteract
+      - turn_birch_log_to_charcoal_playerinteract
+      - turn_spruce_log_to_charcoal_playerinteract
+      - turn_jungle_log_to_charcoal_playerinteract
+      - turn_acacia_log_to_charcoal_playerinteract
+      - turn_dark_oak_log_to_charcoal_playerinteract
 
    structure:
       - enable, boolean
@@ -4530,7 +4556,8 @@ redstone_wall_torch_to_soul_wall_torch_playerinteract:
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
-turn_wood_to_charcoal_playerinteract:
+   
+turn_oak_wood_to_charcoal_playerinteract:
    enable: true
    keyPress: none
    source: OAK_WOOD
@@ -4545,4 +4572,395 @@ turn_wood_to_charcoal_playerinteract:
    group: turn_wood_to_charcoal_playerinteract
    permission: true
    addedBy: Killerblade347
-   version: 0.3.0  
+   version: 0.3.0
+   
+turn_birch_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: BIRCH_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_spruce_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: SPRUCE_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_jungle_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: JUNGLE_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_acacia_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: ACACIA_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+     
+turn_dark_oak_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_oak_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_OAK_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_birch_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_BIRCH_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_spruce_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_SPRUCE_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_jungle_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_JUNGLE_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_acacia_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_ACACIA_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+     
+turn_stripped_dark_oak_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_DARK_OAK_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_oak_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_OAK_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_birch_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_BIRCH_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_spruce_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_SPRUCE_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_jungle_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_JUNGLE_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_acacia_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_ACACIA_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+     
+turn_stripped_dark_oak_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_DARK_OAK_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_oak_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: OAK_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_birch_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: BIRCH_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_spruce_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: SPRUCE_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_jungle_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: JUNGLE_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_acacia_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: ACACIA_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+     
+turn_dark_oak_log_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_LOG
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_log_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
