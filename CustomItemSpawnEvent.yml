@@ -17,7 +17,7 @@ CustomItemSpawnEvent:
       - dark_oak_sapling_replant_customitemspawnevent
       - jungle_sapling_replant_customitemspawnevent
       - oak_sapling_replant_customitemspawnevent
-      - spurce_sapling_replant_customitemspawnevent
+      - spruce_sapling_replant_customitemspawnevent
       
    structure:
       - enable, boolean
@@ -91,13 +91,13 @@ oak_sapling_replant_customitemspawnevent:
    addedBy: CreepyCoderMC
    version: 0.3.0
    
-spurce_sapling_replant_customitemspawnevent:
+spruce_sapling_replant_customitemspawnevent:
    enable: true
    group: sapling_replant
-   source: SPURCE_SAPLING
+   source: SPRUCE_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: SPURCE_LEAVES
+   fromBlock: SPRUCE_LEAVES
    delay: 200
    permission: true
    addedBy: CreepyCoderMC
