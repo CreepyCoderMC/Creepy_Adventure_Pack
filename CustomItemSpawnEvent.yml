@@ -1,0 +1,29 @@
+CustomItemSpawnEvent:
+
+   version:
+      - 0.3.0
+      
+   group:
+      - sapling_replant
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+      
+   key:
+      # Version 0.3.0
+      - sapling_replant_customitemspawnevent
+      
+   structure:
+      - enable, boolean
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+sapling_replant_customitemspawnevent:
+   enable: true
+   group: sapling_replant
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0

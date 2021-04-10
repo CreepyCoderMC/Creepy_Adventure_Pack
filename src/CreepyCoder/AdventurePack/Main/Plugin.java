@@ -24,6 +24,7 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomStructureGrowEvent.yml");
 		YAMLManager.LoadYAML("CustomTreeGrowEvent.yml");
 		YAMLManager.LoadYAML("CustomLeavesDropEvent.yml");
+		YAMLManager.LoadYAML("CustomItemSpawnEvent.yml");
 	}
 	
     @Override

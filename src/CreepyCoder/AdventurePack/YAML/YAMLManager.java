@@ -17,6 +17,7 @@ import org.bukkit.TreeSpecies;
 import org.bukkit.block.Biome;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 
 import CreepyCoder.AdventurePack.CustomEvent.CustomBlastFurnaceRecipe;
@@ -25,6 +26,7 @@ import CreepyCoder.AdventurePack.CustomEvent.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomEvent.CustomDispenserEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomFurnaceRecipe;
+import CreepyCoder.AdventurePack.CustomEvent.CustomItemSpawnEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomLeavesDecayEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomLeavesDropEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomPlayerInteractEvent;
@@ -243,6 +245,9 @@ public class YAMLManager {
 				break;		
 			case "CustomLeavesDropEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomLeavesDropEvent(plugin, dataConfig), plugin);
+				break;	
+			case "CustomItemSpawnEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomItemSpawnEvent(plugin, dataConfig), plugin);
 				break;	
 		}
 	}
