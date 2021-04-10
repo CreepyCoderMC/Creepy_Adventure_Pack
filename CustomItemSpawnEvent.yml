@@ -12,18 +12,93 @@ CustomItemSpawnEvent:
       
    key:
       # Version 0.3.0
-      - sapling_replant_customitemspawnevent
+      - acacia_sapling_replant_customitemspawnevent
+      - birch_sapling_replant_customitemspawnevent
+      - dark_oak_sapling_replant_customitemspawnevent
+      - jungle_sapling_replant_customitemspawnevent
+      - oak_sapling_replant_customitemspawnevent
+      - spurce_sapling_replant_customitemspawnevent
       
    structure:
       - enable, boolean
+      - source, material
+      - onBlock, material
+      - action, string
+      - fromBlock, material
+      - delay, number
       - group, group
       - permission, boolean
       - addedBy, contributor
       - version, version
       
-sapling_replant_customitemspawnevent:
+acacia_sapling_replant_customitemspawnevent:
    enable: true
    group: sapling_replant
+   source: ACACIA_SAPLING
+   onBlock: DIRT, GRASS_BLOCK, PODZOL
+   action: DROPPED_ITEM
+   fromBlock: ACACIA_LEAVES
+   delay: 200
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
+      
+birch_sapling_replant_customitemspawnevent:
+   enable: true
+   group: sapling_replant
+   source: BIRCH_SAPLING
+   onBlock: DIRT, GRASS_BLOCK, PODZOL
+   action: DROPPED_ITEM
+   fromBlock: BIRCH_LEAVES
+   delay: 200
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+      
+dark_oak_sapling_replant_customitemspawnevent:
+   enable: true
+   group: sapling_replant
+   source: DARK_OAK_SAPLING
+   onBlock: DIRT, GRASS_BLOCK, PODZOL
+   action: DROPPED_ITEM
+   fromBlock: DARK_OAK_LEAVES
+   delay: 200
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_sapling_replant_customitemspawnevent:
+   enable: true
+   group: sapling_replant
+   source: JUNGLE_SAPLING
+   onBlock: DIRT, GRASS_BLOCK, PODZOL
+   action: DROPPED_ITEM
+   fromBlock: JUNGLE_LEAVES
+   delay: 200
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0   
+   
+oak_sapling_replant_customitemspawnevent:
+   enable: true
+   group: sapling_replant
+   source: OAK_SAPLING
+   onBlock: DIRT, GRASS_BLOCK, PODZOL
+   action: DROPPED_ITEM
+   fromBlock: OAK_LEAVES
+   delay: 200
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spurce_sapling_replant_customitemspawnevent:
+   enable: true
+   group: sapling_replant
+   source: SPURCE_SAPLING
+   onBlock: DIRT, GRASS_BLOCK, PODZOL
+   action: DROPPED_ITEM
+   fromBlock: SPURCE_LEAVES
+   delay: 200
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0      

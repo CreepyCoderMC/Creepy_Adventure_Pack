@@ -32,6 +32,11 @@ public class BlockFunction {
 		return block.getRelative(0 + xMod, 0, 0 + zMod);
 	}
 	
+	public Block BelowBlock(Block block) {
+		
+		return block.getRelative(0, -1, 0);
+	}
+	
 	public void Interact(Block currentBlock, String Result, boolean Drop, boolean InventoryAdd, boolean Replace, boolean Break, String Particle) {
 		
 		Location location = currentBlock.getLocation();

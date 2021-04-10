@@ -1,6 +1,7 @@
 package CreepyCoder.AdventurePack.CustomEvent;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Level;
 
@@ -17,17 +18,22 @@ import org.bukkit.event.entity.ItemSpawnEvent;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
+import CreepyCoder.AdventurePack.Function.BlockFunction;
+
 public class CustomItemSpawnEvent implements Listener {
 	
 	public Plugin plugin;
 	public FileConfiguration dataConfig;
+	private BlockFunction BlockFunction = new BlockFunction();
 	//private PlayerFunction playerFunction;
 	
 	private String Key;
 	//private boolean Enable;
 	private String Source;
-	private String Drops;
-	private long Chance;
+	private String OnBlock;
+	private String Action;
+	private String FromBlock;
+	private long Delay;
     //private String Group;
     //private boolean Permission;
     //private String AddedBy;
@@ -40,27 +46,43 @@ public class CustomItemSpawnEvent implements Listener {
 		
 		this.plugin = plugin;
 		this.dataConfig = dataConfig;
-		//this.KeyList = (List<String>) dataConfig.getList("CustomItemSpawnEvent.key");
+		this.KeyList = (List<String>) dataConfig.getList("CustomItemSpawnEvent.key");
 		
 	}
 
 	@EventHandler
 	public void onItemSpawnEvent(ItemSpawnEvent event) {
 		
-		Bukkit.getLogger().log(Level.WARNING, ""+event.getEntityType().toString()+" : "+event.getLocation().getBlock().getType().toString() +" : "+event.getEntity().getItemStack().getType());
-		
-		if(event.getLocation().getBlock().getType().toString().contains("LEAVES")) {
-			if(event.getEntity().getItemStack().getType().toString().contains("SAPLING")) {
+		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
+			String key = i.next();
+			try {
+				this.Source = dataConfig.getString(key+".source");			
+				this.OnBlock = dataConfig.getString(key+".onBlock");
+				this.FromBlock = dataConfig.getString(key+".fromBlock");
+				this.Delay = dataConfig.getLong(key+".delay");
 				
-				new BukkitRunnable() {
-					@Override
-					public void run() {
-						if(event.getEntity().isValid() && event.getEntity().isOnGround()) {
-							event.getEntity().getLocation().getBlock().setType(Material.valueOf(event.getEntity().getItemStack().getType().toString()));
-							event.getEntity().remove();
+				if(event.getLocation().getBlock().getType().toString().equals(this.FromBlock)) {
+					if(event.getEntity().getItemStack().getType().toString().equals(this.Source)) {
+						String tempOnBlock = this.OnBlock;
+							new BukkitRunnable() {
+								
+								@Override
+								public void run() {
+									if(tempOnBlock.contains(BlockFunction.BelowBlock(event.getEntity().getLocation().getBlock()).getType().toString())) {
+										if(event.getEntity().isValid() && event.getEntity().isOnGround()) {
+											event.getEntity().getLocation().getBlock().setType(Material.valueOf(event.getEntity().getItemStack().getType().toString()));
+											event.getEntity().remove();
+										}
+									}
+								}
+								
+							}.runTaskLater(plugin, this.Delay);	
 						}
 					}
-				}.runTaskLater(plugin, 200L);	
+				}
+			
+			catch (Exception e) {
+				Bukkit.getLogger().log(Level.WARNING, "Error with item spawn event "+key);
 			}
 		}		
 	}
