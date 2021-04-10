@@ -17,6 +17,7 @@ CustomPlayerInteractEvent:
       - dead_coral_dye_playerinteract
       # Version 0.3.0
       - flame_type_change_playerinteract
+      - turn_wood_to_charcoal_playerinteract
       
    contributor:
       - CreepyCoderMC
@@ -275,6 +276,7 @@ CustomPlayerInteractEvent:
       - soul_wall_torch_to_wall_torch_playerinteract
       - redstone_torch_to_soul_torch_playerinteract
       - redstone_wall_torch_to_soul_wall_torch_playerinteract
+      - turn_wood_to_charcoal_playerinteract
 
    structure:
       - enable, boolean
@@ -4528,4 +4530,19 @@ redstone_wall_torch_to_soul_wall_torch_playerinteract:
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
-   
+turn_wood_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: OAK_WOOD
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_wood_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0  
