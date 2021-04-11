@@ -1,0 +1,46 @@
+CustomStoneCutterRecipes:
+
+   version:
+      - 0.3.0
+            
+   group:
+      - acacia_stonecutterrecipes
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+         
+   key:
+      # Version 0.3.0
+      - acacia_planks_stonecutterrecipes
+      - acacia2_planks_stonecutterrecipes
+      
+   structure:
+      - enable, boolean
+      - result, material
+      - source, material
+      - amount, number
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+acacia_planks_stonecutterrecipes:
+   enable: true
+   result: DEAD_BUSH
+   source: ACACIA_SAPLING, OAK_SAPLING
+   amount: 2
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia2_planks_stonecutterrecipes:
+   enable: true
+   result: DEAD_BUSH
+   source: DARK_OAK_SAPLING
+   amount: 2
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0

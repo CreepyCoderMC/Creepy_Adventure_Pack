@@ -32,6 +32,7 @@ import CreepyCoder.AdventurePack.CustomRecipes.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomSmokerRecipe;
+import CreepyCoder.AdventurePack.CustomRecipes.CustomStoneCutterRecipe;
 
 public class YAMLManager {
 	
@@ -248,7 +249,10 @@ public class YAMLManager {
 				break;	
 			case "CustomItemSpawnEvent":
 				plugin.getServer().getPluginManager().registerEvents(new CustomItemSpawnEvent(plugin, dataConfig), plugin);
-				break;	
+				break;
+			case "CustomStoneCutterRecipes":
+				@SuppressWarnings("unused") CustomStoneCutterRecipe CustomStoneCutterRecipe = new CustomStoneCutterRecipe(plugin, dataConfig);
+				break;
 		}
 	}
 }			
