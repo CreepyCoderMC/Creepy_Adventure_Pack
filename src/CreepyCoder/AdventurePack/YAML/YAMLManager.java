@@ -43,9 +43,12 @@ public class YAMLManager {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public void LoadYAML(String filename)
+	public void LoadYAML(String filename,String folder)
 	{	
 		String YAMLContextKey = filename.replace(".yml", "");
+		filename = folder + filename;
+		
+		Bukkit.getLogger().log(Level.WARNING, "--> " + this.plugin.getDataFolder() + " : " + filename);
 		
 		// Create or replace yaml file
 		File configFile = new File(this.plugin.getDataFolder(), filename);
