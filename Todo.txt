@@ -1,7 +1,5 @@
 https://www.youtube.com/watch?v=oy7R-v7H17w&t=149s
 
-SAPLINGS DONT GROW
-FIREPROOF WOOD
 STONECUTTER
 SAPLING GROW AREA
 DISPENCER PLANT SAPLING
@@ -15,7 +13,8 @@ POTPLANT BONE MEAL
 
 wrapper for custom events (2)
 
-
+SAPLINGS DONT GROW
+FIREPROOF WOOD
 
 https://www.spigotmc.org/resources/portable-crafting-inventories-completely-customizable.61045/
 

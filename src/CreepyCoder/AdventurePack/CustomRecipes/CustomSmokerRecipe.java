@@ -1,4 +1,4 @@
-package CreepyCoder.AdventurePack.CustomEvent;
+package CreepyCoder.AdventurePack.CustomRecipes;
 
 import java.util.ArrayList;
 import java.util.Iterator;
