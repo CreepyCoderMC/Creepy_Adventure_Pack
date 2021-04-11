@@ -48,8 +48,6 @@ public class YAMLManager {
 		String YAMLContextKey = filename.replace(".yml", "");
 		filename = folder + filename;
 		
-		Bukkit.getLogger().log(Level.WARNING, "--> " + this.plugin.getDataFolder() + " : " + filename);
-		
 		// Create or replace yaml file
 		File configFile = new File(this.plugin.getDataFolder(), filename);
 		this.plugin.saveResource(filename, true);

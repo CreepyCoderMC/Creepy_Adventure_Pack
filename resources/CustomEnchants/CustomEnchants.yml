@@ -1,0 +1,47 @@
+CustomEnchants:
+
+   version:
+      - 0.3.0
+      
+   group:
+      # Version 0.3.0
+      - basic_enchantment
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+      
+   key:
+      # Version 0.3.0
+      - bonsai_tree_customenchant
+      - fireproof_customenchant
+      
+   structure:
+      - enable, boolean
+      - key, string
+      - name, string
+      - maxLevel, number
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+     
+bonsai_tree_customenchant:
+   enable: true
+   key: BONSAI_TREE
+   name: Bonsai Tree
+   maxLevel: 1
+   group: basic_enchantment
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0 
+ 
+fireproof_customenchant:
+   enable: true
+   key: FIREPROOF
+   name: Fireproof
+   maxLevel: 1
+   group: basic_enchantment
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
