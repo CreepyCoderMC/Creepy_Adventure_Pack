@@ -43,9 +43,9 @@ public class CustomStoneCutterRecipe {
 		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
 			String key = i.next();
 			try {
+				this.Amount = dataConfig.getInt(key+".amount");
 				this.Result = new ItemStack(Material.valueOf(dataConfig.getString(key+".result")), this.Amount);
 				this.Source = dataConfig.getString(key+".source");	
-				this.Amount = dataConfig.getInt(key+".amount");
 			}
 			catch (Exception e) {
 				Bukkit.getLogger().log(java.util.logging.Level.WARNING, "Error when retrieving stonecutter recipe "+key);

@@ -12,9 +12,34 @@ CustomStoneCutterRecipes:
          
    key:
       # Version 0.3.0
-      - acacia_planks_stonecutterrecipes
-      - acacia2_planks_stonecutterrecipes
-      
+      - acacia_wood_to_striped_wood_stonecutterrecipes
+      - acacia_wood_to_striped_log_stonecutterrecipes
+      - acacia_wood_to_log_stonecutterrecipes
+      - acacia_wood_to_planks_stonecutterrecipes
+      - acacia_wood_to_stairs_stonecutterrecipes
+      - acacia_wood_to_slab_stonecutterrecipes
+      - acacia_wood_to_fence_stonecutterrecipes
+      - acacia_wood_to_fence_gate_stonecutterrecipes
+      - acacia_wood_to_door_stonecutterrecipes
+      - acacia_wood_to_button_stonecutterrecipes
+      - acacia_wood_to_sign_stonecutterrecipes
+      - acacia_wood_to_trapdoor_stonecutterrecipes
+      - acacia_wood_to_pressure_plate_stonecutterrecipes
+      - acacia_log_to_striped_log_stonecutterrecipes
+      - acacia_log_to_planks_stonecutterrecipes
+      - acacia_log_to_stairs_stonecutterrecipes
+      - acacia_log_to_slab_stonecutterrecipes
+      - acacia_log_to_fence_stonecutterrecipes
+      - acacia_log_to_fence_gate_stonecutterrecipes
+      - acacia_log_to_door_stonecutterrecipes
+      - acacia_log_to_button_stonecutterrecipes
+      - acacia_log_to_sign_stonecutterrecipes
+      - acacia_log_to_trapdoor_stonecutterrecipes
+      - acacia_log_to_pressure_plate_stonecutterrecipes    
+      - acacia_planks_to_stairs_stonecutterrecipes
+      - acacia_planks_to_slab_stonecutterrecipes
+      - acacia_stairs_to_slab_stonecutterrecipes
+       
    structure:
       - enable, boolean
       - result, material
@@ -25,22 +50,272 @@ CustomStoneCutterRecipes:
       - addedBy, contributor
       - version, version
       
-acacia_planks_stonecutterrecipes:
+acacia_wood_to_striped_wood_stonecutterrecipes:
    enable: true
-   result: DEAD_BUSH
-   source: ACACIA_SAPLING, OAK_SAPLING
+   result: STRIPPED_ACACIA_WOOD
+   source: ACACIA_WOOD
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_ACACIA_LOG
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_log_stonecutterrecipes:
+   enable: true
+   result: ACACIA_LOG
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_planks_stonecutterrecipes:
+   enable: true
+   result: ACACIA_PLANKS
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 16
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_stairs_stonecutterrecipes:
+   enable: true
+   result: ACACIA_STAIRS
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 16
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_slab_stonecutterrecipes:
+   enable: true
+   result: ACACIA_SLAB
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 32
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_fence_stonecutterrecipes:
+   enable: true
+   result: ACACIA_FENCE
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+acacia_wood_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: ACACIA_FENCE_GATE
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_door_stonecutterrecipes:
+   enable: true
+   result: ACACIA_DOOR
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+acacia_wood_to_button_stonecutterrecipes:
+   enable: true
+   result: ACACIA_BUTTON
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+acacia_wood_to_sign_stonecutterrecipes:
+   enable: true
+   result: ACACIA_SIGN
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+acacia_wood_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: ACACIA_TRAPDOOR
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_wood_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: ACACIA_PRESSURE_PLATE
+   source: ACACIA_WOOD, STRIPPED_ACACIA_WOOD
+   amount: 4
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_log_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_ACACIA_LOG
+   source: ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_log_to_planks_stonecutterrecipes:
+   enable: true
+   result: ACACIA_PLANKS
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
    amount: 2
    group: acacia_stonecutterrecipes
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
    
-acacia2_planks_stonecutterrecipes:
+acacia_log_to_stairs_stonecutterrecipes:
    enable: true
-   result: DEAD_BUSH
-   source: DARK_OAK_SAPLING
+   result: ACACIA_STAIRS
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
    amount: 2
    group: acacia_stonecutterrecipes
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
+   
+acacia_log_to_slab_stonecutterrecipes:
+   enable: true
+   result: ACACIA_SLAB
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 8
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_log_to_fence_stonecutterrecipes:
+   enable: true
+   result: ACACIA_FENCE
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+acacia_log_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: ACACIA_FENCE_GATE
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_log_to_door_stonecutterrecipes:
+   enable: true
+   result: ACACIA_DOOR
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+acacia_log_to_button_stonecutterrecipes:
+   enable: true
+   result: ACACIA_BUTTON
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+acacia_log_to_sign_stonecutterrecipes:
+   enable: true
+   result: ACACIA_SIGN
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+acacia_log_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: ACACIA_TRAPDOOR
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_log_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: ACACIA_PRESSURE_PLATE
+   source: ACACIA_LOG, STRIPPED_ACACIA_LOG
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+acacia_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: ACACIA_STAIRS
+   source: ACACIA_PLANKS
+   amount: 1
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+acacia_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: ACACIA_SLAB
+   source: ACACIA_PLANKS
+   amount: 2
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+acacia_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: ACACIA_SLAB
+   source: ACACIA_STAIRS
+   amount: 2
+   group: acacia_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3
