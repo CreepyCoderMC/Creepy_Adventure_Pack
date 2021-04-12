@@ -7,6 +7,9 @@ CustomStoneCutterRecipes:
       - acacia_stonecutterrecipes
       - birch_stonecutterrecipes
       - oak_stonecutterrecipes
+      - dark_oak_stonecutterrecipes
+      - jungle_stonecutterrecipes
+      - spruce_stonecutterrecipes
       
    contributor:
       - CreepyCoderMC
@@ -41,7 +44,6 @@ CustomStoneCutterRecipes:
       - acacia_planks_to_stairs_stonecutterrecipes
       - acacia_planks_to_slab_stonecutterrecipes
       - acacia_stairs_to_slab_stonecutterrecipes
-
       - birch_wood_to_striped_wood_stonecutterrecipes
       - birch_wood_to_striped_log_stonecutterrecipes
       - birch_wood_to_log_stonecutterrecipes
@@ -69,7 +71,6 @@ CustomStoneCutterRecipes:
       - birch_planks_to_stairs_stonecutterrecipes
       - birch_planks_to_slab_stonecutterrecipes
       - birch_stairs_to_slab_stonecutterrecipes
-      
       - oak_wood_to_striped_wood_stonecutterrecipes
       - oak_wood_to_striped_log_stonecutterrecipes
       - oak_wood_to_log_stonecutterrecipes
@@ -97,6 +98,87 @@ CustomStoneCutterRecipes:
       - oak_planks_to_stairs_stonecutterrecipes
       - oak_planks_to_slab_stonecutterrecipes
       - oak_stairs_to_slab_stonecutterrecipes
+      - dark_oak_wood_to_striped_wood_stonecutterrecipes
+      - dark_oak_wood_to_striped_log_stonecutterrecipes
+      - dark_oak_wood_to_log_stonecutterrecipes
+      - dark_oak_wood_to_planks_stonecutterrecipes
+      - dark_oak_wood_to_stairs_stonecutterrecipes
+      - dark_oak_wood_to_slab_stonecutterrecipes
+      - dark_oak_wood_to_fence_stonecutterrecipes
+      - dark_oak_wood_to_fence_gate_stonecutterrecipes
+      - dark_oak_wood_to_door_stonecutterrecipes
+      - dark_oak_wood_to_button_stonecutterrecipes
+      - dark_oak_wood_to_sign_stonecutterrecipes
+      - dark_oak_wood_to_trapdoor_stonecutterrecipes
+      - dark_oak_wood_to_pressure_plate_stonecutterrecipes
+      - dark_oak_log_to_striped_log_stonecutterrecipes
+      - dark_oak_log_to_planks_stonecutterrecipes
+      - dark_oak_log_to_stairs_stonecutterrecipes
+      - dark_oak_log_to_slab_stonecutterrecipes
+      - dark_oak_log_to_fence_stonecutterrecipes
+      - dark_oak_log_to_fence_gate_stonecutterrecipes
+      - dark_oak_log_to_door_stonecutterrecipes
+      - dark_oak_log_to_button_stonecutterrecipes
+      - dark_oak_log_to_sign_stonecutterrecipes
+      - dark_oak_log_to_trapdoor_stonecutterrecipes
+      - dark_oak_log_to_pressure_plate_stonecutterrecipes    
+      - dark_oak_planks_to_stairs_stonecutterrecipes
+      - dark_oak_planks_to_slab_stonecutterrecipes
+      - dark_oak_stairs_to_slab_stonecutterrecipes
+      - jungle_wood_to_striped_wood_stonecutterrecipes
+      - jungle_wood_to_striped_log_stonecutterrecipes
+      - jungle_wood_to_log_stonecutterrecipes
+      - jungle_wood_to_planks_stonecutterrecipes
+      - jungle_wood_to_stairs_stonecutterrecipes
+      - jungle_wood_to_slab_stonecutterrecipes
+      - jungle_wood_to_fence_stonecutterrecipes
+      - jungle_wood_to_fence_gate_stonecutterrecipes
+      - jungle_wood_to_door_stonecutterrecipes
+      - jungle_wood_to_button_stonecutterrecipes
+      - jungle_wood_to_sign_stonecutterrecipes
+      - jungle_wood_to_trapdoor_stonecutterrecipes
+      - jungle_wood_to_pressure_plate_stonecutterrecipes
+      - jungle_log_to_striped_log_stonecutterrecipes
+      - jungle_log_to_planks_stonecutterrecipes
+      - jungle_log_to_stairs_stonecutterrecipes
+      - jungle_log_to_slab_stonecutterrecipes
+      - jungle_log_to_fence_stonecutterrecipes
+      - jungle_log_to_fence_gate_stonecutterrecipes
+      - jungle_log_to_door_stonecutterrecipes
+      - jungle_log_to_button_stonecutterrecipes
+      - jungle_log_to_sign_stonecutterrecipes
+      - jungle_log_to_trapdoor_stonecutterrecipes
+      - jungle_log_to_pressure_plate_stonecutterrecipes    
+      - jungle_planks_to_stairs_stonecutterrecipes
+      - jungle_planks_to_slab_stonecutterrecipes
+      - jungle_stairs_to_slab_stonecutterrecipes
+      - spruce_wood_to_striped_wood_stonecutterrecipes
+      - spruce_wood_to_striped_log_stonecutterrecipes
+      - spruce_wood_to_log_stonecutterrecipes
+      - spruce_wood_to_planks_stonecutterrecipes
+      - spruce_wood_to_stairs_stonecutterrecipes
+      - spruce_wood_to_slab_stonecutterrecipes
+      - spruce_wood_to_fence_stonecutterrecipes
+      - spruce_wood_to_fence_gate_stonecutterrecipes
+      - spruce_wood_to_door_stonecutterrecipes
+      - spruce_wood_to_button_stonecutterrecipes
+      - spruce_wood_to_sign_stonecutterrecipes
+      - spruce_wood_to_trapdoor_stonecutterrecipes
+      - spruce_wood_to_pressure_plate_stonecutterrecipes
+      - spruce_log_to_striped_log_stonecutterrecipes
+      - spruce_log_to_planks_stonecutterrecipes
+      - spruce_log_to_stairs_stonecutterrecipes
+      - spruce_log_to_slab_stonecutterrecipes
+      - spruce_log_to_fence_stonecutterrecipes
+      - spruce_log_to_fence_gate_stonecutterrecipes
+      - spruce_log_to_door_stonecutterrecipes
+      - spruce_log_to_button_stonecutterrecipes
+      - spruce_log_to_sign_stonecutterrecipes
+      - spruce_log_to_trapdoor_stonecutterrecipes
+      - spruce_log_to_pressure_plate_stonecutterrecipes    
+      - spruce_planks_to_stairs_stonecutterrecipes
+      - spruce_planks_to_slab_stonecutterrecipes
+      - spruce_stairs_to_slab_stonecutterrecipes
        
    structure:
       - enable, boolean
@@ -377,14 +459,7 @@ acacia_stairs_to_slab_stonecutterrecipes:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
-   
-   
-   
-   
-   
-   
-   
-   
+
 birch_wood_to_striped_wood_stonecutterrecipes:
    enable: true
    result: STRIPPED_BIRCH_WOOD
@@ -654,14 +729,7 @@ birch_stairs_to_slab_stonecutterrecipes:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
-   
-   
-   
-   
-   
-   
-   
-   
+
 oak_wood_to_striped_wood_stonecutterrecipes:
    enable: true
    result: STRIPPED_OAK_WOOD
@@ -931,5 +999,814 @@ oak_stairs_to_slab_stonecutterrecipes:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
+ 
+dark_oak_wood_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_DARK_OAK_WOOD
+   source: DARK_OAK_WOOD
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
    
+dark_oak_wood_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_DARK_OAK_LOG
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
    
+dark_oak_wood_to_log_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_LOG
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_wood_to_planks_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_PLANKS
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 16
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_wood_to_stairs_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_STAIRS
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 16
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_wood_to_slab_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_SLAB
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 32
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_wood_to_fence_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_FENCE
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+dark_oak_wood_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_FENCE_GATE
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_wood_to_door_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_DOOR
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+dark_oak_wood_to_button_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_BUTTON
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_wood_to_sign_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_SIGN
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_wood_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_TRAPDOOR
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_wood_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_PRESSURE_PLATE
+   source: DARK_OAK_WOOD, STRIPPED_DARK_OAK_WOOD
+   amount: 4
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_DARK_OAK_LOG
+   source: DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_planks_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_PLANKS
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 2
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_stairs_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_STAIRS
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 2
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_slab_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_SLAB
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 8
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_fence_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_FENCE
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+dark_oak_log_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_FENCE_GATE
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_door_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_DOOR
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+dark_oak_log_to_button_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_BUTTON
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_log_to_sign_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_SIGN
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_log_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_TRAPDOOR
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_log_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_PRESSURE_PLATE
+   source: DARK_OAK_LOG, STRIPPED_DARK_OAK_LOG
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_STAIRS
+   source: DARK_OAK_PLANKS
+   amount: 1
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+dark_oak_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_SLAB
+   source: DARK_OAK_PLANKS
+   amount: 2
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: DARK_OAK_SLAB
+   source: DARK_OAK_STAIRS
+   amount: 2
+   group: dark_oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_wood_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_JUNGLE_WOOD
+   source: JUNGLE_WOOD
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_JUNGLE_LOG
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_log_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_LOG
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_planks_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_PLANKS
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 16
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_stairs_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_STAIRS
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 16
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_slab_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_SLAB
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 32
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_fence_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_FENCE
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+jungle_wood_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_FENCE_GATE
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_door_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_DOOR
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+jungle_wood_to_button_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_BUTTON
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_wood_to_sign_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_SIGN
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_wood_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_TRAPDOOR
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_wood_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_PRESSURE_PLATE
+   source: JUNGLE_WOOD, STRIPPED_JUNGLE_WOOD
+   amount: 4
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_JUNGLE_LOG
+   source: JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_planks_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_PLANKS
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 2
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_stairs_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_STAIRS
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 2
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_slab_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_SLAB
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 8
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_fence_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_FENCE
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+jungle_log_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_FENCE_GATE
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_door_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_DOOR
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+jungle_log_to_button_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_BUTTON
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_log_to_sign_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_SIGN
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_log_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_TRAPDOOR
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_log_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_PRESSURE_PLATE
+   source: JUNGLE_LOG, STRIPPED_JUNGLE_LOG
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_STAIRS
+   source: JUNGLE_PLANKS
+   amount: 1
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+jungle_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_SLAB
+   source: JUNGLE_PLANKS
+   amount: 2
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: JUNGLE_SLAB
+   source: JUNGLE_STAIRS
+   amount: 2
+   group: jungle_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_wood_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_SPRUCE_WOOD
+   source: SPRUCE_WOOD
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_SPRUCE_LOG
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_log_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_LOG
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_planks_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_PLANKS
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 16
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_stairs_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_STAIRS
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 16
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_slab_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_SLAB
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 32
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_fence_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_FENCE
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+spruce_wood_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_FENCE_GATE
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_door_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_DOOR
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+spruce_wood_to_button_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_BUTTON
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_wood_to_sign_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_SIGN
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_wood_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_TRAPDOOR
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_wood_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_PRESSURE_PLATE
+   source: SPRUCE_WOOD, STRIPPED_SPRUCE_WOOD
+   amount: 4
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_SPRUCE_LOG
+   source: SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_planks_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_PLANKS
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 2
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_stairs_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_STAIRS
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 2
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_slab_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_SLAB
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 8
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_fence_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_FENCE
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+spruce_log_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_FENCE_GATE
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_door_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_DOOR
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+spruce_log_to_button_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_BUTTON
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_log_to_sign_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_SIGN
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_log_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_TRAPDOOR
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_log_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_PRESSURE_PLATE
+   source: SPRUCE_LOG, STRIPPED_SPRUCE_LOG
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_STAIRS
+   source: SPRUCE_PLANKS
+   amount: 1
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+spruce_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_SLAB
+   source: SPRUCE_PLANKS
+   amount: 2
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: SPRUCE_SLAB
+   source: SPRUCE_STAIRS
+   amount: 2
+   group: spruce_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
