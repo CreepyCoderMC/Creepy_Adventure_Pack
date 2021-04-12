@@ -6,6 +6,7 @@ CustomStoneCutterRecipes:
    group:
       - acacia_stonecutterrecipes
       - birch_stonecutterrecipes
+      - oak_stonecutterrecipes
       
    contributor:
       - CreepyCoderMC
@@ -68,6 +69,34 @@ CustomStoneCutterRecipes:
       - birch_planks_to_stairs_stonecutterrecipes
       - birch_planks_to_slab_stonecutterrecipes
       - birch_stairs_to_slab_stonecutterrecipes
+      
+      - oak_wood_to_striped_wood_stonecutterrecipes
+      - oak_wood_to_striped_log_stonecutterrecipes
+      - oak_wood_to_log_stonecutterrecipes
+      - oak_wood_to_planks_stonecutterrecipes
+      - oak_wood_to_stairs_stonecutterrecipes
+      - oak_wood_to_slab_stonecutterrecipes
+      - oak_wood_to_fence_stonecutterrecipes
+      - oak_wood_to_fence_gate_stonecutterrecipes
+      - oak_wood_to_door_stonecutterrecipes
+      - oak_wood_to_button_stonecutterrecipes
+      - oak_wood_to_sign_stonecutterrecipes
+      - oak_wood_to_trapdoor_stonecutterrecipes
+      - oak_wood_to_pressure_plate_stonecutterrecipes
+      - oak_log_to_striped_log_stonecutterrecipes
+      - oak_log_to_planks_stonecutterrecipes
+      - oak_log_to_stairs_stonecutterrecipes
+      - oak_log_to_slab_stonecutterrecipes
+      - oak_log_to_fence_stonecutterrecipes
+      - oak_log_to_fence_gate_stonecutterrecipes
+      - oak_log_to_door_stonecutterrecipes
+      - oak_log_to_button_stonecutterrecipes
+      - oak_log_to_sign_stonecutterrecipes
+      - oak_log_to_trapdoor_stonecutterrecipes
+      - oak_log_to_pressure_plate_stonecutterrecipes    
+      - oak_planks_to_stairs_stonecutterrecipes
+      - oak_planks_to_slab_stonecutterrecipes
+      - oak_stairs_to_slab_stonecutterrecipes
        
    structure:
       - enable, boolean
@@ -625,3 +654,282 @@ birch_stairs_to_slab_stonecutterrecipes:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
+   
+   
+   
+   
+   
+   
+   
+   
+oak_wood_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_OAK_WOOD
+   source: OAK_WOOD
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_OAK_LOG
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_log_stonecutterrecipes:
+   enable: true
+   result: OAK_LOG
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_planks_stonecutterrecipes:
+   enable: true
+   result: OAK_PLANKS
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 16
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_stairs_stonecutterrecipes:
+   enable: true
+   result: OAK_STAIRS
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 16
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_slab_stonecutterrecipes:
+   enable: true
+   result: OAK_SLAB
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 32
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_fence_stonecutterrecipes:
+   enable: true
+   result: OAK_FENCE
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+oak_wood_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: OAK_FENCE_GATE
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_door_stonecutterrecipes:
+   enable: true
+   result: OAK_DOOR
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+oak_wood_to_button_stonecutterrecipes:
+   enable: true
+   result: OAK_BUTTON
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+oak_wood_to_sign_stonecutterrecipes:
+   enable: true
+   result: OAK_SIGN
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+oak_wood_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: OAK_TRAPDOOR
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_wood_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: OAK_PRESSURE_PLATE
+   source: OAK_WOOD, STRIPPED_OAK_WOOD
+   amount: 4
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_OAK_LOG
+   source: OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_planks_stonecutterrecipes:
+   enable: true
+   result: OAK_PLANKS
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 2
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_stairs_stonecutterrecipes:
+   enable: true
+   result: OAK_STAIRS
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 2
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_slab_stonecutterrecipes:
+   enable: true
+   result: OAK_SLAB
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 8
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_fence_stonecutterrecipes:
+   enable: true
+   result: OAK_FENCE
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+oak_log_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: OAK_FENCE_GATE
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_door_stonecutterrecipes:
+   enable: true
+   result: OAK_DOOR
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+oak_log_to_button_stonecutterrecipes:
+   enable: true
+   result: OAK_BUTTON
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+oak_log_to_sign_stonecutterrecipes:
+   enable: true
+   result: OAK_SIGN
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+oak_log_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: OAK_TRAPDOOR
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_log_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: OAK_PRESSURE_PLATE
+   source: OAK_LOG, STRIPPED_OAK_LOG
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+oak_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: OAK_STAIRS
+   source: OAK_PLANKS
+   amount: 1
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+oak_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: OAK_SLAB
+   source: OAK_PLANKS
+   amount: 2
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: OAK_SLAB
+   source: OAK_STAIRS
+   amount: 2
+   group: oak_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+   
