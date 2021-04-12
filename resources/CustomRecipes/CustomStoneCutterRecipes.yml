@@ -5,6 +5,7 @@ CustomStoneCutterRecipes:
             
    group:
       - acacia_stonecutterrecipes
+      - birch_stonecutterrecipes
       
    contributor:
       - CreepyCoderMC
@@ -39,6 +40,34 @@ CustomStoneCutterRecipes:
       - acacia_planks_to_stairs_stonecutterrecipes
       - acacia_planks_to_slab_stonecutterrecipes
       - acacia_stairs_to_slab_stonecutterrecipes
+
+      - birch_wood_to_striped_wood_stonecutterrecipes
+      - birch_wood_to_striped_log_stonecutterrecipes
+      - birch_wood_to_log_stonecutterrecipes
+      - birch_wood_to_planks_stonecutterrecipes
+      - birch_wood_to_stairs_stonecutterrecipes
+      - birch_wood_to_slab_stonecutterrecipes
+      - birch_wood_to_fence_stonecutterrecipes
+      - birch_wood_to_fence_gate_stonecutterrecipes
+      - birch_wood_to_door_stonecutterrecipes
+      - birch_wood_to_button_stonecutterrecipes
+      - birch_wood_to_sign_stonecutterrecipes
+      - birch_wood_to_trapdoor_stonecutterrecipes
+      - birch_wood_to_pressure_plate_stonecutterrecipes
+      - birch_log_to_striped_log_stonecutterrecipes
+      - birch_log_to_planks_stonecutterrecipes
+      - birch_log_to_stairs_stonecutterrecipes
+      - birch_log_to_slab_stonecutterrecipes
+      - birch_log_to_fence_stonecutterrecipes
+      - birch_log_to_fence_gate_stonecutterrecipes
+      - birch_log_to_door_stonecutterrecipes
+      - birch_log_to_button_stonecutterrecipes
+      - birch_log_to_sign_stonecutterrecipes
+      - birch_log_to_trapdoor_stonecutterrecipes
+      - birch_log_to_pressure_plate_stonecutterrecipes    
+      - birch_planks_to_stairs_stonecutterrecipes
+      - birch_planks_to_slab_stonecutterrecipes
+      - birch_stairs_to_slab_stonecutterrecipes
        
    structure:
       - enable, boolean
@@ -318,4 +347,281 @@ acacia_stairs_to_slab_stonecutterrecipes:
    group: acacia_stonecutterrecipes
    permission: true
    addedBy: CreepyCoderMC
-   version: 0.3
+   version: 0.3.0
+   
+   
+   
+   
+   
+   
+   
+   
+birch_wood_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_BIRCH_WOOD
+   source: BIRCH_WOOD
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_BIRCH_LOG
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_log_stonecutterrecipes:
+   enable: true
+   result: BIRCH_LOG
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_planks_stonecutterrecipes:
+   enable: true
+   result: BIRCH_PLANKS
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 16
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_stairs_stonecutterrecipes:
+   enable: true
+   result: BIRCH_STAIRS
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 16
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_slab_stonecutterrecipes:
+   enable: true
+   result: BIRCH_SLAB
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 32
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_fence_stonecutterrecipes:
+   enable: true
+   result: BIRCH_FENCE
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+birch_wood_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: BIRCH_FENCE_GATE
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_door_stonecutterrecipes:
+   enable: true
+   result: BIRCH_DOOR
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+birch_wood_to_button_stonecutterrecipes:
+   enable: true
+   result: BIRCH_BUTTON
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_wood_to_sign_stonecutterrecipes:
+   enable: true
+   result: BIRCH_SIGN
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_wood_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: BIRCH_TRAPDOOR
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_wood_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: BIRCH_PRESSURE_PLATE
+   source: BIRCH_WOOD, STRIPPED_BIRCH_WOOD
+   amount: 4
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_BIRCH_LOG
+   source: BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_planks_stonecutterrecipes:
+   enable: true
+   result: BIRCH_PLANKS
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 2
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_stairs_stonecutterrecipes:
+   enable: true
+   result: BIRCH_STAIRS
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 2
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_slab_stonecutterrecipes:
+   enable: true
+   result: BIRCH_SLAB
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 8
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_fence_stonecutterrecipes:
+   enable: true
+   result: BIRCH_FENCE
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+birch_log_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: BIRCH_FENCE_GATE
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_door_stonecutterrecipes:
+   enable: true
+   result: BIRCH_DOOR
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+birch_log_to_button_stonecutterrecipes:
+   enable: true
+   result: BIRCH_BUTTON
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_log_to_sign_stonecutterrecipes:
+   enable: true
+   result: BIRCH_SIGN
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_log_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: BIRCH_TRAPDOOR
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_log_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: BIRCH_PRESSURE_PLATE
+   source: BIRCH_LOG, STRIPPED_BIRCH_LOG
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: BIRCH_STAIRS
+   source: BIRCH_PLANKS
+   amount: 1
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+birch_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: BIRCH_SLAB
+   source: BIRCH_PLANKS
+   amount: 2
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+birch_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: BIRCH_SLAB
+   source: BIRCH_STAIRS
+   amount: 2
+   group: birch_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
