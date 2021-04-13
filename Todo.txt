@@ -1,21 +1,27 @@
-https://www.youtube.com/watch?v=oy7R-v7H17w&t=149s
+0.3.0
 
-STONECUTTER
 SAPLING GROW AREA
 DISPENCER PLANT SAPLING
 BURNED OUT WOOD GIVES CHARCOAL
-
+sapling place with dispencer
+change wood stuff (playerinteract)
+change striped back (playerinteract)
+firecharge (crafting)
 
 
 0.4.0
 POTPLANT BONE MEAL
 
 
-wrapper for custom events (2)
 
+
+Other
+
+wrapper for custom events (2)
+debug stick
 SAPLINGS DONT GROW
 FIREPROOF WOOD
-
+debug stick
 https://www.spigotmc.org/resources/portable-crafting-inventories-completely-customizable.61045/
 
 some yml use particle instead of effect
@@ -32,7 +38,7 @@ To Add
 add put cake on scafholding
 
 
-
+https://www.youtube.com/watch?v=oy7R-v7H17w&t=149s
 Growing chorus flowers, cactus*, sugar canes, nether wart, and vines
 Generating melons and pumpkins from their mature stems
 

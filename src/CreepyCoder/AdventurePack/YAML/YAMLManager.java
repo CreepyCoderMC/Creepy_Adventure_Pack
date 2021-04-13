@@ -19,6 +19,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
+import CreepyCoder.AdventurePack.CustomEvent.CustomBlockBurnEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomBlockFadeEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomDispenserEvent;
 import CreepyCoder.AdventurePack.CustomEvent.CustomItemSpawnEvent;
@@ -256,6 +257,9 @@ public class YAMLManager {
 				break;
 			case "CustomSmitingTableRecipes":
 				@SuppressWarnings("unused") CustomSmitingTableRecipe CustomSmitingTableRecipe = new CustomSmitingTableRecipe(plugin, dataConfig);
+				break;
+			case "CustomBlockBurnEvent":
+				plugin.getServer().getPluginManager().registerEvents(new CustomBlockBurnEvent(plugin, dataConfig), plugin);
 				break;
 		}
 	}

@@ -1,0 +1,35 @@
+CustomBlockBurnEvent:
+
+   version:
+      - 0.3.0
+      
+   group:
+      # Version 0.3.0
+      - acacia_blockburnevent
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+      
+   key:
+      # Version 0.3.0
+      - acacia_blockburnevent
+      
+   structure:
+      - enable, boolean
+      - source, material
+      - drop, material
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+acacia_blockburnevent:
+   enable: true
+   source: ACACIA_BOAT, ACACIA_LOG, ACACIA_BUTTON, ACACIA_DOOR, ACACIA_FENCE, ACACIA_FENCE_GATE, ACACIA_PLANKS, ACACIA_PRESSURE_PLATE, ACACIA_SIGN, ACACIA_SLAB, ACACIA_STAIRS, ACACIA_TRAPDOOR, ACACIA_WALL_SIGN, ACACIA_WOOD, ACACIA_SAPLING
+   drop: CHARCOAL
+   group: acacia_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  

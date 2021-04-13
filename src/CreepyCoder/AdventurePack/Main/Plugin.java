@@ -19,6 +19,7 @@ public class Plugin extends JavaPlugin {
 		YAMLManager.LoadYAML("CustomTreeGrowEvent.yml","resources/CustomEvents/");
 		YAMLManager.LoadYAML("CustomLeavesDropEvent.yml","resources/CustomEvents/");
 		YAMLManager.LoadYAML("CustomItemSpawnEvent.yml","resources/CustomEvents/");
+		YAMLManager.LoadYAML("CustomBlockBurnEvent.yml","resources/CustomEvents/");
 		
 		YAMLManager.LoadYAML("CustomCraftRecipes.yml","resources/CustomRecipes/");
 		YAMLManager.LoadYAML("CustomCampfireRecipes.yml","resources/CustomRecipes/");
