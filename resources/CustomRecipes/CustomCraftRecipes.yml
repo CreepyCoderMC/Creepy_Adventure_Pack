@@ -8729,7 +8729,7 @@ reverse_craft_dark_oak_sign_crafting:
 convert_logs_and_stem_with_fire_charge_crafting:
    enable: true
    shaped: true
-   result: Charcoal
+   result: CHARCOAL
    amount: 8
    ingredientA: OAK_LOG, ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM
    ingredientB: OAK_LOG, ACACIA_LOG, BIRCH_LOG, DARK_OAK_LOG, JUNGLE_LOG, SPRUCE_LOG, CRIMSON_STEM, WARPED_STEM

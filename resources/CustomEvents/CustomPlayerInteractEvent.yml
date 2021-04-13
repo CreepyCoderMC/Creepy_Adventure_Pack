@@ -5872,7 +5872,7 @@ turn_stripped_warped_hyphae_to_warped_hyphae_playerinteract:
    keyPress: none
    source: STRIPPED_WARPED_HYPHAE
    result: WARPED_HYPHAE
-   itemUsed: TWISTED_VINES
+   itemUsed: TWISTING_VINES
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: false
@@ -5921,8 +5921,8 @@ turn_stripped_birch_log_to_birch_log_playerinteract:
 turn_stripped_spruce_log_to_spruce_log_playerinteract:
    enable: true
    keyPress: none
-   source: STRIPPED_SPURCE_LOG
-   result: SPURCE_LOG
+   source: STRIPPED_SPRUCE_LOG
+   result: SPRUCE_LOG
    itemUsed: DEAD_BUSH
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
@@ -6008,7 +6008,7 @@ turn_stripped_warped_stem_to_warped_stem_playerinteract:
    keyPress: none
    source: STRIPPED_WARPED_STEM
    result: WARPED_STEM
-   itemUsed: TWISTED_VINES
+   itemUsed: TWISTING_VINES
    itemReduce: true
    particle: VILLAGER_PLANT_GROW
    drop: false
