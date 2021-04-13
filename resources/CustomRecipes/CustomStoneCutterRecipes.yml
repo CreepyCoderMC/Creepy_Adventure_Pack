@@ -10,6 +10,8 @@ CustomStoneCutterRecipes:
       - dark_oak_stonecutterrecipes
       - jungle_stonecutterrecipes
       - spruce_stonecutterrecipes
+      - crimson_stonecutterrecipes
+      - warped_stonecutterrecipes
       
    contributor:
       - CreepyCoderMC
@@ -179,6 +181,60 @@ CustomStoneCutterRecipes:
       - spruce_planks_to_stairs_stonecutterrecipes
       - spruce_planks_to_slab_stonecutterrecipes
       - spruce_stairs_to_slab_stonecutterrecipes
+      - crimson_hyphae_to_striped_wood_stonecutterrecipes
+      - crimson_hyphae_to_striped_log_stonecutterrecipes
+      - crimson_hyphae_to_log_stonecutterrecipes
+      - crimson_hyphae_to_planks_stonecutterrecipes
+      - crimson_hyphae_to_stairs_stonecutterrecipes
+      - crimson_hyphae_to_slab_stonecutterrecipes
+      - crimson_hyphae_to_fence_stonecutterrecipes
+      - crimson_hyphae_to_fence_gate_stonecutterrecipes
+      - crimson_hyphae_to_door_stonecutterrecipes
+      - crimson_hyphae_to_button_stonecutterrecipes
+      - crimson_hyphae_to_sign_stonecutterrecipes
+      - crimson_hyphae_to_trapdoor_stonecutterrecipes
+      - crimson_hyphae_to_pressure_plate_stonecutterrecipes
+      - crimson_stem_to_striped_log_stonecutterrecipes
+      - crimson_stem_to_planks_stonecutterrecipes
+      - crimson_stem_to_stairs_stonecutterrecipes
+      - crimson_stem_to_slab_stonecutterrecipes
+      - crimson_stem_to_fence_stonecutterrecipes
+      - crimson_stem_to_fence_gate_stonecutterrecipes
+      - crimson_stem_to_door_stonecutterrecipes
+      - crimson_stem_to_button_stonecutterrecipes
+      - crimson_stem_to_sign_stonecutterrecipes
+      - crimson_stem_to_trapdoor_stonecutterrecipes
+      - crimson_stem_to_pressure_plate_stonecutterrecipes    
+      - crimson_planks_to_stairs_stonecutterrecipes
+      - crimson_planks_to_slab_stonecutterrecipes
+      - crimson_stairs_to_slab_stonecutterrecipes
+      - warped_hyphae_to_striped_wood_stonecutterrecipes
+      - warped_hyphae_to_striped_log_stonecutterrecipes
+      - warped_hyphae_to_log_stonecutterrecipes
+      - warped_hyphae_to_planks_stonecutterrecipes
+      - warped_hyphae_to_stairs_stonecutterrecipes
+      - warped_hyphae_to_slab_stonecutterrecipes
+      - warped_hyphae_to_fence_stonecutterrecipes
+      - warped_hyphae_to_fence_gate_stonecutterrecipes
+      - warped_hyphae_to_door_stonecutterrecipes
+      - warped_hyphae_to_button_stonecutterrecipes
+      - warped_hyphae_to_sign_stonecutterrecipes
+      - warped_hyphae_to_trapdoor_stonecutterrecipes
+      - warped_hyphae_to_pressure_plate_stonecutterrecipes
+      - warped_stem_to_striped_log_stonecutterrecipes
+      - warped_stem_to_planks_stonecutterrecipes
+      - warped_stem_to_stairs_stonecutterrecipes
+      - warped_stem_to_slab_stonecutterrecipes
+      - warped_stem_to_fence_stonecutterrecipes
+      - warped_stem_to_fence_gate_stonecutterrecipes
+      - warped_stem_to_door_stonecutterrecipes
+      - warped_stem_to_button_stonecutterrecipes
+      - warped_stem_to_sign_stonecutterrecipes
+      - warped_stem_to_trapdoor_stonecutterrecipes
+      - warped_stem_to_pressure_plate_stonecutterrecipes    
+      - warped_planks_to_stairs_stonecutterrecipes
+      - warped_planks_to_slab_stonecutterrecipes
+      - warped_stairs_to_slab_stonecutterrecipes
        
    structure:
       - enable, boolean
@@ -1809,4 +1865,544 @@ spruce_stairs_to_slab_stonecutterrecipes:
    permission: true
    addedBy: CreepyCoderMC
    version: 0.3.0
+
+crimson_hyphae_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_CRIMSON_HYPHAE
+   source: CRIMSON_HYPHAE
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_CRIMSON_STEM
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_log_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_STEM
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_planks_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_PLANKS
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 16
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_stairs_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_STAIRS
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 16
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_slab_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_SLAB
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 32
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_fence_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_FENCE
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
      
+crimson_hyphae_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_FENCE_GATE
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_door_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_DOOR
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+crimson_hyphae_to_button_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_BUTTON
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+crimson_hyphae_to_sign_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_SIGN
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+crimson_hyphae_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_TRAPDOOR
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_hyphae_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_PRESSURE_PLATE
+   source: CRIMSON_HYPHAE, STRIPPED_CRIMSON_HYPHAE
+   amount: 4
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_CRIMSON_STEM
+   source: CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_planks_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_PLANKS
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 2
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_stairs_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_STAIRS
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 2
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_slab_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_SLAB
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 8
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_fence_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_FENCE
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+crimson_stem_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_FENCE_GATE
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_door_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_DOOR
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+crimson_stem_to_button_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_BUTTON
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+crimson_stem_to_sign_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_SIGN
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+crimson_stem_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_TRAPDOOR
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stem_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_PRESSURE_PLATE
+   source: CRIMSON_STEM, STRIPPED_CRIMSON_STEM
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+crimson_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_STAIRS
+   source: CRIMSON_PLANKS
+   amount: 1
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+crimson_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_SLAB
+   source: CRIMSON_PLANKS
+   amount: 2
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+crimson_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: CRIMSON_SLAB
+   source: CRIMSON_STAIRS
+   amount: 2
+   group: crimson_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_hyphae_to_striped_wood_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_WARPED_HYPHAE
+   source: WARPED_HYPHAE
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_WARPED_STEM
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_log_stonecutterrecipes:
+   enable: true
+   result: WARPED_STEM
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_planks_stonecutterrecipes:
+   enable: true
+   result: WARPED_PLANKS
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 16
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_stairs_stonecutterrecipes:
+   enable: true
+   result: WARPED_STAIRS
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 16
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_slab_stonecutterrecipes:
+   enable: true
+   result: WARPED_SLAB
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 32
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_fence_stonecutterrecipes:
+   enable: true
+   result: WARPED_FENCE
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+warped_hyphae_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: WARPED_FENCE_GATE
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_door_stonecutterrecipes:
+   enable: true
+   result: WARPED_DOOR
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+warped_hyphae_to_button_stonecutterrecipes:
+   enable: true
+   result: WARPED_BUTTON
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_hyphae_to_sign_stonecutterrecipes:
+   enable: true
+   result: WARPED_SIGN
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_hyphae_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: WARPED_TRAPDOOR
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_hyphae_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: WARPED_PRESSURE_PLATE
+   source: WARPED_HYPHAE, STRIPPED_WARPED_HYPHAE
+   amount: 4
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_striped_log_stonecutterrecipes:
+   enable: true
+   result: STRIPPED_WARPED_STEM
+   source: WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_planks_stonecutterrecipes:
+   enable: true
+   result: WARPED_PLANKS
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 2
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_stairs_stonecutterrecipes:
+   enable: true
+   result: WARPED_STAIRS
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 2
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_slab_stonecutterrecipes:
+   enable: true
+   result: WARPED_SLAB
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 8
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_fence_stonecutterrecipes:
+   enable: true
+   result: WARPED_FENCE
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+warped_stem_to_fence_gate_stonecutterrecipes:
+   enable: true
+   result: WARPED_FENCE_GATE
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_door_stonecutterrecipes:
+   enable: true
+   result: WARPED_DOOR
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
+warped_stem_to_button_stonecutterrecipes:
+   enable: true
+   result: WARPED_BUTTON
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_stem_to_sign_stonecutterrecipes:
+   enable: true
+   result: WARPED_SIGN
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_stem_to_trapdoor_stonecutterrecipes:
+   enable: true
+   result: WARPED_TRAPDOOR
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stem_to_pressure_plate_stonecutterrecipes:
+   enable: true
+   result: WARPED_PRESSURE_PLATE
+   source: WARPED_STEM, STRIPPED_WARPED_STEM
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_planks_to_stairs_stonecutterrecipes:
+   enable: true
+   result: WARPED_STAIRS
+   source: WARPED_PLANKS
+   amount: 1
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+
+warped_planks_to_slab_stonecutterrecipes:
+   enable: true
+   result: WARPED_SLAB
+   source: WARPED_PLANKS
+   amount: 2
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+warped_stairs_to_slab_stonecutterrecipes:
+   enable: true
+   result: WARPED_SLAB
+   source: WARPED_STAIRS
+   amount: 2
+   group: warped_stonecutterrecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+  
