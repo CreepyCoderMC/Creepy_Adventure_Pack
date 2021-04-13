@@ -29,6 +29,9 @@ CustomPlayerInteractEvent:
       - turn_pressure_plate_to_charcoal_playerinteract
       - turn_fence_to_charcoal_playerinteract
       - turn_stripped_wood_to_wood_playerinteract
+      - turn_stripped_hyphae_to_hyphae_playerinteract
+      - turn_stripped_log_to_log_playerinteract
+      - turn_stripped_stem_to_stem_playerinteract
       
    contributor:
       - CreepyCoderMC
@@ -359,6 +362,16 @@ CustomPlayerInteractEvent:
       - turn_stripped_jungle_wood_to_jungle_wood_playerinteract
       - turn_stripped_acacia_wood_to_acacia_wood_playerinteract
       - turn_stripped_dark_oak_wood_to_dark_oak_wood_playerinteract
+      - turn_stripped_crimson_hyphae_to_crimson_hyphae_playerinteract
+      - turn_stripped_warped_hyphae_to_warped_hyphae_playerinteract
+      - turn_stripped_oak_log_to_oak_log_playerinteract
+      - turn_stripped_birch_log_to_birch_log_playerinteract
+      - turn_stripped_spruce_log_to_spruce_log_playerinteract
+      - turn_stripped_jungle_log_to_jungle_log_playerinteract
+      - turn_stripped_acacia_log_to_acacia_log_playerinteract
+      - turn_stripped_dark_oak_log_to_dark_oak_log_playerinteract
+      - turn_stripped_crimson_stem_to_crimson_stem_playerinteract
+      - turn_stripped_warped_stem_to_warped_stem_playerinteract
 
    structure:
       - enable, boolean
@@ -5742,7 +5755,7 @@ turn_stripped_oak_wood_to_oak_wood_playerinteract:
    result: OAK_WOOD
    itemUsed: DEAD_BUSH
    itemReduce: true
-   particle: MOBSPAWNER_FLAMES
+   particle: VILLAGER_PLANT_GROW
    drop: false
    inventoryAdd: false
    replace: true
@@ -5759,7 +5772,7 @@ turn_stripped_birch_wood_to_birch_wood_playerinteract:
    result: BIRCH_WOOD
    itemUsed: DEAD_BUSH
    itemReduce: true
-   particle: MOBSPAWNER_FLAMES
+   particle: VILLAGER_PLANT_GROW
    drop: false
    inventoryAdd: false
    replace: true
@@ -5776,7 +5789,7 @@ turn_stripped_spruce_wood_to_spruce_wood_playerinteract:
    result: SPRUCE_WOOD
    itemUsed: DEAD_BUSH
    itemReduce: true
-   particle: MOBSPAWNER_FLAMES
+   particle: VILLAGER_PLANT_GROW
    drop: false
    inventoryAdd: false
    replace: true
@@ -5793,7 +5806,7 @@ turn_stripped_jungle_wood_to_jungle_wood_playerinteract:
    result: JUNGLE_WOOD
    itemUsed: DEAD_BUSH
    itemReduce: true
-   particle: MOBSPAWNER_FLAMES
+   particle: VILLAGER_PLANT_GROW
    drop: false
    inventoryAdd: false
    replace: true
@@ -5810,7 +5823,7 @@ turn_stripped_acacia_wood_to_acacia_wood_playerinteract:
    result: ACACIA_WOOD
    itemUsed: DEAD_BUSH
    itemReduce: true
-   particle: MOBSPAWNER_FLAMES
+   particle: VILLAGER_PLANT_GROW
    drop: false
    inventoryAdd: false
    replace: true
@@ -5827,12 +5840,182 @@ turn_stripped_dark_oak_wood_to_dark_oak_wood_playerinteract:
    result: DARK_OAK_WOOD
    itemUsed: DEAD_BUSH
    itemReduce: true
-   particle: MOBSPAWNER_FLAMES
+   particle: VILLAGER_PLANT_GROW
    drop: false
    inventoryAdd: false
    replace: true
    break: false
    group: turn_stripped_wood_to_wood_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_crimson_hyphae_to_crimson_hyphae_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_CRIMSON_HYPHAE
+   result: CRIMSON_HYPHAE
+   itemUsed: WEEPING_VINES
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_hyphae_to_hyphae_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_warped_hyphae_to_warped_hyphae_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_WARPED_HYPHAE
+   result: WARPED_HYPHAE
+   itemUsed: TWISTED_VINES
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_hyphae_to_hyphae_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_oak_log_to_oak_log_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_OAK_LOG
+   result: OAK_LOG
+   itemUsed: DEAD_BUSH
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_log_to_log_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_birch_log_to_birch_log_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_BIRCH_LOG
+   result: BIRCH_LOG
+   itemUsed: DEAD_BUSH
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_log_to_log_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_spruce_log_to_spruce_log_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_SPURCE_LOG
+   result: SPURCE_LOG
+   itemUsed: DEAD_BUSH
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_log_to_log_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_jungle_log_to_jungle_log_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_JUNGLE_LOG
+   result: JUNGLE_LOG
+   itemUsed: DEAD_BUSH
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_log_to_log_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_acacia_log_to_acacia_log_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_ACACIA_LOG
+   result: ACACIA_LOG
+   itemUsed: DEAD_BUSH
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_log_to_log_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+     
+turn_stripped_dark_oak_log_to_dark_oak_log_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_DARK_OAK_LOG
+   result: DARK_OAK_LOG
+   itemUsed: DEAD_BUSH
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_log_to_log_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_crimson_stem_to_crimson_stem_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_CRIMSON_STEM
+   result: CRIMSON_STEM
+   itemUsed: WEEPING_VINES
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_stem_to_stem_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_warped_stem_to_warped_stem_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_WARPED_STEM
+   result: WARPED_STEM
+   itemUsed: TWISTED_VINES
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: turn_stripped_stem_to_stem_playerinteract
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
