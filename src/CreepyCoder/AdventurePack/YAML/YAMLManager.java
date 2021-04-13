@@ -31,6 +31,7 @@ import CreepyCoder.AdventurePack.CustomRecipes.CustomBlastFurnaceRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomCampfireRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomCraftRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomFurnaceRecipe;
+import CreepyCoder.AdventurePack.CustomRecipes.CustomSmitingTableRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomSmokerRecipe;
 import CreepyCoder.AdventurePack.CustomRecipes.CustomStoneCutterRecipe;
 
@@ -252,6 +253,9 @@ public class YAMLManager {
 				break;
 			case "CustomStoneCutterRecipes":
 				@SuppressWarnings("unused") CustomStoneCutterRecipe CustomStoneCutterRecipe = new CustomStoneCutterRecipe(plugin, dataConfig);
+				break;
+			case "CustomSmitingTableRecipes":
+				@SuppressWarnings("unused") CustomSmitingTableRecipe CustomSmitingTableRecipe = new CustomSmitingTableRecipe(plugin, dataConfig);
 				break;
 		}
 	}

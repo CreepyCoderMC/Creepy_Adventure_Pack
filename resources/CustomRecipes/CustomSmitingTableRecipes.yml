@@ -1,0 +1,69 @@
+CustomSmitingTableRecipes:
+
+   version:
+      - 0.3.0
+            
+   group:
+      - tools_smitingtablerecipes
+      
+   contributor:
+      - CreepyCoderMC
+      - Killerblade347
+         
+   key:
+      # Version 0.3.0
+      - stone_axe_smittingtablerecipes
+      - iron_axe_smittingtablerecipes
+      - gold_axe_smittingtablerecipes
+      - diamond_axe_smittingtablerecipes
+       
+   structure:
+      - enable, boolean
+      - result, material
+      - source, material
+      - addition, material
+      - group, group
+      - permission, boolean
+      - addedBy, contributor
+      - version, version
+      
+stone_axe_smittingtablerecipes:
+   enable: true
+   result: STONE_AXE
+   source: WOODEN_AXE
+   addition: COBBLESTONE, BLACKSTONE
+   group: tools_smitingtablerecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+iron_axe_smittingtablerecipes:
+   enable: true
+   result: IRON_AXE
+   source: STONE_AXE
+   addition: IRON_INGOT
+   group: tools_smitingtablerecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+gold_axe_smittingtablerecipes:
+   enable: true
+   result: GOLDEN_AXE
+   source: IRON_AXE
+   addition: GOLD_INGOT
+   group: tools_smitingtablerecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
+diamond_axe_smittingtablerecipes:
+   enable: true
+   result: DIAMOND_AXE
+   source: GOLDEN_AXE
+   addition: DIAMOND
+   group: tools_smitingtablerecipes
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+     
