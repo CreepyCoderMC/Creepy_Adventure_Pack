@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.logging.Level;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -13,7 +14,7 @@ import org.bukkit.event.block.BlockFadeEvent;
 import org.bukkit.plugin.Plugin;
 
 public class CustomBlockFadeEvent implements Listener {
-
+	
 	public Plugin plugin;
 	public FileConfiguration dataConfig;
 	
@@ -38,6 +39,8 @@ public class CustomBlockFadeEvent implements Listener {
 	
 	@EventHandler
 	public void blockFade(BlockFadeEvent event) {
+		
+		if(event.getBlock().getType() == Material.FIRE) return;
 		
 		for(Iterator<String> i = this.KeyList.iterator(); i.hasNext(); ) {
 			String key = i.next();
