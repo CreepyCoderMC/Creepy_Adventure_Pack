@@ -37,7 +37,7 @@ acacia_sapling_replant_customitemspawnevent:
    source: ACACIA_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: ACACIA_LEAVES
+   fromBlock: ACACIA_LEAVES, AIR
    delay: 200
    permission: true
    addedBy: CreepyCoderMC
@@ -49,7 +49,7 @@ birch_sapling_replant_customitemspawnevent:
    source: BIRCH_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: BIRCH_LEAVES
+   fromBlock: BIRCH_LEAVES, AIR
    delay: 200
    permission: true
    addedBy: CreepyCoderMC
@@ -61,7 +61,7 @@ dark_oak_sapling_replant_customitemspawnevent:
    source: DARK_OAK_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: DARK_OAK_LEAVES
+   fromBlock: DARK_OAK_LEAVES, AIR
    delay: 200
    permission: true
    addedBy: CreepyCoderMC
@@ -73,7 +73,7 @@ jungle_sapling_replant_customitemspawnevent:
    source: JUNGLE_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: JUNGLE_LEAVES
+   fromBlock: JUNGLE_LEAVES, AIR
    delay: 200
    permission: true
    addedBy: CreepyCoderMC
@@ -85,7 +85,7 @@ oak_sapling_replant_customitemspawnevent:
    source: OAK_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: OAK_LEAVES
+   fromBlock: OAK_LEAVES, AIR
    delay: 200
    permission: true
    addedBy: CreepyCoderMC
@@ -97,7 +97,7 @@ spruce_sapling_replant_customitemspawnevent:
    source: SPRUCE_SAPLING
    onBlock: DIRT, GRASS_BLOCK, PODZOL
    action: DROPPED_ITEM
-   fromBlock: SPRUCE_LEAVES
+   fromBlock: SPRUCE_LEAVES, AIR
    delay: 200
    permission: true
    addedBy: CreepyCoderMC

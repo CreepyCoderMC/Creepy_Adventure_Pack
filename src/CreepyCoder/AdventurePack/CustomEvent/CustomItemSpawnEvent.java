@@ -60,8 +60,8 @@ public class CustomItemSpawnEvent implements Listener {
 				this.OnBlock = dataConfig.getString(key+".onBlock");
 				this.FromBlock = dataConfig.getString(key+".fromBlock");
 				this.Delay = dataConfig.getLong(key+".delay");
-				
-				if(event.getLocation().getBlock().getType().toString().equals(this.FromBlock)) {
+	
+				if(this.FromBlock.contains(event.getLocation().getBlock().getType().toString())) {
 					if(event.getEntity().getItemStack().getType().toString().equals(this.Source)) {
 						String tempOnBlock = this.OnBlock;
 							new BukkitRunnable() {

@@ -2,12 +2,12 @@
 
 SAPLING GROW AREA
 DISPENCER PLANT SAPLING
-BURNED OUT WOOD GIVES CHARCOAL
+
 sapling place with dispencer
 change wood stuff (playerinteract)
 change striped back (playerinteract)
 firecharge (crafting)
-
+bed color change (crafting table)
 
 0.4.0
 POTPLANT BONE MEAL
