@@ -17,13 +17,13 @@ CustomLeavesDropEvent:
       - dark_oak_leavesdropevent
       - jungle_leavesdropevent
       - oak_leavesdropevent
-      - spurce_leavesdropevent
+      - spruce_leavesdropevent
       - acacia_special_leavesdropevent
       - birch_special_leavesdropevent
       - dark_oak_special_leavesdropevent
       - jungle_special_leavesdropevent
       - oak_special_leavesdropevent
-      - spurce_special_leavesdropevent
+      - spruce_special_leavesdropevent
       
    structure:
       - enable, boolean
@@ -85,7 +85,7 @@ oak_leavesdropevent:
    addedBy: CreepyCoderMC
    version: 0.3.0 
    
-spurce_leavesdropevent:
+spruce_leavesdropevent:
    enable: true
    source: SPRUCE_LEAVES 
    drops: SPRUCE_LEAVES, COBWEB, FEATHER, HONEYCOMB, PHANTOM_MEMBRANE, STRING
@@ -145,7 +145,7 @@ oak_special_leavesdropevent:
    addedBy: CreepyCoderMC
    version: 0.3.0 
    
-spurce_special_leavesdropevent:
+spruce_special_leavesdropevent:
    enable: true
    source: SPRUCE_LEAVES 
    drops: VINE

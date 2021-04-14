@@ -6,6 +6,12 @@ CustomBlockBurnEvent:
    group:
       # Version 0.3.0
       - acacia_blockburnevent
+      - birch_blockburnevent
+      - dark_oak_blockburnevent
+      - jungle_blockburnevent
+      - oak_blockburnevent
+      - spruce_blockburnevent
+      - other_blockburnevent
       
    contributor:
       - CreepyCoderMC
@@ -14,6 +20,12 @@ CustomBlockBurnEvent:
    key:
       # Version 0.3.0
       - acacia_blockburnevent
+      - birch_blockburnevent
+      - dark_oak_blockburnevent
+      - jungle_blockburnevent
+      - oak_blockburnevent
+      - spruce_blockburnevent
+      - other_blockburnevent
       
    structure:
       - enable, boolean
@@ -33,3 +45,56 @@ acacia_blockburnevent:
    addedBy: CreepyCoderMC
    version: 0.3.0
   
+birch_blockburnevent:
+   enable: true
+   source: BIRCH_BOAT, BIRCH_LOG, BIRCH_BUTTON, BIRCH_DOOR, BIRCH_FENCE, BIRCH_FENCE_GATE, BIRCH_PLANKS, BIRCH_PRESSURE_PLATE, BIRCH_SIGN, BIRCH_SLAB, BIRCH_STAIRS, BIRCH_TRAPDOOR, BIRCH_WALL_SIGN, BIRCH_WOOD, BIRCH_SAPLING
+   drop: CHARCOAL
+   group: birch_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+dark_oak_blockburnevent:
+   enable: true
+   source: DARK_OAK_BOAT, DARK_OAK_LOG, DARK_OAK_BUTTON, DARK_OAK_DOOR, DARK_OAK_FENCE, DARK_OAK_FENCE_GATE, DARK_OAK_PLANKS, DARK_OAK_PRESSURE_PLATE, DARK_OAK_SIGN, DARK_OAK_SLAB, DARK_OAK_STAIRS, DARK_OAK_TRAPDOOR, DARK_OAK_WALL_SIGN, DARK_OAK_WOOD, DARK_OAK_SAPLING
+   drop: CHARCOAL
+   group: dark_oak_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+jungle_blockburnevent:
+   enable: true
+   source: JUNGLE_BOAT, JUNGLE_LOG, JUNGLE_BUTTON, JUNGLE_DOOR, JUNGLE_FENCE, JUNGLE_FENCE_GATE, JUNGLE_PLANKS, JUNGLE_PRESSURE_PLATE, JUNGLE_SIGN, JUNGLE_SLAB, JUNGLE_STAIRS, JUNGLE_TRAPDOOR, JUNGLE_WALL_SIGN, JUNGLE_WOOD, JUNGLE_SAPLING
+   drop: CHARCOAL
+   group: jungle_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+oak_blockburnevent:
+   enable: true
+   source: OAK_BOAT, OAK_LOG, OAK_BUTTON, OAK_DOOR, OAK_FENCE, OAK_FENCE_GATE, OAK_PLANKS, OAK_PRESSURE_PLATE, OAK_SIGN, OAK_SLAB, OAK_STAIRS, OAK_TRAPDOOR, OAK_WALL_SIGN, OAK_WOOD, OAK_SAPLING
+   drop: CHARCOAL
+   group: oak_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+spruce_blockburnevent:
+   enable: true
+   source: SPRUCE_BOAT, SPRUCE_LOG, SPRUCE_BUTTON, SPRUCE_DOOR, SPRUCE_FENCE, SPRUCE_FENCE_GATE, SPRUCE_PLANKS, SPRUCE_PRESSURE_PLATE, SPRUCE_SIGN, SPRUCE_SLAB, SPRUCE_STAIRS, SPRUCE_TRAPDOOR, SPRUCE_WALL_SIGN, SPRUCE_WOOD, SPRUCE_SAPLING
+   drop: CHARCOAL
+   group: spruce_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
+   
+other_blockburnevent:
+   enable: true
+   source: BOOKSHELF, COMPOSTER, HAY_BLOCK
+   drop: CHARCOAL
+   group: other_blockburnevent
+   permission: true
+   addedBy: CreepyCoderMC
+   version: 0.3.0
