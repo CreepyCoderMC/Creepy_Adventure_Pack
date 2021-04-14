@@ -3,7 +3,6 @@
 SAPLING GROW AREA
 DISPENCER PLANT SAPLING
 
-sapling place with dispencer
 change wood stuff (playerinteract)
 change striped back (playerinteract)
 firecharge (crafting)
