@@ -4,10 +4,10 @@ Version 0.1.0 (Flower Expansion) - Released 2021/02/13
 	- Wither rose can be bone meal by hand using poisenous potato (1 Interactions Added)
 	- Wither rose can be bone meal by dispenser using poisenous potato (1 Interactions Added)
 	
-Version 0.2.0 (Coral Expansion) - Released ???
+Version 0.2.0 (Coral Expansion) - Released 2021/03/17
 	- Coral Plants(Living) can be bone meal by dispenser (20 Interactions Added)
 	- Coral Plants(Living) can be bone meal by hand (20 Interactions Added)
-New	- Dead Coral Plants can be bone meal by hand (20 Interactions Added)
+	- Dead Coral Plants can be bone meal by hand (20 Interactions Added)
 	- Dead coral can be made live coral by phantom membrain applied by dispenser (20 Dispenser Actions Added)
 	- Dead coral can be made live coral by phantom membrain applied by hand (20 Interactions Added)
 	- Dead coral can be made live coral by phantom membrain applied by craft table (15 Crafting Recipes Added)
@@ -24,20 +24,13 @@ New	- Dead Coral Plants can be bone meal by hand (20 Interactions Added)
 	* BUG FIX: Dispensers did not always remove last item from dispenser
 	* BUG FIX: Sometimes interact with blocks twice when have items in both hands
 	
-	
-	
-
-https://www.youtube.com/watch?v=bONATOUrDig
-	dead tweek bonemeal depends on soil
-apples drops from trees
-rare gold apple drop
-https://www.youtube.com/watch?v=GV3MLGHiy7Q
-
-	
-	
-	- Lily pads can be bone meal by hand or dispencer
-	- Sea pickle can be bone meal by hand or dispencer
-	add flower dye
-	add big flower craft
-	
-	
+Version 0.3.0 (Trees and Wood Expansion) - Released (Coming Soon)
+	- Fungus stems and hyphae can be turned to charcoal with blast fernace (8 Blast Fernace Recipes Added)
+	- Wood and logs can be turned to charcoal with blast fernace (24 Blast Fernace Recipes Added)
+	- Fungus stems and hyphae can be turned to charcoal with campfire (8 Campfire Recipes Added)
+	- Wood and logs can be turned to charcoal with campfire (24 Campfire Recipes Added)
+	- Saplings can be turned to charcoal with campfire (6 Campfire Recipes Added)
+	- Saplings can be turned to dead bush with furnace (6 Furnace Recipes Added)
+	- Saplings can be turned to dead bush with smoker (6 Smoker Recipes Added)
+	- Axe can be upgraded via smiting table (4 Smiting Table Recipes Added)
+	- All wood en hyphea can be cut with stone cutter (216 Stone Cutter recipes Added)
