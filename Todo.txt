@@ -16,6 +16,8 @@ POTPLANT BONE MEAL
 
 Other
 
+
+ice melts in certain biomes.
 wrapper for custom events (2)
 debug stick
 SAPLINGS DONT GROW
