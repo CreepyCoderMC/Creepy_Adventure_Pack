@@ -56,6 +56,8 @@ CustomCraftRecipes:
       - reverse_craft_acacia_type_crafting
       - reverse_craft_dark_oak_type_crafting
       - convert_all_wood_types_with_fire_charge_crafting
+      - reverse_craft_warped_type_crafting
+      - reverse_craft_crimson_type_crafting
       
 
    contributor:
@@ -472,6 +474,24 @@ CustomCraftRecipes:
       - convert_wood_fence_with_fire_charge_crafting
       - convert_wood_fence_gate_with_fire_charge_crafting
       - convert_wood_trapdoor_with_fire_charge_crafting
+      - reverse_craft_warped_stairs_crafting
+      - reverse_craft_warped_slab_crafting
+      - reverse_craft_warped_pressure_plate_crafting
+      - reverse_craft_warped_fence_crafting
+      - reverse_craft_warped_trapdoor_crafting
+      - reverse_craft_warped_fence_gate_crafting
+      - reverse_craft_warped_button_crafting
+      - reverse_craft_warped_door_crafting
+      - reverse_craft_warped_sign_crafting
+      - reverse_craft_crimson_stairs_crafting
+      - reverse_craft_crimson_slab_crafting
+      - reverse_craft_crimson_pressure_plate_crafting
+      - reverse_craft_crimson_fence_crafting
+      - reverse_craft_crimson_trapdoor_crafting
+      - reverse_craft_crimson_fence_gate_crafting
+      - reverse_craft_crimson_button_crafting
+      - reverse_craft_crimson_door_crafting
+      - reverse_craft_crimson_sign_crafting
       
    structure:
       - enable, boolean
@@ -9037,6 +9057,384 @@ convert_wood_trapdoor_with_fire_charge_crafting:
    rows: 3
    cols: 3
    group: convert_all_wood_types_with_fire_charge_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_stairs_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: WARPED_STAIRS
+   ingredientC: WARPED_STAIRS
+   ingredientD: AIR
+   ingredientE: WARPED_STAIRS
+   ingredientF: WARPED_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_slab_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 1
+   ingredientA: WARPED_SLAB
+   ingredientB: WARPED_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 2
+   ingredientA: WARPED_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_fence_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 2
+   ingredientA: WARPED_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 3
+   ingredientA: WARPED_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 4
+   ingredientA: WARPED_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_button_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 1
+   ingredientA: WARPED_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_door_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 2
+   ingredientA: WARPED_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_warped_sign_crafting:
+   enable: true
+   shaped: false
+   result: WARPED_PLANKS
+   amount: 2
+   ingredientA: WARPED_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_warped_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_stairs_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 6
+   ingredientA: AIR
+   ingredientB: CRIMSON_STAIRS
+   ingredientC: CRIMSON_STAIRS
+   ingredientD: AIR
+   ingredientE: CRIMSON_STAIRS
+   ingredientF: CRIMSON_STAIRS
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 2
+   cols: 2
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_slab_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 1
+   ingredientA: CRIMSON_SLAB
+   ingredientB: CRIMSON_SLAB
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 2
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_pressure_plate_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 2
+   ingredientA: CRIMSON_PRESSURE_PLATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_fence_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 2
+   ingredientA: CRIMSON_FENCE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_trapdoor_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 3
+   ingredientA: CRIMSON_TRAPDOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_fence_gate_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 4
+   ingredientA: CRIMSON_FENCE_GATE
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_button_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 1
+   ingredientA: CRIMSON_BUTTON
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_door_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 2
+   ingredientA: CRIMSON_DOOR
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+reverse_craft_crimson_sign_crafting:
+   enable: true
+   shaped: false
+   result: CRIMSON_PLANKS
+   amount: 2
+   ingredientA: CRIMSON_SIGN
+   ingredientB: AIR
+   ingredientC: AIR
+   ingredientD: AIR
+   ingredientE: AIR
+   ingredientF: AIR
+   ingredientG: AIR
+   ingredientH: AIR
+   ingredientI: AIR
+   rows: 1
+   cols: 1
+   group: reverse_craft_crimson_type_crafting
    permission: true
    addedBy: Killerblade347
    version: 0.3.0

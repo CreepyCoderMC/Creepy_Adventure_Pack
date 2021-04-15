@@ -32,6 +32,11 @@ CustomPlayerInteractEvent:
       - turn_stripped_hyphae_to_hyphae_playerinteract
       - turn_stripped_log_to_log_playerinteract
       - turn_stripped_stem_to_stem_playerinteract
+      - turn_hyphae_to_charcoal_playerinteract
+      - turn_stripped_hyphae_to_charcoal_playerinteract
+      - turn_stripped_stem_to_charcoal_playerinteract
+      - turn_stem_to_charcoal_playerinteract
+      - change_wood_types_with_oaK_sapling_interact
       
    contributor:
       - CreepyCoderMC
@@ -372,6 +377,98 @@ CustomPlayerInteractEvent:
       - turn_stripped_dark_oak_log_to_dark_oak_log_playerinteract
       - turn_stripped_crimson_stem_to_crimson_stem_playerinteract
       - turn_stripped_warped_stem_to_warped_stem_playerinteract
+      - turn_warped_hyphae_to_charcoal_playerinteract
+      - turn_stripped_warped_hyphae_to_charcoal_playerinteract
+      - turn_stripped_warped_stem_to_charcoal_playerinteract
+      - turn_warped_stem_to_charcoal_playerinteract
+      - turn_warped_planks_to_charcoal_playerinteract
+      - turn_warped_sign_to_charcoal_playerinteract
+      - turn_warped_slab_to_charcoal_playerinteract
+      - turn_warped_stairs_to_charcoal_playerinteract
+      - turn_warped_button_to_charcoal_playerinteract
+      - turn_warped_pressure_plate_to_charcoal_playerinteract
+      - turn_warped_fence_to_charcoal_playerinteract
+      - turn_crimson_hyphae_to_charcoal_playerinteract
+      - turn_stripped_crimson_hyphae_to_charcoal_playerinteract
+      - turn_stripped_crimson_stem_to_charcoal_playerinteract
+      - turn_crimson_stem_to_charcoal_playerinteract
+      - turn_crimson_planks_to_charcoal_playerinteract
+      - turn_crimson_sign_to_charcoal_playerinteract
+      - turn_crimson_slab_to_charcoal_playerinteract
+      - turn_crimson_stairs_to_charcoal_playerinteract
+      - turn_crimson_button_to_charcoal_playerinteract
+      - turn_crimson_pressure_plate_to_charcoal_playerinteract
+      - turn_crimson_fence_to_charcoal_playerinteract
+      - change_spruce_log_type_with_oak_sapling_interact
+      - change_stripped_spruce_log_type_with_oak_sapling_interact
+      - change_spruce_wood_type_with_oak_sapling_interact
+      - change_stripped_spruce_wood_type_with_oak_sapling_interact
+      - change_spruce_planks_type_with_oak_sapling_interact
+      - change_spruce_slab_type_with_oak_sapling_interact
+      - change_spruce_stairs_type_with_oak_sapling_interact
+      - change_spruce_button_type_with_oak_sapling_interact
+      - change_spruce_pressure_plate_type_with_oak_sapling_interact
+      - change_spruce_fence_type_with_oak_sapling_interact
+      - change_birch_log_type_with_oak_sapling_interact
+      - change_stripped_birch_log_type_with_oak_sapling_interact
+      - change_birch_wood_type_with_oak_sapling_interact
+      - change_stripped_birch_wood_type_with_oak_sapling_interact
+      - change_birch_planks_type_with_oak_sapling_interact
+      - change_birch_slab_type_with_oak_sapling_interact
+      - change_birch_stairs_type_with_oak_sapling_interact
+      - change_birch_button_type_with_oak_sapling_interact
+      - change_birch_pressure_plate_type_with_oak_sapling_interact
+      - change_birch_fence_type_with_oak_sapling_interact
+      - change_acacia_log_type_with_oak_sapling_interact
+      - change_stripped_acacia_log_type_with_oak_sapling_interact
+      - change_acacia_wood_type_with_oak_sapling_interact
+      - change_stripped_acacia_wood_type_with_oak_sapling_interact
+      - change_acacia_planks_type_with_oak_sapling_interact
+      - change_acacia_slab_type_with_oak_sapling_interact
+      - change_acacia_stairs_type_with_oak_sapling_interact
+      - change_acacia_button_type_with_oak_sapling_interact
+      - change_acacia_pressure_plate_type_with_oak_sapling_interact
+      - change_acacia_fence_type_with_oak_sapling_interact
+      - change_jungle_log_type_with_oak_sapling_interact
+      - change_stripped_jungle_log_type_with_oak_sapling_interact
+      - change_jungle_wood_type_with_oak_sapling_interact
+      - change_stripped_jungle_wood_type_with_oak_sapling_interact
+      - change_jungle_planks_type_with_oak_sapling_interact
+      - change_jungle_slab_type_with_oak_sapling_interact
+      - change_jungle_stairs_type_with_oak_sapling_interact
+      - change_jungle_button_type_with_oak_sapling_interact
+      - change_jungle_pressure_plate_type_with_oak_sapling_interact
+      - change_jungle_fence_type_with_oak_sapling_interact
+      - change_dark_oak_log_type_with_oak_sapling_interact
+      - change_stripped_dark_oak_log_type_with_oak_sapling_interact
+      - change_dark_oak_wood_type_with_oak_sapling_interact
+      - change_stripped_dark_oak_wood_type_with_oak_sapling_interact
+      - change_dark_oak_planks_type_with_oak_sapling_interact
+      - change_dark_oak_slab_type_with_oak_sapling_interact
+      - change_dark_oak_stairs_type_with_oak_sapling_interact
+      - change_dark_oak_button_type_with_oak_sapling_interact
+      - change_dark_oak_pressure_plate_type_with_oak_sapling_interact
+      - change_dark_oak_fence_type_with_oak_sapling_interact
+      - change_crimson_stem_type_with_oak_sapling_interact
+      - change_stripped_crimson_stem_type_with_oak_sapling_interact
+      - change_crimson_hyphae_type_with_oak_sapling_interact
+      - change_stripped_crimson_hyphae_type_with_oak_sapling_interact
+      - change_crimson_planks_type_with_oak_sapling_interact
+      - change_crimson_slab_type_with_oak_sapling_interact
+      - change_crimson_stairs_type_with_oak_sapling_interact
+      - change_crimson_button_type_with_oak_sapling_interact
+      - change_crimson_pressure_plate_type_with_oak_sapling_interact
+      - change_crimson_fence_type_with_oak_sapling_interact
+      - change_warped_stem_type_with_oak_sapling_interact
+      - change_stripped_warped_stem_type_with_oak_sapling_interact
+      - change_warped_hyphae_type_with_oak_sapling_interact
+      - change_stripped_warped_hyphae_type_with_oak_sapling_interact
+      - change_warped_planks_type_with_oak_sapling_interact
+      - change_warped_slab_type_with_oak_sapling_interact
+      - change_warped_stairs_type_with_oak_sapling_interact
+      - change_warped_button_type_with_oak_sapling_interact
+      - change_warped_pressure_plate_type_with_oak_sapling_interact
+      - change_warped_fence_type_with_oak_sapling_interact
 
    structure:
       - enable, boolean
@@ -6016,6 +6113,1570 @@ turn_stripped_warped_stem_to_warped_stem_playerinteract:
    replace: true
    break: false
    group: turn_stripped_stem_to_stem_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_hyphae_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_HYPHAE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_hyphae_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_warped_hyphae_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_WARPED_HYPHAE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_hyphae_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_warped_stem_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_WARPED_STEM
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_stem_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_stem_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_STEM
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stem_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_planks_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_PLANKS
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_planks_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_sign_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_SIGN
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_sign_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_slab_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_SLAB
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_slab_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_stairs_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_STAIRS
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stairs_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_button_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_BUTTON
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_button_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_pressure_plate_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_PRESSURE_PLATE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_pressure_plate_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_warped_fence_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: WARPED_FENCE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_fence_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_hyphae_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_HYPHAE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_hyphae_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_crimson_hyphae_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_CRIMSON_HYPHAE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_hyphae_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_stripped_crimson_stem_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: STRIPPED_CRIMSON_STEM
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stripped_stem_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_stem_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_STEM
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stem_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_planks_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_PLANKS
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_planks_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_sign_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_SIGN
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_sign_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_slab_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_SLAB
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_slab_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_stairs_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_STAIRS
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_stairs_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_button_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_BUTTON
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_button_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_pressure_plate_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_PRESSURE_PLATE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_pressure_plate_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+turn_crimson_fence_to_charcoal_playerinteract:
+   enable: true
+   keyPress: none
+   source: CRIMSON_FENCE
+   result: CHARCOAL
+   itemUsed: FIRE_CHARGE
+   itemReduce: true
+   particle: MOBSPAWNER_FLAMES
+   drop: true
+   inventoryAdd: false
+   replace: false
+   break: true
+   group: turn_fence_to_charcoal_playerinteract
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_LOG
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_spruce_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_SPRUCE_LOG
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_WOOD
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_spruce_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_SPRUCE_WOOD
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_spruce_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_spruce_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: SPRUCE_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_LOG
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_birch_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_BIRCH_LOG
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_WOOD
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_birch_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_BIRCH_WOOD
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_birch_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_birch_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: BIRCH_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_LOG
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_acacia_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_ACACIA_LOG
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_WOOD
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_acacia_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_ACACIA_WOOD
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_acacia_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_acacia_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: ACACIA_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_LOG
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_jungle_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_JUNGLE_LOG
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_WOOD
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_jungle_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_JUNGLE_WOOD
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_jungle_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_jungle_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: JUNGLE_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_LOG
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_dark_oak_log_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_DARK_OAK_LOG
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_WOOD
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_dark_oak_wood_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_DARK_OAK_WOOD
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_dark_oak_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_dark_oak_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: DARK_OAK_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_stem_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_STEM
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_crimson_stem_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_CRIMSON_STEM
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_hyphae_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_HYPHAE
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_crimson_hyphae_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_CRIMSON_HYPHAE
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_crimson_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_crimson_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: CRIMSON_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_stem_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_STEM
+   result: OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_warped_stem_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_WARPED_STEM
+   result: STRIPPED_OAK_LOG
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_hyphae_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_HYPHAE
+   result: OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_stripped_warped_hyphae_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: STRIPPED_WARPED_HYPHAE
+   result: STRIPPED_OAK_WOOD
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_planks_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_PLANKS
+   result: OAK_PLANKS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_slab_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_SLAB
+   result: OAK_SLAB
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0 
+   
+change_warped_stairs_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_STAIRS
+   result: OAK_STAIRS
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_button_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_BUTTON
+   result: OAK_BUTTON
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_pressure_plate_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_PRESSURE_PLATE
+   result: OAK_PRESSURE_PLATE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
+   permission: true
+   addedBy: Killerblade347
+   version: 0.3.0
+   
+change_warped_fence_type_with_oak_sapling_interact:
+   enable: true
+   keyPress: none
+   source: WARPED_FENCE
+   result: OAK_FENCE
+   itemUsed: OAK_SAPLING
+   itemReduce: true
+   particle: VILLAGER_PLANT_GROW
+   drop: false
+   inventoryAdd: false
+   replace: true
+   break: false
+   group: change_wood_types_with_oaK_sapling_interact
    permission: true
    addedBy: Killerblade347
    version: 0.3.0
