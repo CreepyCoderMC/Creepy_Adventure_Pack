@@ -1,0 +1,84 @@
+0.3.0
+
+SAPLING GROW AREA
+DISPENCER PLANT SAPLING
+
+change wood stuff (playerinteract)
+change striped back (playerinteract)
+firecharge (crafting)
+bed color change (crafting table)
+
+0.4.0
+POTPLANT BONE MEAL
+
+
+
+
+Other
+
+
+ice melts in certain biomes.
+wrapper for custom events (2)
+debug stick
+SAPLINGS DONT GROW
+FIREPROOF WOOD
+debug stick
+https://www.spigotmc.org/resources/portable-crafting-inventories-completely-customizable.61045/
+
+some yml use particle instead of effect
+
+add multi source for player interaction 2 (bv craft)
+
+
+make stack itemd of ex cart
+
+To Add
+-----------------
+
+
+add put cake on scafholding
+
+
+https://www.youtube.com/watch?v=oy7R-v7H17w&t=149s
+Growing chorus flowers, cactus*, sugar canes, nether wart, and vines
+Generating melons and pumpkins from their mature stems
+
+Generating mushrooms on mycelium
+cocobeans can grow
+make flowers glow
+
+https://github.com/josephcsible/ExpandedBonemeal/blob/1.11/src/main/java/josephcsible/expandedbonemeal/ExpandedBonemeal.java
+https://github.com/Marbel/BetterBonemealDispenser
+
+bonemeal pot plant
+
+
+
+Turning cobblestone and stone bricks into their mossy variants and cracked (other stones 2) 
+
+Recolored used glass
+frame less frame tool
+
+rain makes puddles
+
+
+
+
+
+https://www.youtube.com/watch?v=bONATOUrDig
+	dead tweek bonemeal depends on soil
+apples drops from trees
+rare gold apple drop
+https://www.youtube.com/watch?v=GV3MLGHiy7Q
+
+	
+	
+	- Lily pads can be bone meal by hand or dispencer
+	- Sea pickle can be bone meal by hand or dispencer
+	add flower dye
+	add big flower craft
+	
+	
+   
+   
+   
