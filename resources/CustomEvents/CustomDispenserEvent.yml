@@ -116,26 +116,26 @@ CustomDispenserEvent:
       - tube_coral_wall_fan_dye_pink_dispenserevent
       - tube_coral_wall_fan_dye_red_dispenserevent
       - tube_coral_wall_fan_dye_yellow_dispenserevent 
-      - dead_brain_coral_revice_dispenserevent
-      - dead_bubble_coral_revice_dispenserevent
-      - dead_fire_coral_revice_dispenserevent
-      - dead_horn_coral_revice_dispenserevent
-      - dead_tube_coral_revice_dispenserevent
-      - dead_brain_coral_block_revice_dispenserevent
-      - dead_bubble_coral_block_revice_dispenserevent
-      - dead_fire_coral_block_revice_dispenserevent
-      - dead_horn_coral_block_revice_dispenserevent
-      - dead_tube_coral_block_revice_dispenserevent
-      - dead_brain_coral_fan_revice_dispenserevent
-      - dead_bubble_coral_fan_revice_dispenserevent
-      - dead_fire_coral_fan_revice_dispenserevent
-      - dead_horn_coral_fan_revice_dispenserevent
-      - dead_tube_coral_fan_revice_dispenserevent
-      - dead_brain_coral_wall_fan_revice_dispenserevent
-      - dead_bubble_coral_wall_fan_revice_dispenserevent
-      - dead_fire_coral_wall_fan_revice_dispenserevent
-      - dead_horn_coral_wall_fan_revice_dispenserevent
-      - dead_tube_coral_wall_fan_revice_dispenserevent
+      - dead_brain_coral_revive_dispenserevent
+      - dead_bubble_coral_revive_dispenserevent
+      - dead_fire_coral_revive_dispenserevent
+      - dead_horn_coral_revive_dispenserevent
+      - dead_tube_coral_revive_dispenserevent
+      - dead_brain_coral_block_revive_dispenserevent
+      - dead_bubble_coral_block_revive_dispenserevent
+      - dead_fire_coral_block_revive_dispenserevent
+      - dead_horn_coral_block_revive_dispenserevent
+      - dead_tube_coral_block_revive_dispenserevent
+      - dead_brain_coral_fan_revive_dispenserevent
+      - dead_bubble_coral_fan_revive_dispenserevent
+      - dead_fire_coral_fan_revive_dispenserevent
+      - dead_horn_coral_fan_revive_dispenserevent
+      - dead_tube_coral_fan_revive_dispenserevent
+      - dead_brain_coral_wall_fan_revive_dispenserevent
+      - dead_bubble_coral_wall_fan_revive_dispenserevent
+      - dead_fire_coral_wall_fan_revive_dispenserevent
+      - dead_horn_coral_wall_fan_revive_dispenserevent
+      - dead_tube_coral_wall_fan_revive_dispenserevent
       - brain_coral_bonemeal_dispenserevent
       - bubble_coral_bonemeal_dispenserevent
       - fire_coral_bonemeal_dispenserevent
@@ -1791,7 +1791,7 @@ tube_coral_wall_fan_dye_yellow_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
  
-dead_brain_coral_revice_dispenserevent:
+dead_brain_coral_revive_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL
    result: BRAIN_CORAL
@@ -1807,7 +1807,7 @@ dead_brain_coral_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_bubble_coral_revice_dispenserevent:
+dead_bubble_coral_revive_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL
    result: BUBBLE_CORAL
@@ -1823,7 +1823,7 @@ dead_bubble_coral_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_revice_dispenserevent:
+dead_fire_coral_revive_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL
    result: FIRE_CORAL
@@ -1839,7 +1839,7 @@ dead_fire_coral_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_revice_dispenserevent:
+dead_horn_coral_revive_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL
    result: HORN_CORAL
@@ -1855,7 +1855,7 @@ dead_horn_coral_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_revice_dispenserevent:
+dead_tube_coral_revive_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL
    result: TUBE_CORAL
@@ -1871,7 +1871,7 @@ dead_tube_coral_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
 
-dead_brain_coral_block_revice_dispenserevent:
+dead_brain_coral_block_revive_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL_BLOCK
    result: BRAIN_CORAL_BLOCK
@@ -1887,7 +1887,7 @@ dead_brain_coral_block_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_bubble_coral_block_revice_dispenserevent:
+dead_bubble_coral_block_revive_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL_BLOCK
    result: BUBBLE_CORAL_BLOCK
@@ -1903,7 +1903,7 @@ dead_bubble_coral_block_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_block_revice_dispenserevent:
+dead_fire_coral_block_revive_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL_BLOCK
    result: FIRE_CORAL_BLOCK
@@ -1919,7 +1919,7 @@ dead_fire_coral_block_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_block_revice_dispenserevent:
+dead_horn_coral_block_revive_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL_BLOCK
    result: HORN_CORAL_BLOCK
@@ -1935,7 +1935,7 @@ dead_horn_coral_block_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_block_revice_dispenserevent:
+dead_tube_coral_block_revive_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL_BLOCK
    result: TUBE_CORAL_BLOCK
@@ -1951,7 +1951,7 @@ dead_tube_coral_block_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_brain_coral_fan_revice_dispenserevent:
+dead_brain_coral_fan_revive_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL_FAN
    result: BRAIN_CORAL_FAN
@@ -1967,7 +1967,7 @@ dead_brain_coral_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_bubble_coral_fan_revice_dispenserevent:
+dead_bubble_coral_fan_revive_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL_FAN
    result: BUBBLE_CORAL_FAN
@@ -1983,7 +1983,7 @@ dead_bubble_coral_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_fan_revice_dispenserevent:
+dead_fire_coral_fan_revive_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL_FAN
    result: FIRE_CORAL_FAN
@@ -1999,7 +1999,7 @@ dead_fire_coral_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_fan_revice_dispenserevent:
+dead_horn_coral_fan_revive_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL_FAN
    result: HORN_CORAL_FAN
@@ -2015,7 +2015,7 @@ dead_horn_coral_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_fan_revice_dispenserevent:
+dead_tube_coral_fan_revive_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL_FAN
    result: TUBE_CORAL_FAN
@@ -2031,7 +2031,7 @@ dead_tube_coral_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_brain_coral_wall_fan_revice_dispenserevent:
+dead_brain_coral_wall_fan_revive_dispenserevent:
    enable: true
    source: DEAD_BRAIN_CORAL_WALL_FAN
    result: BRAIN_CORAL_FAN
@@ -2047,7 +2047,7 @@ dead_brain_coral_wall_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_bubble_coral_wall_fan_revice_dispenserevent:
+dead_bubble_coral_wall_fan_revive_dispenserevent:
    enable: true
    source: DEAD_BUBBLE_CORAL_WALL_FAN
    result: BUBBLE_CORAL_FAN
@@ -2063,7 +2063,7 @@ dead_bubble_coral_wall_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_fire_coral_wall_fan_revice_dispenserevent:
+dead_fire_coral_wall_fan_revive_dispenserevent:
    enable: true
    source: DEAD_FIRE_CORAL_WALL_FAN
    result: FIRE_CORAL_FAN
@@ -2079,7 +2079,7 @@ dead_fire_coral_wall_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_horn_coral_wall_fan_revice_dispenserevent:
+dead_horn_coral_wall_fan_revive_dispenserevent:
    enable: true
    source: DEAD_HORN_CORAL_WALL_FAN
    result: HORN_CORAL_FAN
@@ -2095,7 +2095,7 @@ dead_horn_coral_wall_fan_revice_dispenserevent:
    addedBy: CreepyCoderMC
    version: 0.2.0
    
-dead_tube_coral_wall_fan_revice_dispenserevent:
+dead_tube_coral_wall_fan_revive_dispenserevent:
    enable: true
    source: DEAD_TUBE_CORAL_WALL_FAN
    result: TUBE_CORAL_FAN
