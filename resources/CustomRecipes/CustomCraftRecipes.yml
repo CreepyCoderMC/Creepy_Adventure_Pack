@@ -4260,7 +4260,7 @@ torch_to_redstone_torch_crafting:
    result: REDSTONE_TORCH
    amount: 1
    ingredientA: TORCH
-   ingredientB: REDSTONE_TORCH
+   ingredientB: REDSTONE
    ingredientC: AIR
    ingredientD: AIR
    ingredientE: AIR
