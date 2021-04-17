@@ -14,3 +14,4 @@ Version 0.4.0
 	* all plants can be bonemealed
 	* hoe smiting recipes
 	* special couldran inter actions
+	* durabilty warning
