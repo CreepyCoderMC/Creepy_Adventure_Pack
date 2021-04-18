@@ -2,6 +2,30 @@
 
 This adventure pack is still in development and will add lots of features that will make your game play just a bit more fun.
 
+Version 0.3.0 (Trees and Wood Expansion) - Released (Coming Soon)
+- Fungus stems and hyphae can be turned to charcoal with blast fernace (8 Blast Fernace Recipes Added)
+- Wood and logs can be turned to charcoal with blast fernace (24 Blast Fernace Recipes Added)
+- Fungus stems and hyphae can be turned to charcoal with campfire (8 Campfire Recipes Added)
+- Wood and logs can be turned to charcoal with campfire (24 Campfire Recipes Added)
+- Saplings can be turned to charcoal with campfire (6 Campfire Recipes Added)
+- Saplings can be turned to dead bush with furnace (6 Furnace Recipes Added)
+- Saplings can be turned to dead bush with smoker (6 Smoker Recipes Added)
+- Axe can be upgraded via smiting table (4 Smiting Table Recipes Added)
+- All wood en hyphea can be cut with stone cutter (216 Stone Cutter recipes Added)
+- Wood blocks drop charcoal when burning out (6 Recipes Added)
+- Change all campfire, lanterns and tourch types (Player interaction)
+- Turn most wood blocks to charcoal with firecharge (player interaction)
+- Turn all striped blocks to non striped blocks (player interaction)
+- Change wood blocks types by using saplings (player interact)
+- saplings plant themself if not picked up (item spawn event)
+- leaves decay faster (leave decay event)
+- leaves drop custom items (leave drop event)
+- saplings can only grow in biomes they spawn in (structure grow event)
+- Trees grow faster (tree grow event)
+- Lots of new crafting recipes (crafting recipes)
+	
+* BUG FIX: Wild fire don't burns out (Special thanks to ThaMessia from spigotmc for his help)
+
 Version 0.2.0 (Coral Expansion) - 17 March 2021
 - Coral Plants(Living) can be bone meal by dispenser (20 Interactions Added)
 - Coral Plants(Living) can be bone meal by hand (20 Interactions Added)
