@@ -1,0 +1,4 @@
+0.4.0
+
+Crops drops bonemeal randomly when broken.
+Interaction to make crops stop growing.
