@@ -2,7 +2,7 @@
 
 This adventure pack is still in development and will add lots of features that will make your game play just a bit more fun.
 
-Version 0.3.0 (Trees and Wood Expansion) - Released (Coming Soon)
+Version 0.3.0 (Trees and Wood Expansion) - Released (2021/04/18)
 - Fungus stems and hyphae can be turned to charcoal with blast fernace (8 Blast Fernace Recipes Added)
 - Wood and logs can be turned to charcoal with blast fernace (24 Blast Fernace Recipes Added)
 - Fungus stems and hyphae can be turned to charcoal with campfire (8 Campfire Recipes Added)
