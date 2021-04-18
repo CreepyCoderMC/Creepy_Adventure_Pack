@@ -1,8 +1,33 @@
 name: CreepyCoder.AdventurePack
 author: Billy Van Rensburg (aka. CreepyCoderMC)
 description: This adventure pack is still in development and will add lots of features that will make your game play just a bit more fun.
-version: 0.3.0
+version: 0.4.0
 website: www.spigotmc.org
 api-version: 1.16
 main: CreepyCoder.AdventurePack.Main.Plugin
 load: POSTWORLD
+
+plugin:
+   ResetOnStart: true
+   ValidateYML: true
+   Debugger: true
+   
+modules:
+   #Events List
+   - CustomPlayerInteractEvent.yml, resources/CustomEvents/, true
+   - CustomDispenserEvent.yml, resources/CustomEvents/, true
+   - CustomBlockFadeEvent.yml, resources/CustomEvents/, true
+   - CustomLeavesDecayEvent.yml, resources/CustomEvents/, true
+   - CustomStructureGrowEvent.yml, resources/CustomEvents/, true
+   - CustomTreeGrowEvent.yml, resources/CustomEvents/, true
+   - CustomLeavesDropEvent.yml, resources/CustomEvents/, true
+   - CustomItemSpawnEvent.yml, resources/CustomEvents/, true
+   - CustomBlockBurnEvent.yml, resources/CustomEvents/, true 
+   #Recipes List
+   - CustomCraftRecipes.yml, resources/CustomRecipes/, true
+   - CustomCampfireRecipes.yml, resources/CustomRecipes/, true
+   - CustomFurnaceRecipes.yml, resources/CustomRecipes/, true
+   - CustomBlastFurnaceRecipes.yml, resources/CustomRecipes/, true
+   - CustomSmokerRecipes.yml, resources/CustomRecipes/, true
+   - CustomStoneCutterRecipes.yml, resources/CustomRecipes/, true
+   - CustomSmitingTableRecipes.yml, resources/CustomRecipes/, true

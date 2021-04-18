@@ -11,24 +11,8 @@ public class Plugin extends JavaPlugin {
 	@Override
     public void onEnable() {	
 		
-		YAMLManager.LoadYAML("CustomPlayerInteractEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomDispenserEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomBlockFadeEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomLeavesDecayEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomStructureGrowEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomTreeGrowEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomLeavesDropEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomItemSpawnEvent.yml","resources/CustomEvents/");
-		YAMLManager.LoadYAML("CustomBlockBurnEvent.yml","resources/CustomEvents/");
-		
-		YAMLManager.LoadYAML("CustomCraftRecipes.yml","resources/CustomRecipes/");
-		YAMLManager.LoadYAML("CustomCampfireRecipes.yml","resources/CustomRecipes/");
-		YAMLManager.LoadYAML("CustomFurnaceRecipes.yml","resources/CustomRecipes/");
-		YAMLManager.LoadYAML("CustomBlastFurnaceRecipes.yml","resources/CustomRecipes/");
-		YAMLManager.LoadYAML("CustomSmokerRecipes.yml","resources/CustomRecipes/");
-		YAMLManager.LoadYAML("CustomStoneCutterRecipes.yml","resources/CustomRecipes/");
-		YAMLManager.LoadYAML("CustomSmitingTableRecipes.yml","resources/CustomRecipes/");
-		
+		YAMLManager.Loader();
+	
 	}
 	
     @Override

@@ -24,7 +24,7 @@ Version 0.2.0 (Coral Expansion) - Released 2021/03/17
 	* BUG FIX: Dispensers did not always remove last item from dispenser
 	* BUG FIX: Sometimes interact with blocks twice when have items in both hands
 	
-Version 0.3.0 (Trees and Wood Expansion) - Released (Coming Soon)
+Version 0.3.0 (Trees and Wood Expansion) - Released (2021/04/18)
 	- Fungus stems and hyphae can be turned to charcoal with blast fernace (8 Blast Fernace Recipes Added)
 	- Wood and logs can be turned to charcoal with blast fernace (24 Blast Fernace Recipes Added)
 	- Fungus stems and hyphae can be turned to charcoal with campfire (8 Campfire Recipes Added)
@@ -47,3 +47,5 @@ Version 0.3.0 (Trees and Wood Expansion) - Released (Coming Soon)
 	- Lots of new crafting recipes (crafting recipes)
 	
 	* BUG FIX: Wild fire don't burns out (Special thanks to ThaMessia from spigotmc for his help)
+	
+Version 0.4.0
