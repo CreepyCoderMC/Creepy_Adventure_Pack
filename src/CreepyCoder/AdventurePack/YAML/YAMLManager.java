@@ -53,8 +53,7 @@ public class YAMLManager {
 		
 		// Create or replace yaml file
 		File configFile = new File(this.plugin.getDataFolder(), filename);
-		this.plugin.saveResource(filename, false);
-		
+		if(!configFile.exists()) this.plugin.saveResource(filename, false);
 		FileConfiguration dataConfig = YamlConfiguration.loadConfiguration(configFile);
 		InputStream defaultStream = this.plugin.getResource(filename);
 		YamlConfiguration defaultConfig = YamlConfiguration.loadConfiguration(new InputStreamReader(defaultStream));

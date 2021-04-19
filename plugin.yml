@@ -1,17 +1,63 @@
+#=== Bacic Information =======================================================#
 name: CreepyCoder.AdventurePack
 author: Billy Van Rensburg (aka. CreepyCoderMC)
 description: This adventure pack is still in development and will add lots of features that will make your game play just a bit more fun.
-version: 0.4.0
+version: 0.3.1
 website: www.spigotmc.org
 api-version: 1.16
 main: CreepyCoder.AdventurePack.Main.Plugin
 load: POSTWORLD
+#=============================================================================#
 
+#=== Plugin Settings =========================================================#
+# These setting will mostly only be used by developers and contend designers, #
+# but can also be used to reset plugin to default.                            #
+#-----------------------------------------------------------------------------#
+# ResetOnStart (true/false)                                                   #
+#   This setting, if true, will always over write all .yml files from the .jar#
+#   when the server restarts. So everytime server restart plugin will reset   #
+#   back to normal.                                                           #
+#                                                                             #
+# ValidateYML (true/false)                                                    #
+#   This plugin has a preset types for certain keys and will validate that    #
+#   the value provide is reconised by the game. This setting is more for      #
+#   developers and content adders to assist in trouble shooting. But its      #
+#   recommended that setting be set back to false ones editing is done to     #
+#   increase server start up time.                                            #
+#                                                                             #
+# Debugger (true/false)                                                       #
+#   This setting will allow debug messages in console to give information     #
+#   about the module load process. Recommend to only use this setting when    #
+#   troubleshooting plugin load process.                                      #
+#-----------------------------------------------------------------------------#
 plugin:
-   ResetOnStart: true
-   ValidateYML: true
-   Debugger: true
-   
+   ResetOnStart: false
+   ValidateYML: false 
+   Debugger: false
+#=============================================================================#
+
+#=== Module Settings =========================================================#
+# This section is to list all yhe .yml files that must be loaded. Modules can #
+# can be disabled to no load the features of that .yml file. This can be      #
+# helpfull to disable unwanted modules or troubleshooting.                    #
+#-----------------------------------------------------------------------------#
+# modules                                                                     #
+#   Modules consist of a list item that will specify information to the       #
+#   loader of this plugin.                                                    #
+#                                                                             #
+#   - [filename], [directory], [load]                                         #
+#                                                                             #
+# filename                                                                    #
+#   The filename must be a valid .yml file in a structure which this plugins  #
+#   loader can understand and interparate.                                    #
+# directory                                                                   #
+#   The directory will specify where the resource is located in the .jar and  #
+#   also the sub directory where it will save the .yml in the plugin directory#
+# load (true/false)                                                           #
+#   This setting is to specify if you want to load the module, one can        #
+#   completely remove a line but if you want to temp disable it, it easier    #
+#   to just make this load setting false                                      #
+#-----------------------------------------------------------------------------# 
 modules:
    #Events List
    - CustomPlayerInteractEvent.yml, resources/CustomEvents/, true
@@ -31,3 +77,4 @@ modules:
    - CustomSmokerRecipes.yml, resources/CustomRecipes/, true
    - CustomStoneCutterRecipes.yml, resources/CustomRecipes/, true
    - CustomSmitingTableRecipes.yml, resources/CustomRecipes/, true
+ #============================================================================#

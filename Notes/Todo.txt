@@ -16,4 +16,4 @@ Version 0.4.0
 	* special couldran inter actions
 	* durabilty warning
 	* double ctrl to crawl (twitch FairyFlorra credit)
-	
+	* craft double flowers
